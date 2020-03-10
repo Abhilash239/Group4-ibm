@@ -1,0 +1,8 @@
+[Op Calls]
+[Events]
+UC_DispenseFuel[0]->GEN(reqDispenseFuel())`UC_DispenseFuel
+UC_DispenseFuel[0]->GEN(reqResetPump())`UC_DispenseFuel
+UC_DispenseFuel[0]->GEN(reqStartFuelling())`UC_DispenseFuel
+UC_DispenseFuel[0]->GEN(evPictureTaken())`UC_DispenseFuel
+UC_DispenseFuel[0]->GEN(reqStopFuelling())`UC_DispenseFuel
+[Breakpoints]
