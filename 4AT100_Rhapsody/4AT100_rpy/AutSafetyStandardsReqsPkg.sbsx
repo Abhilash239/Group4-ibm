@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID c44b65fb-61ed-41b5-aa42-6d987a2d9d7c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AutSafetyStandardsReqsPkg</_name>
+			<_displayName type="a">AutSafetyStandardsReqsPkg</_displayName>
+			<_modifiedTimeWeak type="a">3.19.2020::20:4:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:15:36</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">3.19.2020::20:4:7</weakCGTime>
+			<strongCGTime type="a">3.19.2020::20:1:6</strongCGTime>
+			<_defaultComposite type="s">GUID 8c852a7e-eeb7-47b1-a66d-e5f76ab991aa</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 78ff8bc4-c6b0-49c4-8ee9-f7cac038d3b3</value>
+				<value>GUID 8c852a7e-eeb7-47b1-a66d-e5f76ab991aa</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 78ff8bc4-c6b0-49c4-8ee9-f7cac038d3b3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Stop after detected collision</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::20:4:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:4:7</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall stop the truck within 5 seconds after the collision is detected.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 8c852a7e-eeb7-47b1-a66d-e5f76ab991aa</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

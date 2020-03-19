@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">3.18.2020::9:54:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:54:37</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.19.2020::20:13:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:15:35</_modifiedTime>
 			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">3.18.2020::9:54:37</weakCGTime>
+			<weakCGTime type="a">3.19.2020::20:13:1</weakCGTime>
 			<strongCGTime type="a">3.18.2020::9:16:45</strongCGTime>
 			<_defaultComposite type="s">GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -35,7 +35,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -62,7 +62,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:57:32</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.19.2020::20:16:16</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -70,9 +70,9 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">3.18.2020::9:57:32</_modifiedTime>
-			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">3.18.2020::9:57:32</weakCGTime>
+			<_modifiedTime type="a">3.19.2020::20:16:16</_modifiedTime>
+			<_lastID type="a">22</_lastID>
+			<weakCGTime type="a">3.19.2020::20:16:16</weakCGTime>
 			<strongCGTime type="a">3.18.2020::9:9:40</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -84,6 +84,9 @@
 				<value>GUID 319dbe63-3c1c-488b-8aae-1103685ef3dc</value>
 				<value>GUID dbb7d75d-07b8-4ea5-893d-7100df70c65f</value>
 				<value>GUID 998483d5-4280-4908-b25f-46a9cc8e8661</value>
+				<value>GUID 7ec83764-10c1-41ad-a7be-34970b4fd30a</value>
+				<value>GUID 3764eacb-f9cc-48b3-8fbf-edd3996dc4c5</value>
+				<value>GUID 392672a6-4194-47e7-9605-42e455553e22</value>
 				<value>GUID 034e69b3-9c99-46f6-80d6-cd5dba8dd4d9</value>
 				<value>GUID 136fa5d5-c20b-4cf3-b70e-b704d9d33927</value>
 				<value>GUID 7fd8a992-944a-4243-a241-a1e0a132f1a6</value>
@@ -96,15 +99,15 @@
 		<IDependency type="e">
 			<_id type="a">GUID 951cf944-9c8d-438b-8a87-5d93373f09a0</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Goverment</_name>
-			<_modifiedTimeWeak type="a">3.18.2020::9:55:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:55:55</_modifiedTime>
+			<_name type="a">Charging System</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::20:14:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:14:43</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
 					<_hsubsystem type="a">Analysis</_hsubsystem>
-					<_hname type="a">Goverment</_hname>
+					<_hname type="a">Charging System</_hname>
 					<_hid type="a">GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -118,15 +121,15 @@
 		<IDependency type="e">
 			<_id type="a">GUID 319dbe63-3c1c-488b-8aae-1103685ef3dc</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Standard</_name>
-			<_modifiedTimeWeak type="a">3.18.2020::9:57:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:57:32</_modifiedTime>
+			<_name type="a">DC</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::20:14:27</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:14:27</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
 					<_hsubsystem type="a">Analysis</_hsubsystem>
-					<_hname type="a">Standard</_hname>
+					<_hname type="a">DC</_hname>
 					<_hid type="a">GUID c0df7c3f-b22d-4798-abd2-7573393638f3</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -176,6 +179,75 @@
 					<_hsubsystem type="a">Analysis</_hsubsystem>
 					<_hname type="a">Truck</_hname>
 					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">bidirectional</direction_>
+		</IInformationFlow>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 7ec83764-10c1-41ad-a7be-34970b4fd30a</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Truck_TruckPort_0</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:13:27</_modifiedTime>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hid type="a">GUID 9ef02f03-0f07-4e17-9969-d42cf30e292c</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
+					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">bidirectional</direction_>
+		</IInformationFlow>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 3764eacb-f9cc-48b3-8fbf-edd3996dc4c5</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Charging System_ADS</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:16:11</_modifiedTime>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 63d2215d-c2ea-4626-a1d8-9baeb5c08781</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
+					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hname type="a">Charging System</_hname>
+					<_hid type="a">GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">bidirectional</direction_>
+		</IInformationFlow>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 392672a6-4194-47e7-9605-42e455553e22</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">DC_ADS</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::20:16:21</_modifiedTime>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 63d2215d-c2ea-4626-a1d8-9baeb5c08781</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
+					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hname type="a">DC</_hname>
+					<_hid type="a">GUID c0df7c3f-b22d-4798-abd2-7573393638f3</_hid>
 				</IHandle>
 			</end2_>
 			<direction_ type="a">bidirectional</direction_>
