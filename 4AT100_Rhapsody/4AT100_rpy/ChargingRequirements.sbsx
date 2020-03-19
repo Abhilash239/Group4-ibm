@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 3d7b6fc4-2118-4d14-ae53-8ceee16e13b5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ChargingRequirements</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::15:55:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::15:55:56</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">3.19.2020::15:55:56</weakCGTime>
+			<strongCGTime type="a">3.19.2020::15:32:21</strongCGTime>
+			<_defaultComposite type="s">GUID d1ab88b7-1089-4551-abad-353230016c20</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 25623791-6a2d-496b-9ead-a5b7bc79b7a0</value>
+				<value>GUID 9611359a-8f91-452c-8145-7a88fd038909</value>
+				<value>GUID a8b7379f-2691-40c8-a84f-69fda0c05795</value>
+				<value>GUID d72c20f0-c82f-407f-bd7e-5f5fbab20405</value>
+				<value>GUID ff92ccf0-bb21-42df-b9fb-fcebc7a137f7</value>
+				<value>GUID 18d6c45d-5e76-4d49-a364-7f6b3dd67193</value>
+				<value>GUID d1ab88b7-1089-4551-abad-353230016c20</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 25623791-6a2d-496b-9ead-a5b7bc79b7a0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Charging</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::15:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::15:45:35</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ACS (automated charging system) provides charging to trucks in the fleet of the ADS (automated driving system)\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 9611359a-8f91-452c-8145-7a88fd038909</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">LoadOptimization</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::15:49:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::15:49:58</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ACS shall reduce variabilities of the net grid load as much as possible \par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID a8b7379f-2691-40c8-a84f-69fda0c05795</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">LandUse</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::15:34:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::15:34:19</_modifiedTime>
+			<_body type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang1033\f0\fs22 The charging system shall not take more than 50m\super 2\nosupersub  of land.\lang1043\f1\fs20\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d72c20f0-c82f-407f-bd7e-5f5fbab20405</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ADSInterface</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::15:43:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::15:43:38</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The energystate of all vehicles in the fleet is made available to the ACS by the ADS.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID ff92ccf0-bb21-42df-b9fb-fcebc7a137f7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Energystate</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::15:43:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::15:43:2</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The energystate of a vehicle includes the estimated time of arrival in the DC (ETA), estimated time of departure in the DC (ETD) and expected SoC upon arrival in the DC (ESoC).\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 18d6c45d-5e76-4d49-a364-7f6b3dd67193</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GridCapacity</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::15:55:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::15:55:56</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1043{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The capacity of the power grid connection shall be t.b.d.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID d1ab88b7-1089-4551-abad-353230016c20</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
