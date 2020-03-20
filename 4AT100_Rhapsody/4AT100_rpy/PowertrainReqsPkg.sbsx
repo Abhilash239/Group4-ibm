@@ -11,10 +11,10 @@
 			<_id type="a">GUID 89608f18-72ee-4f36-8f41-73fb56eb9137</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PowertrainReqsPkg</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:1:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:9:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.20.2020::17:41:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:41:11</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">3.20.2020::17:1:17</weakCGTime>
+			<weakCGTime type="a">3.20.2020::17:41:11</weakCGTime>
 			<strongCGTime type="a">3.20.2020::16:55:38</strongCGTime>
 			<_defaultComposite type="s">GUID c5e56dd5-de4e-4f7b-9877-9e48ac3b5548</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -28,9 +28,9 @@
 			<_id type="a">GUID 9fad9bd5-dc7e-4cb1-8c57-06da3a771ccf</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Powertrain Requirements</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:1:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:1:17</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTimeWeak type="a">3.20.2020::17:41:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:41:11</_modifiedTime>
+			<_lastID type="a">16</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall be able to obtain power from powertrain to drive the truck in DC\par%0D
 }%0D
@@ -38,14 +38,214 @@
 			<reqID type="a">Pow-00</reqID>
 			<AggregatesList type="e">
 				<value>GUID 1cacb270-0a04-42bb-b5d9-825c223f6cb4</value>
+				<value>GUID c27e7b52-1f98-4a07-9bfd-a2eddce631d4</value>
+				<value>GUID feb2c975-0c8a-41d8-b3d8-5025329fa6ed</value>
+				<value>GUID 93589278-e817-44b7-b917-34e1f1450fe7</value>
+				<value>GUID 1aa743f6-30e8-4962-9b79-8177c70eb5e5</value>
+				<value>GUID 599397ed-948c-49e1-829e-fa9b02279ada</value>
+				<value>GUID e936dafd-b5e0-47cd-ba14-e02621ecd5f0</value>
+				<value>GUID 33dcdb5d-b506-4422-8e44-6a5903180732</value>
+				<value>GUID 777d291f-584c-49eb-8148-f1ba880b3d6c</value>
+				<value>GUID b038bf70-62ff-44f1-8fbc-c16080063552</value>
+				<value>GUID e6377dd5-f6e6-491b-9e7a-921a959652c9</value>
+				<value>GUID be002c09-bb18-42dc-9142-4b49a67e38a4</value>
+				<value>GUID 211144aa-3f85-4647-ba77-48fbfa174052</value>
+				<value>GUID c3422e4f-4342-4f46-90ef-98f9cd6a6fbe</value>
+				<value>GUID 46a91325-f2dc-4b92-a29e-3eae6208cd30</value>
+				<value>GUID bd3b8c07-fe96-4140-b4df-e39e6cd8d655</value>
 			</AggregatesList>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 1cacb270-0a04-42bb-b5d9-825c223f6cb4</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">requirement_0</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:1:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:1:17</_modifiedTime>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Acceleration</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:25:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:25:4</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall be capable of accelerating truck to 100kmph within 30 seconds\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-01</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c27e7b52-1f98-4a07-9bfd-a2eddce631d4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Maximum Velocity</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:25:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:25:57</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall be able to accelerate the truck to a maximum velocity of 120kmph\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-02</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID feb2c975-0c8a-41d8-b3d8-5025329fa6ed</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Velocity In DC</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:34:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:34:21</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall limit the maximum straight-line velocity of the truck within the distribution center to 20km/h\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-05</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 93589278-e817-44b7-b917-34e1f1450fe7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Emissions</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:34:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:34:58</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS can keep the emissions from the truck within permissible limits. (EURO VI)\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-06</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 1aa743f6-30e8-4962-9b79-8177c70eb5e5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Hauling Capacity</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:35:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:35:49</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall have a hauling capacity of 40tonnes (able to pull a Gross weight of 40Tonnes)\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-07</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 599397ed-948c-49e1-829e-fa9b02279ada</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Hybrid Truck</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:36:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:36:25</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall meet its torque requirement with an engine or a motor or a combination of both. (hybrid truck)\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-08</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID e936dafd-b5e0-47cd-ba14-e02621ecd5f0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Gear Ratios</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:36:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:36:54</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS can have multiple gear ratios to meet the torque requirement\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-09</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 33dcdb5d-b506-4422-8e44-6a5903180732</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Powertrain System</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:37:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:37:32</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS can have a system called PTS (Powertrain system) to represent the behavior of powertrain\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-10</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 777d291f-584c-49eb-8148-f1ba880b3d6c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Power Management</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:38:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:38:7</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The PTS can dynamically switch between motor and combustion engine for obtaining power\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-11</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b038bf70-62ff-44f1-8fbc-c16080063552</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Fuel Capacity</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:38:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:38:42</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The PTS may have enough fuel to help complete its maneuver around the distribution center\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-12</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID e6377dd5-f6e6-491b-9e7a-921a959652c9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Maximum Velocity With Gradient</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:32:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:32:43</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall be able to accelerate the truck to 80kmph on a 5%25 gradient (2.86 degrees).\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-03</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID be002c09-bb18-42dc-9142-4b49a67e38a4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Starting Gradient</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:33:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:33:33</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall be able to start the truck on a 10%25 gradient. (the maximum gradient roads are designed for is 8.3%25)\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-04</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 211144aa-3f85-4647-ba77-48fbfa174052</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Battery SOC</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:39:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:39:33</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The PTS may have enough SOC to help the truck complete its maneuver around distribution center\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-13</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c3422e4f-4342-4f46-90ef-98f9cd6a6fbe</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Energy Consumption</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:40:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:40:3</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The PTS can have competitive energy consumption(kWh/km) of less than 2kWh/km. (tesla semi-truck)\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-14</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 46a91325-f2dc-4b92-a29e-3eae6208cd30</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Regenerative Braking</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:40:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:40:33</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The PTS can have regenerative braking to decrease its energy consumption\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-15</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID bd3b8c07-fe96-4140-b4df-e39e6cd8d655</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Additonal Features</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:41:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:41:11</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The PTS can have features like EGHR(Exhaust Gas Heat Recovery), predictive energy management, etc to increase its efficiency\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-16</reqID>
 		</IRequirement>
 		<IClass type="e">
 			<_id type="a">GUID c5e56dd5-de4e-4f7b-9877-9e48ac3b5548</_id>
