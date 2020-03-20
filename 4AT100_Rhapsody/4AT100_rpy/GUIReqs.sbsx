@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID a6c6c319-b6de-4e67-b74a-de7ddf6116e8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GUIReqs</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:28:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:28:56</_modifiedTime>
+			<_lastID type="a">15</_lastID>
+			<weakCGTime type="a">3.20.2020::0:28:18</weakCGTime>
+			<strongCGTime type="a">3.20.2020::0:28:18</strongCGTime>
+			<_defaultComposite type="s">GUID b58eaf4d-688e-40b8-b681-b4eb245f51ed</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 1062a342-8b2e-4a43-9d14-0987a471e0b1</value>
+				<value>GUID ef367f1a-477c-450b-902b-5dbebe7f2f4f</value>
+				<value>GUID 8ab0aed2-345d-4cd4-be39-6961660fdffb</value>
+				<value>GUID 6ef82241-4fe2-43d5-9609-3ac53fec6deb</value>
+				<value>GUID 9bf653dd-749d-4951-8cf7-89790de4a1ea</value>
+				<value>GUID 22e1a39c-7d0a-4f3a-b9a7-653d226f6b7b</value>
+				<value>GUID 50d2ebee-c8f3-4c38-a77f-7640630e7b09</value>
+				<value>GUID 8e1af372-44db-4fc7-ad45-f0ceab305ed7</value>
+				<value>GUID c04dcd9a-8142-4253-bd77-1f8f5d3fd56e</value>
+				<value>GUID 651b2b52-be88-4cb2-967d-2fc464aa9c14</value>
+				<value>GUID a586a0b1-cc63-4018-82bb-58a9f033e673</value>
+				<value>GUID 56e9a86b-5b68-443b-8bd8-19d72a9406fc</value>
+				<value>GUID bcf2ed24-b86b-4630-ad74-19ab66c7016c</value>
+				<value>GUID 0049b172-0c32-473d-859d-f06c4c9a8f13</value>
+				<value>GUID 7af8f3ef-3b62-421e-b6ec-9d2a33057a31</value>
+				<value>GUID b58eaf4d-688e-40b8-b681-b4eb245f51ed</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 1062a342-8b2e-4a43-9d14-0987a471e0b1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Adjust HVAC And Lighting Settings</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::23:48:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::23:48:36</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI shall allow the user to adjust setting for HVAC and lighting\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-01</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID ef367f1a-477c-450b-902b-5dbebe7f2f4f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Display Frequently Used Settings</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::23:50:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::23:50:19</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI should display frequently used settings for HVAC and lightingin the cabin.\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-02</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 8ab0aed2-345d-4cd4-be39-6961660fdffb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Allow New Changes</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::23:51:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::23:51:52</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI shall allow new changes to be made for HVAC and lighting inthe cabin\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-04</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 6ef82241-4fe2-43d5-9609-3ac53fec6deb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Allow Traceability</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::23:52:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::23:52:52</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI can go back from current step allowing the driver to do changes in previous step\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-05</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 9bf653dd-749d-4951-8cf7-89790de4a1ea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Display Cooling Capacity</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::23:54:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::23:54:34</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI should display maximum and minimum cooling capacity in the cabin\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-06</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 22e1a39c-7d0a-4f3a-b9a7-653d226f6b7b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Display Lighting Capabilities</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:0:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:0:15</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI should display maximum possible brightness and dimness in the cabin\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-07</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 50d2ebee-c8f3-4c38-a77f-7640630e7b09</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Minimum Stroke Width</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:1:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:1:47</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The stroke width should be larger than 1/6 degree visual angle\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-08</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 8e1af372-44db-4fc7-ad45-f0ceab305ed7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Avoid Clutter</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:5:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:5:39</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The GUI shall avoid clutter\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-09</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c04dcd9a-8142-4253-bd77-1f8f5d3fd56e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Provide Feedback To Changes</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:7:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:7:0</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The GUI shall give feedback to the changes made by the driver\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-10</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 651b2b52-be88-4cb2-967d-2fc464aa9c14</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Systems With Different GUI</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:8:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:8:29</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The GUI should be differentiable for lighting and HVAC system\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-11</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID a586a0b1-cc63-4018-82bb-58a9f033e673</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Display Last Used Settings</_name>
+			<_modifiedTimeWeak type="a">3.19.2020::23:51:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.19.2020::23:51:13</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI should display last/recent settings used for HVAC and lighting in the cabin\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-03</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 56e9a86b-5b68-443b-8bd8-19d72a9406fc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Maintain GUI Layout</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:9:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:9:18</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The GUI shall have the same layout for lighting and HVAC system\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-12</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID bcf2ed24-b86b-4630-ad74-19ab66c7016c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Easy Access For Driver</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:11:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:11:49</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The GUI should be easily accessible to the driver\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-13</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 0049b172-0c32-473d-859d-f06c4c9a8f13</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Abide Fitts Law</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:12:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:12:31</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI shall abide Fitts\rquote s law\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-14</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 7af8f3ef-3b62-421e-b6ec-9d2a33057a31</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Provide Status Of Driving Mode</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:16:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:16:28</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 GUI  shall  inform  driver  after  completing  the  transition  of  driving mode within 2 seconds\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-15</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID b58eaf4d-688e-40b8-b681-b4eb245f51ed</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

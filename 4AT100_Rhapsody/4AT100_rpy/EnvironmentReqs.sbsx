@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID fb45a3bb-7278-4dfc-8524-a9dc573e4921</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EnvironmentReqs</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:28:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:28:56</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">3.20.2020::0:28:11</weakCGTime>
+			<strongCGTime type="a">3.20.2020::0:28:11</strongCGTime>
+			<_defaultComposite type="s">GUID 408fb1c2-10c8-4784-82a2-8370badb50b0</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID ef3dbe0a-bcdb-4b31-95f5-61640f09e86c</value>
+				<value>GUID 408fb1c2-10c8-4784-82a2-8370badb50b0</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID ef3dbe0a-bcdb-4b31-95f5-61640f09e86c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Digital Twin Environment</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::0:23:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::0:23:1</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall be operable in the digital twin environment only.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 408fb1c2-10c8-4784-82a2-8370badb50b0</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
