@@ -11,10 +11,10 @@
 			<_id type="a">GUID 0db29e14-c139-4026-a04a-ddbcb27c5544</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">AutonomousDrivingReqsPkg</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:4:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:9:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.20.2020::18:12:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:12:18</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">3.20.2020::17:4:55</weakCGTime>
+			<weakCGTime type="a">3.20.2020::18:12:18</weakCGTime>
 			<strongCGTime type="a">3.20.2020::16:54:57</strongCGTime>
 			<_defaultComposite type="s">GUID e41efa0d-45f0-440a-94b6-a9dfd35d4533</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -28,9 +28,9 @@
 			<_id type="a">GUID 8b2984ad-4a68-4f1e-9eef-6e1d3039f8a8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Autonomous Driving Requirements</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:4:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:4:55</_modifiedTime>
-			<_lastID type="a">2</_lastID>
+			<_modifiedTimeWeak type="a">3.20.2020::18:12:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:12:18</_modifiedTime>
+			<_lastID type="a">18</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall be able to drive a truck autonomously between two specifiedlocations on the DC\par%0D
 }%0D
@@ -38,14 +38,227 @@
 			<reqID type="a">AD-00</reqID>
 			<AggregatesList type="e">
 				<value>GUID 31731b3c-de26-4bfb-9cf2-55b87ff844fb</value>
+				<value>GUID ad309a07-aa17-4fed-a716-db34d5aef541</value>
+				<value>GUID 5c3b57fd-4ee1-416a-be82-033d10a8515a</value>
+				<value>GUID 189008e0-51a2-44d8-9bf3-ff3e5b37ceda</value>
+				<value>GUID c5910ee0-c08f-4200-8e99-763cd2f5a68f</value>
+				<value>GUID fff34d61-0ef8-4a80-a14d-ce7bfd766ab2</value>
+				<value>GUID 59c94537-2c66-41e7-937b-b414a25a163b</value>
+				<value>GUID be35111c-2617-4a59-8f08-aa9a275a3860</value>
+				<value>GUID d8091fa2-d4df-401f-8f5a-f4eaacbf57ba</value>
+				<value>GUID da5d88b0-9f3a-4e89-886b-b83d9695675d</value>
+				<value>GUID 616717cc-35f7-4b29-bf5e-782d47658607</value>
+				<value>GUID d770fc39-8a1a-4d86-9018-2e4e90125845</value>
+				<value>GUID 41e4296f-f4cd-4354-a898-3c61c2333338</value>
+				<value>GUID 038ab4b0-c721-45a5-8b7b-154f982b6143</value>
+				<value>GUID 4f444fe5-adf9-4273-b53d-d215028ce990</value>
+				<value>GUID dcd9e48b-e4b2-41a7-a3f1-2122f8b968a8</value>
+				<value>GUID 14bab464-3ed4-46f5-b059-d6255e8187ee</value>
 			</AggregatesList>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 31731b3c-de26-4bfb-9cf2-55b87ff844fb</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">requirement_1</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:4:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:4:55</_modifiedTime>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Avoid Collision</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:44:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:44:41</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall avoid collision of the truck with other objects\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-01</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID ad309a07-aa17-4fed-a716-db34d5aef541</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Retain Dynamics Of Truck</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:48:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:48:45</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall not change the dynamics of the provided truck model\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-02</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 5c3b57fd-4ee1-416a-be82-033d10a8515a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Maintain Manual Driving Ability</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:48:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:48:22</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall maintain the existing manual driving ability of the truck\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-03</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 189008e0-51a2-44d8-9bf3-ff3e5b37ceda</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Switch To Autonomous Driving Mode</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:51:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:51:13</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS should switch from manual driving mode to autonomous driving mode of truck within 10 seconds when the ADS receives the designated signal from the driver\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-04</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID c5910ee0-c08f-4200-8e99-763cd2f5a68f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Switch To Manual Driving Mode</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:50:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:50:56</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The  ADS  shall  switch  from  autonomous  driving  mode  to  manual driving mode of truck within 10 seconds when the ADS receives thedesignated signal from the driver\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-05</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID fff34d61-0ef8-4a80-a14d-ce7bfd766ab2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Receive Coordinates Of Objects</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:53:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:53:8</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall receive the coordinates of objects within the map of the DC from the Localisation system\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-06</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 59c94537-2c66-41e7-937b-b414a25a163b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Receive Desired Destination</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:57:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:57:12</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall receive the desired destination from the DC operator.\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-07</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID be35111c-2617-4a59-8f08-aa9a275a3860</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Find Shortest Possible Path</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:58:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:58:21</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 he ADS shall find the shortest possible path between the truck and the desired destination based on the object coordinates\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-08</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d8091fa2-d4df-401f-8f5a-f4eaacbf57ba</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Finding Path Around Objects</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:59:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:59:26</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall find a path around the objects present on the map of DC while determining the path\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-09</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID da5d88b0-9f3a-4e89-886b-b83d9695675d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Determine Path For Real Positions Of Truck</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:12:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:12:18</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 he  ADS  shall  ensure  that  physically  impossible  positions  of  the truck and trailer are avoided while determining the path\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-10</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 616717cc-35f7-4b29-bf5e-782d47658607</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Truck Backward Facing During Docking</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:2:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:2:39</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The  ADS  shall  take  into  consideration  that  the  truck  has  to  park backwards at a dock while determining the path\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-11</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d770fc39-8a1a-4d86-9018-2e4e90125845</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Drive Truck On Path Generated</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:3:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:3:31</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall be able to drive the truck on the final generated path\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-12</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 41e4296f-f4cd-4354-a898-3c61c2333338</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Deviation During Forward Driving</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:5:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:5:18</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The  ADS  shall  ensure  that  the  truck  and  the  trailer  follow  the  final generated path with a maximum deviation of 0.1 meter during forward driving\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-13</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 038ab4b0-c721-45a5-8b7b-154f982b6143</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Deviation During Reverse Driving</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:6:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:6:1</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall ensure that the truck and the trailer follow the final generated path with a maximum deviation of 0.1 meter during reverse driving\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-14</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 4f444fe5-adf9-4273-b53d-d215028ce990</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Ortogonal Parking At Docking Station</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:6:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:6:47</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The  ADS  shall  ensure  that  the  trailer  is  parked  orthogonal  to  the docking door (angle of 90 degrees) during docking\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-15</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID dcd9e48b-e4b2-41a7-a3f1-2122f8b968a8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Angle Deviation During Docking</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:7:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:7:55</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The  ADS  shall  ensure  that  the  trailer  is  docked  with  a  maximum deviation of 2 degree\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-16</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 14bab464-3ed4-46f5-b059-d6255e8187ee</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Avoid Impossible Steering Angle</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::18:10:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:10:19</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS should ensure that the maximum steering angle does not exceed the physical capabilities of the truck\rquote s steering system\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-17</reqID>
 		</IRequirement>
 		<IClass type="e">
 			<_id type="a">GUID e41efa0d-45f0-440a-94b6-a9dfd35d4533</_id>

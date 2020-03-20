@@ -11,10 +11,10 @@
 			<_id type="a">GUID a6c6c319-b6de-4e67-b74a-de7ddf6116e8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUIReqsPkg</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:1:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:9:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.20.2020::17:54:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::18:3:15</_modifiedTime>
 			<_lastID type="a">16</_lastID>
-			<weakCGTime type="a">3.20.2020::17:1:40</weakCGTime>
+			<weakCGTime type="a">3.20.2020::17:54:21</weakCGTime>
 			<strongCGTime type="a">3.20.2020::16:55:30</strongCGTime>
 			<_defaultComposite type="s">GUID b58eaf4d-688e-40b8-b681-b4eb245f51ed</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -28,9 +28,9 @@
 			<_id type="a">GUID 4b79ea90-1fff-4ba3-be87-0664f19445c6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUI Reuirements</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:1:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:1:40</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTimeWeak type="a">3.20.2020::17:54:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:54:21</_modifiedTime>
+			<_lastID type="a">2</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall provide a GUI to the user\par%0D
 }%0D
@@ -53,6 +53,7 @@
 				<value>GUID c04dcd9a-8142-4253-bd77-1f8f5d3fd56e</value>
 				<value>GUID 7af8f3ef-3b62-421e-b6ec-9d2a33057a31</value>
 				<value>GUID 651b2b52-be88-4cb2-967d-2fc464aa9c14</value>
+				<value>GUID b9c51044-41fd-4ef7-8e83-1b71f52437f6</value>
 			</AggregatesList>
 		</IRequirement>
 		<IRequirement type="e">
@@ -246,6 +247,18 @@
 }%0D
 </_body>
 			<reqID type="a">GUI-11</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b9c51044-41fd-4ef7-8e83-1b71f52437f6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Current Driving Mode</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:54:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:54:21</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The GUI shall show the driver the current driving mode\par%0D
+}%0D
+</_body>
+			<reqID type="a">GUI-17</reqID>
 		</IRequirement>
 		<IClass type="e">
 			<_id type="a">GUID b58eaf4d-688e-40b8-b681-b4eb245f51ed</_id>
