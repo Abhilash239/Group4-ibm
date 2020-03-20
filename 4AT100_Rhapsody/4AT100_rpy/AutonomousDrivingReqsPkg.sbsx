@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 0db29e14-c139-4026-a04a-ddbcb27c5544</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AutonomousDrivingReqsPkg</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:4:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:9:59</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">3.20.2020::17:4:55</weakCGTime>
+			<strongCGTime type="a">3.20.2020::16:54:57</strongCGTime>
+			<_defaultComposite type="s">GUID e41efa0d-45f0-440a-94b6-a9dfd35d4533</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 8b2984ad-4a68-4f1e-9eef-6e1d3039f8a8</value>
+				<value>GUID e41efa0d-45f0-440a-94b6-a9dfd35d4533</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 8b2984ad-4a68-4f1e-9eef-6e1d3039f8a8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Autonomous Driving Requirements</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:4:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:4:55</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall be able to drive a truck autonomously between two specifiedlocations on the DC\par%0D
+}%0D
+</_body>
+			<reqID type="a">AD-00</reqID>
+			<AggregatesList type="e">
+				<value>GUID 31731b3c-de26-4bfb-9cf2-55b87ff844fb</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 31731b3c-de26-4bfb-9cf2-55b87ff844fb</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">requirement_1</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::17:4:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:4:55</_modifiedTime>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID e41efa0d-45f0-440a-94b6-a9dfd35d4533</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

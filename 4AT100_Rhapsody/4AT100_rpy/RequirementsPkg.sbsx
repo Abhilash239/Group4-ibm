@@ -11,10 +11,10 @@
 			<_id type="a">GUID 04873c39-da17-4660-a5ae-1565aaf663f9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">RequirementsPkg</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::0:26:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::0:28:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.20.2020::16:54:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:9:59</_modifiedTime>
 			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">3.20.2020::0:26:55</weakCGTime>
+			<weakCGTime type="a">3.20.2020::16:54:39</weakCGTime>
 			<strongCGTime type="a">3.19.2020::15:31:42</strongCGTime>
 			<_defaultComposite type="s">GUID 59937d8d-1f0d-47e8-80da-cac2ca899c07</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -31,31 +31,31 @@
 			</AggregatesList>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">ChargingReqs</fileName>
+			<fileName type="a">ChargingReqsPkg</fileName>
 			<_id type="a">GUID 3d7b6fc4-2118-4d14-ae53-8ceee16e13b5</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">CommunicationReqs</fileName>
+			<fileName type="a">CommunicationReqsPkg</fileName>
 			<_id type="a">GUID b0c56691-5b13-4ddc-8d80-492642318c1b</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">GUIReqs</fileName>
+			<fileName type="a">GUIReqsPkg</fileName>
 			<_id type="a">GUID a6c6c319-b6de-4e67-b74a-de7ddf6116e8</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">AutonomousDrivingReqs</fileName>
+			<fileName type="a">AutonomousDrivingReqsPkg</fileName>
 			<_id type="a">GUID 0db29e14-c139-4026-a04a-ddbcb27c5544</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">PowertrainReqs</fileName>
+			<fileName type="a">PowertrainReqsPkg</fileName>
 			<_id type="a">GUID 89608f18-72ee-4f36-8f41-73fb56eb9137</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">EnvironmentReqs</fileName>
+			<fileName type="a">EnvironmentReqsPkg</fileName>
 			<_id type="a">GUID fb45a3bb-7278-4dfc-8524-a9dc573e4921</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">AutomotiveSafetyStandardsReqs</fileName>
+			<fileName type="a">AutomotiveSafetyStandardsReqsPkg</fileName>
 			<_id type="a">GUID 0aacda63-373b-405e-9af1-02f919f8d9c5</_id>
 		</ISubsystem>
 		<IClass type="e">

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID b0c56691-5b13-4ddc-8d80-492642318c1b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CommunicationReqsPkg</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:54:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::17:9:59</_modifiedTime>
+			<_lastID type="a">15</_lastID>
+			<weakCGTime type="a">3.20.2020::16:54:39</weakCGTime>
+			<strongCGTime type="a">3.20.2020::16:54:39</strongCGTime>
+			<_defaultComposite type="s">GUID 3479681a-6bef-45e7-9b7b-e98c1358bf7a</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 0da27453-031d-496b-a6c9-63a828294e89</value>
+				<value>GUID 3479681a-6bef-45e7-9b7b-e98c1358bf7a</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 0da27453-031d-496b-a6c9-63a828294e89</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Communication Requirements</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:53:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:53:35</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall facilitate communication between the truck and the DC infrastructure within the DC\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-00</reqID>
+			<AggregatesList type="e">
+				<value>GUID d4caabb1-83a9-4451-b8fb-22b763533ed1</value>
+				<value>GUID deeb0c43-f4eb-47ec-ad11-ca6ba8ec427e</value>
+				<value>GUID af34900e-9812-4b43-9a95-cf8aa9981300</value>
+				<value>GUID ff5eebe4-dda0-4dbc-a376-2d12b220250a</value>
+				<value>GUID b468926d-9934-463a-abc9-963adba6b562</value>
+				<value>GUID 23285a99-22d1-4386-a381-5a37ea65913a</value>
+				<value>GUID feb54ea0-5d9c-472b-9474-c00d793df985</value>
+				<value>GUID 27394e50-c17d-43d5-82df-bec87b074022</value>
+				<value>GUID 970de423-4d06-4e07-8be3-33eab6cfb273</value>
+			</AggregatesList>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d4caabb1-83a9-4451-b8fb-22b763533ed1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Collision Detector</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:50:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:50:43</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall obtain collision information from the collision detectors on the truck\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-01</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID deeb0c43-f4eb-47ec-ad11-ca6ba8ec427e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Detect Parking</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:50:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:50:54</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall detect when the truck has parked in parking lot.\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-07</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID af34900e-9812-4b43-9a95-cf8aa9981300</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Distribution Centre Layout</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:50:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:50:55</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall have the map of the dc stored within its data base.\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-02</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID ff5eebe4-dda0-4dbc-a376-2d12b220250a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Drive Truck</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:50:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:50:57</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The  ADS  shall  send  the  steering  angle  and  throttle  signal  to  the truck\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-03</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID b468926d-9934-463a-abc9-963adba6b562</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Engine Stopped When Docking</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:50:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:50:58</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall turn off the engine when the truck is docked\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-09</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 23285a99-22d1-4386-a381-5a37ea65913a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Notify Distribution Centre Operator</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:50:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:50:59</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall notify the DC operator that the truck is ready for loading/unloading when the truck docks at the designated dock\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-08</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID feb54ea0-5d9c-472b-9474-c00d793df985</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Obtain Velocity</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:51:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:51:0</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall obtain the velocity of the truck from the truck\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-05</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 27394e50-c17d-43d5-82df-bec87b074022</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Receive Docking Bay Number</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:51:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:51:0</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall accept docking bay number from the DC operator\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-06</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Receive Location</_name>
+			<_modifiedTimeWeak type="a">3.20.2020::16:51:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.20.2020::16:51:2</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The ADS shall obtain the location of the truck from the localizationsystem\par%0D
+}%0D
+</_body>
+			<reqID type="a">Coms-04</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 3479681a-6bef-45e7-9b7b-e98c1358bf7a</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
