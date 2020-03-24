@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">3.18.2020::9:54:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:54:37</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::9:59:5</_modifiedTime>
 			<_lastID type="a">18</_lastID>
-			<weakCGTime type="a">3.18.2020::9:54:37</weakCGTime>
+			<weakCGTime type="a">3.24.2020::10:7:45</weakCGTime>
 			<strongCGTime type="a">3.18.2020::9:16:45</strongCGTime>
 			<_defaultComposite type="s">GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -35,7 +35,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -62,7 +62,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:57:32</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.24.2020::10:10:4</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -70,9 +70,9 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">3.18.2020::9:57:32</_modifiedTime>
-			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">3.18.2020::9:57:32</weakCGTime>
+			<_modifiedTime type="a">3.24.2020::10:10:4</_modifiedTime>
+			<_lastID type="a">26</_lastID>
+			<weakCGTime type="a">3.24.2020::10:10:4</weakCGTime>
 			<strongCGTime type="a">3.18.2020::9:9:40</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -91,20 +91,23 @@
 				<value>GUID b850b23c-1549-45dd-be1e-a5b5c45679c9</value>
 				<value>GUID 9ef02f03-0f07-4e17-9969-d42cf30e292c</value>
 				<value>GUID e4511cf2-4cb2-43a0-9597-84274ca5385d</value>
+				<value>GUID 906199e9-ca20-4a64-a3cd-ccef953a7245</value>
+				<value>GUID cb26420d-39dd-4d39-b13c-b87d3cff56c7</value>
+				<value>GUID ea3e23c9-1a4d-4fb2-9701-e6ec981358d1</value>
 			</AggregatesList>
 		</IClass>
 		<IDependency type="e">
 			<_id type="a">GUID 951cf944-9c8d-438b-8a87-5d93373f09a0</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Goverment</_name>
-			<_modifiedTimeWeak type="a">3.18.2020::9:55:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:55:55</_modifiedTime>
+			<_name type="a">Charging system</_name>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::9:49:20</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
 					<_hsubsystem type="a">Analysis</_hsubsystem>
-					<_hname type="a">Goverment</_hname>
+					<_hname type="a">Charging system</_hname>
 					<_hid type="a">GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -118,15 +121,15 @@
 		<IDependency type="e">
 			<_id type="a">GUID 319dbe63-3c1c-488b-8aae-1103685ef3dc</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Standard</_name>
-			<_modifiedTimeWeak type="a">3.18.2020::9:57:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:57:32</_modifiedTime>
+			<_name type="a">DC</_name>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::9:55:51</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
 					<_hsubsystem type="a">Analysis</_hsubsystem>
-					<_hname type="a">Standard</_hname>
+					<_hname type="a">DC</_hname>
 					<_hid type="a">GUID c0df7c3f-b22d-4798-abd2-7573393638f3</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -198,7 +201,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:19:14</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:19:14</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -233,7 +236,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:20:41</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:20:41</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -268,7 +271,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:20:59</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:20:59</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -288,7 +291,8 @@
 		<IPort type="e">
 			<_id type="a">GUID 673f3a2f-21c7-431b-9880-9f071d78aa86</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">LSPort</_name>
+			<_name type="a">DC_Operator_GUI_Port</_name>
+			<_displayName type="a">DC Operator GUI Port</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -303,8 +307,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:31:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:31:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.24.2020::10:9:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::10:9:53</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -323,7 +327,7 @@
 		<IPort type="e">
 			<_id type="a">GUID b850b23c-1549-45dd-be1e-a5b5c45679c9</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">DCPort</_name>
+			<_name type="a">LSPort</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -338,8 +342,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:32:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.18.2020::9:32:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.24.2020::10:10:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::10:10:4</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -373,7 +377,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:32:31</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:32:31</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -408,8 +412,164 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:31:24</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:42</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:31:24</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::Common</_hsubsystem>
+					<_hname type="a">StubInterfaceBlock</_hname>
+					<_hid type="a">GUID f88d3e88-dcfa-434d-a824-071d77aa3bd7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPort>
+		<ISysMLPort type="e">
+			<_id type="a">GUID 906199e9-ca20-4a64-a3cd-ccef953a7245</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">flowport_19</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">flowPort</_hname>
+							<_hid type="a">GUID e38cbf02-1c06-464c-927e-6e2c6c764315</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::10:7:45</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 191016f4-417a-418c-a7d1-e195260fa61a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 191016f4-417a-418c-a7d1-e195260fa61a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">flowport_19_implicitType</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">3.24.2020::10:7:45</_modifiedTimeWeak>
+				<_modifiedTime type="a">3.24.2020::10:7:45</_modifiedTime>
+				<weakCGTime type="a">3.24.2020::10:7:45</weakCGTime>
+				<strongCGTime type="a">3.24.2020::10:7:45</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+			<_direction type="a">InOut</_direction>
+		</ISysMLPort>
+		<ISysMLPort type="e">
+			<_id type="a">GUID cb26420d-39dd-4d39-b13c-b87d3cff56c7</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">flowport_20</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">flowPort</_hname>
+							<_hid type="a">GUID e38cbf02-1c06-464c-927e-6e2c6c764315</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.24.2020::10:7:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::10:7:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 999c073b-6470-44eb-afdb-4a9ef7a93371</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 999c073b-6470-44eb-afdb-4a9ef7a93371</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">flowport_20_implicitType</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">3.24.2020::10:7:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">3.24.2020::10:7:53</_modifiedTime>
+				<weakCGTime type="a">3.24.2020::10:7:53</weakCGTime>
+				<strongCGTime type="a">3.24.2020::10:7:53</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+			<_direction type="a">InOut</_direction>
+		</ISysMLPort>
+		<IPort type="e">
+			<_id type="a">GUID ea3e23c9-1a4d-4fb2-9701-e6ec981358d1</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">proxyport_25</_name>
+			<_displayName type="a">DCPort</_displayName>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.24.2020::10:9:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.24.2020::10:9:33</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
