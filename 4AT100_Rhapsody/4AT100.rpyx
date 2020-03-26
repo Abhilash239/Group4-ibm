@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.24.2020::10:10:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.24.2020::10:10:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.26.2020::13:39:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.26.2020::13:39:5</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -474,8 +474,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.24.2020::10:9:29</_modifiedTime>
-			<_lastModifiedTime type="a">3.24.2020::10:10:4</_lastModifiedTime>
+			<_modifiedTime type="a">3.26.2020::13:38:27</_modifiedTime>
+			<_lastModifiedTime type="a">3.26.2020::13:38:27</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1363,7 +1363,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">DC Operator</m_str>
+					<m_str type="a">Analysis::DC Operator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1569,7 +1569,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Charging system</m_str>
+					<m_str type="a">Analysis::Charging system</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1621,7 +1621,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">DC</m_str>
+					<m_str type="a">Analysis::DC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1673,7 +1673,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::GUI: DC Operator</m_str>
+					<m_str type="a">Analysis::GUI__DC_Operator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1763,10 +1763,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">2 236 86  236 90  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1259 872 </m_SourcePort>
+			<m_SourcePort type="a">1259 816 </m_SourcePort>
 			<m_TargetPort type="a">176 649 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
@@ -1858,11 +1859,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 577 98  </m_arrow>
+			<m_arrow type="a">1 577 104  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1259 749 </m_SourcePort>
+			<m_SourcePort type="a">1259 823 </m_SourcePort>
 			<m_TargetPort type="a">32 33 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
@@ -1976,7 +1977,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::GUI: Driver</m_str>
+					<m_str type="a">Analysis::GUI__Driver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2066,12 +2067,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1062 239  1062 224  </m_arrow>
+			<m_arrow type="a">2 1062 239  1062 233  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">176 798 </m_SourcePort>
-			<m_TargetPort type="a">1259 688 </m_TargetPort>
+			<m_TargetPort type="a">1259 823 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
 			<m_keyword type="p">
@@ -2161,12 +2162,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 939 230  939 225  </m_arrow>
+			<m_arrow type="a">2 939 230  939 235  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">176 778 </m_SourcePort>
-			<m_TargetPort type="a">1259 675 </m_TargetPort>
+			<m_TargetPort type="a">1259 816 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
 			<m_keyword type="p">
@@ -2256,11 +2257,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 504 275  </m_arrow>
+			<m_arrow type="a">1 495 275  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1042 474 </m_SourcePort>
+			<m_SourcePort type="a">717 252 </m_SourcePort>
 			<m_TargetPort type="a">32 33 </m_TargetPort>
 			<m_bShowKeyword type="a">1</m_bShowKeyword>
 			<m_showConveyed type="a">name</m_showConveyed>
