@@ -11,10 +11,10 @@
 			<_id type="a">GUID 89608f18-72ee-4f36-8f41-73fb56eb9137</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PowertrainReqsPkg</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:41:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::14:36:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::23:0:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::23:5:27</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">3.20.2020::17:41:11</weakCGTime>
+			<weakCGTime type="a">3.28.2020::23:0:24</weakCGTime>
 			<strongCGTime type="a">3.20.2020::16:55:38</strongCGTime>
 			<_defaultComposite type="s">GUID c5e56dd5-de4e-4f7b-9877-9e48ac3b5548</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -29,9 +29,9 @@
 			<_id type="a">GUID 9fad9bd5-dc7e-4cb1-8c57-06da3a771ccf</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Powertrain Requirements</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:41:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:41:11</_modifiedTime>
-			<_lastID type="a">16</_lastID>
+			<_modifiedTimeWeak type="a">3.28.2020::23:0:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::23:0:24</_modifiedTime>
+			<_lastID type="a">18</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall be able to obtain power from powertrain to drive the truck in DC\par%0D
 }%0D
@@ -54,16 +54,18 @@
 				<value>GUID c3422e4f-4342-4f46-90ef-98f9cd6a6fbe</value>
 				<value>GUID 46a91325-f2dc-4b92-a29e-3eae6208cd30</value>
 				<value>GUID bd3b8c07-fe96-4140-b4df-e39e6cd8d655</value>
+				<value>GUID d7d4d81e-8c4b-4b82-ac03-1f1bf9580e8d</value>
+				<value>GUID d5b23011-2150-4e28-8e70-aeff8542551d</value>
 			</AggregatesList>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 1cacb270-0a04-42bb-b5d9-825c223f6cb4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Acceleration</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:25:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:25:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:36:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:36:43</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS shall be capable of accelerating truck to 100kmph within 30 seconds\par%0D
+\viewkind4\uc1\pard\fs20 The truck shall be capable of accelerating to 100kmph within 30 seconds.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-01</reqID>
@@ -72,10 +74,10 @@
 			<_id type="a">GUID c27e7b52-1f98-4a07-9bfd-a2eddce631d4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Maximum Velocity</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:25:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:25:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:53:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:53:29</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS shall be able to accelerate the truck to a maximum velocity of 120kmph\par%0D
+\viewkind4\uc1\pard\fs20 The truck shall be able to attain a velocity of 120kmph when it is fully loaded.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-02</reqID>
@@ -84,10 +86,10 @@
 			<_id type="a">GUID feb2c975-0c8a-41d8-b3d8-5025329fa6ed</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Velocity In DC</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:34:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:34:21</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:51:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:51:41</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS shall limit the maximum straight-line velocity of the truck within the distribution center to 20km/h\par%0D
+\viewkind4\uc1\pard\fs20 The ADS shall limit the maximum straight-line velocity of the truck within the distribution center to 20km/h.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-05</reqID>
@@ -96,10 +98,10 @@
 			<_id type="a">GUID 93589278-e817-44b7-b917-34e1f1450fe7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Emissions</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:34:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:34:58</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:40:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:40:15</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS can keep the emissions from the truck within permissible limits. (EURO VI)\par%0D
+\viewkind4\uc1\pard\fs20 The truck can have emissions within EURO VI limits.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-06</reqID>
@@ -108,10 +110,10 @@
 			<_id type="a">GUID 1aa743f6-30e8-4962-9b79-8177c70eb5e5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Hauling Capacity</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:35:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:35:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:55:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:55:20</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS shall have a hauling capacity of 40tonnes (able to pull a Gross weight of 40Tonnes)\par%0D
+\viewkind4\uc1\pard\fs20 The truck shall have a hauling capacity of 40Tonnes (able to pull a Gross weight of 40Tonnes).\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-07</reqID>
@@ -120,10 +122,10 @@
 			<_id type="a">GUID 599397ed-948c-49e1-829e-fa9b02279ada</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Hybrid Truck</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:36:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:36:25</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:48:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:48:23</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS shall meet its torque requirement with an engine or a motor or a combination of both. (hybrid truck)\par%0D
+\viewkind4\uc1\pard\fs20 The truck shall meet its torque requirement with an engine or a motoror a combination of both.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-08</reqID>
@@ -132,10 +134,10 @@
 			<_id type="a">GUID e936dafd-b5e0-47cd-ba14-e02621ecd5f0</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Gear Ratios</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:36:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:36:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:47:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:47:29</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS can have multiple gear ratios to meet the torque requirement\par%0D
+\viewkind4\uc1\pard\b\fs20 The truck can have multiple gear ratios to meet the torque require-ment.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-09</reqID>
@@ -144,46 +146,46 @@
 			<_id type="a">GUID 33dcdb5d-b506-4422-8e44-6a5903180732</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Powertrain System</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:37:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:37:32</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::23:0:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::23:0:10</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS can have a system called PTS (Powertrain system) to represent the behavior of powertrain\par%0D
+\viewkind4\uc1\pard\fs20 The ADS can have a sub-system called PTS (Powertrain system) to control the powertrain.\par%0D
 }%0D
 </_body>
-			<reqID type="a">Pow-10</reqID>
+			<reqID type="a">Pow-15</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 777d291f-584c-49eb-8148-f1ba880b3d6c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Power Management</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:38:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:38:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::23:0:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::23:0:17</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The PTS can dynamically switch between motor and combustion engine for obtaining power\par%0D
+\viewkind4\uc1\pard\fs20 The  PTS  may  dynamically  switch  between  motor  and  combustion engine for obtaining power.\par%0D
 }%0D
 </_body>
-			<reqID type="a">Pow-11</reqID>
+			<reqID type="a">Pow-16</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID b038bf70-62ff-44f1-8fbc-c16080063552</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Fuel Capacity</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:38:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:38:42</_modifiedTime>
+			<_name type="a">Fuel Level</_name>
+			<_modifiedTimeWeak type="a">3.28.2020::23:0:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::23:0:24</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The PTS may have enough fuel to help complete its maneuver around the distribution center\par%0D
+\viewkind4\uc1\pard\fs20 The PTS may monitor the fuel required to help the truck complete its maneuver around the distribution center.\par%0D
 }%0D
 </_body>
-			<reqID type="a">Pow-12</reqID>
+			<reqID type="a">Pow-17</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID e6377dd5-f6e6-491b-9e7a-921a959652c9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Maximum Velocity With Gradient</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:32:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:32:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:54:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:54:32</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS shall be able to accelerate the truck to 80kmph on a 5%25 gradient (2.86 degrees).\par%0D
+\viewkind4\uc1\pard\fs20 The truck shall be able to accelerate to 80kmph on a 5%25 gradient.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-03</reqID>
@@ -192,10 +194,10 @@
 			<_id type="a">GUID be002c09-bb18-42dc-9142-4b49a67e38a4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Starting Gradient</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:33:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:33:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:54:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:54:42</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The ADS shall be able to start the truck on a 10%25 gradient. (the maximum gradient roads are designed for is 8.3%25)\par%0D
+\viewkind4\uc1\pard\fs20 The truck shall be able to start on a 8.5%25 gradient.\par%0D
 }%0D
 </_body>
 			<reqID type="a">Pow-04</reqID>
@@ -203,50 +205,74 @@
 		<IRequirement type="e">
 			<_id type="a">GUID 211144aa-3f85-4647-ba77-48fbfa174052</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Battery SOC</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:39:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:39:33</_modifiedTime>
+			<_name type="a">Battery Level</_name>
+			<_modifiedTimeWeak type="a">3.28.2020::22:46:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:46:59</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The PTS may have enough SOC to help the truck complete its maneuver around distribution center\par%0D
+\viewkind4\uc1\pard\fs20 The PTS may monitor the energy required by the motor(SOC of battery) to help the truck complete its maneuver around distribution center.\par%0D
 }%0D
 </_body>
-			<reqID type="a">Pow-13</reqID>
+			<reqID type="a">Pow-18</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID c3422e4f-4342-4f46-90ef-98f9cd6a6fbe</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Energy Consumption</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:40:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:40:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:46:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:46:17</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The PTS can have competitive energy consumption(kWh/km) of less than 2kWh/km. (tesla semi-truck)\par%0D
+\viewkind4\uc1\pard\fs20 The  truck  can  have  competitive  energy  consumption  of  less  than 2kWh/km.\par%0D
 }%0D
 </_body>
-			<reqID type="a">Pow-14</reqID>
+			<reqID type="a">Pow-12</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 46a91325-f2dc-4b92-a29e-3eae6208cd30</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Regenerative Braking</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:40:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:40:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:50:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:50:47</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The PTS can have regenerative braking to decrease its energy consumption\par%0D
+\viewkind4\uc1\pard\fs20 The truck can have regenerative braking to decrease its energy con-sumption.\par%0D
 }%0D
 </_body>
-			<reqID type="a">Pow-15</reqID>
+			<reqID type="a">Pow-13</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID bd3b8c07-fe96-4140-b4df-e39e6cd8d655</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Additonal Features</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::17:41:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::17:41:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.28.2020::22:59:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:59:19</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The PTS can have features like EGHR(Exhaust Gas Heat Recovery), predictive energy management, etc to increase its efficiency\par%0D
+\viewkind4\uc1\pard\fs20 The truck can have EGHR(Exhaust Gas Heat Recovery), predictive energy management, etc to increase its efficiency.\par%0D
 }%0D
 </_body>
-			<reqID type="a">Pow-16</reqID>
+			<reqID type="a">Pow-14</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d7d4d81e-8c4b-4b82-ac03-1f1bf9580e8d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Pure Electric Range</_name>
+			<_modifiedTimeWeak type="a">3.28.2020::22:57:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:57:53</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The truck shall have a minimum pure electric range of 100km.\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-10</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d5b23011-2150-4e28-8e70-aeff8542551d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Auxiliary Power</_name>
+			<_modifiedTimeWeak type="a">3.28.2020::22:58:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.28.2020::22:58:23</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\b\fs20 The  ADS  may  use  energy  from  battery  to  power  other  electroniccomponents of the truck\par%0D
+}%0D
+</_body>
+			<reqID type="a">Pow-11</reqID>
 		</IRequirement>
 		<IDiagram type="e">
 			<_id type="a">GUID c16ff165-123d-4a01-a93e-2615fbbbe072</_id>
@@ -419,8 +445,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::14:39:11</_modifiedTime>
-			<_lastModifiedTime type="a">3.26.2020::14:39:11</_lastModifiedTime>
+			<_modifiedTime type="a">3.28.2020::23:8:55</_modifiedTime>
+			<_lastModifiedTime type="a">3.28.2020::23:8:55</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -463,7 +489,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">35</elementList>
+			<elementList type="a">39</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -511,6 +537,10 @@
 				<value>GUID bd52caf5-1ee6-4a6c-a376-f81ef7de70d1</value>
 				<value>GUID be45230e-715f-4389-a118-c9e8d0c75225</value>
 				<value>GUID e03e4962-b3c3-4288-aea0-c9c2aede65d2</value>
+				<value>GUID 04063dbc-2c23-4aa9-967e-51a39711550e</value>
+				<value>GUID b0fbf888-bdb9-412b-bfb0-89ebfdbc66d7</value>
+				<value>GUID f8031f2c-82e2-4759-9723-e1145a66b1cf</value>
+				<value>GUID e830c4d8-1d4d-47a0-970c-e0995bcaaf14</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -597,7 +627,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">6.52778 0 0 5.05303 10 20 </m_transform>
+			<m_transform type="a">6.125 0 0 4.5303 10 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -720,7 +750,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 497 42.6758 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 468 41.6758 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -812,12 +842,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 566 198  682 198  </m_arrow>
+			<m_arrow type="a">1 537 283  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">542 1095 </m_SourcePort>
-			<m_TargetPort type="a">542 -6 </m_TargetPort>
+			<m_TargetPort type="a">0 568 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 33a43789-42c7-483e-8ce0-f46de39f7195</_id>
@@ -847,7 +877,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 911 41.6758 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 1185 341.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -939,11 +969,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 981 282  </m_arrow>
+			<m_arrow type="a">2 968 404  968 282  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">550 1095 </m_SourcePort>
+			<m_SourcePort type="a">0 577 </m_SourcePort>
 			<m_TargetPort type="a">1084 558 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
@@ -958,7 +988,7 @@
 			<m_pParent type="s">GUID e8a52b4d-c619-4ced-821c-dbe27e2ff3c9</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Battery SOC</m_str>
+					<m_str type="a">Battery Level</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -974,7 +1004,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 1243 400.676 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 709 41.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1066,11 +1096,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1214 463  1214 282  </m_arrow>
+			<m_arrow type="a">1 782 282  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">0 577 </m_SourcePort>
+			<m_SourcePort type="a">573 1095 </m_SourcePort>
 			<m_TargetPort type="a">1084 558 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
@@ -1101,7 +1131,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108974 124 551.673 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108974 20 488.673 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1193,7 +1223,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 261 444  682 444  </m_arrow>
+			<m_arrow type="a">2 157 470  682 470  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -1212,7 +1242,7 @@
 			<m_pParent type="s">GUID e8a52b4d-c619-4ced-821c-dbe27e2ff3c9</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Fuel Capacity</m_str>
+					<m_str type="a">Fuel Level</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1228,7 +1258,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 1156 551.676 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 882 41.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1320,12 +1350,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1159 400  730 400  </m_arrow>
+			<m_arrow type="a">1 969 282  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">24 -6 </m_SourcePort>
-			<m_TargetPort type="a">919 1095 </m_TargetPort>
+			<m_SourcePort type="a">683 1095 </m_SourcePort>
+			<m_TargetPort type="a">1084 558 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 57f1317c-735c-4239-862b-4769dd1bf8aa</_id>
@@ -1355,7 +1385,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 640 551.676 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 519 489.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1447,7 +1477,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 709 447  682 447  </m_arrow>
+			<m_arrow type="a">2 588 469  682 469  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -1482,7 +1512,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 468 551.676 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 347 488.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1574,7 +1604,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 537 444  682 444  </m_arrow>
+			<m_arrow type="a">2 416 470  682 470  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -1609,7 +1639,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 296 551.676 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 186 489.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1701,7 +1731,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 369 443  682 443  </m_arrow>
+			<m_arrow type="a">2 259 469  682 469  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -1736,7 +1766,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 283 41.6758 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 296 41.6758 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1828,7 +1858,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 353 282  </m_arrow>
+			<m_arrow type="a">1 366 282  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -1863,7 +1893,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 78 41.6758 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 124 41.6758 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1955,11 +1985,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 173 282  </m_arrow>
+			<m_arrow type="a">1 238 282  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">746 1095 </m_SourcePort>
+			<m_SourcePort type="a">895 1095 </m_SourcePort>
 			<m_TargetPort type="a">0 558 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
@@ -1990,7 +2020,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 984 558.676 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108059 1047 41.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2082,15 +2112,47 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1059 447  730 447  </m_arrow>
+			<m_arrow type="a">1 1119 282  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">589 -6 </m_SourcePort>
-			<m_TargetPort type="a">919 1095 </m_TargetPort>
+			<m_SourcePort type="a">566 1095 </m_SourcePort>
+			<m_TargetPort type="a">1084 558 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID b3eaa48f-0b07-4a26-90d4-229e15e007aa</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">176</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -2117,7 +2179,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108059 812 555.676 </m_transform>
+			<m_transform type="a">0.124538 0 0 0.108059 1185 199.676 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2209,15 +2271,46 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 881 447  682 447  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">542 -6 </m_SourcePort>
-			<m_TargetPort type="a">542 1095 </m_TargetPort>
+			<m_SourcePort type="a">0 762 </m_SourcePort>
+			<m_TargetPort type="a">1084 558 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 22485fa5-6455-4f70-a37d-b2b65e0d36e6</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">176</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -2244,7 +2337,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.110701 0 0 0.106227 1122 43.6813 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108951 1185 487.699 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2336,12 +2429,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 1179 281  </m_arrow>
+			<m_arrow type="a">2 1250 469  683 469  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">515 1095 </m_SourcePort>
-			<m_TargetPort type="a">1084 549 </m_TargetPort>
+			<m_SourcePort type="a">511 -16 </m_SourcePort>
+			<m_TargetPort type="a">550 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 3fac3515-67bd-48ca-946f-1f55052a30e7</_id>
@@ -2371,7 +2464,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108974 20 273.673 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108974 20 198.673 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2463,12 +2556,11 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 196 334  196 281  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1084 554 </m_SourcePort>
-			<m_TargetPort type="a">0 549 </m_TargetPort>
+			<m_SourcePort type="a">1084 765 </m_SourcePort>
+			<m_TargetPort type="a">0 558 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID f8b942a2-c97f-4218-94de-cb503a5122d3</_id>
@@ -2498,7 +2590,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.127306 0 0 0.108974 20 400.673 </m_transform>
+			<m_transform type="a">0.127306 0 0 0.108974 20 340.673 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2590,7 +2682,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 238 461  238 281  </m_arrow>
+			<m_arrow type="a">2 238 401  238 281  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -2599,6 +2691,38 @@
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID be45230e-715f-4389-a118-c9e8d0c75225</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">176</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -2625,7 +2749,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107934 0 0 0.119963 1294 220.64 </m_transform>
+			<m_transform type="a">0.127307 0 0 0.108148 1020 489.577 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2717,11 +2841,330 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
+			<m_arrow type="a">2 1086 467  684 467  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">0 503 </m_SourcePort>
-			<m_TargetPort type="a">1084 549 </m_TargetPort>
+			<m_SourcePort type="a">518 -5 </m_SourcePort>
+			<m_TargetPort type="a">558 1095 </m_TargetPort>
+		</CGIContainArrow>
+		<CGIAnnotation type="e">
+			<_id type="a">GUID 04063dbc-2c23-4aa9-967e-51a39711550e</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">176</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d7d4d81e-8c4b-4b82-ac03-1f1bf9580e8d</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID e8a52b4d-c619-4ced-821c-dbe27e2ff3c9</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Pure Electric Range</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.123616 0 0 0.108043 687 488.693 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=39%25,61%25&gt;
+&lt;frame name=IDTextCompartment&gt;
+&lt;frame name=SpecificationTextCompartment&gt;</frameset>
+			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
+			<m_bIsBoxStyle type="a">1</m_bIsBoxStyle>
+			<AggregatesList type="e">
+				<value>GUID 09526c42-6d26-4a1d-aab1-660d35e2db78</value>
+				<value>GUID 0752f46a-7464-4370-b243-2c6354726cf7</value>
+			</AggregatesList>
+		</CGIAnnotation>
+		<CGICompartment type="e">
+			<_id type="a">GUID 09526c42-6d26-4a1d-aab1-660d35e2db78</_id>
+			<m_name type="a">ID</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID 0752f46a-7464-4370-b243-2c6354726cf7</_id>
+			<m_name type="a">Specification</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGIContainArrow type="e">
+			<_id type="a">GUID b0fbf888-bdb9-412b-bfb0-89ebfdbc66d7</_id>
+			<m_type type="a">204</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 04063dbc-2c23-4aa9-967e-51a39711550e</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 75424cc7-2bd3-4b92-a596-6ced00d42217</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 755 470  682 470  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">550 -6 </m_SourcePort>
+			<m_TargetPort type="a">542 1095 </m_TargetPort>
+		</CGIContainArrow>
+		<CGIAnnotation type="e">
+			<_id type="a">GUID f8031f2c-82e2-4759-9723-e1145a66b1cf</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">176</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d5b23011-2150-4e28-8e70-aeff8542551d</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID e8a52b4d-c619-4ced-821c-dbe27e2ff3c9</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Auxiliary Power</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_transform type="a">0.142989 0 0 0.108228 847 489.49 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=29%25,71%25&gt;
+&lt;frame name=IDTextCompartment&gt;
+&lt;frame name=SpecificationTextCompartment&gt;</frameset>
+			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
+			<m_bIsBoxStyle type="a">1</m_bIsBoxStyle>
+			<AggregatesList type="e">
+				<value>GUID cf739410-5981-4eab-bf7b-bf356e0b4249</value>
+				<value>GUID f2302b00-507d-43a1-b59d-f1a51b4112e9</value>
+			</AggregatesList>
+		</CGIAnnotation>
+		<CGICompartment type="e">
+			<_id type="a">GUID cf739410-5981-4eab-bf7b-bf356e0b4249</_id>
+			<m_name type="a">ID</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGICompartment type="e">
+			<_id type="a">GUID f2302b00-507d-43a1-b59d-f1a51b4112e9</_id>
+			<m_name type="a">Specification</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
+		<CGIContainArrow type="e">
+			<_id type="a">GUID e830c4d8-1d4d-47a0-970c-e0995bcaaf14</_id>
+			<m_type type="a">204</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID f8031f2c-82e2-4759-9723-e1145a66b1cf</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 75424cc7-2bd3-4b92-a596-6ced00d42217</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 925 469  682 469  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">545 -5 </m_SourcePort>
+			<m_TargetPort type="a">542 1095 </m_TargetPort>
 		</CGIContainArrow>
 		<IClass type="e">
 			<_id type="a">GUID c5e56dd5-de4e-4f7b-9877-9e48ac3b5548</_id>
