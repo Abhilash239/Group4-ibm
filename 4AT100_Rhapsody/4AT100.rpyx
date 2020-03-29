@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -10,6 +10,38 @@
 	<IProject type="e">
 			<_id type="a">GUID c4a75c70-6e2e-475a-9f29-af1f84918d25</_id>
 			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Model</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">SelectedPerspective</_Name>
+													<_Value type="a">Advanced</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<_name type="a">4AT100</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
@@ -24,9 +56,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.26.2020::13:39:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::13:39:5</_modifiedTime>
-			<_lastID type="a">5</_lastID>
+			<_modifiedTimeWeak type="a">3.29.2020::17:48:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.29.2020::17:48:33</_modifiedTime>
+			<_lastID type="a">6</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -103,9 +135,9 @@
 				<value>GUID d9689b73-885e-44c4-896b-de43defa0a33</value>
 				<value>GUID ab285915-0966-4322-a029-ffac3e6ef3df</value>
 				<value>GUID c4330c76-1cd6-4dbd-bdff-600355b9f34d</value>
-				<value>GUID 608ab139-0e1b-47c4-8014-31a3a273580d</value>
 				<value>GUID 04873c39-da17-4660-a5ae-1565aaf663f9</value>
 				<value>GUID 9cec5d7d-61ff-48c9-bfee-f48a96358f68</value>
+				<value>GUID f4515241-e2ff-4d14-845c-b184adb4f493</value>
 				<value>GUID b7185946-2132-478b-8785-26bb0fb67943</value>
 				<value>GUID 981480ba-9385-4ac1-b665-eaec350dd044</value>
 			</AggregatesList>
@@ -134,16 +166,16 @@
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<ISubsystem type="e">
-			<fileName type="a">Analysis</fileName>
-			<_id type="a">GUID 608ab139-0e1b-47c4-8014-31a3a273580d</_id>
-		</ISubsystem>
-		<ISubsystem type="e">
 			<fileName type="a">RequirementsPkg</fileName>
 			<_id type="a">GUID 04873c39-da17-4660-a5ae-1565aaf663f9</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">UseCasePkg</fileName>
 			<_id type="a">GUID 9cec5d7d-61ff-48c9-bfee-f48a96358f68</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">ActorPkg</fileName>
+			<_id type="a">GUID f4515241-e2ff-4d14-845c-b184adb4f493</_id>
 		</ISubsystem>
 		<IDiagram type="e">
 			<_id type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_id>
@@ -474,8 +506,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::13:38:27</_modifiedTime>
-			<_lastModifiedTime type="a">3.26.2020::13:38:27</_lastModifiedTime>
+			<_modifiedTime type="a">3.29.2020::17:48:23</_modifiedTime>
+			<_lastModifiedTime type="a">3.29.2020::17:48:23</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -861,7 +893,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">Driver</_hname>
 					<_hid type="a">GUID a092e39d-ecb3-4196-aa35-032270d1147f</_hid>
 				</IHandle>
@@ -869,7 +901,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::Driver</m_str>
+					<m_str type="a">ActorPkg::Driver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1208,7 +1240,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">Truck</_hname>
 					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
 				</IHandle>
@@ -1216,7 +1248,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::Truck</m_str>
+					<m_str type="a">ActorPkg::Truck</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1355,7 +1387,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">DC Operator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IHandle>
@@ -1363,7 +1395,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::DC Operator</m_str>
+					<m_str type="a">ActorPkg::DC Operator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1407,7 +1439,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">LocSystem</_hname>
 					<_hid type="a">GUID b96816f5-45f4-4b3c-8055-efde7fd5a216</_hid>
 				</IHandle>
@@ -1415,7 +1447,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::LocSystem</m_str>
+					<m_str type="a">ActorPkg::LocSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1459,7 +1491,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hclass type="a">LocSystem</_hclass>
 					<_hname type="a">LocSystem_LSPort</_hname>
 					<_hid type="a">GUID 439573b9-35c4-44c8-8077-b82bca885bc4</_hid>
@@ -1561,7 +1593,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">Charging system</_hname>
 					<_hid type="a">GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2</_hid>
 				</IHandle>
@@ -1569,7 +1601,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::Charging system</m_str>
+					<m_str type="a">ActorPkg::Charging system</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1613,7 +1645,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">DC</_hname>
 					<_hid type="a">GUID c0df7c3f-b22d-4798-abd2-7573393638f3</_hid>
 				</IHandle>
@@ -1621,7 +1653,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::DC</m_str>
+					<m_str type="a">ActorPkg::DC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1665,7 +1697,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">GUI__DC_Operator</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IHandle>
@@ -1673,7 +1705,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::GUI__DC_Operator</m_str>
+					<m_str type="a">ActorPkg::GUI__DC_Operator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1717,7 +1749,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hclass type="a">DC Operator</_hclass>
 					<_hname type="a">DC Operator_GUI__DC_Operator_0</_hname>
 					<_hid type="a">GUID e0adc107-c3f9-4225-ba18-db131d4b0abd</_hid>
@@ -1813,7 +1845,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hclass type="a">GUI__DC_Operator</_hclass>
 					<_hname type="a">DC_Operator_GUI_Port_GUI__DC_Operator</_hname>
 					<_hid type="a">GUID 6d51e046-7d78-4c03-af1c-7de5e282fdb6</_hid>
@@ -1908,7 +1940,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hclass type="a">Charging system</_hclass>
 					<_hname type="a">ADS</_hname>
 					<_hid type="a">GUID 2d5d8dfe-d852-45aa-a2cf-516708386c8a</_hid>
@@ -1969,7 +2001,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">GUI__Driver</_hname>
 					<_hid type="a">GUID 94d5fd3c-3ed1-4ca1-957e-c889e1afc927</_hid>
 				</IHandle>
@@ -1977,7 +2009,7 @@
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::GUI__Driver</m_str>
+					<m_str type="a">ActorPkg::GUI__Driver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2021,7 +2053,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hclass type="a">Driver</_hclass>
 					<_hname type="a">GUI__Driver_Driver</_hname>
 					<_hid type="a">GUID 3ca4156a-467a-49d9-bbef-6ebf95bdd6e2</_hid>
@@ -2116,7 +2148,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hclass type="a">GUI__Driver</_hclass>
 					<_hname type="a">Truck_GUI__Driver</_hname>
 					<_hid type="a">GUID b1ca799e-ad0e-4262-a1c3-9a8381b81cf3</_hid>
@@ -2211,7 +2243,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hclass type="a">DC</_hclass>
 					<_hname type="a">Map of DC</_hname>
 					<_hid type="a">GUID 8574e6ac-75ff-44f8-8f3d-47400d8ef99a</_hid>

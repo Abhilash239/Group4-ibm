@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,25 +11,27 @@
 			<_id type="a">GUID 9cec5d7d-61ff-48c9-bfee-f48a96358f68</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UseCasePkg</_name>
-			<_modifiedTimeWeak type="a">3.26.2020::15:12:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::15:12:4</_modifiedTime>
-			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">3.26.2020::15:12:4</weakCGTime>
+			<_modifiedTimeWeak type="a">3.29.2020::17:58:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.29.2020::17:58:52</_modifiedTime>
+			<_lastID type="a">11</_lastID>
+			<weakCGTime type="a">3.29.2020::17:58:52</weakCGTime>
 			<strongCGTime type="a">3.26.2020::15:3:51</strongCGTime>
 			<_defaultComposite type="s">GUID 0bea4b8f-1dbb-4f42-a825-3b8201de3b11</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<Actors type="c">
+			<UseCases type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
 				</IRPYRawContainer>
-			</Actors>
+			</UseCases>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 54239eb6-1f3f-4fac-8627-9c7b58146894</value>
+				<value>GUID ff3f191d-ce09-44fa-b262-53d90c8aa1e2</value>
+				<value>GUID 2453d0fb-181b-4031-8e87-d393b95fc063</value>
+				<value>GUID 11e536a0-97fa-40ff-b018-92a5d401f5e8</value>
+				<value>GUID 779525a0-9907-4f3c-ba66-ae67ef744235</value>
+				<value>GUID 0f17a970-17f0-41b5-bb48-a350ed92d699</value>
 				<value>GUID 0bea4b8f-1dbb-4f42-a825-3b8201de3b11</value>
-				<value>GUID f93bb019-e3b3-418c-ab9d-809d0ccd682e</value>
-				<value>GUID d3337de9-da39-4182-9512-c8a37b8f4e0c</value>
-				<value>GUID c7e3f25b-e176-44f0-a976-7abeab68e223</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IUCDiagram type="e">
@@ -374,8 +376,8 @@
 			</_properties>
 			<_name type="a">Primary Uses</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::15:12:11</_modifiedTime>
-			<_lastModifiedTime type="a">3.26.2020::15:12:11</_lastModifiedTime>
+			<_modifiedTime type="a">3.29.2020::17:58:52</_modifiedTime>
+			<_lastModifiedTime type="a">3.29.2020::17:58:52</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -552,13 +554,16 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\VehicleDynamics.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkg::VehicleDynamics</_hsubsystem>
+					<_hname type="a">generate path</_hname>
 					<_hid type="a">GUID f93bb019-e3b3-418c-ab9d-809d0ccd682e</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 6af000cf-1938-4cf8-a42f-4883c1baac70</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">generate path</m_str>
+					<m_str type="a">VehicleDynamics::generate path</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -633,13 +638,16 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\VehicleDynamics.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkg::VehicleDynamics</_hsubsystem>
+					<_hname type="a">follow path</_hname>
 					<_hid type="a">GUID d3337de9-da39-4182-9512-c8a37b8f4e0c</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 6af000cf-1938-4cf8-a42f-4883c1baac70</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">follow path</m_str>
+					<m_str type="a">VehicleDynamics::follow path</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -714,13 +722,16 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\VehicleDynamics.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkg::VehicleDynamics</_hsubsystem>
+					<_hname type="a">avoid collision</_hname>
 					<_hid type="a">GUID c7e3f25b-e176-44f0-a976-7abeab68e223</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 6af000cf-1938-4cf8-a42f-4883c1baac70</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">avoid collision</m_str>
+					<m_str type="a">VehicleDynamics::avoid collision</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -796,8 +807,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\Analysis.sbsx</_hfilename>
-					<_hsubsystem type="a">Analysis</_hsubsystem>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
 					<_hname type="a">Driver</_hname>
 					<_hid type="a">GUID a092e39d-ecb3-4196-aa35-032270d1147f</_hid>
 				</IHandle>
@@ -805,7 +816,7 @@
 			<m_pParent type="s">GUID 85578565-044c-439a-ac1a-9f05502b1753</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Analysis::Driver</m_str>
+					<m_str type="a">ActorPkg::Driver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -843,6 +854,26 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIBasicClass>
+		<ISubsystem type="e">
+			<fileName type="a">Communication</fileName>
+			<_id type="a">GUID ff3f191d-ce09-44fa-b262-53d90c8aa1e2</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">VehicleDynamics</fileName>
+			<_id type="a">GUID 2453d0fb-181b-4031-8e87-d393b95fc063</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Safety</fileName>
+			<_id type="a">GUID 11e536a0-97fa-40ff-b018-92a5d401f5e8</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Powertrain</fileName>
+			<_id type="a">GUID 779525a0-9907-4f3c-ba66-ae67ef744235</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">HumanFactors</fileName>
+			<_id type="a">GUID 0f17a970-17f0-41b5-bb48-a350ed92d699</_id>
+		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID 0bea4b8f-1dbb-4f42-a825-3b8201de3b11</_id>
 			<_myState type="a">40960</_myState>
@@ -857,78 +888,6 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
-		<IUseCase type="e">
-			<_id type="a">GUID f93bb019-e3b3-418c-ab9d-809d0ccd682e</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">generate path</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::15:3:12</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</_EntryPoints>
-		</IUseCase>
-		<IUseCase type="e">
-			<_id type="a">GUID d3337de9-da39-4182-9512-c8a37b8f4e0c</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">follow path</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::15:3:33</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</_EntryPoints>
-		</IUseCase>
-		<IUseCase type="e">
-			<_id type="a">GUID c7e3f25b-e176-44f0-a976-7abeab68e223</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">avoid collision</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::15:3:45</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</_EntryPoints>
-		</IUseCase>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
