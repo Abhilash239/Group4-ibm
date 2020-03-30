@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 11e536a0-97fa-40ff-b018-92a5d401f5e8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SafetyUseCase</_name>
+			<_modifiedTimeWeak type="a">3.30.2020::7:21:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.30.2020::8:4:6</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">3.30.2020::7:21:38</weakCGTime>
+			<strongCGTime type="a">3.30.2020::7:21:38</strongCGTime>
+			<_defaultComposite type="s">GUID ac810b4e-c5fa-4011-bd74-061bd408aca6</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID ac810b4e-c5fa-4011-bd74-061bd408aca6</value>
+				<value>GUID 78afa57e-875a-4bd2-87ac-83a5c510a9c7</value>
+				<value>GUID bac8cd07-fd0a-435c-9fb5-cc8d08c2cab6</value>
+				<value>GUID f1a5ba8d-66a1-4cff-b555-37eec568ab74</value>
+				<value>GUID 0ee52a53-1f08-44eb-8181-f70e1e526f12</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID ac810b4e-c5fa-4011-bd74-061bd408aca6</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID 78afa57e-875a-4bd2-87ac-83a5c510a9c7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Log in</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Trigger:\b0\par%0D
+1) use input credentials \par%0D
+2) user (driver and DC operator) press the &quot;log in&quot; button in the GUI\par%0D
+\par%0D
+\b Main Scenario:\b0\par%0D
+1) receive credentials\par%0D
+2) verify credentials\par%0D
+3) if credentials are correct, allow user to operate\par%0D
+\b\par%0D
+Alternative Scenario:\b0\par%0D
+3) if credentials are incorrect, no action\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.29.2020::18:35:34</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID bac8cd07-fd0a-435c-9fb5-cc8d08c2cab6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Log off</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Trigger:\par%0D
+\b0 1) user (driver and DC operator) press &quot;log off&quot; button in the GUI\b\par%0D
+\par%0D
+Main Scenario:\par%0D
+\b0 1) disable operations of the user.\b\par%0D
+\b0\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.29.2020::18:31:49</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID f1a5ba8d-66a1-4cff-b555-37eec568ab74</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Emergency stop</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Trigger:\b0\par%0D
+The tolerance of distance to object is exceeded\par%0D
+\par%0D
+\b Main Scenario:\b0\par%0D
+1) decelerate the truck at the maximum deceleration\par%0D
+2) when the speed is decreased to 0,turn off the engine\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.29.2020::18:37:39</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 0ee52a53-1f08-44eb-8181-f70e1e526f12</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Monitor battery status</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Main Scenario:\b0\par%0D
+1) ADS receives sensor data from the truck\par%0D
+2) if the SoC (State of Charge) is larger than 15%25, no addition action is needed\par%0D
+\par%0D
+\b Alternative Scenario:\par%0D
+\b0 2) if the SoC (State of Charge) is less than 15%25, interrupt the current task and drive to the nearest charging station.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.29.2020::18:29:14</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

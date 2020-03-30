@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,19 +11,14 @@
 			<_id type="a">GUID 9cec5d7d-61ff-48c9-bfee-f48a96358f68</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UseCasePkg</_name>
-			<_modifiedTimeWeak type="a">3.29.2020::17:58:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.29.2020::17:58:52</_modifiedTime>
-			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">3.29.2020::17:58:52</weakCGTime>
+			<_modifiedTimeWeak type="a">3.30.2020::7:22:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.30.2020::8:4:6</_modifiedTime>
+			<_lastID type="a">12</_lastID>
+			<weakCGTime type="a">3.30.2020::7:22:23</weakCGTime>
 			<strongCGTime type="a">3.26.2020::15:3:51</strongCGTime>
 			<_defaultComposite type="s">GUID 0bea4b8f-1dbb-4f42-a825-3b8201de3b11</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<UseCases type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCases>
-			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">3.30.2020::7:22:23</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 54239eb6-1f3f-4fac-8627-9c7b58146894</value>
 				<value>GUID ff3f191d-ce09-44fa-b262-53d90c8aa1e2</value>
@@ -376,8 +371,8 @@
 			</_properties>
 			<_name type="a">Primary Uses</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.29.2020::17:58:52</_modifiedTime>
-			<_lastModifiedTime type="a">3.29.2020::17:58:52</_lastModifiedTime>
+			<_modifiedTime type="a">3.30.2020::7:28:59</_modifiedTime>
+			<_lastModifiedTime type="a">3.30.2020::7:28:59</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -554,16 +549,16 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\VehicleDynamics.sbsx</_hfilename>
-					<_hsubsystem type="a">UseCasePkg::VehicleDynamics</_hsubsystem>
-					<_hname type="a">generate path</_hname>
+					<_hfilename type="a">.\VehicleDynamicsUseCase.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkg::VehicleDynamicsUseCase</_hsubsystem>
+					<_hname type="a">Generate Path</_hname>
 					<_hid type="a">GUID f93bb019-e3b3-418c-ab9d-809d0ccd682e</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 6af000cf-1938-4cf8-a42f-4883c1baac70</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">VehicleDynamics::generate path</m_str>
+					<m_str type="a">VehicleDynamicsUseCase::Generate Path</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -638,16 +633,16 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\VehicleDynamics.sbsx</_hfilename>
-					<_hsubsystem type="a">UseCasePkg::VehicleDynamics</_hsubsystem>
-					<_hname type="a">follow path</_hname>
+					<_hfilename type="a">.\VehicleDynamicsUseCase.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkg::VehicleDynamicsUseCase</_hsubsystem>
+					<_hname type="a">Follow Path</_hname>
 					<_hid type="a">GUID d3337de9-da39-4182-9512-c8a37b8f4e0c</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 6af000cf-1938-4cf8-a42f-4883c1baac70</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">VehicleDynamics::follow path</m_str>
+					<m_str type="a">VehicleDynamicsUseCase::Follow Path</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -722,16 +717,16 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\VehicleDynamics.sbsx</_hfilename>
-					<_hsubsystem type="a">UseCasePkg::VehicleDynamics</_hsubsystem>
-					<_hname type="a">avoid collision</_hname>
+					<_hfilename type="a">.\VehicleDynamicsUseCase.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkg::VehicleDynamicsUseCase</_hsubsystem>
+					<_hname type="a">Avoid Collision</_hname>
 					<_hid type="a">GUID c7e3f25b-e176-44f0-a976-7abeab68e223</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 6af000cf-1938-4cf8-a42f-4883c1baac70</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">VehicleDynamics::avoid collision</m_str>
+					<m_str type="a">VehicleDynamicsUseCase::Avoid Collision</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -855,23 +850,23 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIBasicClass>
 		<ISubsystem type="e">
-			<fileName type="a">Communication</fileName>
+			<fileName type="a">CommunicationUseCase</fileName>
 			<_id type="a">GUID ff3f191d-ce09-44fa-b262-53d90c8aa1e2</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">VehicleDynamics</fileName>
+			<fileName type="a">VehicleDynamicsUseCase</fileName>
 			<_id type="a">GUID 2453d0fb-181b-4031-8e87-d393b95fc063</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">Safety</fileName>
+			<fileName type="a">SafetyUseCase</fileName>
 			<_id type="a">GUID 11e536a0-97fa-40ff-b018-92a5d401f5e8</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">Powertrain</fileName>
+			<fileName type="a">PowertrainUseCase</fileName>
 			<_id type="a">GUID 779525a0-9907-4f3c-ba66-ae67ef744235</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">HumanFactors</fileName>
+			<fileName type="a">HumanFactorsUseCase</fileName>
 			<_id type="a">GUID 0f17a970-17f0-41b5-bb48-a350ed92d699</_id>
 		</ISubsystem>
 		<IClass type="e">
