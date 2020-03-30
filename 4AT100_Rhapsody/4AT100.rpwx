@@ -45,8 +45,8 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1157 410 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<_DownRight type="a">2047 725 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -66,7 +66,7 @@
 								<m_nBottom type="a">473</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
@@ -77,8 +77,8 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">34772 10604 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
+						<_DownRight type="a">34771 10604 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -109,14 +109,14 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1407 683 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<_DownRight type="a">1315 644 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">D:\Eindhoven\Quartile3\4AT100\Group4-ibm\4AT100_Rhapsody\4AT100</_fullName>
+			<_fullName type="a">C:\Work\4AT100_Rhapsody\4AT100</_fullName>
 			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
@@ -146,7 +146,7 @@
 				<name type="a">Primary Uses</name>
 				<idOrFolder type="a">#startHnd# INObjectHandle 
 	- _m2Class = &quot;IUCDiagram&quot;#hndSem#
-	- _filename = &quot;D:\\Eindhoven\\Quartile3\\4AT100\\Group4-ibm\\4AT100_Rhapsody\\4AT100_rpy\\UseCasePkg.sbsx&quot;#hndSem#
+	- _filename = &quot;C:\\Work\\4AT100_Rhapsody\\4AT100_rpy\\UseCasePkg.sbsx&quot;#hndSem#
 	- _subsystem = &quot;UseCasePkg&quot;#hndSem#
 	- _name = &quot;Primary Uses&quot;#hndSem#
 	- _id = GUID 54239eb6-1f3f-4fac-8627-9c7b58146894#hndSem#
