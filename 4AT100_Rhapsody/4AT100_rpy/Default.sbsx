@@ -11,10 +11,10 @@
 			<_id type="a">GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:40</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:34</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::23:38:8</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">3.31.2020::23:30:40</weakCGTime>
+			<weakCGTime type="a">4.1.2020::18:14:34</weakCGTime>
 			<strongCGTime type="a">3.31.2020::8:36:42</strongCGTime>
 			<_defaultComposite type="s">GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -106,7 +106,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:40</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:15:12</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -114,9 +114,9 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">3.31.2020::23:30:40</_modifiedTime>
-			<_lastID type="a">38</_lastID>
-			<weakCGTime type="a">3.31.2020::23:30:40</weakCGTime>
+			<_modifiedTime type="a">4.1.2020::18:15:12</_modifiedTime>
+			<_lastID type="a">42</_lastID>
+			<weakCGTime type="a">4.1.2020::18:15:12</weakCGTime>
 			<strongCGTime type="a">3.18.2020::9:9:40</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -128,6 +128,8 @@
 				<value>GUID 319dbe63-3c1c-488b-8aae-1103685ef3dc</value>
 				<value>GUID dbb7d75d-07b8-4ea5-893d-7100df70c65f</value>
 				<value>GUID 998483d5-4280-4908-b25f-46a9cc8e8661</value>
+				<value>GUID 923b2982-e337-4d7d-b828-1b3100e080d2</value>
+				<value>GUID c8e9fec6-3854-4432-8945-a6778fce5091</value>
 				<value>GUID 034e69b3-9c99-46f6-80d6-cd5dba8dd4d9</value>
 				<value>GUID 136fa5d5-c20b-4cf3-b70e-b704d9d33927</value>
 				<value>GUID 7fd8a992-944a-4243-a241-a1e0a132f1a6</value>
@@ -155,7 +157,7 @@
 			<_id type="a">GUID 951cf944-9c8d-438b-8a87-5d93373f09a0</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">Charging system</_name>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.24.2020::9:49:20</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
@@ -177,7 +179,7 @@
 			<_id type="a">GUID 319dbe63-3c1c-488b-8aae-1103685ef3dc</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">DC</_name>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.24.2020::9:55:51</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
@@ -238,6 +240,49 @@
 			</end2_>
 			<direction_ type="a">bidirectional</direction_>
 		</IInformationFlow>
+		<IInformationFlow type="e">
+			<_id type="a">GUID 923b2982-e337-4d7d-b828-1b3100e080d2</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Truck_port_port_9</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.1.2020::18:15:38</_modifiedTime>
+			<Conveyed type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IInformationItem</_hm2Class>
+							<_hid type="a">GUID c8e9fec6-3854-4432-8945-a6778fce5091</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Conveyed>
+			<end1_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hid type="a">GUID 7200c185-0d87-4ef5-9ade-76ef28489894</_hid>
+				</IHandle>
+			</end1_>
+			<end2_ type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">port_9</_hname>
+					<_hid type="a">GUID b3d5ae81-5045-4b35-a880-3306e06ce718</_hid>
+				</IHandle>
+			</end2_>
+			<direction_ type="a">toEnd2</direction_>
+		</IInformationFlow>
+		<IInformationItem type="e">
+			<_id type="a">GUID c8e9fec6-3854-4432-8945-a6778fce5091</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itemflow_41</_name>
+			<_displayName type="a">Steering angle and velocity input</_displayName>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.1.2020::18:15:25</_modifiedTime>
+		</IInformationItem>
 		<IPort type="e">
 			<_id type="a">GUID 034e69b3-9c99-46f6-80d6-cd5dba8dd4d9</_id>
 			<_myState type="a">10240</_myState>
@@ -256,7 +301,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:19:14</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -291,7 +336,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:20:41</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -326,7 +371,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:20:59</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -362,7 +407,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::8:58:27</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -397,7 +442,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.24.2020::10:10:4</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -432,7 +477,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:32:31</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -467,7 +512,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.18.2020::9:31:24</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -501,7 +546,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.24.2020::10:7:45</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -561,7 +606,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.24.2020::10:7:53</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -623,7 +668,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:11:12</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -642,7 +687,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Driver_port</_name>
 			<_displayName type="a">Driver port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::8:59:10</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -689,7 +734,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Collision_Detection_port</_name>
 			<_displayName type="a">Collision Detection port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::8:59:2</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -736,7 +781,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Safety_Standards_port</_name>
 			<_displayName type="a">Safety Standards port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:0:2</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -783,7 +828,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Charging_System_port</_name>
 			<_displayName type="a">Charging System port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:1:10</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -830,7 +875,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Government_port</_name>
 			<_displayName type="a">Government port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:0:18</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -877,7 +922,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Obstacles_port</_name>
 			<_displayName type="a">Obstacles port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:0:35</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -924,7 +969,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Localization_System_port</_name>
 			<_displayName type="a">Localization System port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:16:49</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -971,7 +1016,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DC_port</_name>
 			<_displayName type="a">DC port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:17:52</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -1018,7 +1063,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Truck_port</_name>
 			<_displayName type="a">Truck port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:20:29</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -1065,7 +1110,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DC_Operator_Port</_name>
 			<_displayName type="a">DC Operator port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:40</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::23:30:40</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -1078,11 +1123,6 @@
 				<IHandle type="e">
 				</IHandle>
 			</_inverse>
-			<Qualifiers type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Qualifiers>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID 765c285b-d640-41b0-922a-31398b36e9fe</_id>
 				<_myState type="a">10240</_myState>
@@ -1116,7 +1156,7 @@
 			<_id type="a">GUID 70372456-8f04-4d45-a707-fb8be04c4954</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsTruck</_name>
-			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::8:42:6</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
