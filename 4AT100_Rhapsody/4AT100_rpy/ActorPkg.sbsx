@@ -11,10 +11,10 @@
 			<_id type="a">GUID f4515241-e2ff-4d14-845c-b184adb4f493</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ActorPkg</_name>
-			<_modifiedTimeWeak type="a">3.31.2020::8:38:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:21:18</_modifiedTime>
+			<_modifiedTimeWeak type="a">3.31.2020::23:30:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.31.2020::23:38:8</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">3.31.2020::8:38:40</weakCGTime>
+			<weakCGTime type="a">3.31.2020::23:30:40</weakCGTime>
 			<strongCGTime type="a">3.31.2020::8:37:23</strongCGTime>
 			<_defaultComposite type="s">GUID a2eceff5-b9e6-4cef-81db-8e75334d8443</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -448,7 +448,7 @@
 			<_id type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DC Operator</_name>
-			<_modifiedTimeWeak type="a">3.31.2020::9:24:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.31.2020::23:30:40</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -456,19 +456,14 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">3.31.2020::9:19:27</_modifiedTime>
+			<_modifiedTime type="a">3.31.2020::23:30:40</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">3.31.2020::9:24:5</weakCGTime>
+			<weakCGTime type="a">3.31.2020::23:30:40</weakCGTime>
 			<strongCGTime type="a">3.31.2020::8:37:23</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID 99daabc6-e3bd-46d0-af42-37d94cf732b9</value>
@@ -568,9 +563,9 @@
 		<IInformationFlow type="e">
 			<_id type="a">GUID 67459564-14a0-4b86-8fbf-56403262fdf7</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">DC_Operator_port_port_37</_name>
+			<_name type="a">DC_Operator_port_DC_Operator_Port</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:19:27</_modifiedTime>
+			<_modifiedTime type="a">3.31.2020::23:30:40</_modifiedTime>
 			<Conveyed type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -594,7 +589,7 @@
 					<_hfilename type="a">.\Default.sbsx</_hfilename>
 					<_hsubsystem type="a">Default</_hsubsystem>
 					<_hclass type="a">ADS</_hclass>
-					<_hname type="a">port_37</_hname>
+					<_hname type="a">DC_Operator_Port</_hname>
 					<_hid type="a">GUID b88ac360-5518-4d59-890a-ac1b53f2cd24</_hid>
 				</IHandle>
 			</end2_>
@@ -613,7 +608,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DC_Operator_port</_name>
 			<_displayName type="a">DC Operator port</_displayName>
-			<_modifiedTimeWeak type="a">3.31.2020::9:24:5</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">3.31.2020::23:30:21</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::9:3:31</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -1553,7 +1548,6 @@
 			<_id type="a">GUID 52844abf-320a-4e8e-8bd5-39d30a53f39f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Government</_name>
-			<_displayName type="a">Government</_displayName>
 			<_modifiedTimeWeak type="a">3.31.2020::9:12:38</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
@@ -1671,7 +1665,6 @@
 			<_id type="a">GUID de1414c9-d0cb-4b34-95aa-cdada29f9246</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Safety Standards</_name>
-			<_displayName type="a">Safety Standards</_displayName>
 			<_modifiedTimeWeak type="a">3.31.2020::9:13:6</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
@@ -1813,7 +1806,7 @@
 		<IGeneralization type="e">
 			<_id type="a">GUID 19af8501-6143-4ec1-badc-4eb2f7673e60</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
