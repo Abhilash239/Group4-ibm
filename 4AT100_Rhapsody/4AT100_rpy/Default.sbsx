@@ -11,10 +11,10 @@
 			<_id type="a">GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::23:38:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.8.2020::18:23:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:27:16</_modifiedTime>
 			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">4.1.2020::18:14:34</weakCGTime>
+			<weakCGTime type="a">4.8.2020::18:23:49</weakCGTime>
 			<strongCGTime type="a">3.31.2020::8:36:42</strongCGTime>
 			<_defaultComposite type="s">GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -106,7 +106,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.1.2020::18:15:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">4.8.2020::18:30:49</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -114,9 +114,9 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.1.2020::18:15:12</_modifiedTime>
+			<_modifiedTime type="a">4.8.2020::18:30:49</_modifiedTime>
 			<_lastID type="a">42</_lastID>
-			<weakCGTime type="a">4.1.2020::18:15:12</weakCGTime>
+			<weakCGTime type="a">4.8.2020::18:30:49</weakCGTime>
 			<strongCGTime type="a">3.18.2020::9:9:40</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -687,13 +687,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Driver_port</_name>
 			<_displayName type="a">Driver port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::8:59:10</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:28:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:28:55</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 467b5fb4-7f2f-44e9-8f55-2e00d99f219a</_hid>
+					<_hid type="a">GUID f1d104b1-a1b7-441f-a89a-99847181c201</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -701,9 +715,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 467b5fb4-7f2f-44e9-8f55-2e00d99f219a</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Driver_port_implicitContract</_name>
+				<_id type="a">GUID f1d104b1-a1b7-441f-a89a-99847181c201</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -717,10 +730,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::8:59:10</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::8:59:10</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::8:59:10</weakCGTime>
-				<strongCGTime type="a">3.31.2020::8:59:10</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:28:55</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -734,13 +747,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Collision_Detection_port</_name>
 			<_displayName type="a">Collision Detection port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::8:59:2</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:30:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:30:43</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 0fe69dcc-b8ee-4a6c-8d1f-49e547b74ab6</_hid>
+					<_hid type="a">GUID 7d570c80-18a6-455e-9d21-fbb2bd80cd60</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -748,9 +775,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 0fe69dcc-b8ee-4a6c-8d1f-49e547b74ab6</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Collision_Detection_port_implicitContract</_name>
+				<_id type="a">GUID 7d570c80-18a6-455e-9d21-fbb2bd80cd60</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -764,10 +790,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::8:59:2</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::8:59:2</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::8:59:2</weakCGTime>
-				<strongCGTime type="a">3.31.2020::8:59:2</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:30:43</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -781,13 +807,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Safety_Standards_port</_name>
 			<_displayName type="a">Safety Standards port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:0:2</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:29:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:29:33</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID ca51fd73-bda7-4588-8ad2-36bde0fee627</_hid>
+					<_hid type="a">GUID d4eebd76-e945-4d41-8c91-2494976a6674</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -795,9 +835,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID ca51fd73-bda7-4588-8ad2-36bde0fee627</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Safety_Standards_port_implicitContract</_name>
+				<_id type="a">GUID d4eebd76-e945-4d41-8c91-2494976a6674</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -811,10 +850,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::9:0:2</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::9:0:2</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::9:0:2</weakCGTime>
-				<strongCGTime type="a">3.31.2020::9:0:2</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:29:33</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -828,13 +867,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Charging_System_port</_name>
 			<_displayName type="a">Charging System port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:1:10</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:29:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:29:48</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 2da3c53e-2278-4aca-9069-613769e2e6c1</_hid>
+					<_hid type="a">GUID cf8ea550-bba5-453d-8cc1-71bb1dd9fa9b</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -842,9 +895,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 2da3c53e-2278-4aca-9069-613769e2e6c1</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Charging_System_port_implicitContract</_name>
+				<_id type="a">GUID cf8ea550-bba5-453d-8cc1-71bb1dd9fa9b</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -858,10 +910,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::9:1:10</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::9:1:10</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::9:1:10</weakCGTime>
-				<strongCGTime type="a">3.31.2020::9:1:10</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:29:48</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -875,13 +927,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Government_port</_name>
 			<_displayName type="a">Government port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:0:18</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:30:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:30:49</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID ae36e9da-6bff-4927-ae5f-ed97eb242f9d</_hid>
+					<_hid type="a">GUID 19271660-94cb-4cfd-b765-88ef6626d81f</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -889,9 +955,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID ae36e9da-6bff-4927-ae5f-ed97eb242f9d</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Government_port_implicitContract</_name>
+				<_id type="a">GUID 19271660-94cb-4cfd-b765-88ef6626d81f</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -905,10 +970,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::9:0:18</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::9:0:18</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::9:0:18</weakCGTime>
-				<strongCGTime type="a">3.31.2020::9:0:18</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:30:49</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -969,13 +1034,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Localization_System_port</_name>
 			<_displayName type="a">Localization System port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:16:49</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:29:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:29:59</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 50057c60-330f-494d-bc98-5b4fc3943733</_hid>
+					<_hid type="a">GUID a1a10f41-1726-435f-a125-dd52e1812868</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -983,9 +1062,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 50057c60-330f-494d-bc98-5b4fc3943733</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Localization_System_port_implicitContract</_name>
+				<_id type="a">GUID a1a10f41-1726-435f-a125-dd52e1812868</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -999,10 +1077,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::9:16:49</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::9:16:49</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::9:16:49</weakCGTime>
-				<strongCGTime type="a">3.31.2020::9:16:49</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:29:59</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -1016,13 +1094,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DC_port</_name>
 			<_displayName type="a">DC port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:17:52</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:23:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:23:49</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 86a31e92-67c8-4459-9d86-b2eb65f89cc0</_hid>
+					<_hid type="a">GUID cf18bf8d-724e-422e-a00c-ab98b3a8186a</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -1030,9 +1122,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 86a31e92-67c8-4459-9d86-b2eb65f89cc0</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">DC_port_implicitContract</_name>
+				<_id type="a">GUID cf18bf8d-724e-422e-a00c-ab98b3a8186a</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1046,10 +1137,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::9:17:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::9:17:52</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::9:17:52</weakCGTime>
-				<strongCGTime type="a">3.31.2020::9:17:52</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:23:49</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -1063,13 +1154,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">Truck_port</_name>
 			<_displayName type="a">Truck port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::9:20:29</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:29:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:29:13</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 8f16467b-94fd-4b39-ab45-1449da28cb0a</_hid>
+					<_hid type="a">GUID 42cbb5ca-1248-4428-8c82-1d837e41971b</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -1077,9 +1182,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 8f16467b-94fd-4b39-ab45-1449da28cb0a</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">Truck_port_implicitContract</_name>
+				<_id type="a">GUID 42cbb5ca-1248-4428-8c82-1d837e41971b</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1093,10 +1197,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::9:20:29</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::9:20:29</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::9:20:29</weakCGTime>
-				<strongCGTime type="a">3.31.2020::9:20:29</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:29:13</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -1110,13 +1214,27 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DC_Operator_Port</_name>
 			<_displayName type="a">DC Operator port</_displayName>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.31.2020::23:30:40</_modifiedTime>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.8.2020::18:24:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.8.2020::18:24:19</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 765c285b-d640-41b0-922a-31398b36e9fe</_hid>
+					<_hid type="a">GUID baf42185-b527-4544-8e55-59e677d2d562</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -1124,9 +1242,8 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 765c285b-d640-41b0-922a-31398b36e9fe</_id>
-				<_myState type="a">10240</_myState>
-				<_name type="a">DC_Operator_Port_implicitContract</_name>
+				<_id type="a">GUID baf42185-b527-4544-8e55-59e677d2d562</_id>
+				<_myState type="a">8192</_myState>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1140,10 +1257,10 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">3.31.2020::23:30:40</_modifiedTimeWeak>
-				<_modifiedTime type="a">3.31.2020::23:30:40</_modifiedTime>
-				<weakCGTime type="a">3.31.2020::23:30:40</weakCGTime>
-				<strongCGTime type="a">3.31.2020::23:30:40</strongCGTime>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">4.8.2020::18:24:19</_modifiedTime>
+				<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
