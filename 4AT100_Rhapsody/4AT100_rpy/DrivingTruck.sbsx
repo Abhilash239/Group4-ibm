@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>936</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 413a1283-56f9-4af2-a470-c5ef7e11ab3d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DrivingTruck</_name>
+			<_modifiedTimeWeak type="a">4.10.2020::15:23:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:44:41</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">4.10.2020::15:23:49</weakCGTime>
+			<strongCGTime type="a">4.10.2020::14:3:21</strongCGTime>
+			<_defaultComposite type="s">GUID 681f0b8b-d522-4ecd-8773-81465b96d7fa</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 681f0b8b-d522-4ecd-8773-81465b96d7fa</value>
+				<value>GUID c4cc7d00-6933-4325-a416-304461384c0f</value>
+				<value>GUID 4c2ed29d-6fc9-4296-9af0-1f417eee0bc6</value>
+				<value>GUID cdcf19f6-c204-4710-8e94-72702230a916</value>
+				<value>GUID e740daff-163b-46b3-aa62-88b2c974a65e</value>
+				<value>GUID 1945eef5-1eea-432a-8eb8-482f34a574c0</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 681f0b8b-d522-4ecd-8773-81465b96d7fa</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FollowPath</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">DrivingWithoutAnomaly</_hname>
+					<_hid type="a">GUID 54365e97-cb97-4acd-ab92-97b0ede8d4bd</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fnil\fcharset0 Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Truck, Localization System\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f2\fs22 1)\f1 Truck is stationary \par%0D
+\f2 2)\f1 Truck is in the autonomous driving mode\par%0D
+\cf0\b\f0\fs20\par%0D
+Trigger:\par%0D
+\cf1\b0\f1\fs22 ADS generates a path.\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 The truck follows the path without too much deviation\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) ADS sends the latest determined path from path finding algorithm\par%0D
+2) ADS receives truck location from localization system\par%0D
+3) ADS Verifys that specified tolerances are satisfied (deviation from path)\par%0D
+4) execute use case &quot;Monitor Collision Detection System&quot;\par%0D
+5)ADS Sends required speed and steering angle to truck\par%0D
+6)  Repeat steps 2, 3 and 4 until destination is reached \par%0D
+\cf0\b\f0\fs20\par%0D
+Alternative Scenario:\par%0D
+\cf1\b0\f1\fs22 2')if ADS doesn't receive correct signal, then sends error message to DC operator.\par%0D
+3'') if the truck deviates from the path for a longer time period than 5 seconds, execute use case &quot;emergency stop&quot;\cf0\f0\fs20\par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::14:54:23</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">4.10.2020::14:54:23</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<UseCaseStereoTypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</UseCaseStereoTypes>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID a6d81fa0-b1c9-4add-a3fd-85255b492b39</value>
+				<value>GUID 02b6d595-5aaf-46fe-9091-20557ceccc69</value>
+				<value>GUID 70559a8d-6642-405a-8d89-be5e2a2a803d</value>
+				<value>GUID 7afa5c23-a1f0-41a6-833d-b64e18a4003f</value>
+				<value>GUID 98c181c9-105d-4bc0-ae3a-fe0ea3a128df</value>
+				<value>GUID a00c713d-7705-4e75-8e17-742771c49875</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID a6d81fa0-b1c9-4add-a3fd-85255b492b39</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">MonitorCollisionDetectionSystem</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:31:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:31:58</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SensingEinvironment.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::SensingEinvironment</_hsubsystem>
+					<_hname type="a">MonitorCollisionDetectionSystem</_hname>
+					<_hid type="a">GUID 48b4d3c9-95a1-4fd2-9fc1-6fc723b1ee3f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 02b6d595-5aaf-46fe-9091-20557ceccc69</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">MonitorTruckVelocity</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:32:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:32:1</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SensingEinvironment.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::SensingEinvironment</_hsubsystem>
+					<_hname type="a">MonitorTruckVelocity</_hname>
+					<_hid type="a">GUID 0d3f2a78-0358-4765-a04b-9830e39ccd85</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 70559a8d-6642-405a-8d89-be5e2a2a803d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">MonitorBatteryStatus</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:45:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:45:4</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SensingEinvironment.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::SensingEinvironment</_hsubsystem>
+					<_hname type="a">MonitorBatteryStatus</_hname>
+					<_hid type="a">GUID a242b5da-c863-4d6b-b1e5-f9f69fb6a684</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 7afa5c23-a1f0-41a6-833d-b64e18a4003f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AvoidCollision</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:54:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:54:23</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 1945eef5-1eea-432a-8eb8-482f34a574c0</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 98c181c9-105d-4bc0-ae3a-fe0ea3a128df</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsLocSystem</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:36:5</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">LocSystem</_hname>
+					<_hid type="a">GUID b96816f5-45f4-4b3c-8055-efde7fd5a216</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">LocSystem</_hclass>
+					<_hname type="a">itsFollowPath</_hname>
+					<_hid type="a">GUID aa55f961-4cfb-4f81-9a6b-94217bd8444e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a00c713d-7705-4e75-8e17-742771c49875</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:36:16</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsFollowPath</_hname>
+					<_hid type="a">GUID ee9c5564-74a7-4581-861c-b80f6ac1805a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID 4c2ed29d-6fc9-4296-9af0-1f417eee0bc6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DockTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">DrivingWithoutAnomaly</_hname>
+					<_hid type="a">GUID 54365e97-cb97-4acd-ab92-97b0ede8d4bd</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}{\f3\fnil\fcharset0 Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Truck\f2\'a3\'ac\f1  DC operator,Localization System\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f3\fs22 1)\f1 Truck is \f3 parked\f1\par%0D
+\f3 2)\f1 Truck is in the autonomous driving mode\par%0D
+\cf0\b\f0\fs20\par%0D
+Trigger:\par%0D
+\cf1\b0\f1\fs22 ADS receives docking request from the DC operator\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 The truck is docked at the location requested by the DC operator.\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) \f0 generate path\par%0D
+2) follow path\cf0\fs20\par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::15:23:49</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">4.10.2020::14:32:49</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID 4ace651c-25b6-4af0-b851-ab9e5ac40495</value>
+				<value>GUID 8d526c63-9c23-46b1-acd9-af8bcd947772</value>
+				<value>GUID c54c5032-5310-40c6-a621-89f95f28b948</value>
+				<value>GUID ea936f6e-d982-4b14-a471-9b13559665e9</value>
+				<value>GUID 30b98f83-54bb-4868-8723-0bedac4f8156</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID 4ace651c-25b6-4af0-b851-ab9e5ac40495</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">GeneratePath</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:31:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:31:41</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\GeneratePath.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::GeneratePath</_hsubsystem>
+					<_hname type="a">GeneratePath</_hname>
+					<_hid type="a">GUID 052f32a0-caf5-436f-835f-1f74a1cbd1d1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 4c2ed29d-6fc9-4296-9af0-1f417eee0bc6</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8d526c63-9c23-46b1-acd9-af8bcd947772</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FollowPath</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:31:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:31:43</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 4c2ed29d-6fc9-4296-9af0-1f417eee0bc6</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID c54c5032-5310-40c6-a621-89f95f28b948</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">GeneratePath_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:32:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:32:49</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\GeneratePath.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::GeneratePath</_hsubsystem>
+					<_hname type="a">GeneratePath</_hname>
+					<_hid type="a">GUID 052f32a0-caf5-436f-835f-1f74a1cbd1d1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 4c2ed29d-6fc9-4296-9af0-1f417eee0bc6</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID ea936f6e-d982-4b14-a471-9b13559665e9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:35:8</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsDockTruck</_hname>
+					<_hid type="a">GUID 77a3281b-216a-4953-ad1b-d2eb4c5b589c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 30b98f83-54bb-4868-8723-0bedac4f8156</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDC Operator</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::15:23:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">DC Operator</_hname>
+					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">DC Operator</_hclass>
+					<_hname type="a">itsDockTruck</_hname>
+					<_hid type="a">GUID ea40ee68-2ad4-4846-b805-c84152faba3e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID cdcf19f6-c204-4710-8e94-72702230a916</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ParkTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">DrivingWithoutAnomaly</_hname>
+					<_hid type="a">GUID 54365e97-cb97-4acd-ab92-97b0ede8d4bd</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fmodern\fprq6\fcharset134 \'cb\'ce\'cc\'e5;}{\f3\fnil\fcharset0 Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Truck\f2\'a3\'ac\f1  DC operator, Localization System\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f3\fs22 1)\f1 Truck is \f3 moving\f1\par%0D
+\f3 2)\f1 Truck is in the autonomous driving mode\par%0D
+\cf0\b\f0\fs20\par%0D
+Trigger:\par%0D
+\cf1\b0\f1\fs22 ADS receives parking request from the DC operator\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 The truck is parked at the location requested by the DC operator.\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) Generate Path\par%0D
+2) Follow Path\cf0\f0\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::15:23:54</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">4.10.2020::14:32:52</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID fadf419e-5403-45a9-affe-78b64be706cd</value>
+				<value>GUID 01531dad-523f-43e0-aa8b-9875ba4e0a6b</value>
+				<value>GUID e405c32d-47b1-4ba9-9119-9c4ee7116ee3</value>
+				<value>GUID f8761c0c-1409-4f36-86c3-22d316e742ae</value>
+				<value>GUID ec1744b4-f43e-4b78-b07c-cd19e08f2e8e</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID fadf419e-5403-45a9-affe-78b64be706cd</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FollowPath</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:31:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:31:48</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID cdcf19f6-c204-4710-8e94-72702230a916</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 01531dad-523f-43e0-aa8b-9875ba4e0a6b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">GeneratePath</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:31:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:31:50</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\GeneratePath.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::GeneratePath</_hsubsystem>
+					<_hname type="a">GeneratePath</_hname>
+					<_hid type="a">GUID 052f32a0-caf5-436f-835f-1f74a1cbd1d1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID cdcf19f6-c204-4710-8e94-72702230a916</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID e405c32d-47b1-4ba9-9119-9c4ee7116ee3</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">GeneratePath_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:32:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:32:52</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\GeneratePath.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::GeneratePath</_hsubsystem>
+					<_hname type="a">GeneratePath</_hname>
+					<_hid type="a">GUID 052f32a0-caf5-436f-835f-1f74a1cbd1d1</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID cdcf19f6-c204-4710-8e94-72702230a916</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID f8761c0c-1409-4f36-86c3-22d316e742ae</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:35:37</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsParkTruck</_hname>
+					<_hid type="a">GUID 43f67f2d-35b8-4a0e-a009-fbd72f8d4c5a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID ec1744b4-f43e-4b78-b07c-cd19e08f2e8e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDC Operator</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::15:23:54</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">DC Operator</_hname>
+					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">DC Operator</_hclass>
+					<_hname type="a">itsParkTruck</_hname>
+					<_hid type="a">GUID 7cf1c679-b730-4826-9626-06a9c7d8b933</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID e740daff-163b-46b3-aa62-88b2c974a65e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">EmergencyStop</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">Avoid Collision</_hname>
+					<_hid type="a">GUID d0c7dff8-c164-4bf7-a99c-bd17e5459db7</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fnil\fcharset0 Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Truck, DC operator, Localization System\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f2\fs22 1)\f1 Truck is \f2 moving\f1\par%0D
+\f2 2)\f1 Truck is in the autonomous driving mode\par%0D
+\cf0\b\f0\fs20\par%0D
+Trigger:\par%0D
+\cf1\b0\f2\fs22 1)\f1 Truck's actual velocity exceeds the velocity tolerance  for a longer time period than 3 seconds\par%0D
+\f2 2)\f1 Truck's actual position exceeds the position tolerance  for a longer time period than 5 seconds\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\f2\par%0D
+\cf1\b0\fs22 Truck is stationary with engine turned off \par%0D
+\cf0\b\f0\fs20  \par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1)ADS sends an emergency message to DC operator\par%0D
+2)ADS decelerates the truck at the maximum deceleration\par%0D
+3)when speed is decreased to 0, turn off the engine.\par%0D
+4) ADS receives truck location from localization system\par%0D
+5) ADS records the time and location of this accident\par%0D
+\cf0\b\f0\fs20\par%0D
+Alternative Scenario:\par%0D
+\cf1\b0\f1\fs22 2')if ADS can't decelerate the truck, send an error message to DC operator \par%0D
+4'')if ADS can't receive the location from localization system,send an error message to DC operator \cf0\f0\fs20\par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::15:20:13</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">4.10.2020::15:16:55</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID c4353da3-3d30-4e67-a378-3c4e77ce9cda</value>
+				<value>GUID 32a58001-6bd9-4116-bd99-ae5921e96cfb</value>
+				<value>GUID 8cc2eece-91b7-4e25-adfd-fb5427f40d24</value>
+				<value>GUID 544a396d-90b6-485c-a2c2-72ab1fc94e47</value>
+				<value>GUID 7e43a45d-ce29-451b-b958-e5f95be54809</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID c4353da3-3d30-4e67-a378-3c4e77ce9cda</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">AvoidCollision</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:53:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:53:1</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 1945eef5-1eea-432a-8eb8-482f34a574c0</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID e740daff-163b-46b3-aa62-88b2c974a65e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 32a58001-6bd9-4116-bd99-ae5921e96cfb</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">MonitorTruckVelocity</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::15:14:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::15:14:33</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SensingEinvironment.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::SensingEinvironment</_hsubsystem>
+					<_hname type="a">MonitorTruckVelocity</_hname>
+					<_hid type="a">GUID 0d3f2a78-0358-4765-a04b-9830e39ccd85</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID e740daff-163b-46b3-aa62-88b2c974a65e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8cc2eece-91b7-4e25-adfd-fb5427f40d24</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FollowPath</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::15:16:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::15:16:55</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID e740daff-163b-46b3-aa62-88b2c974a65e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 544a396d-90b6-485c-a2c2-72ab1fc94e47</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::15:2:58</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsEmergencyStop</_hname>
+					<_hid type="a">GUID a08911ea-a636-4a5d-bd0c-612b29fb65c9</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7e43a45d-ce29-451b-b958-e5f95be54809</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDC Operator</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::15:20:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">DC Operator</_hname>
+					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">DC Operator</_hclass>
+					<_hname type="a">itsEmergencyStop</_hname>
+					<_hid type="a">GUID 024fc3cb-26f1-4d32-a45f-cb5b78b07b09</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID 1945eef5-1eea-432a-8eb8-482f34a574c0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AvoidCollision</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">Avoid Collision</_hname>
+					<_hid type="a">GUID d0c7dff8-c164-4bf7-a99c-bd17e5459db7</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Truck, Collision Detection System\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f1\fs22 Truck is following a path.\par%0D
+\cf0\b\f0\fs20\par%0D
+Trigger:\par%0D
+\cf1\b0\f1\fs22 The distance with obstacles exceeds the allowed tollerance\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 Truck is stationary or following a new path.\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) if the distance exceeds the allowed tolerance but not too small, execute &quot;Generate Path&quot;\par%0D
+2) execute &quot;Follow Path&quot;\par%0D
+\cf0\b\f0\fs20\par%0D
+Alternative Scenario:\par%0D
+\cf1\b0\f1\fs22 1') if the distance is too small to avoid collision, execute &quot;Emergency Stop&quot;\cf0\f0\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::15:3:59</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">4.10.2020::14:54:5</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID 1af77b74-bf25-4058-9eaa-93931e13d2a9</value>
+				<value>GUID 4c4844a4-6944-4a9c-9f99-4c242418b97b</value>
+				<value>GUID 06e8008b-387d-4cce-98fd-f9b3f7b89df4</value>
+				<value>GUID 17bbea37-5e62-473c-8855-5d5e75825360</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID 1af77b74-bf25-4058-9eaa-93931e13d2a9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">MonitorCollisionDetectionSystem</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:52:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:52:9</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\SensingEinvironment.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction::SensingEinvironment</_hsubsystem>
+					<_hname type="a">MonitorCollisionDetectionSystem</_hname>
+					<_hid type="a">GUID 48b4d3c9-95a1-4fd2-9fc1-6fc723b1ee3f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 1945eef5-1eea-432a-8eb8-482f34a574c0</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 4c4844a4-6944-4a9c-9f99-4c242418b97b</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">FollowPath</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.10.2020::14:54:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:54:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID c4cc7d00-6933-4325-a416-304461384c0f</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 1945eef5-1eea-432a-8eb8-482f34a574c0</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 06e8008b-387d-4cce-98fd-f9b3f7b89df4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCollision Detection system</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:58:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Collision Detection system</_hname>
+					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Collision Detection system</_hclass>
+					<_hname type="a">itsAvoidCollision</_hname>
+					<_hid type="a">GUID 8937ff2d-f1be-4ab9-9fdc-f59c2078f3bb</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 17bbea37-5e62-473c-8855-5d5e75825360</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCollision Detection system_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::15:3:59</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Collision Detection system</_hname>
+					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Collision Detection system</_hclass>
+					<_hname type="a">itsAvoidCollision_1</_hname>
+					<_hid type="a">GUID 928260ed-f9b8-4473-bc2f-d179dd836eb3</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

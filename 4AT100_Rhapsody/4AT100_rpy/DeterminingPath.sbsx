@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>936</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 5e99773f-163b-456f-b69e-209c4b4d02af</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DeterminingPath</_name>
+			<_modifiedTimeWeak type="a">4.10.2020::13:25:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::13:25:49</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">4.10.2020::13:25:49</weakCGTime>
+			<strongCGTime type="a">4.10.2020::13:7:16</strongCGTime>
+			<_defaultComposite type="s">GUID 3938fbc7-fc9b-40e8-b252-72f7944a9c01</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 3938fbc7-fc9b-40e8-b252-72f7944a9c01</value>
+				<value>GUID 052f32a0-caf5-436f-835f-1f74a1cbd1d1</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 3938fbc7-fc9b-40e8-b252-72f7944a9c01</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID 052f32a0-caf5-436f-835f-1f74a1cbd1d1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GeneratePath</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fnil\fcharset0 Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 DC operator, Localization System\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f1\fs22 There is no path provided to truck to follow or the path needed to be updated\par%0D
+\cf0\b\f0\fs20\par%0D
+Trigger:\par%0D
+\cf1\b0\f2\fs22 1)\f1 the distance with obstacles exceeds the allowed tolerance but not too small\par%0D
+\f2 2)\f1 The SoC is lower than 5%25\par%0D
+\f2 3)\f1 ADS receives a desired destination of truck from DC operator \par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 ADS generates a path \f0 or \f1 update\f2 s \f1 a path\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) ADS receives the desired destination from DC operator\par%0D
+2) ADS receives coordinates of objects within DC and truck location from localization system\par%0D
+3)  execute use case &quot;Monitor Collision Detection System&quot;\par%0D
+4)  Generate possible paths (physically capable truck positions) around obstacles\par%0D
+5)  Determine shortest path around obstacles\par%0D
+\cf0\b\f0\fs20\par%0D
+Alternative Scenario:\par%0D
+\cf1\b0\f1\fs22 1') if ADS doesn't receive an input from DC operator, use the last saved destination \par%0D
+3'') if no possible paths is generated, sends an error message to DC operator \cf0\f0\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::13:25:25</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<UseCaseStereoTypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</UseCaseStereoTypes>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
