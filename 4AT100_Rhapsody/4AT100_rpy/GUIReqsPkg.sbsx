@@ -11,10 +11,10 @@
 			<_id type="a">GUID a6c6c319-b6de-4e67-b74a-de7ddf6116e8</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUIReqsPkg</_name>
-			<_modifiedTimeWeak type="a">3.29.2020::21:20:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.29.2020::21:20:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.30.2020::11:42:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.30.2020::12:2:0</_modifiedTime>
 			<_lastID type="a">17</_lastID>
-			<weakCGTime type="a">3.29.2020::21:20:49</weakCGTime>
+			<weakCGTime type="a">4.30.2020::11:42:51</weakCGTime>
 			<strongCGTime type="a">3.20.2020::16:55:30</strongCGTime>
 			<_defaultComposite type="s">GUID b58eaf4d-688e-40b8-b681-b4eb245f51ed</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -29,8 +29,8 @@
 			<_id type="a">GUID 4b79ea90-1fff-4ba3-be87-0664f19445c6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUI Reuirements</_name>
-			<_modifiedTimeWeak type="a">3.29.2020::21:20:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.29.2020::21:20:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">4.30.2020::11:42:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.30.2020::11:42:51</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall provide a GUI to the user\par%0D
@@ -119,10 +119,10 @@
 			<_id type="a">GUID ef367f1a-477c-450b-902b-5dbebe7f2f4f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Display Frequently Used Settings</_name>
-			<_modifiedTimeWeak type="a">3.26.2020::14:43:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::14:43:56</_modifiedTime>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The GUI should display frequently used settings for HVAC and lightingin the cabin.\par%0D
+			<_modifiedTimeWeak type="a">4.30.2020::11:42:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.30.2020::11:42:51</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The GUI should display frequently used settings for HVAC and lighting the cabin.\par%0D
 }%0D
 </_body>
 			<reqID type="a">GUI-02</reqID>
@@ -406,8 +406,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.29.2020::21:20:49</_modifiedTime>
-			<_lastModifiedTime type="a">3.29.2020::21:20:49</_lastModifiedTime>
+			<_modifiedTime type="a">4.30.2020::11:42:51</_modifiedTime>
+			<_lastModifiedTime type="a">4.30.2020::11:42:51</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
