@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -56,9 +56,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.9.2020::6:40:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.9.2020::6:46:13</_modifiedTime>
-			<_lastID type="a">8</_lastID>
+			<_modifiedTimeWeak type="a">5.12.2020::12:56:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.12.2020::12:56:35</_modifiedTime>
+			<_lastID type="a">12</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -145,6 +145,9 @@
 				<value>GUID f4515241-e2ff-4d14-845c-b184adb4f493</value>
 				<value>GUID b3229eaf-421a-496d-8561-c15670603e9f</value>
 				<value>GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</value>
+				<value>GUID a46b1a55-c20e-44bd-aed6-13d936f36a48</value>
+				<value>GUID 2a128cda-1d5c-4d09-9b83-ddbee11a098e</value>
+				<value>GUID 401b3317-fd34-44d1-809a-a8fd23b100d2</value>
 				<value>GUID b7185946-2132-478b-8785-26bb0fb67943</value>
 				<value>GUID 981480ba-9385-4ac1-b665-eaec350dd044</value>
 			</AggregatesList>
@@ -191,6 +194,20 @@
 		<ISubsystem type="e">
 			<fileName type="a">Structure</fileName>
 			<_id type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_id>
+		</ISubsystem>
+		<IProfile type="e">
+			<fileName type="a">Simulink</fileName>
+			<_persistAs type="a">$OMROOT\Profiles\Simulink</_persistAs>
+			<_id type="a">GUID a46b1a55-c20e-44bd-aed6-13d936f36a48</_id>
+			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
+		</IProfile>
+		<ISubsystem type="e">
+			<fileName type="a">package_10</fileName>
+			<_id type="a">GUID 2a128cda-1d5c-4d09-9b83-ddbee11a098e</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">Model1</fileName>
+			<_id type="a">GUID 401b3317-fd34-44d1-809a-a8fd23b100d2</_id>
 		</ISubsystem>
 		<IDiagram type="e">
 			<_id type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_id>
@@ -644,8 +661,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.8.2020::18:33:15</_modifiedTime>
-			<_lastModifiedTime type="a">4.8.2020::18:33:15</_lastModifiedTime>
+			<_modifiedTime type="a">5.12.2020::12:26:55</_modifiedTime>
+			<_lastModifiedTime type="a">5.12.2020::12:26:55</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

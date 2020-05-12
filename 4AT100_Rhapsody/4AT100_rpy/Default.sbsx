@@ -11,14 +11,14 @@
 			<_id type="a">GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">4.8.2020::18:23:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.8.2020::18:27:16</_modifiedTime>
-			<_lastID type="a">19</_lastID>
-			<weakCGTime type="a">4.8.2020::18:23:49</weakCGTime>
-			<strongCGTime type="a">3.31.2020::8:36:42</strongCGTime>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.12.2020::12:39:15</_modifiedTime>
+			<_lastID type="a">22</_lastID>
+			<weakCGTime type="a">5.12.2020::12:39:15</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_defaultComposite type="s">GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">3.31.2020::8:36:40</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">5.12.2020::12:39:15</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</value>
 				<value>GUID 63d2215d-c2ea-4626-a1d8-9baeb5c08781</value>
@@ -29,16 +29,17 @@
 				<value>GUID 229745eb-60d8-4e45-8bd3-15034fe52685</value>
 				<value>GUID e2e3b5e4-7a8b-40e6-95fa-b0739cd8c59b</value>
 				<value>GUID 5ecb9e07-9b6e-4c7c-833b-a0711eed1cff</value>
+				<value>GUID 20f48c5c-2bf7-4774-adf2-0d198eba284f</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">3.31.2020::8:36:42</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_modifiedTime type="a">3.31.2020::8:36:42</_modifiedTime>
-			<weakCGTime type="a">3.31.2020::8:36:42</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -106,7 +107,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.8.2020::18:30:49</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -116,8 +117,8 @@
 			</_theMainDiagram>
 			<_modifiedTime type="a">4.8.2020::18:30:49</_modifiedTime>
 			<_lastID type="a">42</_lastID>
-			<weakCGTime type="a">4.8.2020::18:30:49</weakCGTime>
-			<strongCGTime type="a">3.18.2020::9:9:40</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -716,7 +717,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID f1d104b1-a1b7-441f-a89a-99847181c201</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Driver_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -776,7 +778,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID 7d570c80-18a6-455e-9d21-fbb2bd80cd60</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Collision_Detection_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -836,7 +839,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID d4eebd76-e945-4d41-8c91-2494976a6674</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Safety_Standards_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -896,7 +900,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID cf8ea550-bba5-453d-8cc1-71bb1dd9fa9b</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Charging_System_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -956,7 +961,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID 19271660-94cb-4cfd-b765-88ef6626d81f</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Government_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1063,7 +1069,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID a1a10f41-1726-435f-a125-dd52e1812868</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Localization_System_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1123,7 +1130,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID cf18bf8d-724e-422e-a00c-ab98b3a8186a</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">DC_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1183,7 +1191,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID 42cbb5ca-1248-4428-8c82-1d837e41971b</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Truck_port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1243,7 +1252,8 @@
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
 				<_id type="a">GUID baf42185-b527-4544-8e55-59e677d2d562</_id>
-				<_myState type="a">8192</_myState>
+				<_myState type="a">10240</_myState>
+				<_name type="a">DC_Operator_Port_implicitContract</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
 						<size type="a">1</size>
@@ -1316,7 +1326,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:39:48</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1326,8 +1336,8 @@
 			</_theMainDiagram>
 			<_modifiedTime type="a">3.18.2020::9:39:48</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">3.18.2020::9:39:48</weakCGTime>
-			<strongCGTime type="a">3.18.2020::9:12:9</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1407,7 +1417,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:12:26</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1416,8 +1426,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">3.18.2020::9:12:26</_modifiedTime>
-			<weakCGTime type="a">3.18.2020::9:12:26</weakCGTime>
-			<strongCGTime type="a">3.18.2020::9:12:26</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1442,7 +1452,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:38:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1452,8 +1462,8 @@
 			</_theMainDiagram>
 			<_modifiedTime type="a">3.18.2020::9:38:7</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">3.18.2020::9:38:7</weakCGTime>
-			<strongCGTime type="a">3.18.2020::9:17:38</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1537,7 +1547,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:15:4</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1546,8 +1556,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">3.18.2020::9:15:4</_modifiedTime>
-			<weakCGTime type="a">3.18.2020::9:15:4</weakCGTime>
-			<strongCGTime type="a">3.18.2020::9:15:4</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1572,7 +1582,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:14:30</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1581,8 +1591,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">3.18.2020::9:14:30</_modifiedTime>
-			<weakCGTime type="a">3.18.2020::9:14:30</weakCGTime>
-			<strongCGTime type="a">3.18.2020::9:14:30</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1607,7 +1617,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">3.18.2020::9:54:45</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1616,8 +1626,8 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_modifiedTime type="a">3.18.2020::9:54:45</_modifiedTime>
-			<weakCGTime type="a">3.18.2020::9:54:45</weakCGTime>
-			<strongCGTime type="a">3.18.2020::9:54:45</strongCGTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1646,6 +1656,27 @@
 			<_modifiedTime type="a">3.31.2020::9:11:12</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 20f48c5c-2bf7-4774-adf2-0d198eba284f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">class_19</_name>
+			<_modifiedTimeWeak type="a">5.12.2020::12:39:10</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hname type="a">Simulink Structure Diagram</_hname>
+					<_hid type="a">GUID d967cdc3-28c3-460f-b998-010fc3640a44</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">5.12.2020::12:29:1</_modifiedTime>
+			<weakCGTime type="a">5.12.2020::12:39:10</weakCGTime>
+			<strongCGTime type="a">5.12.2020::12:39:10</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
