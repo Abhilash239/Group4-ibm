@@ -11,14 +11,14 @@
 			<_id type="a">GUID 98fc8580-d92d-46ff-9759-bbc091fcbf14</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SensingEinvironment</_name>
-			<_modifiedTimeWeak type="a">4.10.2020::14:47:54</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.14.2020::19:31:31</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2020::14:32:13</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">4.10.2020::14:47:54</weakCGTime>
+			<weakCGTime type="a">5.14.2020::19:31:31</weakCGTime>
 			<strongCGTime type="a">4.10.2020::14:3:21</strongCGTime>
 			<_defaultComposite type="s">GUID ac71ebf4-d770-44e1-802d-c406f5062687</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID ac71ebf4-d770-44e1-802d-c406f5062687</value>
 				<value>GUID 48b4d3c9-95a1-4fd2-9fc1-6fc723b1ee3f</value>
@@ -31,7 +31,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -55,7 +55,7 @@
 				</IHandle>
 			</_theMainDiagram>
 			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}}%0D
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fmodern\fprq6\fcharset0 ??;}}%0D
 {\colortbl ;\red0\green0\blue0;}%0D
 \viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
 \cf1\b0\f1\fs22 Collision Detection System, DC operator\par%0D
@@ -73,7 +73,7 @@ Main Scenario:\par%0D
 \cf1\b0\f1\fs22 1) ADS requests data from Collision Detection System\par%0D
 2) ADS receives data from Collision Detection System\par%0D
 3) ADS checks the correctness of data \par%0D
-4) ADS checks distance to objects with allowed tolerances\par%0D
+4) ADS checks distance to objects with allowed tolerance\f2 .\f1\par%0D
 5) repeat step 1-4\par%0D
 \cf0\b\f0\fs20\par%0D
 Alternative Scenario:\par%0D
@@ -84,7 +84,7 @@ Alternative Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::14:40:55</_modifiedTime>
+			<_modifiedTime type="a">5.14.2020::19:31:31</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -92,11 +92,6 @@ Alternative Scenario:\par%0D
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
