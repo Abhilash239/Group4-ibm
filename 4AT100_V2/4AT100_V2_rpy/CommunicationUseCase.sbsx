@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>936</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID ff3f191d-ce09-44fa-b262-53d90c8aa1e2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CommunicationUseCase</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:29:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.30.2020::12:28:21</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">5.18.2020::20:29:35</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:29:35</strongCGTime>
+			<_defaultComposite type="s">GUID 56d43b05-5f6d-4a2d-be52-948a0f36fa19</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 56d43b05-5f6d-4a2d-be52-948a0f36fa19</value>
+				<value>GUID 206026b4-182d-4190-85b3-933d56c4dfcf</value>
+				<value>GUID b1ab3911-e9f0-45ab-a663-4e54c7a15943</value>
+				<value>GUID 38f0d812-004c-4991-9143-901e79571db9</value>
+				<value>GUID 71780e08-38d3-4a56-9bc2-8f76cd952e7c</value>
+				<value>GUID 096bcb9f-cde1-4011-8b83-58ec904d16a8</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 56d43b05-5f6d-4a2d-be52-948a0f36fa19</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:29:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">5.18.2020::20:29:35</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:29:35</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID 206026b4-182d-4190-85b3-933d56c4dfcf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Send Steering Angle and Throttle signal</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Calibri;}}%0D
+\viewkind4\uc1\pard\ltrpar\b\fs20 Pre-Condition\par%0D
+\b0 The truck is in autonomous driving mode.\par%0D
+\b\par%0D
+Trigger\par%0D
+\b0 ADS receives the truck location and truck velocity.\par%0D
+\b\par%0D
+Post-Condition\par%0D
+\b0 The truck drives with the sent steering angle and velocity vector.\b\par%0D
+\par%0D
+Main Scenario\par%0D
+\pard\ltrpar\fi-360\li720\sa160\sl252\slmult1\b0\f1\fs22\'b7\tab\f2 Send data packet containing steering angle and throttle signal to the truck.\b\par%0D
+\b0\f1\'b7\tab\f2 Receive acknowledgement of packet receipt by the truck.\b\f0\fs20\par%0D
+\pard\ltrpar\par%0D
+Alternative Scenario\par%0D
+\b0 Send error message to DC operator.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.30.2020::11:59:31</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID b1ab3911-e9f0-45ab-a663-4e54c7a15943</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Monitor Truck location</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Calibri;}{\f3\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang3072\b\f0\fs20 Pre-Condition\par%0D
+\b0 The truck is in the DC.\par%0D
+\b\par%0D
+Trigger\par%0D
+\b0 The truck enters the DC.\par%0D
+\b\par%0D
+Post-Condition\par%0D
+\b0 The path controller module of the ADS is notified of the location of the truck..\b\par%0D
+\par%0D
+Main Scenario\par%0D
+\pard\ltrpar\fi-360\li720\sa160\sl252\slmult1\lang1033\b0\f1\fs22\'b7\tab\f2 Send request for location of truck to the localization system.\b\par%0D
+\b0\f1\'b7\tab\f2 Receive response from the localization system.\lang3072\b\f0\fs20\par%0D
+\pard\ltrpar\par%0D
+Alternative Scenario\par%0D
+\pard\ltrpar\sa160\sl252\slmult1\b0 If location coordinates is not received from the localization system, send error message to the ADS.\lang1033\fs22\par%0D
+\pard\ltrpar\f3\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.30.2020::12:19:56</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 38f0d812-004c-4991-9143-901e79571db9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Monitor Truck velocity</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Calibri;}{\f3\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang3072\b\f0\fs20 Pre-Condition\par%0D
+\b0 The truck is in autonom\lang1033 o\lang3072 us driving mode.\par%0D
+\b\par%0D
+Trigger\par%0D
+\b0 ADS sends steering angle and velocity vector to the truck.\par%0D
+\b\par%0D
+Post-Condition\par%0D
+\b0 The truck velocity is sent to the path controller module of the ADS.\b\par%0D
+\par%0D
+Main Scenario\par%0D
+\pard\ltrpar\fi-360\li720\sa160\sl252\slmult1\lang1033\b0\f1\fs22\'b7\tab\f2 Send request for velocity to the truck.\b\par%0D
+\b0\f1\'b7\tab\f2 Receive response from the truck.\lang3072\b\f0\fs20\par%0D
+\pard\ltrpar\par%0D
+Alternative Scenario\par%0D
+\pard\ltrpar\sa160\sl252\slmult1\b0 If velocity information is not recieved from the truck, send an error message to the path controller module of the ADS.\lang1033\fs22\par%0D
+\pard\ltrpar\f3\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.30.2020::12:24:26</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 71780e08-38d3-4a56-9bc2-8f76cd952e7c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Monitor Collision Sensor</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Calibri;}}%0D
+\viewkind4\uc1\pard\ltrpar\b\fs20 Pre-Condition\par%0D
+\b0 The truck is in autonomus driving mode.\par%0D
+\b\par%0D
+Trigger\par%0D
+\b0 ADS sends the steering angle and velocity vector to the truck.\par%0D
+\b\par%0D
+Post-Condition\par%0D
+\b0 The collision sensor information is sent to the path controller module of the ADS.\b\par%0D
+\par%0D
+Main Scenario\par%0D
+\pard\ltrpar\fi-360\li720\sa160\sl252\slmult1\b0\f1\fs22\'b7\tab\f2 Request data from collision sensor.\b\par%0D
+\b0\f1\'b7\tab\f2 Receive data from collision sensor.\b\f0\fs20\par%0D
+\pard\ltrpar\par%0D
+Alternative Scenario\par%0D
+\b0 If the sensor does not return data, notify the ADS that the collision sensor is not functioning.\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.30.2020::12:14:21</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 096bcb9f-cde1-4011-8b83-58ec904d16a8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Dock Truck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}{\f2\fnil\fcharset2 Symbol;}}%0D
+\viewkind4\uc1\pard\ltrpar\lang3072\b\f0\fs20 Pre-Condition\par%0D
+\b0 The truck is in autonom\lang1033 o\lang3072 us driving mode.\par%0D
+The truck is parked.\par%0D
+\b\par%0D
+Trigger\par%0D
+\b0 ADS receives docking request from the DC operator.\par%0D
+\b\par%0D
+Post-Condition\par%0D
+\b0 The truck is docked at the location requested by the DC operator.\b\par%0D
+\par%0D
+Main Scenario\par%0D
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\ltrpar\fi-360\li720\sa160\sl252\slmult1\b0 Receive docking location from the DC operator.\b\par%0D
+\b0{\pntext\f2\'B7\tab}Include 'Generate Path' from 'VehicleDynamicsUseCase' package.\b\par%0D
+\b0{\pntext\f2\'B7\tab}Include 'Follow Path' from 'VehicleDynamicsUseCase' package.\b\par%0D
+\b0{\pntext\f2\'B7\tab}Include 'Park Truck' from 'PowertrainUseCase' package.\b\par%0D
+\b0{\pntext\f2\'B7\tab}Notify parking of truck to the DC operator.\b\par%0D
+\pard\ltrpar\par%0D
+Alternative Scenario\par%0D
+\pard\ltrpar\sa160\sl252\slmult1\b0 If any 'Generate Path' fails, notify failure of docking request to the DC operator.\lang1033\fs22\par%0D
+\lang3072\fs20 If any 'Follow Path' fails, notify failure of docking request to the DC operator.\par%0D
+If any 'Park Truck' fails, notify failure of docking request to the DC operator.\lang1033\fs22\par%0D
+\pard\ltrpar\f1\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">3.30.2020::12:34:13</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

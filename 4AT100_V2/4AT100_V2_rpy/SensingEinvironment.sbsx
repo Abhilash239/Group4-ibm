@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>936</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 98fc8580-d92d-46ff-9759-bbc091fcbf14</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SensingEinvironment</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:29:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:32:13</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">5.18.2020::20:29:52</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:29:52</strongCGTime>
+			<_defaultComposite type="s">GUID ac71ebf4-d770-44e1-802d-c406f5062687</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID ac71ebf4-d770-44e1-802d-c406f5062687</value>
+				<value>GUID 48b4d3c9-95a1-4fd2-9fc1-6fc723b1ee3f</value>
+				<value>GUID 0d3f2a78-0358-4765-a04b-9830e39ccd85</value>
+				<value>GUID a242b5da-c863-4d6b-b1e5-f9f69fb6a684</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID ac71ebf4-d770-44e1-802d-c406f5062687</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:29:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">5.18.2020::20:29:52</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:29:52</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID 48b4d3c9-95a1-4fd2-9fc1-6fc723b1ee3f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MonitorCollisionDetectionSystem</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">DrivingWithoutAnomaly</_hname>
+					<_hid type="a">GUID 54365e97-cb97-4acd-ab92-97b0ede8d4bd</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fmodern\fprq6\fcharset0 ??;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Collision Detection System, DC operator\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f1\fs22 Truck is in autonomous driving mode\par%0D
+\par%0D
+\cf0\b\f0\fs20 Trigger:\par%0D
+\cf1\b0\f1\fs22 There is a desired destination waiting to be reached\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 ADS receives the signal from Collision Detection System\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) ADS requests data from Collision Detection System\par%0D
+2) ADS receives data from Collision Detection System\par%0D
+3) ADS checks the correctness of data \par%0D
+4) ADS checks distance to objects with allowed tolerance\f2 .\f1\par%0D
+5) repeat step 1-4\par%0D
+\cf0\b\f0\fs20\par%0D
+Alternative Scenario:\par%0D
+\cf1\b0\f1\fs22 3') if the data is not correct, send an error message to DC operator\par%0D
+4'')if the distance with obstacles exceeds the allowed tollerance, execute use case &quot;Avoid Collision&quot;\cf0\f0\fs20\par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">5.14.2020::19:31:31</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID de8c8018-78a3-4666-a03c-1fffb0847623</value>
+			</AggregatesList>
+		</IUseCase>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID de8c8018-78a3-4666-a03c-1fffb0847623</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:40:55</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsMonitorCollisionDetectionSystem</_hname>
+					<_hid type="a">GUID 07d54dab-b0f9-4ff6-a6c1-965fdfed539e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID 0d3f2a78-0358-4765-a04b-9830e39ccd85</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MonitorTruckVelocity</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">DrivingWithoutAnomaly</_hname>
+					<_hid type="a">GUID 54365e97-cb97-4acd-ab92-97b0ede8d4bd</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Truck, DC operator\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f1\fs22 Truck is driving autonomously\par%0D
+\par%0D
+\cf0\b\f0\fs20 Trigger:\par%0D
+\cf1\b0\f1\fs22 ADS Sends required speed and steering angle to truck\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 ADS receives the signal from Collision Detection System\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) ADS requests velocity data from Truck \par%0D
+2) ADS receives velocity data from Truck\par%0D
+3) ADS checks the correctness of data \par%0D
+4) ADS checks velocity with allowed tolerances\par%0D
+5) repeat step 1-4\par%0D
+\cf0\b\f0\fs20\par%0D
+Alternative Scenario:\par%0D
+\cf1\b0\f1\fs22 3') if the data is not correct, send an error message to DC operator\par%0D
+4'')if Truck's actual velocity exceeds the velocity tolerance  for a longer time period than 3 seconds, execute use case &quot;Emergency Stop&quot;\cf0\f0\fs20\par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::14:40:50</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID 1787cf8e-5474-4c36-9cb7-0beab38b82b8</value>
+			</AggregatesList>
+		</IUseCase>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 1787cf8e-5474-4c36-9cb7-0beab38b82b8</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:40:50</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsMonitorTruckVelocity</_hname>
+					<_hid type="a">GUID 6acb2ac5-8d48-4ce0-b759-d9f7ffa477f8</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID a242b5da-c863-4d6b-b1e5-f9f69fb6a684</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MonitorBatteryStatus</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUCDiagram</_hm2Class>
+					<_hfilename type="a">.\UseCasePkgFunction.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCasePkgFunction</_hsubsystem>
+					<_hname type="a">DrivingWithoutAnomaly</_hname>
+					<_hid type="a">GUID 54365e97-cb97-4acd-ab92-97b0ede8d4bd</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}}%0D
+{\colortbl ;\red0\green0\blue0;}%0D
+\viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
+\cf1\b0\f1\fs22 Truck, DC operator\par%0D
+\cf0\b\f0\fs20\par%0D
+Pre-condition:\par%0D
+\cf1\b0\f1\fs22 Truck is driving autonomously\par%0D
+\cf0\b\f0\fs20\par%0D
+Trigger:\par%0D
+\cf1\b0\f1\fs22 ADS Sends required speed and steering angle to truck\par%0D
+\cf0\b\f0\fs20\par%0D
+Post-condition:\par%0D
+\cf1\b0\f1\fs22 ADS receives the signal from Truck\par%0D
+\cf0\b\f0\fs20\par%0D
+Main Scenario:\par%0D
+\cf1\b0\f1\fs22 1) ADS requests battey useage data from Truck \par%0D
+2) ADS receives battery usage data from Truck\par%0D
+3) ADS checks the correctness of data \par%0D
+4) ADS checks SoC value \par%0D
+5) repeat step 1-4\par%0D
+\cf0\b\f0\fs20\par%0D
+Alternative Scenario:\par%0D
+\cf1\b0\f1\fs22 3') if the data is not correct, send an error message to DC operator\par%0D
+4'')if the SoC of battery is lower than 5%25, get the location of the nearest charging station from DC map\par%0D
+5'')set the location of that charging station as destination and remain it unchangeable until SoC is larger than 90%25\par%0D
+6'')execute the use case &quot;Generate Path&quot;\par%0D
+7'')execute the use case &quot;Follow Path&quot;\cf0\f0\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.10.2020::14:47:54</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID a7ae5093-3419-4b6b-afc1-8bc48caf91a4</value>
+				<value>GUID d6a63113-9c21-46ae-a1e1-27cc639f15ed</value>
+			</AggregatesList>
+		</IUseCase>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a7ae5093-3419-4b6b-afc1-8bc48caf91a4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:40:46</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsMonitorBatteryStatus</_hname>
+					<_hid type="a">GUID 6b9587ac-7374-440f-9dce-519918caae63</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d6a63113-9c21-46ae-a1e1-27cc639f15ed</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsTruck_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.10.2020::14:47:54</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Truck</_hname>
+					<_hid type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">itsMonitorBatteryStatus_1</_hname>
+					<_hid type="a">GUID 5ca141b7-2d3d-439a-bdd5-948449ddc2a0</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

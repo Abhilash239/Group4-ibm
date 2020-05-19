@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>936</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 04873c39-da17-4660-a5ae-1565aaf663f9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RequirementsPkg</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:28:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.29.2020::21:18:16</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">5.18.2020::20:28:57</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:28:57</strongCGTime>
+			<_defaultComposite type="s">GUID 59937d8d-1f0d-47e8-80da-cac2ca899c07</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 3d7b6fc4-2118-4d14-ae53-8ceee16e13b5</value>
+				<value>GUID b0c56691-5b13-4ddc-8d80-492642318c1b</value>
+				<value>GUID a6c6c319-b6de-4e67-b74a-de7ddf6116e8</value>
+				<value>GUID 0db29e14-c139-4026-a04a-ddbcb27c5544</value>
+				<value>GUID 89608f18-72ee-4f36-8f41-73fb56eb9137</value>
+				<value>GUID fb45a3bb-7278-4dfc-8524-a9dc573e4921</value>
+				<value>GUID 0aacda63-373b-405e-9af1-02f919f8d9c5</value>
+				<value>GUID 59937d8d-1f0d-47e8-80da-cac2ca899c07</value>
+				<value>GUID 32ad695e-c4c1-408d-a283-77d46a721afa</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">ChargingReqsPkg</fileName>
+			<_id type="a">GUID 3d7b6fc4-2118-4d14-ae53-8ceee16e13b5</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">CommunicationReqsPkg</fileName>
+			<_id type="a">GUID b0c56691-5b13-4ddc-8d80-492642318c1b</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">GUIReqsPkg</fileName>
+			<_id type="a">GUID a6c6c319-b6de-4e67-b74a-de7ddf6116e8</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">AutonomousDrivingReqsPkg</fileName>
+			<_id type="a">GUID 0db29e14-c139-4026-a04a-ddbcb27c5544</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">PowertrainReqsPkg</fileName>
+			<_id type="a">GUID 89608f18-72ee-4f36-8f41-73fb56eb9137</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">EnvironmentReqsPkg</fileName>
+			<_id type="a">GUID fb45a3bb-7278-4dfc-8524-a9dc573e4921</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SafetyReqsPkg</fileName>
+			<_id type="a">GUID 0aacda63-373b-405e-9af1-02f919f8d9c5</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 59937d8d-1f0d-47e8-80da-cac2ca899c07</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:28:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">5.18.2020::20:28:57</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:28:57</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ITableInstance type="e">
+			<_id type="a">GUID 32ad695e-c4c1-408d-a283-77d46a721afa</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">2</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableView</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">TableSortColumnState</_Name>
+													<_Value type="a">1,1,0</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">TableView</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">UseOwnerScope</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">ADSRequirementsTable</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">RequirementsTable</_hname>
+							<_hid type="a">GUID ac8ca999-c415-4942-b5eb-99bb8da2415c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">3.29.2020::21:18:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">3.29.2020::21:18:16</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+					<_hname type="a">ReqTableLayout</_hname>
+					<_hid type="a">GUID 8f1f7467-b093-4abe-9871-3462587c6bc8</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProject</_hm2Class>
+							<_hname type="a">4AT100_V2</_hname>
+							<_hid type="a">GUID e03877d4-f607-47f4-bda9-8e940dcfc31c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

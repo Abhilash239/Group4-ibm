@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>936</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 0f17a970-17f0-41b5-bb48-a350ed92d699</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">HumanFactorsUseCase</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:29:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.1.2020::18:26:14</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">5.18.2020::20:29:35</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:29:35</strongCGTime>
+			<_defaultComposite type="s">GUID 03c28c8e-ccae-4a96-bba5-7508a8c48a5c</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 03c28c8e-ccae-4a96-bba5-7508a8c48a5c</value>
+				<value>GUID eb6bfa51-4836-45dc-b05c-0c7eced2426c</value>
+				<value>GUID 47e98885-2720-4139-a111-6ba42a130620</value>
+				<value>GUID 5847ce45-bafc-4b9e-9621-0a61cd72d8f1</value>
+				<value>GUID 9eee0e4f-90fe-4cec-b877-c8ea057840fa</value>
+				<value>GUID 4b50b87c-7109-4671-ab77-1f86adbe18ee</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 03c28c8e-ccae-4a96-bba5-7508a8c48a5c</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">5.18.2020::20:29:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">5.18.2020::20:29:35</weakCGTime>
+			<strongCGTime type="a">5.18.2020::20:29:35</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID eb6bfa51-4836-45dc-b05c-0c7eced2426c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Adjust truck cabin HVAC</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fcharset0 Calibri Light;}{\f2\fnil\fcharset0 Arial;}}%0D
+{\colortbl ;\red0\green0\blue0;\red46\green83\blue149;}%0D
+\viewkind4\uc1\pard\cf1\f0\fs22 Actors: Driver \par%0D
+Systems: ADS, truck \par%0D
+Trigger: Driver sends signal to change HVAC \par%0D
+Result: HVAC is adjusted to driver\rquote s wishes \par%0D
+\par%0D
+\cf2\f1\fs26 Pragmatic flow description: \par%0D
+\cf1\f0\fs22 1. The driver sends signal to change HVAC \par%0D
+2. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+            i. Continue with step 3 \par%0D
+     b. Acknowledgement not received? \par%0D
+            i. Go to step 1 \par%0D
+3. The ADS receives a signal that the driver wants to adjust the HVAC \par%0D
+4. The ADS sends a signal to the truck, in order to adjust the HVAC, depending on the driver\rquote s input \par%0D
+5. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+            i. Continue with step 6 \par%0D
+     b. Acknowledgement not received? \par%0D
+            i. Go to step 4 \par%0D
+6. The truck receives the signal \par%0D
+7. The truck adjusts the HVAC \cf0\f2\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.1.2020::18:22:54</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 47e98885-2720-4139-a111-6ba42a130620</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Adjust cabin lighting</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fcharset0 Calibri Light;}{\f2\fnil\fcharset0 Arial;}}%0D
+{\colortbl ;\red0\green0\blue0;\red46\green83\blue149;}%0D
+\viewkind4\uc1\pard\cf1\f0\fs22 Actors: Driver \par%0D
+Systems: ADS, truck \par%0D
+Trigger: Driver sends signal to change cabin lighting \par%0D
+Result: Cabin lighting is adjusted to driver\rquote s wishes \par%0D
+\cf2\f1\fs26\par%0D
+Pragmatic flow description: \par%0D
+\cf1\f0\fs22 1. The driver sends signal to change cabin lighting \par%0D
+2. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+         i. Continue with step 3 \par%0D
+     b. Acknowledgement not received? \par%0D
+         i. Go to step 1 \par%0D
+3. The ADS receives a signal that the driver wants to adjust the cabin lighting \par%0D
+4. The ADS sends a signal to the truck, in order to adjust the cabin lighting, depending on the driver\rquote s input \par%0D
+5. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+         i. Continue with step 6 \par%0D
+     b. Acknowledgement not received? \par%0D
+         i. Go to step 4 \par%0D
+\pard\fi-360\li360 6. The truck receives the signal \par%0D
+\pard\fi-360 7. The truck adjusts the cabin lighting \par%0D
+\pard\cf0\f2\fs20\par%0D
+\cf1\f0\fs22\par%0D
+\cf0\f2\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.1.2020::18:23:11</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 5847ce45-bafc-4b9e-9621-0a61cd72d8f1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Adjust driving mode</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fcharset0 Calibri Light;}}%0D
+{\colortbl ;\red0\green0\blue0;\red46\green83\blue149;}%0D
+\viewkind4\uc1\pard\cf1\f0\fs22 Actors: Driver \par%0D
+Systems: ADS, truck \par%0D
+Trigger: Driver sends signal to adjust the driving mode of the truck \par%0D
+Result: Driving mode is switched (manual to autonomous or autonomous to manual) \par%0D
+\cf2\f1\fs26\par%0D
+Pragmatic flow description: \par%0D
+\cf1\f0\fs22 1. The driver sends signal to adjust the truck\rquote s driving mode \par%0D
+2. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+         i. Continue with step 3 \par%0D
+     b. Acknowledgement not received? \par%0D
+         i. Go to step 1 \par%0D
+3. The ADS receives a signal that the driver wants to adjust the truck\rquote s driving mode \par%0D
+4. The ADS sends a signal to the truck, in order to adjust the driving mode, depending on the driver\rquote s input \par%0D
+5. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+         i. Continue with step 6 \par%0D
+     b. Acknowledgement not received? \par%0D
+         i. Go to step 4 \par%0D
+6. The truck receives the signal \par%0D
+7. The truck adjusts the driving mode and shows this in the truck \par%0D
+\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.1.2020::18:24:24</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 9eee0e4f-90fe-4cec-b877-c8ea057840fa</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Input docking door number for truck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fcharset0 Calibri Light;}{\f2\fnil\fcharset0 Arial;}}%0D
+{\colortbl ;\red0\green0\blue0;\red46\green83\blue149;}%0D
+\viewkind4\uc1\pard\cf1\f0\fs22 Actors: DC operator \par%0D
+Systems: ADS \par%0D
+Trigger: DC operator sends signal indicating the docking door number at which the truck needs to dock \par%0D
+Result: Docking door number is sent to the ADS \par%0D
+\cf2\f1\fs26\par%0D
+Pragmatic flow description: \par%0D
+\cf1\f0\fs22 1. The DC operator sends a signal which specifies the docking door number at which the truck needs to dock. \par%0D
+2. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+         i. Continue with step 3 \par%0D
+     b. Acknowledgement not received? \par%0D
+         i. Go to step 1 \par%0D
+3. The ADS receives a signal that a docking door number is chosen by the DC operator \par%0D
+\cf0\f2\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.1.2020::18:24:58</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 4b50b87c-7109-4671-ab77-1f86adbe18ee</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Input parking location for truck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fcharset0 Calibri Light;}{\f2\fnil\fcharset0 Arial;}}%0D
+{\colortbl ;\red0\green0\blue0;\red46\green83\blue149;}%0D
+\viewkind4\uc1\pard\cf1\f0\fs22 Actors: DC operator \par%0D
+Systems: ADS \par%0D
+\pard\pagebb Trigger: DC operator sends signal indicating the parking location at which the truck needs to dock \par%0D
+\pard Result: Parking location is sent to the ADS \par%0D
+\cf2\f1\fs26\par%0D
+Pragmatic flow description: \par%0D
+\cf1\f0\fs22 1. The DC operator sends a signal which specifies the parking location at which the truck needs to dock. \par%0D
+2. Wait some time \par%0D
+     a. Acknowledgement received? \par%0D
+         i. Continue with step 3 \par%0D
+     b. Acknowledgement not received? \par%0D
+         i. Go to step 1 \par%0D
+3. The ADS receives a signal that a parking location is chosen by the DC operator \par%0D
+\cf0\f2\fs20\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">4.1.2020::18:25:36</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
