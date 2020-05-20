@@ -11,10 +11,10 @@
 			<_id type="a">GUID 401b3317-fd34-44d1-809a-a8fd23b100d2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ControllerModel</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:21:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:46:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.20.2020::21:13:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::21:13:23</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.18.2020::20:21:47</weakCGTime>
+			<weakCGTime type="a">5.20.2020::21:13:23</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:21:47</strongCGTime>
 			<_defaultComposite type="s">GUID 28d0fc03-7085-4803-914b-112eb97d5955</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -262,8 +262,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:42:48</_modifiedTime>
-			<_lastModifiedTime type="a">5.13.2020::18:42:48</_lastModifiedTime>
+			<_modifiedTime type="a">5.20.2020::21:13:23</_modifiedTime>
+			<_lastModifiedTime type="a">5.20.2020::21:13:23</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2967,7 +2967,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -3002,7 +3002,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -3037,7 +3037,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -3072,7 +3072,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -3107,7 +3107,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -3330,7 +3330,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\Simulink.sbs</_hfilename>
+							<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 							<_hsubsystem type="a">Simulink</_hsubsystem>
 							<_hname type="a">StructuredSimulinkBlock</_hname>
 							<_hid type="a">GUID 5853399e-4d56-48ea-a477-4a16abc74cd6</_hid>
@@ -3338,16 +3338,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.18.2020::20:21:47</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.20.2020::20:49:20</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID d967cdc3-28c3-460f-b998-010fc3640a44</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.13.2020::18:46:6</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.18.2020::20:21:47</weakCGTime>
+			<_modifiedTime type="a">5.20.2020::20:49:20</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">5.20.2020::20:49:20</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:21:47</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3355,12 +3355,48 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 5ca4ac0f-849f-41e6-9aa6-d6e8e412050f</value>
 				<value>GUID b87db81f-d8d2-41f1-b1da-57c34b4aea35</value>
 				<value>GUID 77db450a-d079-46f4-bd71-cbed22de5f33</value>
 				<value>GUID 01c00115-2368-4855-aa11-805bba460232</value>
 				<value>GUID 45553284-3e8f-4122-b4ab-83c177eb961b</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 5ca4ac0f-849f-41e6-9aa6-d6e8e412050f</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Avoid Impossible Steering Angle</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:49:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:49:20</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Avoid Impossible Steering Angle</_hname>
+					<_hid type="a">GUID 14bab464-3ed4-46f5-b059-d6255e8187ee</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID e8621bf3-ce87-488e-a352-4aa33bb22d4b</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IStructureDiagram type="e">
 			<_id type="a">GUID b87db81f-d8d2-41f1-b1da-57c34b4aea35</_id>
 			<_myState type="a">8192</_myState>
@@ -5945,7 +5981,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -6032,7 +6068,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\Simulink.sbs</_hfilename>
+							<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 							<_hsubsystem type="a">Simulink</_hsubsystem>
 							<_hname type="a">SimulinkBlock</_hname>
 							<_hid type="a">GUID c2c3c811-f148-43de-a1d2-da71ed38462e</_hid>
@@ -6323,7 +6359,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -6358,7 +6394,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -6393,7 +6429,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -6428,7 +6464,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -6463,7 +6499,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>
@@ -6498,7 +6534,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hfilename type="a">.\Simulink.sbs</_hfilename>
+					<_hfilename type="a">.\Simulink.sbsx</_hfilename>
 					<_hsubsystem type="a">Simulink</_hsubsystem>
 					<_hname type="a">real_T</_hname>
 					<_hid type="a">GUID 07a1415f-125f-48a0-8808-e0d822e2e287</_hid>

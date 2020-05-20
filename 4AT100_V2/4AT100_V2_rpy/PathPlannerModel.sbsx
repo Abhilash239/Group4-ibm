@@ -11,10 +11,10 @@
 			<_id type="a">GUID f4c47d86-be52-4ab2-8242-ef034ff39b43</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PathPlannerModel</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:27:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.20.2020::20:46:31</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.13.2020::17:59:7</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.18.2020::20:27:57</weakCGTime>
+			<weakCGTime type="a">5.20.2020::20:46:31</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:27:57</strongCGTime>
 			<_defaultComposite type="s">GUID 1d65be6f-2216-401c-b2bb-4119e03b1564</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -2505,10 +2505,19 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.18.2020::20:27:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:0:30</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.18.2020::20:27:57</weakCGTime>
+			<_modifiedTimeWeak type="a">5.20.2020::20:46:31</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">AutonomousDrivingReqsDiagram</_hname>
+					<_hid type="a">GUID 2e6958ac-37d1-4864-999f-6affb8e89776</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">5.20.2020::20:46:31</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">5.20.2020::20:46:31</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:27:57</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2518,10 +2527,118 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID 70fb6379-781a-4baa-9d1a-d462c22ebc24</value>
+				<value>GUID 77acb0e2-bd8c-42df-bd94-eca3f8d363ea</value>
+				<value>GUID 8c6939a4-ace8-4b82-9a46-5486f9da5f8d</value>
 				<value>GUID 26e0f0b2-8cdf-4817-bbcc-c26b4644fd17</value>
 				<value>GUID 860165fa-1388-4293-a93b-c19eb1bf7e04</value>
 			</AggregatesList>
 		</IClass>
+		<IDependency type="e">
+			<_id type="a">GUID 70fb6379-781a-4baa-9d1a-d462c22ebc24</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Find Shortest Possible Path</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:23:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:23:48</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Find Shortest Possible Path</_hname>
+					<_hid type="a">GUID be35111c-2617-4a59-8f08-aa9a275a3860</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 278b78a1-2e15-4a88-9f99-eedb5aa6bb01</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 77acb0e2-bd8c-42df-bd94-eca3f8d363ea</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Finding Path Around Objects</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:23:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:23:54</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Finding Path Around Objects</_hname>
+					<_hid type="a">GUID d8091fa2-d4df-401f-8f5a-f4eaacbf57ba</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 278b78a1-2e15-4a88-9f99-eedb5aa6bb01</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8c6939a4-ace8-4b82-9a46-5486f9da5f8d</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Determine Path For Real Positions Of Truck</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">satisfy</_hname>
+							<_hid type="a">GUID 69acc50f-e21e-4b4a-a51e-863efe75ce18</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:46:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:46:31</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Determine Path For Real Positions Of Truck</_hname>
+					<_hid type="a">GUID da5d88b0-9f3a-4e89-886b-b83d9695675d</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 278b78a1-2e15-4a88-9f99-eedb5aa6bb01</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IStateChart type="e">
 			<_id type="a">GUID 26e0f0b2-8cdf-4817-bbcc-c26b4644fd17</_id>
 			<_myState type="a">10240</_myState>

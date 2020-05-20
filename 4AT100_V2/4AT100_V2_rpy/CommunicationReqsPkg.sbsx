@@ -11,10 +11,10 @@
 			<_id type="a">GUID b0c56691-5b13-4ddc-8d80-492642318c1b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">CommunicationReqsPkg</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:28:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.26.2020::14:23:28</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.20.2020::20:59:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::21:0:46</_modifiedTime>
 			<_lastID type="a">16</_lastID>
-			<weakCGTime type="a">5.18.2020::20:28:57</weakCGTime>
+			<weakCGTime type="a">5.20.2020::20:59:52</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:28:57</strongCGTime>
 			<_defaultComposite type="s">GUID 3479681a-6bef-45e7-9b7b-e98c1358bf7a</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -29,8 +29,8 @@
 			<_id type="a">GUID 0da27453-031d-496b-a6c9-63a828294e89</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Communication Requirements</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::16:53:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::16:53:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.20.2020::20:59:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:59:52</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall facilitate communication between the truck and the DC infrastructure within the DC\par%0D
@@ -53,14 +53,54 @@
 			<_id type="a">GUID d4caabb1-83a9-4451-b8fb-22b763533ed1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Collision Detector</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::16:50:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::16:50:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.20.2020::20:26:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:26:28</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall obtain collision information from the collision detectors on the truck\par%0D
 }%0D
 </_body>
 			<reqID type="a">Coms-01</reqID>
+			<AggregatesList type="e">
+				<value>GUID 76a1bdc6-162b-4e9a-9152-2a91e82130b4</value>
+			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 76a1bdc6-162b-4e9a-9152-2a91e82130b4</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Avoid Collision</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">deriveReqt</_hname>
+							<_hid type="a">GUID bd4e59da-660e-4d0f-b509-206b2bd9daaf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:26:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:26:28</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Avoid Collision</_hname>
+					<_hid type="a">GUID 31731b3c-de26-4bfb-9cf2-55b87ff844fb</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID d4caabb1-83a9-4451-b8fb-22b763533ed1</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID deeb0c43-f4eb-47ec-ad11-ca6ba8ec427e</_id>
 			<_myState type="a">8192</_myState>
@@ -126,14 +166,54 @@
 			<_id type="a">GUID feb54ea0-5d9c-472b-9474-c00d793df985</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Obtain Velocity</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::16:51:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::16:51:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.20.2020::20:59:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:59:52</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall obtain the velocity of the truck from the truck\par%0D
 }%0D
 </_body>
 			<reqID type="a">Coms-05</reqID>
+			<AggregatesList type="e">
+				<value>GUID 985baa49-594d-4be4-aa28-908ac85d13dd</value>
+			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 985baa49-594d-4be4-aa28-908ac85d13dd</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Velocity In DC</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">deriveReqt</_hname>
+							<_hid type="a">GUID bd4e59da-660e-4d0f-b509-206b2bd9daaf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:59:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:59:52</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\PowertrainReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::PowertrainReqsPkg</_hsubsystem>
+					<_hname type="a">Velocity In DC</_hname>
+					<_hid type="a">GUID feb2c975-0c8a-41d8-b3d8-5025329fa6ed</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID feb54ea0-5d9c-472b-9474-c00d793df985</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IRequirement type="e">
 			<_id type="a">GUID 27394e50-c17d-43d5-82df-bec87b074022</_id>
 			<_myState type="a">8192</_myState>
@@ -150,14 +230,236 @@
 			<_id type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Receive Location</_name>
-			<_modifiedTimeWeak type="a">3.20.2020::16:51:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.20.2020::16:51:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.20.2020::20:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:49:55</_modifiedTime>
+			<_lastID type="a">6</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The ADS shall obtain the location of the truck from the localizationsystem\par%0D
 }%0D
 </_body>
 			<reqID type="a">Coms-04</reqID>
+			<AggregatesList type="e">
+				<value>GUID 1849ce5c-506c-452f-8571-045d8d12b0b9</value>
+				<value>GUID e7994a72-95a7-4fe0-be25-d54f90254c59</value>
+				<value>GUID d378727d-d222-4f5a-9ca2-280d062aad13</value>
+				<value>GUID 907485d4-c75a-4b13-bbb7-514edb086d37</value>
+				<value>GUID b27f6509-a775-442e-82d3-eae09684ec0e</value>
+				<value>GUID 8e5d1042-5ae3-4b18-8757-4b70bbcbe616</value>
+			</AggregatesList>
 		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID 1849ce5c-506c-452f-8571-045d8d12b0b9</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Deviation During Reverse Driving</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:45:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:42:14</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Deviation During Reverse Driving</_hname>
+					<_hid type="a">GUID 038ab4b0-c721-45a5-8b7b-154f982b6143</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID e7994a72-95a7-4fe0-be25-d54f90254c59</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Deviation During Forward Driving</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:45:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:42:17</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Deviation During Forward Driving</_hname>
+					<_hid type="a">GUID 41e4296f-f4cd-4354-a898-3c61c2333338</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID d378727d-d222-4f5a-9ca2-280d062aad13</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Deviation During Reverse Driving_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">derive</_hname>
+							<_hid type="a">GUID 77e51128-5c12-48fa-9a18-d782ae0ec76a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:45:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:42:37</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Deviation During Reverse Driving</_hname>
+					<_hid type="a">GUID 038ab4b0-c721-45a5-8b7b-154f982b6143</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 907485d4-c75a-4b13-bbb7-514edb086d37</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Deviation During Reverse Driving_1</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">deriveReqt</_hname>
+							<_hid type="a">GUID bd4e59da-660e-4d0f-b509-206b2bd9daaf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:45:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:45:58</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Deviation During Reverse Driving</_hname>
+					<_hid type="a">GUID 038ab4b0-c721-45a5-8b7b-154f982b6143</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID b27f6509-a775-442e-82d3-eae09684ec0e</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Deviation During Forward Driving_0</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">deriveReqt</_hname>
+							<_hid type="a">GUID bd4e59da-660e-4d0f-b509-206b2bd9daaf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:46:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:46:1</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Deviation During Forward Driving</_hname>
+					<_hid type="a">GUID 41e4296f-f4cd-4354-a898-3c61c2333338</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8e5d1042-5ae3-4b18-8757-4b70bbcbe616</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Angle Deviation During Docking</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">deriveReqt</_hname>
+							<_hid type="a">GUID bd4e59da-660e-4d0f-b509-206b2bd9daaf</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.20.2020::20:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.20.2020::20:49:55</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hfilename type="a">.\AutonomousDrivingReqsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg::AutonomousDrivingReqsPkg</_hsubsystem>
+					<_hname type="a">Angle Deviation During Docking</_hname>
+					<_hid type="a">GUID dcd9e48b-e4b2-41a7-a3f1-2122f8b968a8</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 970de423-4d06-4e07-8be3-33eab6cfb273</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IDiagram type="e">
 			<_id type="a">GUID d81a4ec8-dab5-44ea-9ab6-8fb7449d0b47</_id>
 			<_myState type="a">8192</_myState>
