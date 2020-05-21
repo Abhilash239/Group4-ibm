@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,19 @@
 			<_id type="a">GUID 0aacda63-373b-405e-9af1-02f919f8d9c5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SafetyReqsPkg</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:28:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.29.2020::21:8:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.21.2020::18:58:15</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\RequirementsPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">RequirementsPkg</_hsubsystem>
+					<_hname type="a">RequirementsPkgDiagram</_hname>
+					<_hid type="a">GUID 77e35323-21d2-4e2f-aa7d-c4107550e688</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">5.21.2020::18:58:15</_modifiedTime>
 			<_lastID type="a">12</_lastID>
-			<weakCGTime type="a">5.18.2020::20:28:57</weakCGTime>
+			<weakCGTime type="a">5.21.2020::18:58:15</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:28:57</strongCGTime>
 			<_defaultComposite type="s">GUID a55ac13d-d0fe-4da4-a41d-40e70863024e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>

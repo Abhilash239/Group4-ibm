@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -24,9 +24,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.20.2020::21:13:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.20.2020::21:13:23</_modifiedTime>
-			<_lastID type="a">2</_lastID>
+			<_modifiedTimeWeak type="a">5.21.2020::19:39:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.21.2020::19:52:45</_modifiedTime>
+			<_lastID type="a">3</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -112,6 +112,7 @@
 				<value>GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</value>
 				<value>GUID 9cec5d7d-61ff-48c9-bfee-f48a96358f68</value>
 				<value>GUID b3229eaf-421a-496d-8561-c15670603e9f</value>
+				<value>GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7</value>
 				<value>GUID 399a983a-6c74-4165-ab59-5f3d0eb83276</value>
 				<value>GUID b7185946-2132-478b-8785-26bb0fb67943</value>
 				<value>GUID 0e2ad1fe-9e4d-4f3e-a56c-e1077ccda50b</value>
@@ -204,6 +205,10 @@
 		<ISubsystem type="e">
 			<fileName type="a">UseCasePkgFunction</fileName>
 			<_id type="a">GUID b3229eaf-421a-496d-8561-c15670603e9f</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">ArchitecturePkg</fileName>
+			<_id type="a">GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7</_id>
 		</ISubsystem>
 		<IDiagram type="e">
 			<_id type="a">GUID 399a983a-6c74-4165-ab59-5f3d0eb83276</_id>
