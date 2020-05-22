@@ -1,8 +1,9 @@
 MATLAB_ROOT=C:\Program Files\MATLAB\R2020a
 MultiInstanceCode=off
-x_st Inport double -1
-y_st Inport double -1
-psi_st Inport double -1
-psi_h Inport double -1
-v_h Inport double -1
-delta0 Outport double -1
+Input Inport double -1
+Input1 Inport auto -1
+Input2 Inport double -1
+Input3 Inport double -1
+Input4 Inport double -1
+Output Outport double -1
+Output1 Outport double -1
