@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>*</lang>
 	<BuildNo>9841247</BuildNo>
@@ -17,7 +17,7 @@
 			<isLoadOnDemand type="a">0</isLoadOnDemand>
 			<myViewsWithID type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">8</size>
+					<size type="a">7</size>
 					<CGEMdiDiagramParams type="e">
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
@@ -112,38 +112,6 @@
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">579 268 </_DownRight>
 						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">0</m_nLeft>
-								<m_nTop type="a">0</m_nTop>
-								<m_nRight type="a">341</m_nRight>
-								<m_nBottom type="a">168</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\4AT100_rpy\CommunicationReqsPkg.sbsx</_hfilename>
-								<_hsubsystem type="a">RequirementsPkg::CommunicationReqsPkg</_hsubsystem>
-								<_hname type="a">CommunicationReqsDiagram</_hname>
-								<_hid type="a">GUID d81a4ec8-dab5-44ea-9ab6-8fb7449d0b47</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 10 </_UpLeft>
-						<_DownRight type="a">304 118 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -277,7 +245,7 @@
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">F:\Netherlands\4AT100\Group4-ibm\4AT100_Rhapsody\4AT100</_fullName>
+			<_fullName type="a">C:\Users\woute\stack\Documenten\Master AT\4AT100\Group4-ibm\4AT100_Rhapsody\4AT100</_fullName>
 			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
@@ -307,7 +275,7 @@
 				<name type="a">Primary Uses</name>
 				<idOrFolder type="a">#startHnd# INObjectHandle 
 	- _m2Class = &quot;IUCDiagram&quot;#hndSem#
-	- _filename = &quot;F:\\Netherlands\\4AT100\\Group4-ibm\\4AT100_Rhapsody\\4AT100_rpy\\UseCasePkgDomain.sbsx&quot;#hndSem#
+	- _filename = &quot;C:\\Users\\woute\\stack\\Documenten\\Master AT\\4AT100\\Group4-ibm\\4AT100_Rhapsody\\4AT100_rpy\\UseCasePkgDomain.sbsx&quot;#hndSem#
 	- _subsystem = &quot;UseCasePkgDomain&quot;#hndSem#
 	- _name = &quot;Primary Uses&quot;#hndSem#
 	- _id = GUID 54239eb6-1f3f-4fac-8627-9c7b58146894#hndSem#

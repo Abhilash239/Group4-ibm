@@ -11,11 +11,11 @@
 			<_id type="a">GUID 401b3317-fd34-44d1-809a-a8fd23b100d2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ControllerModel</_name>
-			<_modifiedTimeWeak type="a">5.13.2020::18:46:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:46:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.22.2020::13:57:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.22.2020::13:57:17</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.13.2020::18:46:6</weakCGTime>
-			<strongCGTime type="a">5.13.2020::12:40:1</strongCGTime>
+			<weakCGTime type="a">5.22.2020::13:57:17</weakCGTime>
+			<strongCGTime type="a">5.22.2020::13:57:13</strongCGTime>
 			<_defaultComposite type="s">GUID 28d0fc03-7085-4803-914b-112eb97d5955</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
@@ -262,8 +262,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:42:48</_modifiedTime>
-			<_lastModifiedTime type="a">5.13.2020::18:42:48</_lastModifiedTime>
+			<_modifiedTime type="a">5.22.2020::13:57:17</_modifiedTime>
+			<_lastModifiedTime type="a">5.22.2020::13:57:17</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -3816,7 +3816,7 @@
 			<m_pParent type="s">GUID cc5d07dc-bf4d-4922-9672-ac8c7348b397</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsControllerModel:ControllerModel</m_str>
+					<m_str type="a">ControllerStructure.itsControllerModel:ControllerModel</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3946,7 +3946,7 @@
 			<m_pParent type="s">GUID cc5d07dc-bf4d-4922-9672-ac8c7348b397</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsControllerInput:ControllerInput</m_str>
+					<m_str type="a">ControllerStructure.itsControllerInput:ControllerInput</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4082,7 +4082,7 @@
 			<m_pParent type="s">GUID cc5d07dc-bf4d-4922-9672-ac8c7348b397</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">itsControllerOutput:ControllerOutput</m_str>
+					<m_str type="a">ControllerStructure.itsControllerOutput:ControllerOutput</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
