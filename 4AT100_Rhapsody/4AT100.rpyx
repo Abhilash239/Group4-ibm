@@ -23,16 +23,10 @@
 										<_Name type="a">Model</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">2</size>
+												<size type="a">1</size>
 												<IProperty type="e">
 													<_Name type="a">EnvironmentVariables</_Name>
 													<_Type type="a">MultiLine</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">SelectedPerspective</_Name>
-													<_Value type="a">Advanced</_Value>
-													<_Type type="a">String</_Type>
 												</IProperty>
 												
 											</IRPYRawContainer>
@@ -61,8 +55,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.22.2020::13:57:17</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.22.2020::13:57:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.22.2020::14:0:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.22.2020::14:0:56</_modifiedTime>
 			<_lastID type="a">12</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -96,7 +90,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IComponent</_hm2Class>
 					<_hname type="a">DefaultComponent</_hname>
-					<_hid type="a">GUID 981480ba-9385-4ac1-b665-eaec350dd044</_hid>
+					<_hid type="a">GUID ffbd1673-f8d0-488c-a194-266d39904def</_hid>
 				</IHandle>
 			</_component>
 			<Multiplicities type="c">
@@ -154,7 +148,7 @@
 				<value>GUID 401b3317-fd34-44d1-809a-a8fd23b100d2</value>
 				<value>GUID f4c47d86-be52-4ab2-8242-ef034ff39b43</value>
 				<value>GUID b7185946-2132-478b-8785-26bb0fb67943</value>
-				<value>GUID 981480ba-9385-4ac1-b665-eaec350dd044</value>
+				<value>GUID ffbd1673-f8d0-488c-a194-266d39904def</value>
 			</AggregatesList>
 		</IProject>
 		<ISubsystem type="e">
@@ -4784,7 +4778,7 @@
 		</CGIInformationFlow>
 		<IComponent type="e">
 			<fileName type="a">DefaultComponent</fileName>
-			<_id type="a">GUID 981480ba-9385-4ac1-b665-eaec350dd044</_id>
+			<_id type="a">GUID ffbd1673-f8d0-488c-a194-266d39904def</_id>
 		</IComponent>
 		
 	</RHAPSODY-MODEL>
