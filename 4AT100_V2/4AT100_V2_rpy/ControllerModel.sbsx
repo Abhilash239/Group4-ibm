@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID 401b3317-fd34-44d1-809a-a8fd23b100d2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ControllerModel</_name>
-			<_modifiedTimeWeak type="a">5.20.2020::21:13:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.20.2020::21:13:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:0</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.20.2020::21:13:23</weakCGTime>
+			<weakCGTime type="a">5.23.2020::9:29:0</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:21:47</strongCGTime>
 			<_defaultComposite type="s">GUID 28d0fc03-7085-4803-914b-112eb97d5955</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -6076,16 +6076,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.18.2020::20:21:47</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:1</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID d967cdc3-28c3-460f-b998-010fc3640a44</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.13.2020::18:46:23</_modifiedTime>
+			<_modifiedTime type="a">5.23.2020::9:29:1</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.18.2020::20:21:47</weakCGTime>
+			<weakCGTime type="a">5.23.2020::9:29:1</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:21:47</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -6119,8 +6119,8 @@
 			<_id type="a">GUID baace4ea-4270-4edd-aac5-678959d6d9bb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SimulinkSampleTime</_name>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:0</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -6131,21 +6131,21 @@
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID 6caca6ff-0018-4979-b576-9d3c3ded0aaa</value>
+				<value>GUID 4b8c69b5-f4bf-4f43-99e3-e9c8ac0bf15c</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 6caca6ff-0018-4979-b576-9d3c3ded0aaa</_id>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_id type="a">GUID 4b8c69b5-f4bf-4f43-99e3-e9c8ac0bf15c</_id>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:0</_modifiedTime>
 			<_value type="a">100</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID ad4ef5af-ad57-464d-8596-1783f13940c2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SimulinkProjectFile</_name>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:0</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -6156,13 +6156,13 @@
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID f5f1c4ca-e567-4a00-9975-933aa84bd494</value>
+				<value>GUID ce53e7a4-2892-46eb-975c-98829fa2294c</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID f5f1c4ca-e567-4a00-9975-933aa84bd494</_id>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_id type="a">GUID ce53e7a4-2892-46eb-975c-98829fa2294c</_id>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:0</_modifiedTime>
 			<_value type="a">C:\Users\woute\stack\Documenten\Master AT\4AT100\model files\BackwardsController.slx</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
@@ -6201,8 +6201,8 @@
 			<_id type="a">GUID 85f16d56-d266-4a2a-8ca5-56d0490241d7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MatlabRoot</_name>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:1</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -6213,13 +6213,13 @@
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID 06a16138-8b23-4d08-ab36-74c3e5df3086</value>
+				<value>GUID 3784bcde-e0e2-48fb-9c3a-089bf34276da</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 06a16138-8b23-4d08-ab36-74c3e5df3086</_id>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_id type="a">GUID 3784bcde-e0e2-48fb-9c3a-089bf34276da</_id>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:1</_modifiedTime>
 			<_value type="a">C:\Program Files\MATLAB\R2020a</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
@@ -6242,8 +6242,8 @@
 			<_id type="a">GUID a07988e1-be0f-4626-b4bb-88a560c54ccd</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MultiInstanceCode</_name>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:1</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -6254,13 +6254,13 @@
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID c58a7d69-73d7-4586-9168-ef5e01df7483</value>
+				<value>GUID 5999725d-aefe-479b-82db-8751af067903</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID c58a7d69-73d7-4586-9168-ef5e01df7483</_id>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_id type="a">GUID 5999725d-aefe-479b-82db-8751af067903</_id>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:1</_modifiedTime>
 			<_value type="a">off</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
@@ -6283,8 +6283,8 @@
 			<_id type="a">GUID 5d08957a-aad0-40e4-a053-86d96eeadfab</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MatlabExePath</_name>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:0</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -6295,13 +6295,13 @@
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID 916ad37d-a8e7-49ec-a73d-40225abfbd58</value>
+				<value>GUID d362c833-76ec-4158-8209-78c3c9381836</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 916ad37d-a8e7-49ec-a73d-40225abfbd58</_id>
-			<_modifiedTimeWeak type="a">5.13.2020::18:32:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.13.2020::18:32:29</_modifiedTime>
+			<_id type="a">GUID d362c833-76ec-4158-8209-78c3c9381836</_id>
+			<_modifiedTimeWeak type="a">5.23.2020::9:29:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:29:0</_modifiedTime>
 			<_value type="a">C:\Program Files\MATLAB\R2020a\bin\MATLAB.exe</_value>
 		</ILiteralSpecification>
 		<IInformationFlow type="e">
