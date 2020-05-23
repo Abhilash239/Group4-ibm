@@ -44,8 +44,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">DefaultComponent</_name>
-			<_modifiedTimeWeak type="a">5.23.2020::9:34:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.23.2020::9:34:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.23.2020::9:43:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:43:26</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
@@ -55,7 +55,7 @@
 			</m_configActive>
 			<HandlesInMe type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">32</size>
+					<size type="a">33</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
@@ -331,6 +331,14 @@
 							<_hid type="a">GUID 99358d8e-541d-434d-8f30-db01a2d473d3</_hid>
 						</IHandle>
 					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\PathPlannerModel.sbsx</_hfilename>
+							<_hname type="a">PathPlannerModel</_hname>
+							<_hid type="a">GUID f4c47d86-be52-4ab2-8242-ef034ff39b43</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</HandlesInMe>
 			<VariationPoints type="c">
@@ -343,7 +351,7 @@
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</SelectedVariants>
-			<weakCGTime type="a">5.23.2020::9:34:35</weakCGTime>
+			<weakCGTime type="a">5.23.2020::9:43:26</weakCGTime>
 			<strongCGTime type="a">5.23.2020::9:26:52</strongCGTime>
 			<AggregatesList type="e">
 				<value>GUID 29bc9e5c-c780-42aa-85fe-73790d3ce636</value>
@@ -371,9 +379,9 @@
 			<_id type="a">GUID 41ac0af7-efcc-495c-97bf-e2ed501ca880</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DefaultConfig</_name>
-			<_modifiedTimeWeak type="a">5.23.2020::9:34:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.23.2020::9:34:35</_modifiedTime>
-			<_lastID type="a">2</_lastID>
+			<_modifiedTimeWeak type="a">5.23.2020::9:43:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:43:26</_modifiedTime>
+			<_lastID type="a">3</_lastID>
 			<_scopeType type="a">Explicit</_scopeType>
 			<_instrumentation type="a">None</_instrumentation>
 			<_timeModel type="a">RealTime</_timeModel>
@@ -391,7 +399,7 @@
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</InitialInstances>
-			<weakCGTime type="a">5.23.2020::9:34:35</weakCGTime>
+			<weakCGTime type="a">5.23.2020::9:43:26</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<AnimScopeElements type="c">
 				<IRPYRawContainer type="e">
@@ -402,6 +410,7 @@
 			<m_generateUsecases type="a">0</m_generateUsecases>
 			<AggregatesList type="e">
 				<value>GUID c659b679-c66d-470e-a0bf-e4c882e4b579</value>
+				<value>GUID 4d018b18-9d29-44c9-b49f-906c23ea5529</value>
 				<value>GUID 8f6e3e30-f389-4d19-a8a8-c09a753b211c</value>
 				<value>GUID 6ff76da3-b2db-4ae0-92e5-9cffc4b2dbf4</value>
 				<value>GUID 8d0bf040-1c66-4044-a1f9-6b2d50a007d5</value>
@@ -420,6 +429,28 @@
 					<_hsubsystem type="a">ControllerModel</_hsubsystem>
 					<_hname type="a">ControllerModel</_hname>
 					<_hid type="a">GUID 466380c5-59e0-4121-b784-de7e937520ce</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID 41ac0af7-efcc-495c-97bf-e2ed501ca880</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 4d018b18-9d29-44c9-b49f-906c23ea5529</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PathPlannerModel</_name>
+			<_modifiedTimeWeak type="a">5.23.2020::9:43:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.23.2020::9:43:26</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PathPlannerModel.sbsx</_hfilename>
+					<_hsubsystem type="a">PathPlannerModel</_hsubsystem>
+					<_hname type="a">PathPlannerModel</_hname>
+					<_hid type="a">GUID 278b78a1-2e15-4a88-9f99-eedb5aa6bb01</_hid>
 				</INObjectHandle>
 			</_dependsOn>
 			<_dependent type="r">
