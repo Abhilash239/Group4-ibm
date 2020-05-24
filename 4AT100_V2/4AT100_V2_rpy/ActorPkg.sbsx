@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID f4515241-e2ff-4d14-845c-b184adb4f493</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ActorPkg</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:20:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::15:19:38</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.24.2020::0:31:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:21:47</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.18.2020::20:20:21</weakCGTime>
+			<weakCGTime type="a">5.24.2020::0:31:49</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_defaultComposite type="s">GUID a2eceff5-b9e6-4cef-81db-8e75334d8443</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -55,6 +55,7 @@
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
@@ -232,6 +233,7 @@
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
@@ -523,17 +525,18 @@
 			<_id type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DC Operator</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:20:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.24.2020::0:17:33</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2020::15:23:54</_modifiedTime>
+			<_modifiedTime type="a">5.24.2020::0:17:33</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">5.18.2020::20:20:21</weakCGTime>
+			<weakCGTime type="a">5.24.2020::0:17:33</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -552,6 +555,7 @@
 				<value>GUID 024fc3cb-26f1-4d32-a45f-cb5b78b07b09</value>
 				<value>GUID ea40ee68-2ad4-4846-b805-c84152faba3e</value>
 				<value>GUID 7cf1c679-b730-4826-9626-06a9c7d8b933</value>
+				<value>GUID 06f2d1be-cbde-4931-ad00-9370c644be58</value>
 			</AggregatesList>
 		</IActor>
 		<IInformationItem type="e">
@@ -638,7 +642,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.8.2020::18:24:11</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.24.2020::0:17:25</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.8.2020::18:24:11</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
@@ -825,6 +829,35 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 06f2d1be-cbde-4931-ad00-9370c644be58</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDockTruck_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:17:33</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">DockTruck</_hname>
+					<_hid type="a">GUID 7ea411fa-2563-4a69-95ed-04efe8d9323a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">DockTruck</_hclass>
+					<_hname type="a">itsDC Operator</_hname>
+					<_hid type="a">GUID 3fce4a1c-abd8-45d5-b407-52b30db51c55</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID a092e39d-ecb3-4196-aa35-032270d1147f</_id>
 			<_myState type="a">8192</_myState>
@@ -833,6 +866,7 @@
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
@@ -1195,17 +1229,18 @@
 			<_id type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Collision Detection system</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:20:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.24.2020::0:34:39</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2020::15:3:59</_modifiedTime>
+			<_modifiedTime type="a">5.24.2020::0:34:39</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">5.18.2020::20:20:21</weakCGTime>
+			<weakCGTime type="a">5.24.2020::0:34:39</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1221,6 +1256,8 @@
 				<value>GUID 2e0f91e5-f44b-46d8-bbdc-697300656166</value>
 				<value>GUID 8937ff2d-f1be-4ab9-9fdc-f59c2078f3bb</value>
 				<value>GUID 928260ed-f9b8-4473-bc2f-d179dd836eb3</value>
+				<value>GUID 6474024b-49d8-4518-a316-7e502870454e</value>
+				<value>GUID 258505c9-bf7b-4d48-bffa-3b8a182d7ef0</value>
 			</AggregatesList>
 		</IActor>
 		<IInformationFlow type="e">
@@ -1491,6 +1528,64 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 6474024b-49d8-4518-a316-7e502870454e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsGeneratePath</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:34:33</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">GeneratePath</_hname>
+					<_hid type="a">GUID f604081a-cd15-4340-be9b-fd63cb09a096</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">GeneratePath</_hclass>
+					<_hname type="a">itsCollision Detection system</_hname>
+					<_hid type="a">GUID c2112fa5-dcb7-4b12-b148-ad5fb735ccbd</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 258505c9-bf7b-4d48-bffa-3b8a182d7ef0</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFollowPath</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:34:39</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">FollowPath</_hname>
+					<_hid type="a">GUID 0176c0a0-d8bf-4e04-8226-bea838a404b7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">FollowPath</_hclass>
+					<_hname type="a">itsCollision Detection system</_hname>
+					<_hid type="a">GUID ae663079-a1e6-4974-a673-ed0de320c77e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID 94d5fd3c-3ed1-4ca1-957e-c889e1afc927</_id>
 			<_myState type="a">8192</_myState>
@@ -1499,6 +1594,7 @@
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
@@ -1817,17 +1913,18 @@
 			<_id type="a">GUID b96816f5-45f4-4b3c-8055-efde7fd5a216</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">LocSystem</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:20:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.24.2020::0:32:12</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2020::14:36:5</_modifiedTime>
+			<_modifiedTime type="a">5.24.2020::0:32:12</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">5.18.2020::20:20:21</weakCGTime>
+			<weakCGTime type="a">5.24.2020::0:32:12</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1845,6 +1942,11 @@
 				<value>GUID d8a9d629-3fa4-4773-a9de-6a5a2443a93f</value>
 				<value>GUID adbb699f-00ac-46c8-a395-edd5911261cf</value>
 				<value>GUID aa55f961-4cfb-4f81-9a6b-94217bd8444e</value>
+				<value>GUID abcde9a7-3627-46cc-b98b-0ff713e81eae</value>
+				<value>GUID 34fc173b-0e29-4062-afe2-1d1918df6dd6</value>
+				<value>GUID 1f312886-6063-4c41-99f6-bb6e6210bbbd</value>
+				<value>GUID 185261de-ee97-4945-9066-324b05fe7ef9</value>
+				<value>GUID 3b95a124-6457-4f36-b58f-9464edebcff9</value>
 			</AggregatesList>
 		</IActor>
 		<IInformationFlow type="e">
@@ -2153,21 +2255,167 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID abcde9a7-3627-46cc-b98b-0ff713e81eae</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFollowPath_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:26:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">FollowPath</_hname>
+					<_hid type="a">GUID 0176c0a0-d8bf-4e04-8226-bea838a404b7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">FollowPath</_hclass>
+					<_hname type="a">itsLocSystem</_hname>
+					<_hid type="a">GUID 1eea1ad2-2c6d-4524-9256-46e880a95a13</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 34fc173b-0e29-4062-afe2-1d1918df6dd6</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsGeneratePath_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:26:38</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">GeneratePath</_hname>
+					<_hid type="a">GUID f604081a-cd15-4340-be9b-fd63cb09a096</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">GeneratePath</_hclass>
+					<_hname type="a">itsLocSystem</_hname>
+					<_hid type="a">GUID 51b0cf40-d5a4-4d54-b9ee-e5a01ea97128</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 1f312886-6063-4c41-99f6-bb6e6210bbbd</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDockTruck</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:28:20</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">DockTruck</_hname>
+					<_hid type="a">GUID 7ea411fa-2563-4a69-95ed-04efe8d9323a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">DockTruck</_hclass>
+					<_hname type="a">itsLocSystem</_hname>
+					<_hid type="a">GUID a3d218dd-1846-4ef4-872a-34768b35b1e6</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 185261de-ee97-4945-9066-324b05fe7ef9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsGeneratePath_2</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:32:0</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">GeneratePath</_hname>
+					<_hid type="a">GUID f604081a-cd15-4340-be9b-fd63cb09a096</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">GeneratePath</_hclass>
+					<_hname type="a">itsLocSystem_1</_hname>
+					<_hid type="a">GUID a9b2a8ac-1d70-4bc4-b4be-fbeb1f7d47f7</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 3b95a124-6457-4f36-b58f-9464edebcff9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFollowPath_2</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:32:12</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">FollowPath</_hname>
+					<_hid type="a">GUID 0176c0a0-d8bf-4e04-8226-bea838a404b7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">FollowPath</_hclass>
+					<_hname type="a">itsLocSystem_1</_hname>
+					<_hid type="a">GUID ee787c81-cc7e-4ce5-9e25-c65eea0119ed</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Truck</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:20:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.24.2020::0:31:49</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2020::15:2:58</_modifiedTime>
+			<_modifiedTime type="a">5.24.2020::0:31:49</_modifiedTime>
 			<_lastID type="a">10</_lastID>
-			<weakCGTime type="a">5.18.2020::20:20:21</weakCGTime>
+			<weakCGTime type="a">5.24.2020::0:31:49</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2193,6 +2441,8 @@
 				<value>GUID 07d54dab-b0f9-4ff6-a6c1-965fdfed539e</value>
 				<value>GUID 5ca141b7-2d3d-439a-bdd5-948449ddc2a0</value>
 				<value>GUID a08911ea-a636-4a5d-bd0c-612b29fb65c9</value>
+				<value>GUID 0068f9e0-40b0-483a-bc29-e55730286b99</value>
+				<value>GUID 8ab89b78-a26e-43ff-9e49-d678b6d71132</value>
 			</AggregatesList>
 		</IActor>
 		<IInformationFlow type="e">
@@ -2751,6 +3001,64 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 0068f9e0-40b0-483a-bc29-e55730286b99</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDockTruck_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:20:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">DockTruck</_hname>
+					<_hid type="a">GUID 7ea411fa-2563-4a69-95ed-04efe8d9323a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">DockTruck</_hclass>
+					<_hname type="a">itsTruck</_hname>
+					<_hid type="a">GUID ce24f24e-6e04-4f04-8419-28df3c3a760b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 8ab89b78-a26e-43ff-9e49-d678b6d71132</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFollowPath_1</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::0:31:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">FollowPath</_hname>
+					<_hid type="a">GUID 0176c0a0-d8bf-4e04-8226-bea838a404b7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">FollowPath</_hclass>
+					<_hname type="a">itsTruck</_hname>
+					<_hid type="a">GUID 5eb2bb3f-d537-489f-934b-b78d7839c98c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID 52844abf-320a-4e8e-8bd5-39d30a53f39f</_id>
 			<_myState type="a">8192</_myState>
@@ -2759,6 +3067,7 @@
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
@@ -2890,6 +3199,7 @@
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\System_Context_Diagram.omdx</_hfilename>
 					<_hname type="a">System Context Diagram</_hname>
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
