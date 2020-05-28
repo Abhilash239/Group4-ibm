@@ -1,0 +1,149 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 1072;
+				- m_nBottom = 548;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IPanelDiagram";
+				- _filename = ".\\TruckLab_rpy\\Default.sbs";
+				- _subsystem = "Default";
+				- _name = "Cockpit";
+				- _id = GUID 60fbe5c3-289a-4d05-bee0-9ec6833ea8ea;
+			}
+			- _UpLeft = 0 61 ;
+			- _DownRight = 1102 838 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+			- m_bIsActiveView = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 156;
+				- m_nTop = 156;
+				- m_nRight = 1060;
+				- m_nBottom = 600;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = ".\\TruckLab_rpy\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "ToUnity";
+				- _name = "ActivityDiagram";
+				- _id = GUID ad033b81-3c9a-4dc8-b5fc-2f2b3b1cbdbf;
+			}
+			- _UpLeft = 0 11 ;
+			- _DownRight = 1040 472 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 156;
+				- m_nTop = 156;
+				- m_nRight = 1093;
+				- m_nBottom = 600;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = ".\\TruckLab_rpy\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "ToUnity";
+				- _name = "StatechartDiagram";
+				- _id = GUID e8155194-7c57-4b4f-8cc8-1cff71e4878e;
+			}
+			- _UpLeft = 0 8 ;
+			- _DownRight = 643 282 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 52;
+				- m_nTop = 52;
+				- m_nRight = 1020;
+				- m_nBottom = 496;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = ".\\TruckLab_rpy\\Default.sbs";
+				- _subsystem = "Default";
+				- _name = "TruckDriver";
+				- _id = GUID 1230f65a-c4c5-46fa-b2b3-aa6d83fa0215;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 2313 954 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+			- m_bIsActiveView = 0;
+		}
+	}
+	- _fullName = "D:\\AUTOMOTIVE\\4AT100\\UNITY_20_05_2019\\TruckDriver-20190521\\TruckLabRhapsody\\TruckLab";
+	- _selectedPerspective = "Advanced";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingBrowserCustomView = 0;
+	- bApplyOnDiagrams = 0;
+	- liCustomViewIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- mapOslcRmCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+}
+

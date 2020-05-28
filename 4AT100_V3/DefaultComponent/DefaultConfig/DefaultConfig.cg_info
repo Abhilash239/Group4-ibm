@@ -1,0 +1,43 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 6;
+	- value = "DefaultComponent\\DefaultConfig\\Default.cpp" 5.21.2019::8:36:58
+	"DefaultComponent\\DefaultConfig\\Default.h" 5.21.2019::8:36:58
+	"DefaultComponent\\DefaultConfig\\ToUnity.cpp" 5.28.2020::17:11:35
+	"DefaultComponent\\DefaultConfig\\ToUnity.h" 5.28.2020::17:11:35
+	"DefaultComponent\\DefaultConfig\\Unity.cpp" 5.28.2020::17:11:35
+	"DefaultComponent\\DefaultConfig\\Unity.h" 5.28.2020::17:11:35
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID 9a31d082-1c78-4aed-a199-374f70735c28" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID ba135d04-bd24-4a17-9f86-ebd2fb6b85e4" "GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2"
+	
+}
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 1c1425ae-7238-4426-a5ce-e3f4491f5089;
+}
+- genTime = 5.28.2020::17:40:24;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ToUnity.clsx";
+	- _subsystem = "Unity";
+	- _name = "ToUnity";
+	- _id = GUID ba135d04-bd24-4a17-9f86-ebd2fb6b85e4;
+}
+- genTime = 5.28.2020::17:40:24;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\Unity.sbsx";
+	- _name = "Unity";
+	- _id = GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2;
+}
+- genTime = 5.28.2020::17:40:24;
+
