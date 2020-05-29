@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.28.2020::20:23:33</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.29.2020::12:15:30</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -35,9 +35,9 @@
 					<_hid type="a">GUID 1230f65a-c4c5-46fa-b2b3-aa6d83fa0215</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.28.2020::20:23:33</_modifiedTime>
+			<_modifiedTime type="a">5.29.2020::12:25:41</_modifiedTime>
 			<_lastID type="a">59</_lastID>
-			<weakCGTime type="a">5.28.2020::20:23:33</weakCGTime>
+			<weakCGTime type="a">5.29.2020::12:15:30</weakCGTime>
 			<strongCGTime type="a">5.14.2019::18:56:1</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -302,8 +302,8 @@ memset(buf_collision, '\0', BUFLEN);</_bodyData>
 			<_id type="a">GUID 7d8e2fde-5a0a-4ff2-874d-1551a9942928</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">parse_drive_csv</_name>
-			<_modifiedTimeWeak type="a">5.18.2019::15:42:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.18.2019::15:42:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.29.2020::12:15:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::12:15:30</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_virtual type="a">1</_virtual>
 			<_returnType type="r">
@@ -327,9 +327,9 @@ this-&gt;velocity = strtof(p, NULL);%0D
 p = strtok(NULL, &quot;,&quot;);%0D
 this-&gt;truckPosX = strtof(p, NULL);%0D
 p = strtok(NULL, &quot;,&quot;);%0D
-this-&gt;truckPosY = strtof(p, NULL);%0D
-p = strtok(NULL, &quot;,&quot;);%0D
 //remote_vehicle.truck.z = strtof(p, NULL);%0D
+p = strtok(NULL, &quot;,&quot;);%0D
+this-&gt;truckPosY = strtof(p, NULL);%0D
 %0D
 p = strtok(NULL, &quot;,&quot;);%0D
 this-&gt;trailer1PosX = strtof(p, NULL);%0D

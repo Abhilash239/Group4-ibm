@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>936</CODE-PAGE>
+	<CODE-PAGE>1252</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUI</_name>
-			<_modifiedTimeWeak type="a">5.20.2020::21:28:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.20.2020::21:28:40</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.29.2020::11:27:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::11:35:7</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">5.20.2020::21:28:40</weakCGTime>
+			<weakCGTime type="a">5.29.2020::11:27:50</weakCGTime>
 			<strongCGTime type="a">5.20.2020::21:12:18</strongCGTime>
 			<_defaultComposite type="s">GUID 516efeff-e260-408e-a963-c0c25ac660d2</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -25,6 +25,7 @@
 				<value>GUID cf7d4148-38e3-4e44-9bee-2b070776615a</value>
 				<value>GUID 81d26481-7ccf-4e78-af9f-78df1f1e856b</value>
 				<value>GUID 516efeff-e260-408e-a963-c0c25ac660d2</value>
+				<value>GUID 2db1e728-2f80-40c5-8400-80735a41ddd1</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IPanelDiagram type="e">
@@ -262,8 +263,8 @@
 			</_properties>
 			<_name type="a">Driver</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.20.2020::21:18:18</_modifiedTime>
-			<_lastModifiedTime type="a">5.20.2020::21:18:18</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1052,8 +1053,8 @@
 			</_properties>
 			<_name type="a">Log in</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.20.2020::21:18:18</_modifiedTime>
-			<_lastModifiedTime type="a">5.20.2020::21:18:18</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1868,8 +1869,8 @@
 			</_properties>
 			<_name type="a">OperatorDC</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.20.2020::21:18:18</_modifiedTime>
-			<_lastModifiedTime type="a">5.20.2020::21:18:18</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2605,8 +2606,8 @@
 			</_properties>
 			<_name type="a">All In One</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.20.2020::21:29:27</_modifiedTime>
-			<_lastModifiedTime type="a">5.20.2020::21:29:27</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4508,6 +4509,134 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 2db1e728-2f80-40c5-8400-80735a41ddd1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">GUI</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">Block</_hname>
+							<_hid type="a">GUID f685432f-691e-4ff1-be70-4d09d19457e1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.29.2020::11:27:50</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_DockTruck</_hclass>
+					<_hname type="a">AutonomousDrivingStructure</_hname>
+					<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">5.29.2020::11:27:50</weakCGTime>
+			<strongCGTime type="a">5.29.2020::11:27:50</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID be29ace9-fb32-4d8b-8d97-6e39e1ec9883</value>
+				<value>GUID 39398d55-db9c-4233-976a-957ab42a2f6c</value>
+				<value>GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</value>
+			</AggregatesList>
+		</IClass>
+		<IReception type="e">
+			<_id type="a">GUID be29ace9-fb32-4d8b-8d97-6e39e1ec9883</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">reqDock()</_hname>
+					<_hid type="a">GUID 4df14825-5e10-4d09-9c93-7371587a706c</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IAttribute type="e">
+			<_id type="a">GUID 39398d55-db9c-4233-976a-957ab42a2f6c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">docknumber</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">ValueProperty</_hname>
+							<_hid type="a">GUID 04164f8c-01a3-4eab-b4a4-c37aae7a46e9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.24.2020::22:18:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::22:18:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDC Operator</_name>
+			<_modifiedTimeWeak type="a">5.24.2020::21:6:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.24.2020::21:6:8</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">DC Operator</_hname>
+					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">DC Operator</_hclass>
+					<_hname type="a">itsGUI</_hname>
+					<_hid type="a">GUID f0fb5bf7-ba7a-4bc5-a850-e930188e6718</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
