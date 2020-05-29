@@ -11,10 +11,10 @@
 			<_id type="a">GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ArchitecturePkg</_name>
-			<_modifiedTimeWeak type="a">5.28.2020::22:52:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.29.2020::9:42:3</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.28.2020::20:16:5</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">5.28.2020::22:52:12</weakCGTime>
+			<weakCGTime type="a">5.29.2020::9:42:3</weakCGTime>
 			<strongCGTime type="a">5.28.2020::17:49:35</strongCGTime>
 			<_defaultComposite type="s">GUID 9af5bd5e-9786-4f91-9f04-8b480ea16391</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -2150,15 +2150,15 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.28.2020::22:52:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.29.2020::9:44:57</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID e456c552-00d0-4b56-a2b7-dbe4f16ab0e4</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.28.2020::22:52:12</_modifiedTime>
-			<weakCGTime type="a">5.28.2020::22:52:12</weakCGTime>
+			<_modifiedTime type="a">5.29.2020::9:44:57</_modifiedTime>
+			<weakCGTime type="a">5.29.2020::9:44:57</weakCGTime>
 			<strongCGTime type="a">5.28.2020::20:9:47</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2172,6 +2172,10 @@
 				<value>GUID 1e734461-9fcd-42e9-8cb6-c022e09330bd</value>
 				<value>GUID a4e507fe-a482-4fe4-8a8f-ed64468e7254</value>
 				<value>GUID 5c5a4e98-a6f3-4a9f-90ad-7e102b9a7d7c</value>
+				<value>GUID 526ce441-e2d1-4bc3-be72-a3461a3931e7</value>
+				<value>GUID 01941d84-2b0e-49bf-bfaf-a84a7f3bc287</value>
+				<value>GUID 6aa24046-f78b-48ab-baf5-c6cc2ad3e293</value>
+				<value>GUID 9239bbe7-5d95-4573-a7f0-b4d6dc37b278</value>
 			</AggregatesList>
 		</IClass>
 		<IPart type="e">
@@ -2287,6 +2291,94 @@
 					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
 					<_hname type="a">UC_GeneratePath</_hname>
 					<_hid type="a">GUID cd56aa32-97a0-4acf-8e5c-9904ba5748dd</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 526ce441-e2d1-4bc3-be72-a3461a3931e7</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFollowPathInput</_name>
+			<_modifiedTimeWeak type="a">5.29.2020::9:42:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::9:42:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_FollowPath</_hclass>
+					<_hname type="a">FollowPathInput</_hname>
+					<_hid type="a">GUID c5f777d6-de5f-430a-91f0-3eb1abc6f5ae</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 01941d84-2b0e-49bf-bfaf-a84a7f3bc287</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsFollowPathOutput</_name>
+			<_modifiedTimeWeak type="a">5.29.2020::9:42:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::9:42:10</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_FollowPath</_hclass>
+					<_hname type="a">FollowPathOutput</_hname>
+					<_hid type="a">GUID 452fa852-51a6-421c-a46e-827e42480d03</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 6aa24046-f78b-48ab-baf5-c6cc2ad3e293</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsGeneratePathInput</_name>
+			<_modifiedTimeWeak type="a">5.29.2020::9:44:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::9:44:52</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_GeneratePath</_hclass>
+					<_hname type="a">GeneratePathInput</_hname>
+					<_hid type="a">GUID 1c0f49b9-5458-4af1-ad26-1d428377d350</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 9239bbe7-5d95-4573-a7f0-b4d6dc37b278</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsGeneratePathOutput</_name>
+			<_modifiedTimeWeak type="a">5.29.2020::9:44:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::9:44:57</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_GeneratePath</_hclass>
+					<_hname type="a">GeneratePathOutput</_hname>
+					<_hid type="a">GUID 5c5d403e-186f-4be5-bb4f-625185d1f7e8</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
