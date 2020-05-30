@@ -11,13 +11,13 @@
 			<_id type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUI</_name>
-			<_modifiedTimeWeak type="a">5.29.2020::11:27:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::11:35:7</_modifiedTime>
-			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">5.29.2020::11:27:50</weakCGTime>
-			<strongCGTime type="a">5.20.2020::21:12:18</strongCGTime>
+			<_modifiedTimeWeak type="a">5.30.2020::0:41:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::20:23:13</_modifiedTime>
+			<_lastID type="a">8</_lastID>
+			<weakCGTime type="a">5.30.2020::0:41:23</weakCGTime>
+			<strongCGTime type="a">5.29.2020::19:8:31</strongCGTime>
 			<_defaultComposite type="s">GUID 516efeff-e260-408e-a963-c0c25ac660d2</_defaultComposite>
-			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_eventsBaseID type="a">15001</_eventsBaseID>
 			<_configurationRelatedTime type="a">5.20.2020::21:11:9</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 7cc4ddba-a154-481f-9750-5ae5d505be44</value>
@@ -26,6 +26,7 @@
 				<value>GUID 81d26481-7ccf-4e78-af9f-78df1f1e856b</value>
 				<value>GUID 516efeff-e260-408e-a963-c0c25ac660d2</value>
 				<value>GUID 2db1e728-2f80-40c5-8400-80735a41ddd1</value>
+				<value>GUID 0491be85-27a5-4eeb-8244-f0d5794b1c1f</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IPanelDiagram type="e">
@@ -263,8 +264,8 @@
 			</_properties>
 			<_name type="a">Driver</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
-			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::20:16:46</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::20:16:46</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1053,8 +1054,8 @@
 			</_properties>
 			<_name type="a">Log in</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
-			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::20:16:46</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::20:16:46</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1869,8 +1870,8 @@
 			</_properties>
 			<_name type="a">OperatorDC</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
-			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::20:16:46</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::20:16:46</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2606,8 +2607,8 @@
 			</_properties>
 			<_name type="a">All In One</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
-			<_lastModifiedTime type="a">5.29.2020::11:27:50</_lastModifiedTime>
+			<_modifiedTime type="a">5.29.2020::20:17:0</_modifiedTime>
+			<_lastModifiedTime type="a">5.29.2020::20:17:0</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2650,7 +2651,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">26</elementList>
+			<elementList type="a">27</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -2689,6 +2690,7 @@
 				<value>GUID bbdb8143-f19f-42d6-a7b0-851da029d4e7</value>
 				<value>GUID 2afd5741-4738-4608-a090-c5611b94914d</value>
 				<value>GUID d5465794-179b-48ec-80d5-df2122e465a5</value>
+				<value>GUID abf64624-fd72-44c3-9f8e-769919323b31</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIBox type="e">
@@ -4248,12 +4250,14 @@
 			<m_type type="a">224</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hid type="a">GUID 39398d55-db9c-4233-976a-957ab42a2f6c</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID a84d69a5-a947-4b44-8d87-a71734196596</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">textbox_0</m_str>
+					<m_str type="a">Dock Number</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4274,10 +4278,17 @@
 			<m_polygon type="a">4 -5 -25  -5 1114  1084 1114  1084 -25  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">textbox_0</m_csName>
+			<m_csModelObjPath type="a">GUI.GUI[0].docknumber</m_csModelObjPath>
+			<m_csName type="a">Dock Number</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hid type="a">GUID 2db1e728-2f80-40c5-8400-80735a41ddd1</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGITextBox>
@@ -4495,6 +4506,86 @@
 			<m_points type="a">4 776 212  814 212  814 230  776 230  </m_points>
 			<m_text type="a">GUI for DC Operator</m_text>
 		</CGIFreeText>
+		<CGIMFCCtrl type="e">
+			<_id type="a">GUID abf64624-fd72-44c3-9f8e-769919323b31</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">PanelDiagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">PushButton</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">ButtonFont</_Name>
+													<_Value type="a">Arial 10 NoBold NoItalic</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">227</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IReception</_hm2Class>
+					<_hid type="a">GUID f8acaefb-d2e4-420f-bdf2-825d757ab435</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID a84d69a5-a947-4b44-8d87-a71734196596</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">pushbutton_1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000602059 0 0 0.000278887 748 162.311 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">GUI.GUI[0].reqDock</m_csModelObjPath>
+			<m_csName type="a">pushbutton_1</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hid type="a">GUID 2db1e728-2f80-40c5-8400-80735a41ddd1</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+			<m_csButtonCaption type="a">Dock</m_csButtonCaption>
+		</CGIMFCCtrl>
 		<IClass type="e">
 			<_id type="a">GUID 516efeff-e260-408e-a963-c0c25ac660d2</_id>
 			<_myState type="a">40960</_myState>
@@ -4527,7 +4618,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.29.2020::11:27:50</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.30.2020::0:42:42</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4538,9 +4629,9 @@
 					<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.29.2020::11:27:50</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.29.2020::11:27:50</weakCGTime>
+			<_modifiedTime type="a">5.30.2020::0:42:42</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">5.30.2020::0:42:42</weakCGTime>
 			<strongCGTime type="a">5.29.2020::11:27:50</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4548,16 +4639,77 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
-				<value>GUID be29ace9-fb32-4d8b-8d97-6e39e1ec9883</value>
+				<value>GUID 5d823e9b-3588-4e82-8f26-c1315953a0c1</value>
+				<value>GUID f8acaefb-d2e4-420f-bdf2-825d757ab435</value>
 				<value>GUID 39398d55-db9c-4233-976a-957ab42a2f6c</value>
 				<value>GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</value>
 			</AggregatesList>
 		</IClass>
+		<ISysMLPort type="e">
+			<_id type="a">GUID 5d823e9b-3588-4e82-8f26-c1315953a0c1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">docknumber</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">flowPort</_hname>
+							<_hid type="a">GUID e38cbf02-1c06-464c-927e-6e2c6c764315</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">5.30.2020::0:42:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::0:42:42</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 703c089c-0c16-4d66-a824-1c35acd4b32b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 703c089c-0c16-4d66-a824-1c35acd4b32b</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">docknumber_implicitType</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID 2a7b8a63-f54f-4379-bab0-02800a5084e1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">5.30.2020::0:42:42</_modifiedTimeWeak>
+				<_modifiedTime type="a">5.30.2020::0:42:42</_modifiedTime>
+				<weakCGTime type="a">5.30.2020::0:42:42</weakCGTime>
+				<strongCGTime type="a">5.30.2020::0:42:42</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+			<_direction type="a">Unspecified</_direction>
+		</ISysMLPort>
 		<IReception type="e">
-			<_id type="a">GUID be29ace9-fb32-4d8b-8d97-6e39e1ec9883</_id>
+			<_id type="a">GUID f8acaefb-d2e4-420f-bdf2-825d757ab435</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -4567,10 +4719,7 @@
 			<_event type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
-					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
-					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
-					<_hname type="a">reqDock()</_hname>
-					<_hid type="a">GUID 4df14825-5e10-4d09-9c93-7371587a706c</_hid>
+					<_hid type="a">GUID 0491be85-27a5-4eeb-8244-f0d5794b1c1f</_hid>
 				</IHandle>
 			</_event>
 		</IReception>
@@ -4592,8 +4741,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.24.2020::22:18:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::22:18:0</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.29.2020::18:9:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::18:9:24</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -4637,6 +4786,19 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
+		<IEvent type="e">
+			<_id type="a">GUID 0491be85-27a5-4eeb-8244-f0d5794b1c1f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">reqDock</_name>
+			<_modifiedTimeWeak type="a">5.29.2020::20:16:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.29.2020::20:16:46</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
