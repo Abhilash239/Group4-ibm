@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ArchitecturePkg</_name>
-			<_modifiedTimeWeak type="a">5.28.2020::15:19:14</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.1.2020::10:37:29</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.28.2020::15:19:14</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">5.28.2020::15:19:14</weakCGTime>
+			<weakCGTime type="a">6.1.2020::10:37:29</weakCGTime>
 			<strongCGTime type="a">5.21.2020::19:39:56</strongCGTime>
 			<_defaultComposite type="s">GUID 9af5bd5e-9786-4f91-9f04-8b480ea16391</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -692,6 +692,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsGUI</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -962,6 +963,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsUGE</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1174,7 +1176,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.24.2020::22:33:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.1.2020::10:40:31</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1184,9 +1186,9 @@
 					<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.24.2020::22:33:29</_modifiedTime>
+			<_modifiedTime type="a">6.1.2020::10:40:31</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.24.2020::22:33:29</weakCGTime>
+			<weakCGTime type="a">6.1.2020::10:40:31</weakCGTime>
 			<strongCGTime type="a">5.24.2020::0:50:31</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1197,6 +1199,9 @@
 				<value>GUID be29ace9-fb32-4d8b-8d97-6e39e1ec9883</value>
 				<value>GUID 39398d55-db9c-4233-976a-957ab42a2f6c</value>
 				<value>GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</value>
+				<value>GUID 2d5b62b8-b65b-4cf1-8d25-815da7a259d2</value>
+				<value>GUID 30259ef2-97d8-4a5b-bad5-f2aac997f468</value>
+				<value>GUID 22588099-36e4-4a2d-a47d-556477354526</value>
 			</AggregatesList>
 		</IClass>
 		<IReception type="e">
@@ -1278,6 +1283,77 @@
 					<_hclass type="a">DC Operator</_hclass>
 					<_hname type="a">itsGUI</_hname>
 					<_hid type="a">GUID f0fb5bf7-ba7a-4bc5-a850-e930188e6718</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IPart type="e">
+			<_id type="a">GUID 2d5b62b8-b65b-4cf1-8d25-815da7a259d2</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUC_AdjustLighting</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:37:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:37:29</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hname type="a">UC_AdjustLighting</_hname>
+					<_hid type="a">GUID d4cd588b-76d8-4108-8e4e-a91de907fa39</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 30259ef2-97d8-4a5b-bad5-f2aac997f468</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUC_AdjustHVAC</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:37:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:37:32</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hname type="a">UC_AdjustHVAC</_hname>
+					<_hid type="a">GUID cb0d1c3e-bf16-44c6-819c-fe454fda28e9</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 22588099-36e4-4a2d-a47d-556477354526</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsDriver</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:40:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:40:31</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Driver</_hname>
+					<_hid type="a">GUID a092e39d-ecb3-4196-aa35-032270d1147f</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Driver</_hclass>
+					<_hname type="a">itsGUI</_hname>
+					<_hid type="a">GUID 57ed758c-5279-4169-b857-2a4bfa5cb236</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>

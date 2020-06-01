@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.23.2020::9:42:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.23.2020::9:42:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.1.2020::10:54:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:54:3</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -192,7 +192,7 @@
 			<_id type="a">GUID 04873c39-da17-4660-a5ae-1565aaf663f9</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">GUI</fileName>
+			<fileName type="a">GUIPkg</fileName>
 			<_id type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_id>
 		</ISubsystem>
 		<ISubsystem type="e">

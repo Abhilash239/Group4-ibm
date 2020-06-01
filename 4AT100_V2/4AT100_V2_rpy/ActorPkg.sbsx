@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID f4515241-e2ff-4d14-845c-b184adb4f493</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ActorPkg</_name>
-			<_modifiedTimeWeak type="a">5.24.2020::21:6:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.1.2020::10:48:30</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.24.2020::21:7:24</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">5.24.2020::21:6:8</weakCGTime>
+			<weakCGTime type="a">6.1.2020::10:48:30</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_defaultComposite type="s">GUID a2eceff5-b9e6-4cef-81db-8e75334d8443</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -892,7 +892,7 @@
 			<_id type="a">GUID a092e39d-ecb3-4196-aa35-032270d1147f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Driver</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:20:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.1.2020::10:40:31</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -901,9 +901,9 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.10.2020::14:11:54</_modifiedTime>
+			<_modifiedTime type="a">6.1.2020::10:40:31</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">5.18.2020::20:20:21</weakCGTime>
+			<weakCGTime type="a">6.1.2020::10:40:31</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -924,6 +924,7 @@
 				<value>GUID 83f27868-df35-4a4c-88d5-33486ace2c06</value>
 				<value>GUID 35112423-c243-4444-a311-6f952f398198</value>
 				<value>GUID 301323a0-cbfa-46bc-a791-bf0c9295d319</value>
+				<value>GUID 57ed758c-5279-4169-b857-2a4bfa5cb236</value>
 			</AggregatesList>
 		</IActor>
 		<IDependency type="e">
@@ -1250,6 +1251,35 @@
 					<_hclass type="a">LogIn</_hclass>
 					<_hname type="a">itsDriver</_hname>
 					<_hid type="a">GUID 25512729-b2f9-458f-9a37-854f209c51f9</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 57ed758c-5279-4169-b857-2a4bfa5cb236</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsGUI</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:40:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:40:31</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\ArchitecturePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ArchitecturePkg</_hsubsystem>
+					<_hname type="a">GUI</_hname>
+					<_hid type="a">GUID 2db1e728-2f80-40c5-8400-80735a41ddd1</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\ArchitecturePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ArchitecturePkg</_hsubsystem>
+					<_hclass type="a">GUI</_hclass>
+					<_hname type="a">itsDriver</_hname>
+					<_hid type="a">GUID 22588099-36e4-4a2d-a47d-556477354526</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
@@ -2494,7 +2524,7 @@
 			<_id type="a">GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Truck</_name>
-			<_modifiedTimeWeak type="a">5.24.2020::21:6:15</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.1.2020::10:49:40</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -2503,9 +2533,9 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.24.2020::21:6:15</_modifiedTime>
-			<_lastID type="a">10</_lastID>
-			<weakCGTime type="a">5.24.2020::21:6:15</weakCGTime>
+			<_modifiedTime type="a">6.1.2020::10:49:40</_modifiedTime>
+			<_lastID type="a">12</_lastID>
+			<weakCGTime type="a">6.1.2020::10:49:40</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:20:21</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2519,6 +2549,8 @@
 				<value>GUID 9229d070-e3dc-4808-92af-f6b6add908b6</value>
 				<value>GUID 93b883d1-41a6-428d-87ad-9e4e05607d8b</value>
 				<value>GUID b3d5ae81-5045-4b35-a880-3306e06ce718</value>
+				<value>GUID 752573e2-32ad-462d-a67a-1f2100911fd9</value>
+				<value>GUID 1b1aab39-894d-4aeb-8f17-90181f3900e4</value>
 				<value>GUID 53b847f6-db95-4d22-9650-8826e45431bc</value>
 				<value>GUID 26324ff5-cb7f-4af1-b1c3-4d85a3137f9b</value>
 				<value>GUID bfb3e158-1b24-4f92-9c81-fddcf02129fc</value>
@@ -2534,6 +2566,8 @@
 				<value>GUID 0068f9e0-40b0-483a-bc29-e55730286b99</value>
 				<value>GUID 8ab89b78-a26e-43ff-9e49-d678b6d71132</value>
 				<value>GUID cb738253-0274-402a-bb72-a811f6290215</value>
+				<value>GUID fc269c6b-5ef5-4b66-bd69-d7c42763a6f3</value>
+				<value>GUID 7dfccaf6-923f-4191-8c10-97865d579aa9</value>
 			</AggregatesList>
 		</IActor>
 		<IInformationFlow type="e">
@@ -2744,6 +2778,92 @@
 			</IClass>
 			</_implicitClass>
 		</IPort>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 752573e2-32ad-462d-a67a-1f2100911fd9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AdjustLighting</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:49:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:49:40</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">1</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID e4f35026-25f2-4343-87ec-dae716af7b87</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID e4f35026-25f2-4343-87ec-dae716af7b87</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">lightingValue</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:49:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:49:40</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 1b1aab39-894d-4aeb-8f17-90181f3900e4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AdjustHVAC</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:49:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:49:30</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">1</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID 3e896951-a8ce-4bf8-b838-09a3e5e65bff</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID 3e896951-a8ce-4bf8-b838-09a3e5e65bff</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">coolingValue</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:49:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:49:30</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 53b847f6-db95-4d22-9650-8826e45431bc</_id>
 			<_myState type="a">10240</_myState>
@@ -3174,6 +3294,64 @@
 					<_hclass type="a">UGE</_hclass>
 					<_hname type="a">itsTruck</_hname>
 					<_hid type="a">GUID 883ccffc-2b2b-43b5-9b6f-4d695f2db555</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID fc269c6b-5ef5-4b66-bd69-d7c42763a6f3</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUC_AdjustHVAC</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:44:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:44:2</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hname type="a">UC_AdjustHVAC</_hname>
+					<_hid type="a">GUID cb0d1c3e-bf16-44c6-819c-fe454fda28e9</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hclass type="a">UC_AdjustHVAC</_hclass>
+					<_hname type="a">itsTruck</_hname>
+					<_hid type="a">GUID bfccdf66-8605-4a70-9024-5a6a13b2c629</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7dfccaf6-923f-4191-8c10-97865d579aa9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUC_AdjustLighting</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::10:44:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::10:44:10</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hname type="a">UC_AdjustLighting</_hname>
+					<_hid type="a">GUID d4cd588b-76d8-4108-8e4e-a91de907fa39</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hclass type="a">UC_AdjustLighting</_hclass>
+					<_hname type="a">itsTruck</_hname>
+					<_hid type="a">GUID eeb27540-a00b-4f55-aa7c-a3c1f206d6a6</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
