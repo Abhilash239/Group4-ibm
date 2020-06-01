@@ -1,11 +1,57 @@
 I-Logix-RPY-Archive version 8.15.0 * 9841247
 
 - m_fileModifyTime = { IRPYRawContainer 
-	- size = 8;
-	- value = "DefaultComponent\\DefaultConfig\\Default.cpp" 5.21.2019::8:36:58
+	- size = 54;
+	- value = "DefaultComponent\\DefaultConfig\\ADS.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\ADS.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\ActorPkg.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\ActorPkg.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\AdjustHVACandLighting.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\AdjustHVACandLighting.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\AdjustHVACinTruckCabin.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\AdjustHVACinTruckCabin.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\AdjustLightinginTruckCabin.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\AdjustLightinginTruckCabin.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\ArchitecturePkg.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\ArchitecturePkg.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\ChargingSystem.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\ChargingSystem.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\CollisionDetectionSystem.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\CollisionDetectionSystem.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\DC.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\DC.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\DCOperator.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\DCOperator.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 5.21.2019::8:36:58
 	"DefaultComponent\\DefaultConfig\\Default.h" 5.21.2019::8:36:58
-	"DefaultComponent\\DefaultConfig\\ToUnity.cpp" 5.30.2020::1:18:10
-	"DefaultComponent\\DefaultConfig\\ToUnity.h" 5.30.2020::1:18:10
+	"DefaultComponent\\DefaultConfig\\DockTruck.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\DockTruck.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\DriveAutonomously.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\DriveAutonomously.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\Driver.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\Driver.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\FollowPath.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\FollowPath.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\GUI.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\GUI.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\GeneratePath.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\GeneratePath.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\Government.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\Government.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\LocSystem.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\LocSystem.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\Obstacles.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\Obstacles.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\SafetyStandards.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\SafetyStandards.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\ToUnity.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\ToUnity.h" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\Truck.cpp" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\Truck.h" 6.1.2020::18:4:42
+	"DefaultComponent\\DefaultConfig\\UC_ControlPath.cpp" 6.1.2020::18:4:40
+	"DefaultComponent\\DefaultConfig\\UC_ControlPath.h" 6.1.2020::18:4:40
+	"DefaultComponent\\DefaultConfig\\UC_DockTruck.cpp" 6.1.2020::18:4:41
+	"DefaultComponent\\DefaultConfig\\UC_DockTruck.h" 6.1.2020::18:4:41
 	"DefaultComponent\\DefaultConfig\\Unity.cpp" 5.28.2020::17:11:35
 	"DefaultComponent\\DefaultConfig\\Unity.h" 5.28.2020::17:11:35
 	"DefaultComponent\\DefaultConfig\\UnityPkg.cpp" 5.30.2020::1:18:10
@@ -13,20 +59,137 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 	
 }
 - m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
-	- size = 3;
-	- value = "GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	- size = 9;
+	- value = "GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
+	"GUID 2f17c359-6d4d-4f58-9db1-e9de76285692" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID 99358d8e-541d-434d-8f30-db01a2d473d3" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
 	"GUID 9a31d082-1c78-4aed-a199-374f70735c28" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
 	"GUID ba135d04-bd24-4a17-9f86-ebd2fb6b85e4" "GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2"
+	"GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID f4515241-e2ff-4d14-845c-b184adb4f493" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
 	
 }
-- size = 3;
+- size = 27;
+- hElement = { IHandle 
+	- _m2Class = "IUseCase";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "FollowPath";
+	- _id = GUID 0176c0a0-d8bf-4e04-8226-bea838a404b7;
+}
+- genTime = 6.1.2020::18:5:8;
 - hElement = { IHandle 
 	- _m2Class = "ICodeGenConfigInfo";
 	- _filename = ".\\..\\..\\TruckLab_rpy\\DefaultComponent.cmpx";
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID 1c1425ae-7238-4426-a5ce-e3f4491f5089;
 }
-- genTime = 5.30.2020::1:25:57;
+- genTime = 6.1.2020::18:5:8;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Driver";
+	- _id = GUID a092e39d-ecb3-4196-aa35-032270d1147f;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IUseCase";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "DockTruck";
+	- _id = GUID 7ea411fa-2563-4a69-95ed-04efe8d9323a;
+}
+- genTime = 6.1.2020::18:5:8;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Government";
+	- _id = GUID 52844abf-320a-4e8e-8bd5-39d30a53f39f;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "ChargingSystem";
+	- _id = GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "DriveAutonomously";
+	- _id = GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "AdjustHVACandLighting";
+	- _id = GUID 99358d8e-541d-434d-8f30-db01a2d473d3;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\GUI.sbsx";
+	- _name = "GUI";
+	- _id = GUID 2f17c359-6d4d-4f58-9db1-e9de76285692;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "DC";
+	- _id = GUID c0df7c3f-b22d-4798-abd2-7573393638f3;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "UC_DockTruck";
+	- _id = GUID fd9bbf15-1101-4326-bd72-d1a6f81ec973;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IUseCase";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "GeneratePath";
+	- _id = GUID f604081a-cd15-4340-be9b-fd63cb09a096;
+}
+- genTime = 6.1.2020::18:5:8;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Truck";
+	- _id = GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "DCOperator";
+	- _id = GUID 580780ff-e115-47b2-954a-d7907b7f5d5c;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ArchitecturePkg.sbsx";
+	- _subsystem = "ArchitecturePkg";
+	- _name = "ADS";
+	- _id = GUID cc45b8f8-796c-4e99-b5e2-e4dd35b846f1;
+}
+- genTime = 6.1.2020::18:4:42;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\TruckLab_rpy\\ToUnity.clsx";
@@ -34,12 +197,90 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 	- _name = "ToUnity";
 	- _id = GUID ba135d04-bd24-4a17-9f86-ebd2fb6b85e4;
 }
-- genTime = 5.30.2020::21:0:39;
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\GUI.sbsx";
+	- _subsystem = "GUI";
+	- _name = "GUI";
+	- _id = GUID 2db1e728-2f80-40c5-8400-80735a41ddd1;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "LocSystem";
+	- _id = GUID b96816f5-45f4-4b3c-8055-efde7fd5a216;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _name = "ActorPkg";
+	- _id = GUID f4515241-e2ff-4d14-845c-b184adb4f493;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IUseCase";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::AdjustHVACandLighting";
+	- _name = "AdjustHVACinTruckCabin";
+	- _id = GUID b7ab0848-602d-4fc4-a2fd-b5b23b35a714;
+}
+- genTime = 6.1.2020::18:5:8;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ArchitecturePkg.sbsx";
+	- _name = "ArchitecturePkg";
+	- _id = GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "CollisionDetectionSystem";
+	- _id = GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "SafetyStandards";
+	- _id = GUID de1414c9-d0cb-4b34-95aa-cdada29f9246;
+}
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "UC_ControlPath";
+	- _id = GUID b3cc828f-e5b1-4542-940f-95382273d11e;
+}
+- genTime = 6.1.2020::18:4:42;
 - hElement = { IHandle 
 	- _m2Class = "ISubsystem";
 	- _filename = ".\\..\\..\\TruckLab_rpy\\UnityPkg.sbsx";
 	- _name = "UnityPkg";
 	- _id = GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2;
 }
-- genTime = 5.30.2020::21:0:39;
+- genTime = 6.1.2020::18:4:42;
+- hElement = { IHandle 
+	- _m2Class = "IUseCase";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::AdjustHVACandLighting";
+	- _name = "AdjustLightinginTruckCabin";
+	- _id = GUID 532ceac1-8c10-4a14-a9da-d3b650c8c681;
+}
+- genTime = 6.1.2020::18:5:8;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Obstacles";
+	- _id = GUID 94d5fd3c-3ed1-4ca1-957e-c889e1afc927;
+}
+- genTime = 6.1.2020::18:4:42;
 

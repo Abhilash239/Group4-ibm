@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ToUnity
-//!	Generated Date	: Sat, 30, May 2020  
+//!	Generated Date	: Mon, 1, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\ToUnity.cpp
 *********************************************************************/
 
@@ -16,12 +16,14 @@
 
 //## auto_generated
 #include "ToUnity.h"
-//## link itsCollision Detection system
-#include "Collision Detection system.h"
+//## link itsCollisionDetectionSystem
+#include "CollisionDetectionSystem.h"
 //## link itsLocSystem
 #include "LocSystem.h"
 //## link itsTruck
 #include "Truck.h"
+//## link itsUC_DockTruck
+#include "UC_DockTruck.h"
 //#[ ignore
 #define UnityPkg_ToUnity_ToUnity_SERIALIZE OM_NO_OP
 
@@ -82,9 +84,10 @@
 ToUnity::ToUnity(IOxfActive* theActiveContext) : steeringCmd(0), velocity(0), velocityCmd(0), Ki(0.1), Kp(0.5), address_collision("127.0.0.1"), address_drive("127.0.0.1"), dt(50), integratedVelocityError(0), integratedVelocityErrorMax(0.5), maxSteeringAngle(45.0f), port_collision(54321), port_drive(54320), trailerCollisionCode(0), truckCollisionCode(0) {
     NOTIFY_REACTIVE_CONSTRUCTOR(ToUnity, ToUnity(), 0, UnityPkg_ToUnity_ToUnity_SERIALIZE);
     setActiveContext(theActiveContext, false);
-    itsCollision Detection system = NULL;
+    itsCollisionDetectionSystem = NULL;
     itsLocSystem = NULL;
     itsTruck = NULL;
+    itsUC_DockTruck = NULL;
     initStatechart();
 }
 
@@ -638,16 +641,16 @@ void ToUnity::setWs(WSADATA p_ws) {
     ws = p_ws;
 }
 
-Collision Detection system* ToUnity::getItsCollision Detection system() const {
-    return itsCollision Detection system;
+CollisionDetectionSystem* ToUnity::getItsCollisionDetectionSystem() const {
+    return itsCollisionDetectionSystem;
 }
 
-void ToUnity::setItsCollision Detection system(Collision Detection system* p_Collision Detection system) {
-    if(p_Collision Detection system != NULL)
+void ToUnity::setItsCollisionDetectionSystem(CollisionDetectionSystem* p_CollisionDetectionSystem) {
+    if(p_CollisionDetectionSystem != NULL)
         {
-            p_Collision Detection system->_setItsToUnity(this);
+            p_CollisionDetectionSystem->_setItsToUnity(this);
         }
-    _setItsCollision Detection system(p_Collision Detection system);
+    _setItsCollisionDetectionSystem(p_CollisionDetectionSystem);
 }
 
 LocSystem* ToUnity::getItsLocSystem() const {
@@ -674,16 +677,28 @@ void ToUnity::setItsTruck(Truck* p_Truck) {
     _setItsTruck(p_Truck);
 }
 
-void ToUnity::cleanUpRelations() {
-    if(itsCollision Detection system != NULL)
+UC_DockTruck* ToUnity::getItsUC_DockTruck() const {
+    return itsUC_DockTruck;
+}
+
+void ToUnity::setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck) {
+    if(p_UC_DockTruck != NULL)
         {
-            NOTIFY_RELATION_CLEARED("itsCollision Detection system");
-            ToUnity* p_ToUnity = itsCollision Detection system->getItsToUnity();
+            p_UC_DockTruck->_setItsToUnity(this);
+        }
+    _setItsUC_DockTruck(p_UC_DockTruck);
+}
+
+void ToUnity::cleanUpRelations() {
+    if(itsCollisionDetectionSystem != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsCollisionDetectionSystem");
+            ToUnity* p_ToUnity = itsCollisionDetectionSystem->getItsToUnity();
             if(p_ToUnity != NULL)
                 {
-                    itsCollision Detection system->__setItsToUnity(NULL);
+                    itsCollisionDetectionSystem->__setItsToUnity(NULL);
                 }
-            itsCollision Detection system = NULL;
+            itsCollisionDetectionSystem = NULL;
         }
     if(itsLocSystem != NULL)
         {
@@ -705,6 +720,16 @@ void ToUnity::cleanUpRelations() {
                 }
             itsTruck = NULL;
         }
+    if(itsUC_DockTruck != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsUC_DockTruck");
+            ToUnity* p_ToUnity = itsUC_DockTruck->getItsToUnity();
+            if(p_ToUnity != NULL)
+                {
+                    itsUC_DockTruck->__setItsToUnity(NULL);
+                }
+            itsUC_DockTruck = NULL;
+        }
 }
 
 void ToUnity::cancelTimeouts() {
@@ -721,29 +746,29 @@ bool ToUnity::cancelTimeout(const IOxfTimeout* arg) {
     return res;
 }
 
-void ToUnity::__setItsCollision Detection system(Collision Detection system* p_Collision Detection system) {
-    itsCollision Detection system = p_Collision Detection system;
-    if(p_Collision Detection system != NULL)
+void ToUnity::__setItsCollisionDetectionSystem(CollisionDetectionSystem* p_CollisionDetectionSystem) {
+    itsCollisionDetectionSystem = p_CollisionDetectionSystem;
+    if(p_CollisionDetectionSystem != NULL)
         {
-            NOTIFY_RELATION_ITEM_ADDED("itsCollision Detection system", p_Collision Detection system, false, true);
+            NOTIFY_RELATION_ITEM_ADDED("itsCollisionDetectionSystem", p_CollisionDetectionSystem, false, true);
         }
     else
         {
-            NOTIFY_RELATION_CLEARED("itsCollision Detection system");
+            NOTIFY_RELATION_CLEARED("itsCollisionDetectionSystem");
         }
 }
 
-void ToUnity::_setItsCollision Detection system(Collision Detection system* p_Collision Detection system) {
-    if(itsCollision Detection system != NULL)
+void ToUnity::_setItsCollisionDetectionSystem(CollisionDetectionSystem* p_CollisionDetectionSystem) {
+    if(itsCollisionDetectionSystem != NULL)
         {
-            itsCollision Detection system->__setItsToUnity(NULL);
+            itsCollisionDetectionSystem->__setItsToUnity(NULL);
         }
-    __setItsCollision Detection system(p_Collision Detection system);
+    __setItsCollisionDetectionSystem(p_CollisionDetectionSystem);
 }
 
-void ToUnity::_clearItsCollision Detection system() {
-    NOTIFY_RELATION_CLEARED("itsCollision Detection system");
-    itsCollision Detection system = NULL;
+void ToUnity::_clearItsCollisionDetectionSystem() {
+    NOTIFY_RELATION_CLEARED("itsCollisionDetectionSystem");
+    itsCollisionDetectionSystem = NULL;
 }
 
 void ToUnity::__setItsLocSystem(LocSystem* p_LocSystem) {
@@ -794,6 +819,31 @@ void ToUnity::_setItsTruck(Truck* p_Truck) {
 void ToUnity::_clearItsTruck() {
     NOTIFY_RELATION_CLEARED("itsTruck");
     itsTruck = NULL;
+}
+
+void ToUnity::__setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck) {
+    itsUC_DockTruck = p_UC_DockTruck;
+    if(p_UC_DockTruck != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsUC_DockTruck", p_UC_DockTruck, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsUC_DockTruck");
+        }
+}
+
+void ToUnity::_setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck) {
+    if(itsUC_DockTruck != NULL)
+        {
+            itsUC_DockTruck->__setItsToUnity(NULL);
+        }
+    __setItsUC_DockTruck(p_UC_DockTruck);
+}
+
+void ToUnity::_clearItsUC_DockTruck() {
+    NOTIFY_RELATION_CLEARED("itsUC_DockTruck");
+    itsUC_DockTruck = NULL;
 }
 
 void ToUnity::rootState_entDef() {
@@ -923,10 +973,15 @@ void OMAnimatedToUnity::serializeRelations(AOMSRelations* aomsRelations) const {
         {
             aomsRelations->ADD_ITEM(myReal->itsLocSystem);
         }
-    aomsRelations->addRelation("itsCollision Detection system", false, true);
-    if(myReal->itsCollision Detection system)
+    aomsRelations->addRelation("itsCollisionDetectionSystem", false, true);
+    if(myReal->itsCollisionDetectionSystem)
         {
-            aomsRelations->ADD_ITEM(myReal->itsCollision Detection system);
+            aomsRelations->ADD_ITEM(myReal->itsCollisionDetectionSystem);
+        }
+    aomsRelations->addRelation("itsUC_DockTruck", false, true);
+    if(myReal->itsUC_DockTruck)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsUC_DockTruck);
         }
 }
 

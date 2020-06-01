@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ToUnity
-//!	Generated Date	: Sat, 30, May 2020  
+//!	Generated Date	: Mon, 1, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\ToUnity.h
 *********************************************************************/
 
@@ -39,14 +39,17 @@
 #include "string.h"
 //## auto_generated
 #include "UnityPkg.h"
-//## link itsCollision Detection system
-class Collision Detection system;
+//## link itsCollisionDetectionSystem
+class CollisionDetectionSystem;
 
 //## link itsLocSystem
 class LocSystem;
 
 //## link itsTruck
 class Truck;
+
+//## link itsUC_DockTruck
+class UC_DockTruck;
 
 //#[ ignore
 #define OMAnim_UnityPkg_ToUnity_setObstaclePosX_RhpReal_ARGS_DECLARATION RhpReal p_obstaclePosX;
@@ -392,10 +395,10 @@ public :
     void setWs(WSADATA p_ws);
     
     //## auto_generated
-    Collision Detection system* getItsCollision Detection system() const;
+    CollisionDetectionSystem* getItsCollisionDetectionSystem() const;
     
     //## auto_generated
-    void setItsCollision Detection system(Collision Detection system* p_Collision Detection system);
+    void setItsCollisionDetectionSystem(CollisionDetectionSystem* p_CollisionDetectionSystem);
     
     //## auto_generated
     LocSystem* getItsLocSystem() const;
@@ -408,6 +411,12 @@ public :
     
     //## auto_generated
     void setItsTruck(Truck* p_Truck);
+    
+    //## auto_generated
+    UC_DockTruck* getItsUC_DockTruck() const;
+    
+    //## auto_generated
+    void setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck);
 
 protected :
 
@@ -476,22 +485,24 @@ protected :
     
     WSADATA ws;		//## attribute ws
     
-    Collision Detection system* itsCollision Detection system;		//## link itsCollision Detection system
+    CollisionDetectionSystem* itsCollisionDetectionSystem;		//## link itsCollisionDetectionSystem
     
     LocSystem* itsLocSystem;		//## link itsLocSystem
     
     Truck* itsTruck;		//## link itsTruck
+    
+    UC_DockTruck* itsUC_DockTruck;		//## link itsUC_DockTruck
 
 public :
 
     //## auto_generated
-    void __setItsCollision Detection system(Collision Detection system* p_Collision Detection system);
+    void __setItsCollisionDetectionSystem(CollisionDetectionSystem* p_CollisionDetectionSystem);
     
     //## auto_generated
-    void _setItsCollision Detection system(Collision Detection system* p_Collision Detection system);
+    void _setItsCollisionDetectionSystem(CollisionDetectionSystem* p_CollisionDetectionSystem);
     
     //## auto_generated
-    void _clearItsCollision Detection system();
+    void _clearItsCollisionDetectionSystem();
     
     //## auto_generated
     void __setItsLocSystem(LocSystem* p_LocSystem);
@@ -510,6 +521,15 @@ public :
     
     //## auto_generated
     void _clearItsTruck();
+    
+    //## auto_generated
+    void __setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck);
+    
+    //## auto_generated
+    void _setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck);
+    
+    //## auto_generated
+    void _clearItsUC_DockTruck();
     
     // rootState:
     //## statechart_method

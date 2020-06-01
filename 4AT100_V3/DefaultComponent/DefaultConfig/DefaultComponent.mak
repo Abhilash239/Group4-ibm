@@ -8,7 +8,7 @@ LinkRelease=
 BuildSet=Release
 SUBSYSTEM=/SUBSYSTEM:console
 RPFrameWorkDll=False
-SimulinkLibName=
+SimulinkLibName=$(OMROOT)\LangCpp\lib\$(LIB_PREFIX)SimulinkIntegration$(LIB_POSTFIX)$(LIB_EXT)
 
 ConfigurationCPPCompileSwitches=   /I . /I . /I $(OMROOT)\LangCpp /I $(OMROOT)\LangCpp\oxf /nologo /W3 $(ENABLE_EH) $(CRT_FLAGS) $(CPPCompileRelease) /D "_AFXDLL" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_WINDOWS" $(INST_FLAGS) $(INCLUDE_PATH) $(INST_INCLUDES) /c   
 
@@ -86,7 +86,30 @@ ADDITIONAL_OBJS=
 
 OBJS= \
   ToUnity.obj \
-  UnityPkg.obj
+  UC_DockTruck.obj \
+  UC_ControlPath.obj \
+  DockTruck.obj \
+  GeneratePath.obj \
+  FollowPath.obj \
+  AdjustHVACinTruckCabin.obj \
+  AdjustLightinginTruckCabin.obj \
+  ADS.obj \
+  GUI.obj \
+  ChargingSystem.obj \
+  DC.obj \
+  DCOperator.obj \
+  Driver.obj \
+  CollisionDetectionSystem.obj \
+  Obstacles.obj \
+  LocSystem.obj \
+  Truck.obj \
+  Government.obj \
+  SafetyStandards.obj \
+  UnityPkg.obj \
+  DriveAutonomously.obj \
+  AdjustHVACandLighting.obj \
+  ArchitecturePkg.obj \
+  ActorPkg.obj
 
 
 
@@ -169,15 +192,153 @@ SOCK_LIB=
 
 
 
-ToUnity.obj : ToUnity.cpp ToUnity.h    UnityPkg.h 
+ToUnity.obj : ToUnity.cpp ToUnity.h    UnityPkg.h Truck.h LocSystem.h CollisionDetectionSystem.h UC_DockTruck.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ToUnity.obj" "ToUnity.cpp" 
+
+
+
+UC_DockTruck.obj : UC_DockTruck.cpp UC_DockTruck.h    DriveAutonomously.h UC_ControlPath.h GUI.h ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_DockTruck.obj" "UC_DockTruck.cpp" 
+
+
+
+UC_ControlPath.obj : UC_ControlPath.cpp UC_ControlPath.h    DriveAutonomously.h UC_DockTruck.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_ControlPath.obj" "UC_ControlPath.cpp" 
+
+
+
+DockTruck.obj : DockTruck.cpp DockTruck.h    DriveAutonomously.h DCOperator.h Truck.h LocSystem.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DockTruck.obj" "DockTruck.cpp" 
+
+
+
+GeneratePath.obj : GeneratePath.cpp GeneratePath.h    DriveAutonomously.h LocSystem.h CollisionDetectionSystem.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"GeneratePath.obj" "GeneratePath.cpp" 
+
+
+
+FollowPath.obj : FollowPath.cpp FollowPath.h    DriveAutonomously.h LocSystem.h Truck.h CollisionDetectionSystem.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"FollowPath.obj" "FollowPath.cpp" 
+
+
+
+AdjustHVACinTruckCabin.obj : AdjustHVACinTruckCabin.cpp AdjustHVACinTruckCabin.h    AdjustHVACandLighting.h Truck.h Driver.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AdjustHVACinTruckCabin.obj" "AdjustHVACinTruckCabin.cpp" 
+
+
+
+AdjustLightinginTruckCabin.obj : AdjustLightinginTruckCabin.cpp AdjustLightinginTruckCabin.h    AdjustHVACandLighting.h Truck.h Driver.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AdjustLightinginTruckCabin.obj" "AdjustLightinginTruckCabin.cpp" 
+
+
+
+ADS.obj : ADS.cpp ADS.h    ArchitecturePkg.h GUI.h UC_DockTruck.h ToUnity.h UC_ControlPath.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ADS.obj" "ADS.cpp" 
+
+
+
+GUI.obj : GUI.cpp GUI.h    DCOperator.h UC_DockTruck.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"GUI.obj" "GUI.cpp" 
+
+
+
+ChargingSystem.obj : ChargingSystem.cpp ChargingSystem.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ChargingSystem.obj" "ChargingSystem.cpp" 
+
+
+
+DC.obj : DC.cpp DC.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DC.obj" "DC.cpp" 
+
+
+
+DCOperator.obj : DCOperator.cpp DCOperator.h    ActorPkg.h GUI.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCOperator.obj" "DCOperator.cpp" 
+
+
+
+Driver.obj : Driver.cpp Driver.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Driver.obj" "Driver.cpp" 
+
+
+
+CollisionDetectionSystem.obj : CollisionDetectionSystem.cpp CollisionDetectionSystem.h    ActorPkg.h ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"CollisionDetectionSystem.obj" "CollisionDetectionSystem.cpp" 
+
+
+
+Obstacles.obj : Obstacles.cpp Obstacles.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Obstacles.obj" "Obstacles.cpp" 
+
+
+
+LocSystem.obj : LocSystem.cpp LocSystem.h    ActorPkg.h ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"LocSystem.obj" "LocSystem.cpp" 
+
+
+
+Truck.obj : Truck.cpp Truck.h    ActorPkg.h ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Truck.obj" "Truck.cpp" 
+
+
+
+Government.obj : Government.cpp Government.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Government.obj" "Government.cpp" 
+
+
+
+SafetyStandards.obj : SafetyStandards.cpp SafetyStandards.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SafetyStandards.obj" "SafetyStandards.cpp" 
 
 
 
 UnityPkg.obj : UnityPkg.cpp UnityPkg.h    ToUnity.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UnityPkg.obj" "UnityPkg.cpp" 
+
+
+
+DriveAutonomously.obj : DriveAutonomously.cpp DriveAutonomously.h    UC_DockTruck.h UC_ControlPath.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DriveAutonomously.obj" "DriveAutonomously.cpp" 
+
+
+
+AdjustHVACandLighting.obj : AdjustHVACandLighting.cpp AdjustHVACandLighting.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AdjustHVACandLighting.obj" "AdjustHVACandLighting.cpp" 
+
+
+
+ArchitecturePkg.obj : ArchitecturePkg.cpp ArchitecturePkg.h    ADS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ArchitecturePkg.obj" "ArchitecturePkg.cpp" 
+
+
+
+ActorPkg.obj : ActorPkg.cpp ActorPkg.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ActorPkg.obj" "ActorPkg.cpp" 
 
 
 
@@ -209,7 +370,30 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 clean:
 	@echo Cleanup
 	if exist ToUnity.obj erase ToUnity.obj
+	if exist UC_DockTruck.obj erase UC_DockTruck.obj
+	if exist UC_ControlPath.obj erase UC_ControlPath.obj
+	if exist DockTruck.obj erase DockTruck.obj
+	if exist GeneratePath.obj erase GeneratePath.obj
+	if exist FollowPath.obj erase FollowPath.obj
+	if exist AdjustHVACinTruckCabin.obj erase AdjustHVACinTruckCabin.obj
+	if exist AdjustLightinginTruckCabin.obj erase AdjustLightinginTruckCabin.obj
+	if exist ADS.obj erase ADS.obj
+	if exist GUI.obj erase GUI.obj
+	if exist ChargingSystem.obj erase ChargingSystem.obj
+	if exist DC.obj erase DC.obj
+	if exist DCOperator.obj erase DCOperator.obj
+	if exist Driver.obj erase Driver.obj
+	if exist CollisionDetectionSystem.obj erase CollisionDetectionSystem.obj
+	if exist Obstacles.obj erase Obstacles.obj
+	if exist LocSystem.obj erase LocSystem.obj
+	if exist Truck.obj erase Truck.obj
+	if exist Government.obj erase Government.obj
+	if exist SafetyStandards.obj erase SafetyStandards.obj
 	if exist UnityPkg.obj erase UnityPkg.obj
+	if exist DriveAutonomously.obj erase DriveAutonomously.obj
+	if exist AdjustHVACandLighting.obj erase AdjustHVACandLighting.obj
+	if exist ArchitecturePkg.obj erase ArchitecturePkg.obj
+	if exist ActorPkg.obj erase ActorPkg.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

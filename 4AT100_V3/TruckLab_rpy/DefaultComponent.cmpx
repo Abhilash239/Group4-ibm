@@ -2,9 +2,9 @@
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
 	<CODE-PAGE>1252</CODE-PAGE>
-	<version>100.831.0</version>
+	<version>100.840.0</version>
 	<lang>C++</lang>
-	<BuildNo>9835550</BuildNo>
+	<BuildNo>9841247</BuildNo>
 	
 	<RHAPSODY-MODEL>
 	<IComponent type="e">
@@ -24,13 +24,13 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.21.2019::8:43:40</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.21.2019::8:43:40</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.1.2020::14:52:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:57:1</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
 					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
-					<_hid type="a">GUID 1c1425ae-7238-4426-a5ce-e3f4491f5089</_hid>
+					<_hid type="a">GUID d665a4bc-19bd-4b20-8298-22063c737ddf</_hid>
 				</ICodeGenConfigInfoHandle>
 			</m_configActive>
 			<VariationPoints type="c">
@@ -43,29 +43,62 @@
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</SelectedVariants>
-			<weakCGTime type="a">5.21.2019::8:43:40</weakCGTime>
-			<strongCGTime type="a">5.18.2019::11:11:42</strongCGTime>
+			<weakCGTime type="a">6.1.2020::14:52:54</weakCGTime>
+			<strongCGTime type="a">6.1.2020::14:52:54</strongCGTime>
 			<AggregatesList type="e">
 				<value>GUID 14a16335-df21-40b0-99c8-e5c4f2ec07ca</value>
 				<value>GUID 1c1425ae-7238-4426-a5ce-e3f4491f5089</value>
+				<value>GUID d665a4bc-19bd-4b20-8298-22063c737ddf</value>
 			</AggregatesList>
 		</IComponent>
 		<IFolder type="e">
 			<_id type="a">GUID 14a16335-df21-40b0-99c8-e5c4f2ec07ca</_id>
 			<_myState type="a">73728</_myState>
 			<_name type="a">Files</_name>
-			<_modifiedTimeWeak type="a">5.18.2019::11:11:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.18.2019::11:11:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.1.2020::14:52:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:52:54</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<Elements type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
+					<size type="a">5</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\Default.sbsx</_hfilename>
-							<_hname type="a">Default</_hname>
+							<_hfilename type="a">.\UnityPkg.sbsx</_hfilename>
+							<_hname type="a">UnityPkg</_hname>
 							<_hid type="a">GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\UseCaseAnalysisPkg.sbsx</_hfilename>
+							<_hname type="a">UseCaseAnalysisPkg</_hname>
+							<_hid type="a">GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\ArchitecturePkg.sbsx</_hfilename>
+							<_hname type="a">ArchitecturePkg</_hname>
+							<_hid type="a">GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\GUI.sbsx</_hfilename>
+							<_hname type="a">GUI</_hname>
+							<_hid type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+							<_hname type="a">ActorPkg</_hname>
+							<_hid type="a">GUID f4515241-e2ff-4d14-845c-b184adb4f493</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
@@ -209,6 +242,7 @@
 			<m_generateActors type="a">1</m_generateActors>
 			<_statechartImplementation type="a">Flat</_statechartImplementation>
 			<_checksList type="a">285 ,SC_04-07-2010_ 1241, SCCOM002, SCCOM022, SCCOM005, SCCOM015, SC_05-30-2011_ 1283, SC_10-24-2010_ 1270, SC 1154, SC_04-07-2010_ 1242, SC_04-07-2010_ 1245, SOTC005, SC_10-18-2010_ 1269, SC_09-15-2011_ 1285, SC_03-08-2011_ 1272, SC_09-04-2006_ 1199, SC10159, SC10158, SC0100, SC 1153, SC0207, SCEVID003, SCCOM014, SCCOM009, SCCOM003, SCCOM001, SCCOM004, SC0204, SC0205, SC0203, SC0201, SC_10-24-2010_ 1272, SC_07-02-2014_ 1308, SC_10-24-2010_ 1273, SC_10-24-2010_ 1276, SC_12-24-2006_ 1205, SC_04-29-2012_ 1289, SC_03-09-2017_ 1280, SC_11-14-2005_ 1185, SC_03-29-2009_ 1237, SC0209, SC_04-22-2010_ 1246, SC_07-12-2010_ 1256, SC_04-07-2010_ 1244, SC_04-07-2010_ 1243, SC000?, SC_10-24-2010_ 1274, SC0017, SCAA199, SC_10-17-2011_ 1285, SCC001, SC0199, SC0108, SC0106, SC0111, SC_12-28-2006_ 1207, SC_10-24-2010_ 1275, SC0008, SC_03-15-2010_ 1240, SC_08-17-2011_ 1284, SC_08-24-2004_ 1164, SCCOM016, SCCOM008, SCCOM007, SCCOM017, SC0301, SCCOM011, SC0112, SC151518, SOTC007, SC_03-07-2011_ 1271, SC151515, SC_01-08-2012_ 1288, SC0004, SC_04-29-2010_ 1248, SC0007, SC0177, SC151517, SC1201, SC_04-29-2010_ 1251, SC_03-15-2010_ 1239, SCUMI001, SC_03-25-2013_ 1301, SC0114, SC_12-28-2006_ 1208, SC5340159, SC_01-31-2008_ 1227, SC 1144, SCEVID001, SCCOM019, SCCOM018, SC_12-11-2006_ 1202, SC0107, SC0006, SCEVID002, SCEVID005, SCCOM006, SCCOM010, SC0202, SC1100, SC_04-29-2010_ 1250, SC_10-19-2010_ 1268, SC_05-10-2007_ 1216, SC 1148, SC_07-12-2012_ 1292, SC_09-04-2006_ 1200, SC0115, RIC002, RIC001, SC151516, SC_12-19-2006_ 1203, SCAA204, SC0109, SC0102, SC0116, SCAA099, SC0104, SC0120, SC0206, SC_10-19-2006_ 1201, SC_10-24-2010_ 1277, SC_07-03-2006_ 1197, SC0113, SC1000, SC1003, SC1002, SC_04-29-2010_ 1247, SC1532, SC_10-24-2010_ 1278, SCCOMPONENTVERSESBUILD, SC_12-31-2003_ 1162, SCEVID004, SCAA021, SC_08-15-2004_ 1163, SC_01-09-2007_ 1209, SC 1152, SC 1137, SC_12-28-2006_ 1206, SC_03-06-2011_ 1270, SCC0001, SC_08-01-2012_ 1298, SC_05-29-2007_ 1221, SC_04-27-2006_ 1192, SC_04-27-2006_ 1193, SC_01-05-2014_ 1307, SC0208, SC_11-06-2005_ 1182, SC0509, SC_11-02-2011_ 1286, SC 1139, SC_05-02-2010_ 1252, SC_09-09-2005_ 1178, SC_08-02-2012_ 1299, SC_11-06-2005_ 1181, SC 1160, SC9321, SC_10-22-2009_ 1238, SC_06-07-2012_ 1289, SC 1141, RIC003, SC0010, SC_10-18-2004_ 1164, SC 1138, SC_10-19-2004_ 1168, SC_03-01-2007_ 1213, SC_05-13-2007_ 1219, SC_04-27-2015_ 1311, SC0012, SC_11-16-2005_ 1186, SC9324, SC 1156, SC_06-14-2006_ 1195, SC0001, SC_09-28-2004_ 1163, SC 1143, SC_04-29-2010_ 1249, SC0011, SC0014, SC0016, SC_07-29-2012_ 1297, SC_06-21-2004_ 1163, SC_02-23-2006_ 1191, SC_02-23-2006_ 1190, SCCOM013, SC_04-06-2011_ 1275, SC_04-06-2011_ 1276, SC_04-06-2011_ 1277, SC_04-06-2011_ 1278, SC_04-06-2011_ 1274, SC_04-07-2011_ 1279, SC_05-04-2011_ 1281, SC_11-06-2005_ 1183, SC_05-13-2007_ 1220, SC0105, SC_07-16-2012_ 1293, SC0003, SC_09-06-2010_ 1257, SC0018, SC 1149, SC 1142, SC 1155, SC 1157, SC_01-13-2015_ 1310, SCCOM020, SC_02-28-2008_ 1228, SC1500, SC_02-01-2007_ 1210, SC_04-11-2011_ 1275, SC_04-11-2011_ 1274, SC_09-06-2010_ 1258, SC_09-02-2013_ 1304, SC_05-03-2010_ 1255, SC_03-06-2007_ 1214, SC 1160_1, E3700230-B324-11d4-B5E4-00D0B7BECC40, SC_02-15-2007_ 1202, SC 1140, SC 1147, SC 1161, SC_10-19-2004_ 1167, SC_09-05-2016_ 1276, SC1001, SC0013, SC_12-01-2005_ 1189, SC_03-12-2007_ 1215, SCSendActionUnresolvedEvent, SC_07-08-2014_ 1309, SC_08-02-2005_ 1176, SC_07-31-2005_ 1177, SC_07-28-2005_ 1171, SC_11-20-2005_ 1187, SC_07-28-2005_ 1174, SC_07-14-2005_ 1170, SC_10-31-2005_ 1180, SC_07-14-2005_ 1169, SC_07-28-2005_ 1175, SC_07-28-2005_ 1176, SOTC004, SOTC001, SOTC006, SOTC003, SC_11-22-2005_ 1187, SC_06-12-2012_ 1290, SC_08-28-2007_ 1225, SC0503, SC151520, SC_12-24-2006_ 1204, SC_02-14-2007_ 1211, SC_06-20-2007_ 1222, SC_11-18-2007_ 1226, SC_08-24-2009_ 1237, SC0504, SC_05-09-2011_ 1282, SC_08-05-2012_ 1300, SC_07-20-2012_ 1296, SC_11-28-2013_ 1306, SC_12-28-2008_ 1232, SC_03-08-2009_ 1235, SC_07-18-2012_ 1294, SC_12-28-2008_ 1231, SC_02-22-2009_ 1234, SC_05-27-2013_ 1303, SC_04-15-2013_ 1302, SC_08-22-2005_ 1177, SC_06-01-2005_ 1168, SC_07-12-2012_ 1291, SC 1151, SCAssocRole1, SCClassiferRole1, SCMessage1, SC_02-22-2016_ 1312, SC9323, SC9322, SC9326, SC9327, SC_09-08-2005_ 1178, SC_07-19-2012_ 1295, SC_12-28-2008_ 1230, SC_09-15-2013_ 1305, SC0015, SC_02-05-2009_ 1233, SC 1146, SC_07-02-2006_ 1196, SC 1145, RIC004, SC_03-14-2006_ 1190, </_checksList>
+			<_checksList_Default type="a">1</_checksList_Default>
 			<ScopeElements type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -220,8 +254,8 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IClass</_hm2Class>
-							<_hfilename type="a">.\Default.sbsx</_hfilename>
-							<_hsubsystem type="a">Default</_hsubsystem>
+							<_hfilename type="a">.\ToUnity.clsx</_hfilename>
+							<_hsubsystem type="a">UnityPkg</_hsubsystem>
 							<_hname type="a">ToUnity</_hname>
 							<_hid type="a">GUID ba135d04-bd24-4a17-9f86-ebd2fb6b85e4</_hid>
 						</IHandle>
@@ -273,6 +307,283 @@
 			<_id type="a">GUID cd5c136a-8a95-4ec2-8d93-ef943179c8b6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.14.2019::17:6:7</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID d665a4bc-19bd-4b20-8298-22063c737ddf</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">3</size>
+						<IPropertySubject type="e">
+							<_Name type="a">CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Configuration</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">MainGenerationScheme</_Name>
+													<_Value type="a">Full</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Full, UserInitializationOnly, None</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">CPP_CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">3</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Configuration</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Environment</_Name>
+													<_Value type="a">MSVC</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Microsoft,Cygwin,Linux,</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Framework</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">TimerResolution</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">MSVC</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">BuildCommandSet</_Name>
+													<_Value type="a">Release</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Debug,Release</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">UpdateBuildSettingsInIDE</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">WebComponents</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">WebFramework</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">GenerateInstrumentationCode</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">UC_DockTruck_Simulation</_name>
+			<_modifiedTimeWeak type="a">5.21.2019::8:43:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.21.2019::8:43:40</_modifiedTime>
+			<_scopeType type="a">Derived</_scopeType>
+			<_libraries type="a">ws2_32.lib</_libraries>
+			<_standardHeaders type="a">&quot;winsock2.h&quot;,&quot;stdio.h&quot;,&quot;windows.h&quot;,&quot;iostream&quot;,&quot;Ws2tcpip.h&quot;,&quot;string.h&quot;</_standardHeaders>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">285 ,SC_04-07-2010_ 1241, SCCOM002, SCCOM022, SCCOM005, SCCOM015, SC_05-30-2011_ 1283, SC_10-24-2010_ 1270, SC 1154, SC_04-07-2010_ 1242, SC_04-07-2010_ 1245, SOTC005, SC_10-18-2010_ 1269, SC_09-15-2011_ 1285, SC_03-08-2011_ 1272, SC_09-04-2006_ 1199, SC10159, SC10158, SC0100, SC 1153, SC0207, SCEVID003, SCCOM014, SCCOM009, SCCOM003, SCCOM001, SCCOM004, SC0204, SC0205, SC0203, SC0201, SC_10-24-2010_ 1272, SC_07-02-2014_ 1308, SC_10-24-2010_ 1273, SC_10-24-2010_ 1276, SC_12-24-2006_ 1205, SC_04-29-2012_ 1289, SC_03-09-2017_ 1280, SC_11-14-2005_ 1185, SC_03-29-2009_ 1237, SC0209, SC_04-22-2010_ 1246, SC_07-12-2010_ 1256, SC_04-07-2010_ 1244, SC_04-07-2010_ 1243, SC000?, SC_10-24-2010_ 1274, SC0017, SCAA199, SC_10-17-2011_ 1285, SCC001, SC0199, SC0108, SC0106, SC0111, SC_12-28-2006_ 1207, SC_10-24-2010_ 1275, SC0008, SC_03-15-2010_ 1240, SC_08-17-2011_ 1284, SC_08-24-2004_ 1164, SCCOM016, SCCOM008, SCCOM007, SCCOM017, SC0301, SCCOM011, SC0112, SC151518, SOTC007, SC_03-07-2011_ 1271, SC151515, SC_01-08-2012_ 1288, SC0004, SC_04-29-2010_ 1248, SC0007, SC0177, SC151517, SC1201, SC_04-29-2010_ 1251, SC_03-15-2010_ 1239, SCUMI001, SC_03-25-2013_ 1301, SC0114, SC_12-28-2006_ 1208, SC5340159, SC_01-31-2008_ 1227, SC 1144, SCEVID001, SCCOM019, SCCOM018, SC_12-11-2006_ 1202, SC0107, SC0006, SCEVID002, SCEVID005, SCCOM006, SCCOM010, SC0202, SC1100, SC_04-29-2010_ 1250, SC_10-19-2010_ 1268, SC_05-10-2007_ 1216, SC 1148, SC_07-12-2012_ 1292, SC_09-04-2006_ 1200, SC0115, RIC002, RIC001, SC151516, SC_12-19-2006_ 1203, SCAA204, SC0109, SC0102, SC0116, SCAA099, SC0104, SC0120, SC0206, SC_10-19-2006_ 1201, SC_10-24-2010_ 1277, SC_07-03-2006_ 1197, SC0113, SC1000, SC1003, SC1002, SC_04-29-2010_ 1247, SC1532, SC_10-24-2010_ 1278, SCCOMPONENTVERSESBUILD, SC_12-31-2003_ 1162, SCEVID004, SCAA021, SC_08-15-2004_ 1163, SC_01-09-2007_ 1209, SC 1152, SC 1137, SC_12-28-2006_ 1206, SC_03-06-2011_ 1270, SCC0001, SC_08-01-2012_ 1298, SC_05-29-2007_ 1221, SC_04-27-2006_ 1192, SC_04-27-2006_ 1193, SC_01-05-2014_ 1307, SC0208, SC_11-06-2005_ 1182, SC0509, SC_11-02-2011_ 1286, SC 1139, SC_05-02-2010_ 1252, SC_09-09-2005_ 1178, SC_08-02-2012_ 1299, SC_11-06-2005_ 1181, SC 1160, SC9321, SC_10-22-2009_ 1238, SC_06-07-2012_ 1289, SC 1141, RIC003, SC0010, SC_10-18-2004_ 1164, SC 1138, SC_10-19-2004_ 1168, SC_03-01-2007_ 1213, SC_05-13-2007_ 1219, SC_04-27-2015_ 1311, SC0012, SC_11-16-2005_ 1186, SC9324, SC 1156, SC_06-14-2006_ 1195, SC0001, SC_09-28-2004_ 1163, SC 1143, SC_04-29-2010_ 1249, SC0011, SC0014, SC0016, SC_07-29-2012_ 1297, SC_06-21-2004_ 1163, SC_02-23-2006_ 1191, SC_02-23-2006_ 1190, SCCOM013, SC_04-06-2011_ 1275, SC_04-06-2011_ 1276, SC_04-06-2011_ 1277, SC_04-06-2011_ 1278, SC_04-06-2011_ 1274, SC_04-07-2011_ 1279, SC_05-04-2011_ 1281, SC_11-06-2005_ 1183, SC_05-13-2007_ 1220, SC0105, SC_07-16-2012_ 1293, SC0003, SC_09-06-2010_ 1257, SC0018, SC 1149, SC 1142, SC 1155, SC 1157, SC_01-13-2015_ 1310, SCCOM020, SC_02-28-2008_ 1228, SC1500, SC_02-01-2007_ 1210, SC_04-11-2011_ 1275, SC_04-11-2011_ 1274, SC_09-06-2010_ 1258, SC_09-02-2013_ 1304, SC_05-03-2010_ 1255, SC_03-06-2007_ 1214, SC 1160_1, E3700230-B324-11d4-B5E4-00D0B7BECC40, SC_02-15-2007_ 1202, SC 1140, SC 1147, SC 1161, SC_10-19-2004_ 1167, SC_09-05-2016_ 1276, SC1001, SC0013, SC_12-01-2005_ 1189, SC_03-12-2007_ 1215, SCSendActionUnresolvedEvent, SC_07-08-2014_ 1309, SC_08-02-2005_ 1176, SC_07-31-2005_ 1177, SC_07-28-2005_ 1171, SC_11-20-2005_ 1187, SC_07-28-2005_ 1174, SC_07-14-2005_ 1170, SC_10-31-2005_ 1180, SC_07-14-2005_ 1169, SC_07-28-2005_ 1175, SC_07-28-2005_ 1176, SOTC004, SOTC001, SOTC006, SOTC003, SC_11-22-2005_ 1187, SC_06-12-2012_ 1290, SC_08-28-2007_ 1225, SC0503, SC151520, SC_12-24-2006_ 1204, SC_02-14-2007_ 1211, SC_06-20-2007_ 1222, SC_11-18-2007_ 1226, SC_08-24-2009_ 1237, SC0504, SC_05-09-2011_ 1282, SC_08-05-2012_ 1300, SC_07-20-2012_ 1296, SC_11-28-2013_ 1306, SC_12-28-2008_ 1232, SC_03-08-2009_ 1235, SC_07-18-2012_ 1294, SC_12-28-2008_ 1231, SC_02-22-2009_ 1234, SC_05-27-2013_ 1303, SC_04-15-2013_ 1302, SC_08-22-2005_ 1177, SC_06-01-2005_ 1168, SC_07-12-2012_ 1291, SC 1151, SCAssocRole1, SCClassiferRole1, SCMessage1, SC_02-22-2016_ 1312, SC9323, SC9322, SC9326, SC9327, SC_09-08-2005_ 1178, SC_07-19-2012_ 1295, SC_12-28-2008_ 1230, SC_09-15-2013_ 1305, SC0015, SC_02-05-2009_ 1233, SC 1146, SC_07-02-2006_ 1196, SC 1145, RIC004, SC_03-14-2006_ 1190, </_checksList>
+			<_checksList_Default type="a">1</_checksList_Default>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+							<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+							<_hname type="a">UC_DockTruck</_hname>
+							<_hid type="a">GUID fd9bbf15-1101-4326-bd72-d1a6f81ec973</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">5.21.2019::8:43:40</weakCGTime>
+			<strongCGTime type="a">5.21.2019::8:43:40</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">1</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID 3e27de9f-deb3-4988-a103-8553e1d05ab1</value>
+				<value>GUID 482e8463-5ff4-425a-80c5-b8d30f167507</value>
+				<value>GUID d4362835-cb30-4d7a-b91f-aebffd78a8be</value>
+				<value>GUID e85bc2b7-eb8d-4aae-85d5-4c9fd7ddfb31</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 3e27de9f-deb3-4988-a103-8553e1d05ab1</_id>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.14.2019::18:39:25</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 482e8463-5ff4-425a-80c5-b8d30f167507</_id>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.14.2019::18:39:25</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<ITag type="e">
+			<_id type="a">GUID d4362835-cb30-4d7a-b91f-aebffd78a8be</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SimulateModelFragment</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 1cd9c9d5-3ba6-40d2-b145-7e3115a9c850</value>
+				<value>GUID ec78765d-3e8a-4188-8029-6372bc925f9f</value>
+				<value>GUID bc492aec-f701-4138-8d37-a998d764952e</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 1cd9c9d5-3ba6-40d2-b145-7e3115a9c850</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID d665a4bc-19bd-4b20-8298-22063c737ddf</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IInstanceValue type="e">
+			<_id type="a">GUID ec78765d-3e8a-4188-8029-6372bc925f9f</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStateChart</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_DockTruck</_hclass>
+					<_hname type="a">statechart_2</_hname>
+					<_hid type="a">GUID 130b6e3e-e86e-45b1-9151-4a26aec1da8e</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IInstanceValue type="e">
+			<_id type="a">GUID bc492aec-f701-4138-8d37-a998d764952e</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStateChart</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_DockTruck</_hclass>
+					<_hname type="a">statechart_2</_hname>
+					<_hid type="a">GUID 130b6e3e-e86e-45b1-9151-4a26aec1da8e</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IFolder type="e">
+			<_id type="a">GUID e85bc2b7-eb8d-4aae-85d5-4c9fd7ddfb31</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">UC_DockTruck_Simulation</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.14.2019::17:6:7</_modifiedTime>
 			<Elements type="c">

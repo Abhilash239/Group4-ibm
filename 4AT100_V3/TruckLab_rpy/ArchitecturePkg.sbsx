@@ -11,10 +11,10 @@
 			<_id type="a">GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ArchitecturePkg</_name>
-			<_modifiedTimeWeak type="a">5.30.2020::0:38:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.30.2020::0:38:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.1.2020::16:53:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:57:1</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">5.30.2020::0:38:49</weakCGTime>
+			<weakCGTime type="a">6.1.2020::16:53:21</weakCGTime>
 			<strongCGTime type="a">5.29.2020::19:8:31</strongCGTime>
 			<_defaultComposite type="s">GUID 9af5bd5e-9786-4f91-9f04-8b480ea16391</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -36,7 +36,7 @@
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">6</size>
+									<size type="a">7</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Actor</_Name>
 										<Properties type="c">
@@ -307,6 +307,57 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Port</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">7</size>
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,68,73</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -331,8 +382,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::12:17:43</_modifiedTime>
-			<_lastModifiedTime type="a">5.29.2020::12:17:43</_lastModifiedTime>
+			<_modifiedTime type="a">6.1.2020::16:58:33</_modifiedTime>
+			<_lastModifiedTime type="a">6.1.2020::16:58:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1160,14 +1211,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID e0005677-18f8-4a8d-94cc-43c12082181a</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::DC Operator</m_str>
+					<m_str type="a">ActorPkg::DCOperator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1214,7 +1265,7 @@
 					<_hfilename type="a">.\GUI.sbsx</_hfilename>
 					<_hsubsystem type="a">GUI</_hsubsystem>
 					<_hclass type="a">GUI</_hclass>
-					<_hname type="a">itsDC Operator</_hname>
+					<_hname type="a">itsDCOperator</_hname>
 					<_hid type="a">GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -1268,7 +1319,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsGUI</_hname>
 					<_hid type="a">GUID f0fb5bf7-ba7a-4bc5-a850-e930188e6718</_hid>
 				</IAssociationEndHandle>
@@ -1309,7 +1360,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsDC Operator</m_str>
+					<m_str type="a">itsDCOperator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1506,14 +1557,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID e0005677-18f8-4a8d-94cc-43c12082181a</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::Collision Detection system</m_str>
+					<m_str type="a">ActorPkg::CollisionDetectionSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1934,7 +1985,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsToUnity</_hname>
 					<_hid type="a">GUID 6299ae0d-57e5-45ec-b247-7da68ecec49f</_hid>
 				</IHandle>
@@ -1991,7 +2042,7 @@
 					<_hfilename type="a">.\ToUnity.clsx</_hfilename>
 					<_hsubsystem type="a">UnityPkg</_hsubsystem>
 					<_hclass type="a">ToUnity</_hclass>
-					<_hname type="a">itsCollision Detection system</_hname>
+					<_hname type="a">itsCollisionDetectionSystem</_hname>
 					<_hid type="a">GUID f6ed9d8e-703e-4182-9c89-38618f876df4</_hid>
 				</IAssociationEndHandle>
 			</m_pInverseModelObject>
@@ -2014,7 +2065,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCollision Detection system</m_str>
+					<m_str type="a">itsCollisionDetectionSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2170,11 +2221,6 @@
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<ObjectLinks type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</ObjectLinks>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID 73dc14b2-bd9c-44a3-9e84-834d17267ee4</value>
@@ -3038,7 +3084,8 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">10</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">11</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
@@ -3056,7 +3103,8 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">4</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>

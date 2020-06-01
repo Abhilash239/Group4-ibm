@@ -11,10 +11,10 @@
 			<_id type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUI</_name>
-			<_modifiedTimeWeak type="a">5.30.2020::23:4:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.30.2020::23:4:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.1.2020::14:48:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:57:1</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">5.30.2020::23:4:3</weakCGTime>
+			<weakCGTime type="a">6.1.2020::14:48:51</weakCGTime>
 			<strongCGTime type="a">5.29.2020::19:8:31</strongCGTime>
 			<_defaultComposite type="s">GUID 516efeff-e260-408e-a963-c0c25ac660d2</_defaultComposite>
 			<_eventsBaseID type="a">15001</_eventsBaseID>
@@ -4618,7 +4618,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.30.2020::23:4:3</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.1.2020::14:48:51</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4629,9 +4629,9 @@
 					<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.30.2020::23:4:3</_modifiedTime>
+			<_modifiedTime type="a">6.1.2020::14:48:51</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">5.30.2020::23:4:3</weakCGTime>
+			<weakCGTime type="a">6.1.2020::14:48:51</weakCGTime>
 			<strongCGTime type="a">5.29.2020::11:27:50</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4761,16 +4761,16 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
-			<_modifiedTimeWeak type="a">5.24.2020::21:6:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::21:6:8</_modifiedTime>
+			<_name type="a">itsDCOperator</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::14:48:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:48:51</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -4779,7 +4779,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsGUI</_hname>
 					<_hid type="a">GUID f0fb5bf7-ba7a-4bc5-a850-e930188e6718</_hid>
 				</IHandle>
@@ -4820,15 +4820,31 @@
 			<_id type="a">GUID 0491be85-27a5-4eeb-8244-f0d5794b1c1f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">reqDock</_name>
-			<_modifiedTimeWeak type="a">5.29.2020::20:16:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::20:16:46</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.1.2020::14:35:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:35:17</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<_virtual type="a">0</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Args>
+			<AggregatesList type="e">
+				<value>GUID 5827b495-6291-46ba-bb1b-77d354f598b2</value>
+			</AggregatesList>
 		</IEvent>
+		<IArgument type="e">
+			<_id type="a">GUID 5827b495-6291-46ba-bb1b-77d354f598b2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">docknumber</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::14:35:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:35:17</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

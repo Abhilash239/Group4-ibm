@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.30.2020::22:38:21</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.1.2020::14:48:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -35,9 +35,9 @@
 					<_hid type="a">GUID 1230f65a-c4c5-46fa-b2b3-aa6d83fa0215</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.30.2020::22:38:21</_modifiedTime>
+			<_modifiedTime type="a">6.1.2020::14:57:1</_modifiedTime>
 			<_lastID type="a">59</_lastID>
-			<weakCGTime type="a">5.30.2020::22:38:21</weakCGTime>
+			<weakCGTime type="a">6.1.2020::14:48:41</weakCGTime>
 			<strongCGTime type="a">5.14.2019::18:56:1</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -6518,16 +6518,16 @@ this-&gt;send_receive();</_body>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID f6ed9d8e-703e-4182-9c89-38618f876df4</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCollision Detection system</_name>
-			<_modifiedTimeWeak type="a">5.28.2020::20:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.28.2020::20:23:33</_modifiedTime>
+			<_name type="a">itsCollisionDetectionSystem</_name>
+			<_modifiedTimeWeak type="a">6.1.2020::14:48:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.1.2020::14:48:41</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -6536,7 +6536,7 @@ this-&gt;send_receive();</_body>
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsToUnity</_hname>
 					<_hid type="a">GUID 6299ae0d-57e5-45ec-b247-7da68ecec49f</_hid>
 				</IHandle>

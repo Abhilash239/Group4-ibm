@@ -1,0 +1,141 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 22;
+	- value = "DefaultComponent\\UC_DockTruck_Simulation\\ActorPkg.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\ActorPkg.h" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\CollisionDetectionSystem.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\CollisionDetectionSystem.h" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\DCOperator.cpp" 6.1.2020::16:58:50
+	"DefaultComponent\\UC_DockTruck_Simulation\\DCOperator.h" 6.1.2020::16:58:50
+	"DefaultComponent\\UC_DockTruck_Simulation\\DriveAutonomously.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\DriveAutonomously.h" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\GUI.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\GUI.h" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\LocSystem.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\LocSystem.h" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\ToUnity.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\ToUnity.h" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\Truck.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\Truck.h" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\UC_ControlPath.cpp" 6.1.2020::16:58:50
+	"DefaultComponent\\UC_DockTruck_Simulation\\UC_ControlPath.h" 6.1.2020::16:58:50
+	"DefaultComponent\\UC_DockTruck_Simulation\\UC_DockTruck.cpp" 6.1.2020::17:4:4
+	"DefaultComponent\\UC_DockTruck_Simulation\\UC_DockTruck.h" 6.1.2020::17:2:16
+	"DefaultComponent\\UC_DockTruck_Simulation\\UnityPkg.cpp" 6.1.2020::16:58:51
+	"DefaultComponent\\UC_DockTruck_Simulation\\UnityPkg.h" 6.1.2020::16:58:51
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 7;
+	- value = "GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
+	"GUID 2f17c359-6d4d-4f58-9db1-e9de76285692" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID 9a31d082-1c78-4aed-a199-374f70735c28" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID ba135d04-bd24-4a17-9f86-ebd2fb6b85e4" "GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2"
+	"GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID f4515241-e2ff-4d14-845c-b184adb4f493" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	
+}
+- size = 13;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "DriveAutonomously";
+	- _id = GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\GUI.sbsx";
+	- _name = "GUI";
+	- _id = GUID 2f17c359-6d4d-4f58-9db1-e9de76285692;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "UC_DockTruck";
+	- _id = GUID fd9bbf15-1101-4326-bd72-d1a6f81ec973;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Truck";
+	- _id = GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "DCOperator";
+	- _id = GUID 580780ff-e115-47b2-954a-d7907b7f5d5c;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ToUnity.clsx";
+	- _subsystem = "UnityPkg";
+	- _name = "ToUnity";
+	- _id = GUID ba135d04-bd24-4a17-9f86-ebd2fb6b85e4;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\GUI.sbsx";
+	- _subsystem = "GUI";
+	- _name = "GUI";
+	- _id = GUID 2db1e728-2f80-40c5-8400-80735a41ddd1;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "LocSystem";
+	- _id = GUID b96816f5-45f4-4b3c-8055-efde7fd5a216;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _name = "ActorPkg";
+	- _id = GUID f4515241-e2ff-4d14-845c-b184adb4f493;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "CollisionDetectionSystem";
+	- _id = GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "UC_ControlPath";
+	- _id = GUID b3cc828f-e5b1-4542-940f-95382273d11e;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\UnityPkg.sbsx";
+	- _name = "UnityPkg";
+	- _id = GUID 8fc7a4cd-be41-4a07-bd39-1a10a70e6cf2;
+}
+- genTime = 6.1.2020::17:58:42;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\UC_DockTruck_Simulation";
+	- _id = GUID 8173cef2-fb1c-4677-bff3-0f0f53ee239d;
+}
+- genTime = 6.1.2020::17:58:42;
+
