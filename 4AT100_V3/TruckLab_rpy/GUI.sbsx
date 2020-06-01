@@ -11,10 +11,10 @@
 			<_id type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUI</_name>
-			<_modifiedTimeWeak type="a">5.30.2020::0:41:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.29.2020::20:23:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.30.2020::23:4:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::23:4:3</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">5.30.2020::0:41:23</weakCGTime>
+			<weakCGTime type="a">5.30.2020::23:4:3</weakCGTime>
 			<strongCGTime type="a">5.29.2020::19:8:31</strongCGTime>
 			<_defaultComposite type="s">GUID 516efeff-e260-408e-a963-c0c25ac660d2</_defaultComposite>
 			<_eventsBaseID type="a">15001</_eventsBaseID>
@@ -4618,7 +4618,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.30.2020::0:42:42</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.30.2020::23:4:3</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4629,9 +4629,9 @@
 					<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.30.2020::0:42:42</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">5.30.2020::0:42:42</weakCGTime>
+			<_modifiedTime type="a">5.30.2020::23:4:3</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">5.30.2020::23:4:3</weakCGTime>
 			<strongCGTime type="a">5.29.2020::11:27:50</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -4643,6 +4643,7 @@
 				<value>GUID f8acaefb-d2e4-420f-bdf2-825d757ab435</value>
 				<value>GUID 39398d55-db9c-4233-976a-957ab42a2f6c</value>
 				<value>GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</value>
+				<value>GUID 3198ef2b-27da-409f-913a-a7c75fc5c491</value>
 			</AggregatesList>
 		</IClass>
 		<ISysMLPort type="e">
@@ -4709,7 +4710,7 @@
 			<_id type="a">GUID f8acaefb-d2e4-420f-bdf2-825d757ab435</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -4781,6 +4782,35 @@
 					<_hclass type="a">DC Operator</_hclass>
 					<_hname type="a">itsGUI</_hname>
 					<_hid type="a">GUID f0fb5bf7-ba7a-4bc5-a850-e930188e6718</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 3198ef2b-27da-409f-913a-a7c75fc5c491</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUC_DockTruck</_name>
+			<_modifiedTimeWeak type="a">5.30.2020::22:36:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::22:36:25</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">UC_DockTruck</_hname>
+					<_hid type="a">GUID fd9bbf15-1101-4326-bd72-d1a6f81ec973</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_DockTruck</_hclass>
+					<_hname type="a">itsGUI</_hname>
+					<_hid type="a">GUID a93c8303-5851-41ee-a473-171262e3bfa0</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>

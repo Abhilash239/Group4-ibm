@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.30.2020::0:31:31</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">5.30.2020::22:38:21</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -35,9 +35,9 @@
 					<_hid type="a">GUID 1230f65a-c4c5-46fa-b2b3-aa6d83fa0215</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.30.2020::0:35:6</_modifiedTime>
+			<_modifiedTime type="a">5.30.2020::22:38:21</_modifiedTime>
 			<_lastID type="a">59</_lastID>
-			<weakCGTime type="a">5.30.2020::0:31:31</weakCGTime>
+			<weakCGTime type="a">5.30.2020::22:38:21</weakCGTime>
 			<strongCGTime type="a">5.14.2019::18:56:1</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -101,6 +101,7 @@
 				<value>GUID 5f249a75-0408-493d-a5e0-aca6e56585a7</value>
 				<value>GUID 8eebe4f6-9f00-426a-837f-6b39f2e9daf4</value>
 				<value>GUID f6ed9d8e-703e-4182-9c89-38618f876df4</value>
+				<value>GUID 26e36298-f51a-4492-9b4e-7e1a92fc79c6</value>
 			</AggregatesList>
 		</IClass>
 		<IType type="e">
@@ -2000,8 +2001,8 @@ this-&gt;steeringSignal = this-&gt;steeringCmd / this-&gt;maxSteeringAngle;</_bo
 			<_id type="a">GUID 0f49604a-1023-4924-8ce2-b0f0dbda055a</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">ToUnity</_name>
-			<_modifiedTimeWeak type="a">5.28.2020::20:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.28.2020::20:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.30.2020::22:38:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::22:38:21</_modifiedTime>
 			<m_type type="a">specFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID 59612e1f-edc4-4213-b900-c6ed5c8b16bb</value>
@@ -2146,8 +2147,8 @@ this-&gt;steeringSignal = this-&gt;steeringCmd / this-&gt;maxSteeringAngle;</_bo
 		<IFileFragment type="e">
 			<_id type="a">GUID a02f1b24-4db2-470b-b8c3-1d433a9c2d72</_id>
 			<_name type="a">ToUnity</_name>
-			<_modifiedTimeWeak type="a">5.28.2020::20:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.28.2020::20:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.30.2020::22:38:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::22:38:21</_modifiedTime>
 			<m_type type="a">specFragment</m_type>
 			<m_startRow type="a">33</m_startRow>
 			<m_startCol_Short type="a">1</m_startCol_Short>
@@ -3036,8 +3037,8 @@ this-&gt;steeringSignal = this-&gt;steeringCmd / this-&gt;maxSteeringAngle;</_bo
 			<_id type="a">GUID 1a28cf2f-652b-4461-a2a2-86ffbdd39a0a</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">ToUnity</_name>
-			<_modifiedTimeWeak type="a">5.28.2020::20:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.28.2020::20:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.30.2020::22:38:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::22:38:21</_modifiedTime>
 			<m_type type="a">implFile</m_type>
 			<AggregatesList type="e">
 				<value>GUID e25700ea-04a8-4aaa-a36b-a819975a26d8</value>
@@ -3063,8 +3064,8 @@ this-&gt;steeringSignal = this-&gt;steeringCmd / this-&gt;maxSteeringAngle;</_bo
 		<IFileFragment type="e">
 			<_id type="a">GUID 3103d789-2b0b-4904-a64c-a8ece9ef6366</_id>
 			<_name type="a">ToUnity</_name>
-			<_modifiedTimeWeak type="a">5.28.2020::20:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.28.2020::20:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">5.30.2020::22:38:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::22:38:21</_modifiedTime>
 			<m_type type="a">implFragment</m_type>
 			<m_startRow type="a">28</m_startRow>
 			<m_startCol_Short type="a">10</m_startCol_Short>
@@ -6538,6 +6539,35 @@ this-&gt;send_receive();</_body>
 					<_hclass type="a">Collision Detection system</_hclass>
 					<_hname type="a">itsToUnity</_hname>
 					<_hid type="a">GUID 6299ae0d-57e5-45ec-b247-7da68ecec49f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 26e36298-f51a-4492-9b4e-7e1a92fc79c6</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUC_DockTruck</_name>
+			<_modifiedTimeWeak type="a">5.30.2020::22:38:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.30.2020::22:38:21</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hname type="a">UC_DockTruck</_hname>
+					<_hid type="a">GUID fd9bbf15-1101-4326-bd72-d1a6f81ec973</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
+					<_hclass type="a">UC_DockTruck</_hclass>
+					<_hname type="a">itsToUnity</_hname>
+					<_hid type="a">GUID f162e3db-5164-4774-97ac-013d2ef879d1</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>

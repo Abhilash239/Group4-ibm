@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ToUnity
-//!	Generated Date	: Thu, 28, May 2020  
+//!	Generated Date	: Sat, 30, May 2020  
 	File Path	: DefaultComponent\DefaultConfig\ToUnity.cpp
 *********************************************************************/
 
@@ -16,76 +16,86 @@
 
 //## auto_generated
 #include "ToUnity.h"
+//## link itsCollision Detection system
+#include "Collision Detection system.h"
+//## link itsLocSystem
+#include "LocSystem.h"
+//## link itsTruck
+#include "Truck.h"
 //#[ ignore
-#define Unity_ToUnity_ToUnity_SERIALIZE OM_NO_OP
+#define UnityPkg_ToUnity_ToUnity_SERIALIZE OM_NO_OP
 
-#define Unity_ToUnity_calc_signals_SERIALIZE OM_NO_OP
+#define UnityPkg_ToUnity_calc_signals_SERIALIZE OM_NO_OP
 
-#define Unity_ToUnity_init_SERIALIZE OM_NO_OP
+#define UnityPkg_ToUnity_init_SERIALIZE OM_NO_OP
 
-#define Unity_ToUnity_parse_collision_csv_SERIALIZE aomsmethod->addAttribute("str", x2String(str));
+#define UnityPkg_ToUnity_parse_collision_csv_SERIALIZE aomsmethod->addAttribute("str", x2String(str));
 
-#define Unity_ToUnity_parse_drive_csv_SERIALIZE aomsmethod->addAttribute("str", x2String(str));
+#define UnityPkg_ToUnity_parse_drive_csv_SERIALIZE aomsmethod->addAttribute("str", x2String(str));
 
-#define Unity_ToUnity_send_receive_SERIALIZE OM_NO_OP
+#define UnityPkg_ToUnity_send_receive_SERIALIZE OM_NO_OP
 
-#define OMAnim_Unity_ToUnity_setObstaclePosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_obstaclePosX)
+#define OMAnim_UnityPkg_ToUnity_setObstaclePosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_obstaclePosX)
 
-#define OMAnim_Unity_ToUnity_setObstaclePosX_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setObstaclePosX_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setObstaclePosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_obstaclePosY)
+#define OMAnim_UnityPkg_ToUnity_setObstaclePosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_obstaclePosY)
 
-#define OMAnim_Unity_ToUnity_setObstaclePosY_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setObstaclePosY_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setSteeringCmd_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_steeringCmd)
+#define OMAnim_UnityPkg_ToUnity_setSteeringCmd_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_steeringCmd)
 
-#define OMAnim_Unity_ToUnity_setSteeringCmd_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setSteeringCmd_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setTrailer1PosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer1PosX)
+#define OMAnim_UnityPkg_ToUnity_setTrailer1PosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer1PosX)
 
-#define OMAnim_Unity_ToUnity_setTrailer1PosX_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setTrailer1PosX_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setTrailer1PosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer1PosY)
+#define OMAnim_UnityPkg_ToUnity_setTrailer1PosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer1PosY)
 
-#define OMAnim_Unity_ToUnity_setTrailer1PosY_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setTrailer1PosY_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setTrailer2PosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer2PosX)
+#define OMAnim_UnityPkg_ToUnity_setTrailer2PosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer2PosX)
 
-#define OMAnim_Unity_ToUnity_setTrailer2PosX_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setTrailer2PosX_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setTrailer2PosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer2PosY)
+#define OMAnim_UnityPkg_ToUnity_setTrailer2PosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_trailer2PosY)
 
-#define OMAnim_Unity_ToUnity_setTrailer2PosY_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setTrailer2PosY_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setTruckPosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_truckPosX)
+#define OMAnim_UnityPkg_ToUnity_setTruckPosX_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_truckPosX)
 
-#define OMAnim_Unity_ToUnity_setTruckPosX_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setTruckPosX_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setTruckPosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_truckPosY)
+#define OMAnim_UnityPkg_ToUnity_setTruckPosY_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_truckPosY)
 
-#define OMAnim_Unity_ToUnity_setTruckPosY_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setTruckPosY_RhpReal_SERIALIZE_RET_VAL
 
-#define OMAnim_Unity_ToUnity_setVelocityCmd_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_velocityCmd)
+#define OMAnim_UnityPkg_ToUnity_setVelocityCmd_RhpReal_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_velocityCmd)
 
-#define OMAnim_Unity_ToUnity_setVelocityCmd_RhpReal_SERIALIZE_RET_VAL
+#define OMAnim_UnityPkg_ToUnity_setVelocityCmd_RhpReal_SERIALIZE_RET_VAL
 //#]
 
-//## package Unity
+//## package UnityPkg
 
 //## class ToUnity
 ToUnity::ToUnity(IOxfActive* theActiveContext) : steeringCmd(0), velocity(0), velocityCmd(0), Ki(0.1), Kp(0.5), address_collision("127.0.0.1"), address_drive("127.0.0.1"), dt(50), integratedVelocityError(0), integratedVelocityErrorMax(0.5), maxSteeringAngle(45.0f), port_collision(54321), port_drive(54320), trailerCollisionCode(0), truckCollisionCode(0) {
-    NOTIFY_REACTIVE_CONSTRUCTOR(ToUnity, ToUnity(), 0, Unity_ToUnity_ToUnity_SERIALIZE);
+    NOTIFY_REACTIVE_CONSTRUCTOR(ToUnity, ToUnity(), 0, UnityPkg_ToUnity_ToUnity_SERIALIZE);
     setActiveContext(theActiveContext, false);
+    itsCollision Detection system = NULL;
+    itsLocSystem = NULL;
+    itsTruck = NULL;
     initStatechart();
 }
 
 ToUnity::~ToUnity() {
     NOTIFY_DESTRUCTOR(~ToUnity, true);
+    cleanUpRelations();
     cancelTimeouts();
 }
 
 void ToUnity::send_receive() {
-    NOTIFY_OPERATION(send_receive, send_receive(), 0, Unity_ToUnity_send_receive_SERIALIZE);
+    NOTIFY_OPERATION(send_receive, send_receive(), 0, UnityPkg_ToUnity_send_receive_SERIALIZE);
     //#[ operation send_receive()
     int slen = sizeof(si_other_drive);
     
@@ -267,7 +277,7 @@ void ToUnity::initStatechart() {
 }
 
 void ToUnity::calc_signals() {
-    NOTIFY_OPERATION(calc_signals, calc_signals(), 0, Unity_ToUnity_calc_signals_SERIALIZE);
+    NOTIFY_OPERATION(calc_signals, calc_signals(), 0, UnityPkg_ToUnity_calc_signals_SERIALIZE);
     //#[ operation calc_signals()
     
     RhpReal velocityError =  this->velocityCmd - this->velocity;
@@ -291,7 +301,7 @@ void ToUnity::calc_signals() {
 }
 
 void ToUnity::init() {
-    NOTIFY_OPERATION(init, init(), 0, Unity_ToUnity_init_SERIALIZE);
+    NOTIFY_OPERATION(init, init(), 0, UnityPkg_ToUnity_init_SERIALIZE);
     //#[ operation init()
     #ifndef WIN32_LEAN_AND_MEAN
     #define WIN32_LEAN_AND_MEAN 
@@ -332,7 +342,7 @@ void ToUnity::init() {
 }
 
 void ToUnity::parse_collision_csv(char* str) {
-    NOTIFY_OPERATION(parse_collision_csv, parse_collision_csv(char*), 1, Unity_ToUnity_parse_collision_csv_SERIALIZE);
+    NOTIFY_OPERATION(parse_collision_csv, parse_collision_csv(char*), 1, UnityPkg_ToUnity_parse_collision_csv_SERIALIZE);
     //#[ operation parse_collision_csv(char*)
     int i;
     char * ts = str;
@@ -371,7 +381,7 @@ void ToUnity::parse_collision_csv(char* str) {
 }
 
 void ToUnity::parse_drive_csv(char* str) {
-    NOTIFY_OPERATION(parse_drive_csv, parse_drive_csv(char*), 1, Unity_ToUnity_parse_drive_csv_SERIALIZE);
+    NOTIFY_OPERATION(parse_drive_csv, parse_drive_csv(char*), 1, UnityPkg_ToUnity_parse_drive_csv_SERIALIZE);
     //#[ operation parse_drive_csv(char*)
     char* p = strtok(str, ",");
     this->velocity = strtof(p, NULL);
@@ -379,9 +389,9 @@ void ToUnity::parse_drive_csv(char* str) {
     p = strtok(NULL, ",");
     this->truckPosX = strtof(p, NULL);
     p = strtok(NULL, ",");
-    this->truckPosY = strtof(p, NULL);
-    p = strtok(NULL, ",");
     //remote_vehicle.truck.z = strtof(p, NULL);
+    p = strtok(NULL, ",");
+    this->truckPosY = strtof(p, NULL);
     
     p = strtok(NULL, ",");
     this->trailer1PosX = strtof(p, NULL);
@@ -628,6 +638,75 @@ void ToUnity::setWs(WSADATA p_ws) {
     ws = p_ws;
 }
 
+Collision Detection system* ToUnity::getItsCollision Detection system() const {
+    return itsCollision Detection system;
+}
+
+void ToUnity::setItsCollision Detection system(Collision Detection system* p_Collision Detection system) {
+    if(p_Collision Detection system != NULL)
+        {
+            p_Collision Detection system->_setItsToUnity(this);
+        }
+    _setItsCollision Detection system(p_Collision Detection system);
+}
+
+LocSystem* ToUnity::getItsLocSystem() const {
+    return itsLocSystem;
+}
+
+void ToUnity::setItsLocSystem(LocSystem* p_LocSystem) {
+    if(p_LocSystem != NULL)
+        {
+            p_LocSystem->_setItsToUnity(this);
+        }
+    _setItsLocSystem(p_LocSystem);
+}
+
+Truck* ToUnity::getItsTruck() const {
+    return itsTruck;
+}
+
+void ToUnity::setItsTruck(Truck* p_Truck) {
+    if(p_Truck != NULL)
+        {
+            p_Truck->_setItsToUnity(this);
+        }
+    _setItsTruck(p_Truck);
+}
+
+void ToUnity::cleanUpRelations() {
+    if(itsCollision Detection system != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsCollision Detection system");
+            ToUnity* p_ToUnity = itsCollision Detection system->getItsToUnity();
+            if(p_ToUnity != NULL)
+                {
+                    itsCollision Detection system->__setItsToUnity(NULL);
+                }
+            itsCollision Detection system = NULL;
+        }
+    if(itsLocSystem != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsLocSystem");
+            ToUnity* p_ToUnity = itsLocSystem->getItsToUnity();
+            if(p_ToUnity != NULL)
+                {
+                    itsLocSystem->__setItsToUnity(NULL);
+                }
+            itsLocSystem = NULL;
+        }
+    if(itsTruck != NULL)
+        {
+            NOTIFY_RELATION_CLEARED("itsTruck");
+            ToUnity* p_ToUnity = itsTruck->getItsToUnity();
+            if(p_ToUnity != NULL)
+                {
+                    itsTruck->__setItsToUnity(NULL);
+                }
+            itsTruck = NULL;
+        }
+}
+
 void ToUnity::cancelTimeouts() {
     cancel(rootState_timeout);
 }
@@ -640,6 +719,81 @@ bool ToUnity::cancelTimeout(const IOxfTimeout* arg) {
             res = true;
         }
     return res;
+}
+
+void ToUnity::__setItsCollision Detection system(Collision Detection system* p_Collision Detection system) {
+    itsCollision Detection system = p_Collision Detection system;
+    if(p_Collision Detection system != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsCollision Detection system", p_Collision Detection system, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsCollision Detection system");
+        }
+}
+
+void ToUnity::_setItsCollision Detection system(Collision Detection system* p_Collision Detection system) {
+    if(itsCollision Detection system != NULL)
+        {
+            itsCollision Detection system->__setItsToUnity(NULL);
+        }
+    __setItsCollision Detection system(p_Collision Detection system);
+}
+
+void ToUnity::_clearItsCollision Detection system() {
+    NOTIFY_RELATION_CLEARED("itsCollision Detection system");
+    itsCollision Detection system = NULL;
+}
+
+void ToUnity::__setItsLocSystem(LocSystem* p_LocSystem) {
+    itsLocSystem = p_LocSystem;
+    if(p_LocSystem != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsLocSystem", p_LocSystem, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsLocSystem");
+        }
+}
+
+void ToUnity::_setItsLocSystem(LocSystem* p_LocSystem) {
+    if(itsLocSystem != NULL)
+        {
+            itsLocSystem->__setItsToUnity(NULL);
+        }
+    __setItsLocSystem(p_LocSystem);
+}
+
+void ToUnity::_clearItsLocSystem() {
+    NOTIFY_RELATION_CLEARED("itsLocSystem");
+    itsLocSystem = NULL;
+}
+
+void ToUnity::__setItsTruck(Truck* p_Truck) {
+    itsTruck = p_Truck;
+    if(p_Truck != NULL)
+        {
+            NOTIFY_RELATION_ITEM_ADDED("itsTruck", p_Truck, false, true);
+        }
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsTruck");
+        }
+}
+
+void ToUnity::_setItsTruck(Truck* p_Truck) {
+    if(itsTruck != NULL)
+        {
+            itsTruck->__setItsToUnity(NULL);
+        }
+    __setItsTruck(p_Truck);
+}
+
+void ToUnity::_clearItsTruck() {
+    NOTIFY_RELATION_CLEARED("itsTruck");
+    itsTruck = NULL;
 }
 
 void ToUnity::rootState_entDef() {
@@ -758,6 +912,24 @@ void OMAnimatedToUnity::serializeAttributes(AOMSAttributes* aomsAttributes) cons
     aomsAttributes->addAttribute("maxSteeringAngle", x2String(myReal->maxSteeringAngle));
 }
 
+void OMAnimatedToUnity::serializeRelations(AOMSRelations* aomsRelations) const {
+    aomsRelations->addRelation("itsTruck", false, true);
+    if(myReal->itsTruck)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsTruck);
+        }
+    aomsRelations->addRelation("itsLocSystem", false, true);
+    if(myReal->itsLocSystem)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsLocSystem);
+        }
+    aomsRelations->addRelation("itsCollision Detection system", false, true);
+    if(myReal->itsCollision Detection system)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsCollision Detection system);
+        }
+}
+
 void OMAnimatedToUnity::rootState_serializeStates(AOMSState* aomsState) const {
     aomsState->addState("ROOT");
     switch (myReal->rootState_subState) {
@@ -785,47 +957,47 @@ void OMAnimatedToUnity::initializing_serializeStates(AOMSState* aomsState) const
 }
 //#]
 
-IMPLEMENT_REACTIVE_META_P(ToUnity, Unity, Unity, false, OMAnimatedToUnity)
+IMPLEMENT_REACTIVE_META_P(ToUnity, UnityPkg, UnityPkg, false, OMAnimatedToUnity)
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setObstaclePosX_RhpReal, "setObstaclePosX", FALSE, "setObstaclePosX(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setObstaclePosX_RhpReal, "setObstaclePosX", FALSE, "setObstaclePosX(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setObstaclePosX_RhpReal, ToUnity, setObstaclePosX(p_obstaclePosX), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setObstaclePosX_RhpReal, ToUnity, setObstaclePosX(p_obstaclePosX), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setObstaclePosY_RhpReal, "setObstaclePosY", FALSE, "setObstaclePosY(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setObstaclePosY_RhpReal, "setObstaclePosY", FALSE, "setObstaclePosY(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setObstaclePosY_RhpReal, ToUnity, setObstaclePosY(p_obstaclePosY), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setObstaclePosY_RhpReal, ToUnity, setObstaclePosY(p_obstaclePosY), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setSteeringCmd_RhpReal, "setSteeringCmd", FALSE, "setSteeringCmd(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setSteeringCmd_RhpReal, "setSteeringCmd", FALSE, "setSteeringCmd(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setSteeringCmd_RhpReal, ToUnity, setSteeringCmd(p_steeringCmd), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setSteeringCmd_RhpReal, ToUnity, setSteeringCmd(p_steeringCmd), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setTrailer1PosX_RhpReal, "setTrailer1PosX", FALSE, "setTrailer1PosX(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setTrailer1PosX_RhpReal, "setTrailer1PosX", FALSE, "setTrailer1PosX(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setTrailer1PosX_RhpReal, ToUnity, setTrailer1PosX(p_trailer1PosX), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setTrailer1PosX_RhpReal, ToUnity, setTrailer1PosX(p_trailer1PosX), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setTrailer1PosY_RhpReal, "setTrailer1PosY", FALSE, "setTrailer1PosY(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setTrailer1PosY_RhpReal, "setTrailer1PosY", FALSE, "setTrailer1PosY(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setTrailer1PosY_RhpReal, ToUnity, setTrailer1PosY(p_trailer1PosY), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setTrailer1PosY_RhpReal, ToUnity, setTrailer1PosY(p_trailer1PosY), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setTrailer2PosX_RhpReal, "setTrailer2PosX", FALSE, "setTrailer2PosX(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setTrailer2PosX_RhpReal, "setTrailer2PosX", FALSE, "setTrailer2PosX(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setTrailer2PosX_RhpReal, ToUnity, setTrailer2PosX(p_trailer2PosX), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setTrailer2PosX_RhpReal, ToUnity, setTrailer2PosX(p_trailer2PosX), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setTrailer2PosY_RhpReal, "setTrailer2PosY", FALSE, "setTrailer2PosY(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setTrailer2PosY_RhpReal, "setTrailer2PosY", FALSE, "setTrailer2PosY(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setTrailer2PosY_RhpReal, ToUnity, setTrailer2PosY(p_trailer2PosY), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setTrailer2PosY_RhpReal, ToUnity, setTrailer2PosY(p_trailer2PosY), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setTruckPosX_RhpReal, "setTruckPosX", FALSE, "setTruckPosX(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setTruckPosX_RhpReal, "setTruckPosX", FALSE, "setTruckPosX(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setTruckPosX_RhpReal, ToUnity, setTruckPosX(p_truckPosX), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setTruckPosX_RhpReal, ToUnity, setTruckPosX(p_truckPosX), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setTruckPosY_RhpReal, "setTruckPosY", FALSE, "setTruckPosY(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setTruckPosY_RhpReal, "setTruckPosY", FALSE, "setTruckPosY(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setTruckPosY_RhpReal, ToUnity, setTruckPosY(p_truckPosY), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setTruckPosY_RhpReal, ToUnity, setTruckPosY(p_truckPosY), NO_OP())
 
-IMPLEMENT_META_OP(OMAnimatedToUnity, Unity_ToUnity_setVelocityCmd_RhpReal, "setVelocityCmd", FALSE, "setVelocityCmd(RhpReal)", 1)
+IMPLEMENT_META_OP(OMAnimatedToUnity, UnityPkg_ToUnity_setVelocityCmd_RhpReal, "setVelocityCmd", FALSE, "setVelocityCmd(RhpReal)", 1)
 
-IMPLEMENT_OP_CALL(Unity_ToUnity_setVelocityCmd_RhpReal, ToUnity, setVelocityCmd(p_velocityCmd), NO_OP())
+IMPLEMENT_OP_CALL(UnityPkg_ToUnity_setVelocityCmd_RhpReal, ToUnity, setVelocityCmd(p_velocityCmd), NO_OP())
 #endif // _OMINSTRUMENT
 
 /*********************************************************************
