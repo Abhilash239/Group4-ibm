@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ToUnity
-//!	Generated Date	: Thu, 28, May 2020  
+//!	Generated Date	: Sat, 30, May 2020  
 	File Path	: DefaultComponent\DefaultConfig\ToUnity.h
 *********************************************************************/
 
@@ -38,30 +38,39 @@
 //## auto_generated
 #include "string.h"
 //## auto_generated
-#include "Unity.h"
+#include "UnityPkg.h"
+//## link itsCollision Detection system
+class Collision Detection system;
+
+//## link itsLocSystem
+class LocSystem;
+
+//## link itsTruck
+class Truck;
+
 //#[ ignore
-#define OMAnim_Unity_ToUnity_setObstaclePosX_RhpReal_ARGS_DECLARATION RhpReal p_obstaclePosX;
+#define OMAnim_UnityPkg_ToUnity_setObstaclePosX_RhpReal_ARGS_DECLARATION RhpReal p_obstaclePosX;
 
-#define OMAnim_Unity_ToUnity_setObstaclePosY_RhpReal_ARGS_DECLARATION RhpReal p_obstaclePosY;
+#define OMAnim_UnityPkg_ToUnity_setObstaclePosY_RhpReal_ARGS_DECLARATION RhpReal p_obstaclePosY;
 
-#define OMAnim_Unity_ToUnity_setSteeringCmd_RhpReal_ARGS_DECLARATION RhpReal p_steeringCmd;
+#define OMAnim_UnityPkg_ToUnity_setSteeringCmd_RhpReal_ARGS_DECLARATION RhpReal p_steeringCmd;
 
-#define OMAnim_Unity_ToUnity_setTrailer1PosX_RhpReal_ARGS_DECLARATION RhpReal p_trailer1PosX;
+#define OMAnim_UnityPkg_ToUnity_setTrailer1PosX_RhpReal_ARGS_DECLARATION RhpReal p_trailer1PosX;
 
-#define OMAnim_Unity_ToUnity_setTrailer1PosY_RhpReal_ARGS_DECLARATION RhpReal p_trailer1PosY;
+#define OMAnim_UnityPkg_ToUnity_setTrailer1PosY_RhpReal_ARGS_DECLARATION RhpReal p_trailer1PosY;
 
-#define OMAnim_Unity_ToUnity_setTrailer2PosX_RhpReal_ARGS_DECLARATION RhpReal p_trailer2PosX;
+#define OMAnim_UnityPkg_ToUnity_setTrailer2PosX_RhpReal_ARGS_DECLARATION RhpReal p_trailer2PosX;
 
-#define OMAnim_Unity_ToUnity_setTrailer2PosY_RhpReal_ARGS_DECLARATION RhpReal p_trailer2PosY;
+#define OMAnim_UnityPkg_ToUnity_setTrailer2PosY_RhpReal_ARGS_DECLARATION RhpReal p_trailer2PosY;
 
-#define OMAnim_Unity_ToUnity_setTruckPosX_RhpReal_ARGS_DECLARATION RhpReal p_truckPosX;
+#define OMAnim_UnityPkg_ToUnity_setTruckPosX_RhpReal_ARGS_DECLARATION RhpReal p_truckPosX;
 
-#define OMAnim_Unity_ToUnity_setTruckPosY_RhpReal_ARGS_DECLARATION RhpReal p_truckPosY;
+#define OMAnim_UnityPkg_ToUnity_setTruckPosY_RhpReal_ARGS_DECLARATION RhpReal p_truckPosY;
 
-#define OMAnim_Unity_ToUnity_setVelocityCmd_RhpReal_ARGS_DECLARATION RhpReal p_velocityCmd;
+#define OMAnim_UnityPkg_ToUnity_setVelocityCmd_RhpReal_ARGS_DECLARATION RhpReal p_velocityCmd;
 //#]
 
-//## package Unity
+//## package UnityPkg
 
 //## class ToUnity
 class ToUnity : public OMReactive {
@@ -381,9 +390,30 @@ public :
     
     //## auto_generated
     void setWs(WSADATA p_ws);
+    
+    //## auto_generated
+    Collision Detection system* getItsCollision Detection system() const;
+    
+    //## auto_generated
+    void setItsCollision Detection system(Collision Detection system* p_Collision Detection system);
+    
+    //## auto_generated
+    LocSystem* getItsLocSystem() const;
+    
+    //## auto_generated
+    void setItsLocSystem(LocSystem* p_LocSystem);
+    
+    //## auto_generated
+    Truck* getItsTruck() const;
+    
+    //## auto_generated
+    void setItsTruck(Truck* p_Truck);
 
 protected :
 
+    //## auto_generated
+    void cleanUpRelations();
+    
     //## auto_generated
     void cancelTimeouts();
     
@@ -445,9 +475,42 @@ protected :
     int truckCollisionWalls;		//## attribute truckCollisionWalls
     
     WSADATA ws;		//## attribute ws
+    
+    Collision Detection system* itsCollision Detection system;		//## link itsCollision Detection system
+    
+    LocSystem* itsLocSystem;		//## link itsLocSystem
+    
+    Truck* itsTruck;		//## link itsTruck
 
 public :
 
+    //## auto_generated
+    void __setItsCollision Detection system(Collision Detection system* p_Collision Detection system);
+    
+    //## auto_generated
+    void _setItsCollision Detection system(Collision Detection system* p_Collision Detection system);
+    
+    //## auto_generated
+    void _clearItsCollision Detection system();
+    
+    //## auto_generated
+    void __setItsLocSystem(LocSystem* p_LocSystem);
+    
+    //## auto_generated
+    void _setItsLocSystem(LocSystem* p_LocSystem);
+    
+    //## auto_generated
+    void _clearItsLocSystem();
+    
+    //## auto_generated
+    void __setItsTruck(Truck* p_Truck);
+    
+    //## auto_generated
+    void _setItsTruck(Truck* p_Truck);
+    
+    //## auto_generated
+    void _clearItsTruck();
+    
     // rootState:
     //## statechart_method
     inline bool rootState_IN() const;
@@ -484,55 +547,57 @@ protected :
 };
 
 #ifdef _OMINSTRUMENT
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setObstaclePosX_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setObstaclePosX_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setObstaclePosY_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setObstaclePosY_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setSteeringCmd_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setSteeringCmd_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setTrailer1PosX_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setTrailer1PosX_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setTrailer1PosY_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setTrailer1PosY_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setTrailer2PosX_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setTrailer2PosX_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setTrailer2PosY_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setTrailer2PosY_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setTruckPosX_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setTruckPosX_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setTruckPosY_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setTruckPosY_RhpReal)
 
-DECLARE_OPERATION_CLASS(Unity_ToUnity_setVelocityCmd_RhpReal)
+DECLARE_OPERATION_CLASS(UnityPkg_ToUnity_setVelocityCmd_RhpReal)
 
 //#[ ignore
 class OMAnimatedToUnity : virtual public AOMInstance {
     DECLARE_REACTIVE_META(ToUnity, OMAnimatedToUnity)
     
-    DECLARE_META_OP(Unity_ToUnity_setObstaclePosX_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setObstaclePosX_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setObstaclePosY_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setObstaclePosY_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setSteeringCmd_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setSteeringCmd_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setTrailer1PosX_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setTrailer1PosX_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setTrailer1PosY_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setTrailer1PosY_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setTrailer2PosX_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setTrailer2PosX_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setTrailer2PosY_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setTrailer2PosY_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setTruckPosX_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setTruckPosX_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setTruckPosY_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setTruckPosY_RhpReal)
     
-    DECLARE_META_OP(Unity_ToUnity_setVelocityCmd_RhpReal)
+    DECLARE_META_OP(UnityPkg_ToUnity_setVelocityCmd_RhpReal)
     
     ////    Framework operations    ////
     
 public :
 
     virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
+    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
     
     //## statechart_method
     void rootState_serializeStates(AOMSState* aomsState) const;

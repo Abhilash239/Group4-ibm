@@ -86,7 +86,7 @@ ADDITIONAL_OBJS=
 
 OBJS= \
   ToUnity.obj \
-  Unity.obj
+  UnityPkg.obj
 
 
 
@@ -169,15 +169,15 @@ SOCK_LIB=
 
 
 
-ToUnity.obj : ToUnity.cpp ToUnity.h    Unity.h 
+ToUnity.obj : ToUnity.cpp ToUnity.h    UnityPkg.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ToUnity.obj" "ToUnity.cpp" 
 
 
 
-Unity.obj : Unity.cpp Unity.h    ToUnity.h 
+UnityPkg.obj : UnityPkg.cpp UnityPkg.h    ToUnity.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Unity.obj" "Unity.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UnityPkg.obj" "UnityPkg.cpp" 
 
 
 
@@ -209,7 +209,7 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 clean:
 	@echo Cleanup
 	if exist ToUnity.obj erase ToUnity.obj
-	if exist Unity.obj erase Unity.obj
+	if exist UnityPkg.obj erase UnityPkg.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb
