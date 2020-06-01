@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: GUI
-//!	Generated Date	: Mon, 1, Jun 2020  
+//!	Generated Date	: Tue, 2, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\GUI.h
 *********************************************************************/
 
@@ -30,6 +30,8 @@
 //## auto_generated
 #include "string.h"
 //## auto_generated
+#include "DriveAutonomously.h"
+//## auto_generated
 #include <oxf\omthread.h>
 //## auto_generated
 #include <oxf\omreactive.h>
@@ -37,69 +39,66 @@
 #include <oxf\state.h>
 //## auto_generated
 #include <oxf\event.h>
+//## class docknumber_SP_C
+#include "_Out.h"
 //## link itsDCOperator
 class DCOperator;
-
-//## auto_generated
-class GUI;
 
 //## link itsUC_DockTruck
 class UC_DockTruck;
 
-//#[ ignore
-#define reqDock_GUI_id 15001
-
-#define OMAnim_GUI_GUI_setDocknumber_int_ARGS_DECLARATION int p_docknumber;
-//#]
-
-//## package GUI
-
-
-
-//## event reqDock(int)
-class reqDock : public OMEvent {
-    ////    Friends    ////
-    
-public :
-
-#ifdef _OMINSTRUMENT
-    friend class OMAnimatedreqDock;
-#endif // _OMINSTRUMENT
-
-    ////    Constructors and destructors    ////
-    
-    //## auto_generated
-    reqDock();
-    
-    //## auto_generated
-    reqDock(int p_docknumber);
-    
-    ////    Framework operations    ////
-    
-    //## statechart_method
-    virtual bool isTypeOf(const short id) const;
-    
-    ////    Framework    ////
-    
-    int docknumber;		//## auto_generated
-};
-
-#ifdef _OMINSTRUMENT
-//#[ ignore
-class OMAnimatedreqDock : virtual public AOMEvent {
-    DECLARE_META_EVENT(reqDock)
-};
-//#]
-#endif // _OMINSTRUMENT
-
-//## package GUI
+//## package UseCaseAnalysisPkg::DriveAutonomously
 
 //## class GUI
 class GUI : public OMReactive {
-    ////    Friends    ////
-    
 public :
 
+//#[ ignore
+    //## package UseCaseAnalysisPkg::DriveAutonomously
+    class docknumber_SP_C : public _Out {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        docknumber_SP_C();
+        
+        //## auto_generated
+        virtual ~docknumber_SP_C();
+        
+        ////    Operations    ////
+        
+        //## auto_generated
+        _Out* getIts_Out();
+        
+        //## auto_generated
+        _Out* getOutBound();
+        
+        //## auto_generated
+        virtual void setDocknumber(int p_docknumber);
+        
+        ////    Additional operations    ////
+        
+        //## auto_generated
+        void setIts_Out(_Out* p__Out);
+    
+    protected :
+    
+        //## auto_generated
+        void cleanUpRelations();
+        
+        ////    Attributes    ////
+        
+        int _p_;		//## attribute _p_
+        
+        ////    Relations and components    ////
+        
+        _Out* its_Out;		//## link its_Out
+    };
+//#]
+
+    ////    Friends    ////
+    
 #ifdef _OMINSTRUMENT
     friend class OMAnimatedGUI;
 #endif // _OMINSTRUMENT
@@ -112,13 +111,22 @@ public :
     //## auto_generated
     ~GUI();
     
+    ////    Operations    ////
+    
+//#[ ignore
+    void setDocknumber(int p_docknumber);
+//#]
+
     ////    Additional operations    ////
     
     //## auto_generated
-    int getDocknumber() const;
+    docknumber_SP_C* getDocknumber_SP() const;
     
     //## auto_generated
-    void setDocknumber(int p_docknumber);
+    docknumber_SP_C* get_docknumber_SP() const;
+    
+    //## auto_generated
+    int getDocknumber() const;
     
     //## auto_generated
     DCOperator* getItsDCOperator() const;
@@ -146,6 +154,10 @@ protected :
     
     ////    Relations and components    ////
     
+//#[ ignore
+    docknumber_SP_C docknumber_SP;
+//#]
+
     DCOperator* itsDCOperator;		//## link itsDCOperator
     
     UC_DockTruck* itsUC_DockTruck;		//## link itsUC_DockTruck
@@ -154,15 +166,6 @@ protected :
 
 public :
 
-    //## auto_generated
-    void __setItsDCOperator(DCOperator* p_DCOperator);
-    
-    //## auto_generated
-    void _setItsDCOperator(DCOperator* p_DCOperator);
-    
-    //## auto_generated
-    void _clearItsDCOperator();
-    
     //## auto_generated
     void __setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck);
     
@@ -174,13 +177,9 @@ public :
 };
 
 #ifdef _OMINSTRUMENT
-DECLARE_OPERATION_CLASS(GUI_GUI_setDocknumber_int)
-
 //#[ ignore
 class OMAnimatedGUI : virtual public AOMInstance {
     DECLARE_META(GUI, OMAnimatedGUI)
-    
-    DECLARE_META_OP(GUI_GUI_setDocknumber_int)
     
     ////    Framework operations    ////
     

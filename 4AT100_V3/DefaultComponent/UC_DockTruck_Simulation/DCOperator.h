@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_DockTruck_Simulation
 	Model Element	: DCOperator
-//!	Generated Date	: Mon, 1, Jun 2020  
+//!	Generated Date	: Tue, 2, Jun 2020  
 	File Path	: DefaultComponent\UC_DockTruck_Simulation\DCOperator.h
 *********************************************************************/
 
@@ -31,9 +31,6 @@
 #include "string.h"
 //## auto_generated
 #include "ActorPkg.h"
-//## link itsGUI
-class GUI;
-
 //## package ActorPkg
 
 //## actor DCOperator
@@ -53,48 +50,12 @@ public :
     
     //## auto_generated
     ~DCOperator();
-    
-    ////    Additional operations    ////
-    
-    //## auto_generated
-    GUI* getItsGUI() const;
-    
-    //## auto_generated
-    void setItsGUI(GUI* p_GUI);
-
-protected :
-
-    //## auto_generated
-    void cleanUpRelations();
-    
-    ////    Relations and components    ////
-    
-    GUI* itsGUI;		//## link itsGUI
-    
-    ////    Framework operations    ////
-
-public :
-
-    //## auto_generated
-    void __setItsGUI(GUI* p_GUI);
-    
-    //## auto_generated
-    void _setItsGUI(GUI* p_GUI);
-    
-    //## auto_generated
-    void _clearItsGUI();
 };
 
 #ifdef _OMINSTRUMENT
 //#[ ignore
 class OMAnimatedDCOperator : virtual public AOMInstance {
     DECLARE_META(DCOperator, OMAnimatedDCOperator)
-    
-    ////    Framework operations    ////
-    
-public :
-
-    virtual void serializeRelations(AOMSRelations* aomsRelations) const;
 };
 //#]
 #endif // _OMINSTRUMENT

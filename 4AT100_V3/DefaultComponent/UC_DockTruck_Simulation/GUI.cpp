@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_DockTruck_Simulation
 	Model Element	: GUI
-//!	Generated Date	: Mon, 1, Jun 2020  
+//!	Generated Date	: Tue, 2, Jun 2020  
 	File Path	: DefaultComponent\UC_DockTruck_Simulation\GUI.cpp
 *********************************************************************/
 
@@ -19,53 +19,51 @@
 //## link itsUC_DockTruck
 #include "UC_DockTruck.h"
 //#[ ignore
-#define reqDock_SERIALIZE OMADD_SER(docknumber, x2String(myEvent->docknumber))
-
-#define reqDock_UNSERIALIZE OMADD_UNSER(int, docknumber, OMDestructiveString2X)
-
-#define reqDock_CONSTRUCTOR reqDock(docknumber)
-
-#define GUI_GUI_GUI_SERIALIZE OM_NO_OP
-
-#define OMAnim_GUI_GUI_setDocknumber_int_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_docknumber)
-
-#define OMAnim_GUI_GUI_setDocknumber_int_SERIALIZE_RET_VAL
+#define UseCaseAnalysisPkg_DriveAutonomously_GUI_GUI_SERIALIZE OM_NO_OP
 //#]
 
-//## package GUI
-
-
-#ifdef _OMINSTRUMENT
-static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */);
-
-IMPLEMENT_META_PACKAGE(GUI, GUI)
-
-static void serializeGlobalVars(AOMSAttributes* /* aomsAttributes */) {
-}
-#endif // _OMINSTRUMENT
-
-//## event reqDock(int)
-reqDock::reqDock() {
-    NOTIFY_EVENT_CONSTRUCTOR(reqDock)
-    setId(reqDock_GUI_id);
-}
-
-reqDock::reqDock(int p_docknumber) : docknumber(p_docknumber) {
-    NOTIFY_EVENT_CONSTRUCTOR(reqDock)
-    setId(reqDock_GUI_id);
-}
-
-bool reqDock::isTypeOf(const short id) const {
-    return (reqDock_GUI_id==id);
-}
-
-IMPLEMENT_META_EVENT_P(reqDock, GUI, GUI, reqDock(int))
-
-//## package GUI
+//## package UseCaseAnalysisPkg::DriveAutonomously
 
 //## class GUI
-GUI::GUI(IOxfActive* theActiveContext) {
-    NOTIFY_REACTIVE_CONSTRUCTOR(GUI, GUI(), 0, GUI_GUI_GUI_SERIALIZE);
+//#[ ignore
+GUI::docknumber_SP_C::docknumber_SP_C() : _p_(0) {
+    its_Out = NULL;
+}
+
+GUI::docknumber_SP_C::~docknumber_SP_C() {
+    cleanUpRelations();
+}
+
+_Out* GUI::docknumber_SP_C::getIts_Out() {
+    return this;
+}
+
+_Out* GUI::docknumber_SP_C::getOutBound() {
+    return this;
+}
+
+void GUI::docknumber_SP_C::setDocknumber(int p_docknumber) {
+    
+    if (its_Out != NULL) {
+        its_Out->setDocknumber(p_docknumber);
+    }
+    
+}
+
+void GUI::docknumber_SP_C::setIts_Out(_Out* p__Out) {
+    its_Out = p__Out;
+}
+
+void GUI::docknumber_SP_C::cleanUpRelations() {
+    if(its_Out != NULL)
+        {
+            its_Out = NULL;
+        }
+}
+//#]
+
+GUI::GUI(IOxfActive* theActiveContext) : docknumber(0) {
+    NOTIFY_REACTIVE_CONSTRUCTOR(GUI, GUI(), 0, UseCaseAnalysisPkg_DriveAutonomously_GUI_GUI_SERIALIZE);
     setActiveContext(theActiveContext, false);
     itsDCOperator = NULL;
     itsUC_DockTruck = NULL;
@@ -76,13 +74,25 @@ GUI::~GUI() {
     cleanUpRelations();
 }
 
-int GUI::getDocknumber() const {
-    return docknumber;
+//#[ ignore
+void GUI::setDocknumber(int p_docknumber) {
+    if (docknumber != p_docknumber)  {
+        docknumber = p_docknumber;
+        FLOW_DATA_SEND(docknumber, docknumber_SP, setDocknumber, x2String);
+    }
+}
+//#]
+
+GUI::docknumber_SP_C* GUI::getDocknumber_SP() const {
+    return (GUI::docknumber_SP_C*) &docknumber_SP;
 }
 
-void GUI::setDocknumber(int p_docknumber) {
-    docknumber = p_docknumber;
-    NOTIFY_SET_OPERATION;
+GUI::docknumber_SP_C* GUI::get_docknumber_SP() const {
+    return (GUI::docknumber_SP_C*) &docknumber_SP;
+}
+
+int GUI::getDocknumber() const {
+    return docknumber;
 }
 
 DCOperator* GUI::getItsDCOperator() const {
@@ -90,11 +100,15 @@ DCOperator* GUI::getItsDCOperator() const {
 }
 
 void GUI::setItsDCOperator(DCOperator* p_DCOperator) {
+    itsDCOperator = p_DCOperator;
     if(p_DCOperator != NULL)
         {
-            p_DCOperator->_setItsGUI(this);
+            NOTIFY_RELATION_ITEM_ADDED("itsDCOperator", p_DCOperator, false, true);
         }
-    _setItsDCOperator(p_DCOperator);
+    else
+        {
+            NOTIFY_RELATION_CLEARED("itsDCOperator");
+        }
 }
 
 UC_DockTruck* GUI::getItsUC_DockTruck() const {
@@ -119,11 +133,6 @@ void GUI::cleanUpRelations() {
     if(itsDCOperator != NULL)
         {
             NOTIFY_RELATION_CLEARED("itsDCOperator");
-            GUI* p_GUI = itsDCOperator->getItsGUI();
-            if(p_GUI != NULL)
-                {
-                    itsDCOperator->__setItsGUI(NULL);
-                }
             itsDCOperator = NULL;
         }
     if(itsUC_DockTruck != NULL)
@@ -136,31 +145,6 @@ void GUI::cleanUpRelations() {
                 }
             itsUC_DockTruck = NULL;
         }
-}
-
-void GUI::__setItsDCOperator(DCOperator* p_DCOperator) {
-    itsDCOperator = p_DCOperator;
-    if(p_DCOperator != NULL)
-        {
-            NOTIFY_RELATION_ITEM_ADDED("itsDCOperator", p_DCOperator, false, true);
-        }
-    else
-        {
-            NOTIFY_RELATION_CLEARED("itsDCOperator");
-        }
-}
-
-void GUI::_setItsDCOperator(DCOperator* p_DCOperator) {
-    if(itsDCOperator != NULL)
-        {
-            itsDCOperator->__setItsGUI(NULL);
-        }
-    __setItsDCOperator(p_DCOperator);
-}
-
-void GUI::_clearItsDCOperator() {
-    NOTIFY_RELATION_CLEARED("itsDCOperator");
-    itsDCOperator = NULL;
 }
 
 void GUI::__setItsUC_DockTruck(UC_DockTruck* p_UC_DockTruck) {
@@ -208,11 +192,7 @@ void OMAnimatedGUI::serializeRelations(AOMSRelations* aomsRelations) const {
 }
 //#]
 
-IMPLEMENT_REACTIVE_META_SIMPLE_P(GUI, GUI, GUI, false, OMAnimatedGUI)
-
-IMPLEMENT_META_OP(OMAnimatedGUI, GUI_GUI_setDocknumber_int, "setDocknumber", FALSE, "setDocknumber(int)", 1)
-
-IMPLEMENT_OP_CALL(GUI_GUI_setDocknumber_int, GUI, setDocknumber(p_docknumber), NO_OP())
+IMPLEMENT_REACTIVE_META_SIMPLE_P(GUI, UseCaseAnalysisPkg_DriveAutonomously, UseCaseAnalysisPkg::DriveAutonomously, false, OMAnimatedGUI)
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

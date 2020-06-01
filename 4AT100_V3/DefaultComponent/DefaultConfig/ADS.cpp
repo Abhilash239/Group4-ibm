@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ADS
-//!	Generated Date	: Mon, 1, Jun 2020  
+//!	Generated Date	: Tue, 2, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\ADS.cpp
 *********************************************************************/
 
@@ -15,24 +15,24 @@
 //## auto_generated
 #include "ADS.h"
 //#[ ignore
-#define ArchitecturePkg_ADS_ADS_SERIALIZE OM_NO_OP
+#define UseCaseAnalysisPkg_DriveAutonomously_ADS_ADS_SERIALIZE OM_NO_OP
 //#]
 
-//## package ArchitecturePkg
+//## package UseCaseAnalysisPkg::DriveAutonomously
 
 //## class ADS
 ADS::ADS(IOxfActive* theActiveContext) {
-    NOTIFY_REACTIVE_CONSTRUCTOR(ADS, ADS(), 0, ArchitecturePkg_ADS_ADS_SERIALIZE);
+    NOTIFY_REACTIVE_CONSTRUCTOR(ADS, ADS(), 0, UseCaseAnalysisPkg_DriveAutonomously_ADS_ADS_SERIALIZE);
     setActiveContext(theActiveContext, false);
     {
+        {
+            itsToUnity.setShouldDelete(false);
+        }
         {
             itsGUI.setShouldDelete(false);
         }
         {
             itsUC_DockTruck.setShouldDelete(false);
-        }
-        {
-            itsToUnity.setShouldDelete(false);
         }
     }
 }
@@ -69,9 +69,9 @@ bool ADS::startBehavior() {
 void ADS::setActiveContext(IOxfActive* theActiveContext, bool activeInstance) {
     OMReactive::setActiveContext(theActiveContext, activeInstance);
     {
+        itsToUnity.setActiveContext(theActiveContext, false);
         itsGUI.setActiveContext(theActiveContext, false);
         itsUC_DockTruck.setActiveContext(theActiveContext, false);
-        itsToUnity.setActiveContext(theActiveContext, false);
     }
 }
 
@@ -85,18 +85,18 @@ void ADS::destroy() {
 #ifdef _OMINSTRUMENT
 //#[ ignore
 void OMAnimatedADS::serializeRelations(AOMSRelations* aomsRelations) const {
+    aomsRelations->addRelation("itsToUnity", true, true);
+    aomsRelations->ADD_ITEM(&myReal->itsToUnity);
     aomsRelations->addRelation("itsGUI", true, true);
     aomsRelations->ADD_ITEM(&myReal->itsGUI);
     aomsRelations->addRelation("itsUC_DockTruck", true, true);
     aomsRelations->ADD_ITEM(&myReal->itsUC_DockTruck);
-    aomsRelations->addRelation("itsToUnity", true, true);
-    aomsRelations->ADD_ITEM(&myReal->itsToUnity);
     aomsRelations->addRelation("itsUC_ControlPath", true, true);
     aomsRelations->ADD_ITEM(&myReal->itsUC_ControlPath);
 }
 //#]
 
-IMPLEMENT_REACTIVE_META_SIMPLE_P(ADS, ArchitecturePkg, ArchitecturePkg, false, OMAnimatedADS)
+IMPLEMENT_REACTIVE_META_SIMPLE_P(ADS, UseCaseAnalysisPkg_DriveAutonomously, UseCaseAnalysisPkg::DriveAutonomously, false, OMAnimatedADS)
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: UC_DockTruck
-//!	Generated Date	: Mon, 1, Jun 2020  
+//!	Generated Date	: Tue, 2, Jun 2020  
 	File Path	: DefaultComponent\DefaultConfig\UC_DockTruck.cpp
 *********************************************************************/
 
@@ -33,12 +33,51 @@
 //## package UseCaseAnalysisPkg::DriveAutonomously
 
 //## class UC_DockTruck
-UC_DockTruck::UC_DockTruck(IOxfActive* theActiveContext) : gp_flag(false) {
+//#[ ignore
+UC_DockTruck::docknumber_SP_C::docknumber_SP_C() : _p_(0) {
+    its_Out = NULL;
+}
+
+UC_DockTruck::docknumber_SP_C::~docknumber_SP_C() {
+    cleanUpRelations();
+}
+
+void UC_DockTruck::docknumber_SP_C::connectUC_DockTruck(UC_DockTruck* part) {
+    setIts_Out(part);
+    
+}
+
+_Out* UC_DockTruck::docknumber_SP_C::getIts_Out() {
+    return this;
+}
+
+void UC_DockTruck::docknumber_SP_C::setDocknumber(int p_docknumber) {
+    
+    if (its_Out != NULL) {
+        its_Out->setDocknumber(p_docknumber);
+    }
+    
+}
+
+void UC_DockTruck::docknumber_SP_C::setIts_Out(_Out* p__Out) {
+    its_Out = p__Out;
+}
+
+void UC_DockTruck::docknumber_SP_C::cleanUpRelations() {
+    if(its_Out != NULL)
+        {
+            its_Out = NULL;
+        }
+}
+//#]
+
+UC_DockTruck::UC_DockTruck(IOxfActive* theActiveContext) : docknumber(0), gp_flag(false) {
     NOTIFY_REACTIVE_CONSTRUCTOR(UC_DockTruck, UC_DockTruck(), 0, UseCaseAnalysisPkg_DriveAutonomously_UC_DockTruck_UC_DockTruck_SERIALIZE);
     setActiveContext(theActiveContext, false);
     itsGUI = NULL;
     itsToUnity = NULL;
     itsUC_ControlPath = NULL;
+    initRelations();
     initStatechart();
 }
 
@@ -51,7 +90,7 @@ UC_DockTruck::~UC_DockTruck() {
 void UC_DockTruck::checkFlag(RhpBoolean gp_flag) {
     NOTIFY_OPERATION(checkFlag, checkFlag(RhpBoolean), 1, UseCaseAnalysisPkg_DriveAutonomously_UC_DockTruck_checkFlag_SERIALIZE);
     //#[ operation checkFlag(RhpBoolean)
-    if (this->gp_flag==1)
+    if (this->gp_flag==0)
     	GEN(evFollowPath());
     //#]
 }
@@ -71,12 +110,26 @@ void UC_DockTruck::setDockReqData() {
     //#]
 }
 
-int UC_DockTruck::getDocknumber() const {
-    return docknumber;
+//#[ ignore
+void UC_DockTruck::setDocknumber(int p_docknumber) {
+    if (docknumber != p_docknumber) {
+        docknumber = p_docknumber;
+        FLOW_DATA_RECEIVE("docknumber", docknumber, x2String);
+    }
+    
+}
+//#]
+
+UC_DockTruck::docknumber_SP_C* UC_DockTruck::getDocknumber_SP() const {
+    return (UC_DockTruck::docknumber_SP_C*) &docknumber_SP;
 }
 
-void UC_DockTruck::setDocknumber(int p_docknumber) {
-    docknumber = p_docknumber;
+UC_DockTruck::docknumber_SP_C* UC_DockTruck::get_docknumber_SP() const {
+    return (UC_DockTruck::docknumber_SP_C*) &docknumber_SP;
+}
+
+int UC_DockTruck::getDocknumber() const {
+    return docknumber;
 }
 
 RhpBoolean UC_DockTruck::getGp_flag() const {
@@ -199,6 +252,12 @@ bool UC_DockTruck::startBehavior() {
     bool done = false;
     done = OMReactive::startBehavior();
     return done;
+}
+
+void UC_DockTruck::initRelations() {
+    if (get_docknumber_SP() != NULL) {
+        get_docknumber_SP()->connectUC_DockTruck(this);
+    }
 }
 
 void UC_DockTruck::initStatechart() {
@@ -347,9 +406,8 @@ IOxfReactive::TakeEventStatus UC_DockTruck::rootState_processEvent() {
         // State WaitingForDockRequest
         case WaitingForDockRequest:
         {
-            if(IS_EVENT_TYPE_OF(reqDock_GUI_id))
+            if(IS_EVENT_TYPE_OF(reqDock_DriveAutonomously_UseCaseAnalysisPkg_id))
                 {
-                    OMSETPARAMS(reqDock);
                     NOTIFY_TRANSITION_STARTED("1");
                     NOTIFY_STATE_EXITED("ROOT.WaitingForDockRequest");
                     DockTruck_entDef();
@@ -365,7 +423,7 @@ IOxfReactive::TakeEventStatus UC_DockTruck::rootState_processEvent() {
             if(IS_EVENT_TYPE_OF(evFollowPath_DriveAutonomously_UseCaseAnalysisPkg_id))
                 {
                     //## transition 6 
-                    if(gp_flag)
+                    if(gp_flag==0)
                         {
                             NOTIFY_TRANSITION_STARTED("6");
                             //#[ state DockTruck.GeneratePath.(Exit) 
@@ -441,7 +499,6 @@ IOxfReactive::TakeEventStatus UC_DockTruck::rootState_processEvent() {
 
 void UC_DockTruck::DockTruck_entDef() {
     NOTIFY_STATE_ENTERED("ROOT.DockTruck");
-    pushNullTransition();
     rootState_subState = DockTruck;
     //#[ state DockTruck.(Entry) 
      
@@ -453,45 +510,39 @@ void UC_DockTruck::DockTruck_entDef() {
     NOTIFY_TRANSITION_TERMINATED("2");
 }
 
-void UC_DockTruck::DockTruck_exit() {
-    popNullTransition();
-    switch (DockTruck_subState) {
-        // State GeneratePath
-        case GeneratePath:
-        {
-            //#[ state DockTruck.GeneratePath.(Exit) 
-             checkFlag(gp_flag);
-            //#]
-            NOTIFY_STATE_EXITED("ROOT.DockTruck.GeneratePath");
-        }
-        break;
-        // State FollowPath
-        case FollowPath:
-        {
-            cancel(DockTruck_timeout);
-            NOTIFY_STATE_EXITED("ROOT.DockTruck.FollowPath");
-        }
-        break;
-        case accepttimeevent_7:
-        {
-            popNullTransition();
-            NOTIFY_STATE_EXITED("ROOT.DockTruck.accepttimeevent_7");
-        }
-        break;
-        default:
-            break;
-    }
-    DockTruck_subState = OMNonState;
-    
-    NOTIFY_STATE_EXITED("ROOT.DockTruck");
-}
-
 IOxfReactive::TakeEventStatus UC_DockTruck::DockTruck_handleEvent() {
     IOxfReactive::TakeEventStatus res = eventNotConsumed;
-    if(IS_EVENT_TYPE_OF(OMNullEventId))
+    if(IS_EVENT_TYPE_OF(resetDock_DriveAutonomously_UseCaseAnalysisPkg_id))
         {
             NOTIFY_TRANSITION_STARTED("5");
-            DockTruck_exit();
+            switch (DockTruck_subState) {
+                // State GeneratePath
+                case GeneratePath:
+                {
+                    //#[ state DockTruck.GeneratePath.(Exit) 
+                     checkFlag(gp_flag);
+                    //#]
+                    NOTIFY_STATE_EXITED("ROOT.DockTruck.GeneratePath");
+                }
+                break;
+                // State FollowPath
+                case FollowPath:
+                {
+                    cancel(DockTruck_timeout);
+                    NOTIFY_STATE_EXITED("ROOT.DockTruck.FollowPath");
+                }
+                break;
+                case accepttimeevent_7:
+                {
+                    popNullTransition();
+                    NOTIFY_STATE_EXITED("ROOT.DockTruck.accepttimeevent_7");
+                }
+                break;
+                default:
+                    break;
+            }
+            DockTruck_subState = OMNonState;
+            NOTIFY_STATE_EXITED("ROOT.DockTruck");
             NOTIFY_STATE_ENTERED("ROOT.WaitingForDockRequest");
             rootState_subState = WaitingForDockRequest;
             rootState_active = WaitingForDockRequest;
@@ -524,15 +575,15 @@ void OMAnimatedUC_DockTruck::serializeRelations(AOMSRelations* aomsRelations) co
         {
             aomsRelations->ADD_ITEM(myReal->itsUC_ControlPath);
         }
-    aomsRelations->addRelation("itsGUI", false, true);
-    if(myReal->itsGUI)
-        {
-            aomsRelations->ADD_ITEM(myReal->itsGUI);
-        }
     aomsRelations->addRelation("itsToUnity", false, true);
     if(myReal->itsToUnity)
         {
             aomsRelations->ADD_ITEM(myReal->itsToUnity);
+        }
+    aomsRelations->addRelation("itsGUI", false, true);
+    if(myReal->itsGUI)
+        {
+            aomsRelations->ADD_ITEM(myReal->itsGUI);
         }
 }
 

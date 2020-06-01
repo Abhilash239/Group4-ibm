@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_DockTruck_Simulation
 	Model Element	: UC_DockTruck
-//!	Generated Date	: Mon, 1, Jun 2020  
+//!	Generated Date	: Tue, 2, Jun 2020  
 	File Path	: DefaultComponent\UC_DockTruck_Simulation\UC_DockTruck.h
 *********************************************************************/
 
@@ -39,6 +39,8 @@
 #include <oxf\state.h>
 //## auto_generated
 #include <oxf\event.h>
+//## class UC_DockTruck
+#include "_Out.h"
 //## link itsGUI
 class GUI;
 
@@ -51,11 +53,55 @@ class UC_ControlPath;
 //## package UseCaseAnalysisPkg::DriveAutonomously
 
 //## class UC_DockTruck
-class UC_DockTruck : public OMReactive {
-    ////    Friends    ////
-    
+class UC_DockTruck : public OMReactive, public _Out {
 public :
 
+//#[ ignore
+    //## package UseCaseAnalysisPkg::DriveAutonomously
+    class docknumber_SP_C : public _Out {
+        ////    Constructors and destructors    ////
+        
+    public :
+    
+        //## auto_generated
+        docknumber_SP_C();
+        
+        //## auto_generated
+        virtual ~docknumber_SP_C();
+        
+        ////    Operations    ////
+        
+        //## auto_generated
+        void connectUC_DockTruck(UC_DockTruck* part);
+        
+        //## auto_generated
+        _Out* getIts_Out();
+        
+        //## auto_generated
+        virtual void setDocknumber(int p_docknumber);
+        
+        ////    Additional operations    ////
+        
+        //## auto_generated
+        void setIts_Out(_Out* p__Out);
+    
+    protected :
+    
+        //## auto_generated
+        void cleanUpRelations();
+        
+        ////    Attributes    ////
+        
+        int _p_;		//## attribute _p_
+        
+        ////    Relations and components    ////
+        
+        _Out* its_Out;		//## link its_Out
+    };
+//#]
+
+    ////    Friends    ////
+    
 #ifdef _OMINSTRUMENT
     friend class OMAnimatedUC_DockTruck;
 #endif // _OMINSTRUMENT
@@ -76,13 +122,20 @@ public :
     //## operation setDockReqData()
     virtual void setDockReqData();
     
+//#[ ignore
+    void setDocknumber(int p_docknumber);
+//#]
+
     ////    Additional operations    ////
     
     //## auto_generated
-    int getDocknumber() const;
+    docknumber_SP_C* getDocknumber_SP() const;
     
     //## auto_generated
-    void setDocknumber(int p_docknumber);
+    docknumber_SP_C* get_docknumber_SP() const;
+    
+    //## auto_generated
+    int getDocknumber() const;
     
     //## auto_generated
     RhpBoolean getGp_flag() const;
@@ -168,6 +221,9 @@ public :
 protected :
 
     //## auto_generated
+    void initRelations();
+    
+    //## auto_generated
     void initStatechart();
     
     //## auto_generated
@@ -205,6 +261,10 @@ protected :
     
     ////    Relations and components    ////
     
+//#[ ignore
+    docknumber_SP_C docknumber_SP;
+//#]
+
     GUI* itsGUI;		//## link itsGUI
     
     ToUnity* itsToUnity;		//## link itsToUnity
@@ -262,9 +322,6 @@ public :
     
     //## statechart_method
     void DockTruck_entDef();
-    
-    //## statechart_method
-    void DockTruck_exit();
     
     //## statechart_method
     IOxfReactive::TakeEventStatus DockTruck_handleEvent();

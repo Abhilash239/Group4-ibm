@@ -87,15 +87,17 @@ ADDITIONAL_OBJS=
 OBJS= \
   UC_DockTruck.obj \
   UC_ControlPath.obj \
-  GUI.obj \
-  DCOperator.obj \
   ToUnity.obj \
   Truck.obj \
   LocSystem.obj \
   CollisionDetectionSystem.obj \
+  GUI.obj \
+  DCOperator.obj \
+  _Out.obj \
   DriveAutonomously.obj \
+  UnityPkg.obj \
   ActorPkg.obj \
-  UnityPkg.obj
+  FlowPortInterfaces.obj
 
 
 
@@ -178,7 +180,7 @@ SOCK_LIB=
 
 
 
-UC_DockTruck.obj : UC_DockTruck.cpp UC_DockTruck.h    DriveAutonomously.h UC_ControlPath.h GUI.h ToUnity.h 
+UC_DockTruck.obj : UC_DockTruck.cpp UC_DockTruck.h    DriveAutonomously.h UC_ControlPath.h ToUnity.h GUI.h _Out.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_DockTruck.obj" "UC_DockTruck.cpp" 
 
@@ -187,18 +189,6 @@ UC_DockTruck.obj : UC_DockTruck.cpp UC_DockTruck.h    DriveAutonomously.h UC_Con
 UC_ControlPath.obj : UC_ControlPath.cpp UC_ControlPath.h    DriveAutonomously.h UC_DockTruck.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_ControlPath.obj" "UC_ControlPath.cpp" 
-
-
-
-GUI.obj : GUI.cpp GUI.h    DCOperator.h UC_DockTruck.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"GUI.obj" "GUI.cpp" 
-
-
-
-DCOperator.obj : DCOperator.cpp DCOperator.h    ActorPkg.h GUI.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCOperator.obj" "DCOperator.cpp" 
 
 
 
@@ -226,9 +216,33 @@ CollisionDetectionSystem.obj : CollisionDetectionSystem.cpp CollisionDetectionSy
 
 
 
-DriveAutonomously.obj : DriveAutonomously.cpp DriveAutonomously.h    UC_DockTruck.h UC_ControlPath.h 
+GUI.obj : GUI.cpp GUI.h    DriveAutonomously.h DCOperator.h UC_DockTruck.h _Out.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"GUI.obj" "GUI.cpp" 
+
+
+
+DCOperator.obj : DCOperator.cpp DCOperator.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCOperator.obj" "DCOperator.cpp" 
+
+
+
+_Out.obj : _Out.cpp _Out.h    FlowPortInterfaces.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"_Out.obj" "_Out.cpp" 
+
+
+
+DriveAutonomously.obj : DriveAutonomously.cpp DriveAutonomously.h    UC_DockTruck.h UC_ControlPath.h GUI.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DriveAutonomously.obj" "DriveAutonomously.cpp" 
+
+
+
+UnityPkg.obj : UnityPkg.cpp UnityPkg.h    ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UnityPkg.obj" "UnityPkg.cpp" 
 
 
 
@@ -238,9 +252,9 @@ ActorPkg.obj : ActorPkg.cpp ActorPkg.h
 
 
 
-UnityPkg.obj : UnityPkg.cpp UnityPkg.h    ToUnity.h 
+FlowPortInterfaces.obj : FlowPortInterfaces.cpp FlowPortInterfaces.h    _Out.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UnityPkg.obj" "UnityPkg.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"FlowPortInterfaces.obj" "FlowPortInterfaces.cpp" 
 
 
 
@@ -273,15 +287,17 @@ clean:
 	@echo Cleanup
 	if exist UC_DockTruck.obj erase UC_DockTruck.obj
 	if exist UC_ControlPath.obj erase UC_ControlPath.obj
-	if exist GUI.obj erase GUI.obj
-	if exist DCOperator.obj erase DCOperator.obj
 	if exist ToUnity.obj erase ToUnity.obj
 	if exist Truck.obj erase Truck.obj
 	if exist LocSystem.obj erase LocSystem.obj
 	if exist CollisionDetectionSystem.obj erase CollisionDetectionSystem.obj
+	if exist GUI.obj erase GUI.obj
+	if exist DCOperator.obj erase DCOperator.obj
+	if exist _Out.obj erase _Out.obj
 	if exist DriveAutonomously.obj erase DriveAutonomously.obj
-	if exist ActorPkg.obj erase ActorPkg.obj
 	if exist UnityPkg.obj erase UnityPkg.obj
+	if exist ActorPkg.obj erase ActorPkg.obj
+	if exist FlowPortInterfaces.obj erase FlowPortInterfaces.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

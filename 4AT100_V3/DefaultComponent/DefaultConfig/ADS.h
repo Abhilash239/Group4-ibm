@@ -30,7 +30,7 @@
 //## auto_generated
 #include "string.h"
 //## auto_generated
-#include "ArchitecturePkg.h"
+#include "DriveAutonomously.h"
 //## auto_generated
 #include <oxf\omthread.h>
 //## auto_generated
@@ -47,7 +47,7 @@
 #include "UC_ControlPath.h"
 //## classInstance itsUC_DockTruck
 #include "UC_DockTruck.h"
-//## package ArchitecturePkg
+//## package UseCaseAnalysisPkg::DriveAutonomously
 
 //## class ADS
 class ADS : public OMReactive {

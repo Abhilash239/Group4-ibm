@@ -5,12 +5,12 @@ CPPCompileDebug= /Zi /Od /D "_DEBUG" $(LIBCRT_FLAG)d  /Fd"$(TARGET_NAME)"
 CPPCompileRelease= /Ox /D"NDEBUG" $(LIBCRT_FLAG) /Fd"$(TARGET_NAME)" 
 LinkDebug=
 LinkRelease=
-BuildSet=Debug
+BuildSet=Release
 SUBSYSTEM=/SUBSYSTEM:console
 RPFrameWorkDll=False
-SimulinkLibName=
+SimulinkLibName=$(OMROOT)\LangCpp\lib\$(LIB_PREFIX)SimulinkIntegration$(LIB_POSTFIX)$(LIB_EXT)
 
-ConfigurationCPPCompileSwitches=   /I . /I . /I $(OMROOT)\LangCpp /I $(OMROOT)\LangCpp\oxf /nologo /W3 $(ENABLE_EH) $(CRT_FLAGS) $(CPPCompileDebug) /D "_AFXDLL" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_WINDOWS" $(INST_FLAGS) $(INCLUDE_PATH) $(INST_INCLUDES) /c   
+ConfigurationCPPCompileSwitches=   /I . /I . /I $(OMROOT)\LangCpp /I $(OMROOT)\LangCpp\oxf /nologo /W3 $(ENABLE_EH) $(CRT_FLAGS) $(CPPCompileRelease) /D "_AFXDLL" /D "WIN32" /D "_CONSOLE" /D "_MBCS" /D "_WINDOWS" $(INST_FLAGS) $(INCLUDE_PATH) $(INST_INCLUDES) /c   
 
 SIMULINK_CONFIG=False
 !IF "$(SIMULINK_CONFIG)" == "True"
@@ -47,16 +47,16 @@ WINMM_LIB=winmm.lib
 RMDIR = rmdir
 LIB_CMD=link.exe -lib
 LINK_CMD=link.exe
-LIB_FLAGS=$(LinkDebug)  /NOLOGO   
-LINK_FLAGS=$(LinkDebug)  /NOLOGO    $(SUBSYSTEM) /MACHINE:x86 
+LIB_FLAGS=$(LinkRelease)  /NOLOGO   
+LINK_FLAGS=$(LinkRelease)  /NOLOGO    $(SUBSYSTEM) /MACHINE:x86 
 
 ############### Generated macros #################
 ##################################################
 
 FLAGSFILE=
 RULESFILE=
-OMROOT="C:\Users\20184717\IBM\Rational\Rhapsody\8.3.1\Share"
-RHPROOT="C:\Program Files (x86)\IBM\Rational\Rhapsody\8.3.1"
+OMROOT="C:\ProgramData\IBM\Rational\Rhapsody\8.4\Share"
+RHPROOT="C:\Program Files (x86)\IBM\Rational\Rhapsody\8.4"
 
 CPP_EXT=.cpp
 H_EXT=.h
@@ -76,7 +76,8 @@ all : $(TARGET_NAME)$(EXE_EXT) DefaultComponent.mak
 
 TARGET_MAIN=MainDefaultComponent
 
-LIBS=
+LIBS= \
+  ws2_32.lib
 
 INCLUDE_PATH= \
   $(INCLUDE_QUALIFIER)$(OMROOT)/LangCpp/osconfig/WIN32
@@ -85,7 +86,18 @@ ADDITIONAL_OBJS=
 
 OBJS= \
   ToUnity.obj \
-  Default.obj
+  Truck.obj \
+  LocSystem.obj \
+  CollisionDetectionSystem.obj \
+  UC_DockTruck.obj \
+  UC_ControlPath.obj \
+  GUI.obj \
+  DCOperator.obj \
+  _Out.obj \
+  UnityPkg.obj \
+  ActorPkg.obj \
+  DriveAutonomously.obj \
+  FlowPortInterfaces.obj
 
 
 
@@ -168,15 +180,81 @@ SOCK_LIB=
 
 
 
-ToUnity.obj : ToUnity.cpp ToUnity.h    Default.h 
+ToUnity.obj : ToUnity.cpp ToUnity.h    UnityPkg.h Truck.h LocSystem.h CollisionDetectionSystem.h UC_DockTruck.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ToUnity.obj" "ToUnity.cpp" 
 
 
 
-Default.obj : Default.cpp Default.h    ToUnity.h 
+Truck.obj : Truck.cpp Truck.h    ActorPkg.h ToUnity.h 
 	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Default.obj" "Default.cpp" 
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Truck.obj" "Truck.cpp" 
+
+
+
+LocSystem.obj : LocSystem.cpp LocSystem.h    ActorPkg.h ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"LocSystem.obj" "LocSystem.cpp" 
+
+
+
+CollisionDetectionSystem.obj : CollisionDetectionSystem.cpp CollisionDetectionSystem.h    ActorPkg.h ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"CollisionDetectionSystem.obj" "CollisionDetectionSystem.cpp" 
+
+
+
+UC_DockTruck.obj : UC_DockTruck.cpp UC_DockTruck.h    DriveAutonomously.h UC_ControlPath.h ToUnity.h GUI.h _Out.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_DockTruck.obj" "UC_DockTruck.cpp" 
+
+
+
+UC_ControlPath.obj : UC_ControlPath.cpp UC_ControlPath.h    DriveAutonomously.h UC_DockTruck.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UC_ControlPath.obj" "UC_ControlPath.cpp" 
+
+
+
+GUI.obj : GUI.cpp GUI.h    DriveAutonomously.h DCOperator.h UC_DockTruck.h _Out.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"GUI.obj" "GUI.cpp" 
+
+
+
+DCOperator.obj : DCOperator.cpp DCOperator.h    ActorPkg.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DCOperator.obj" "DCOperator.cpp" 
+
+
+
+_Out.obj : _Out.cpp _Out.h    FlowPortInterfaces.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"_Out.obj" "_Out.cpp" 
+
+
+
+UnityPkg.obj : UnityPkg.cpp UnityPkg.h    ToUnity.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"UnityPkg.obj" "UnityPkg.cpp" 
+
+
+
+ActorPkg.obj : ActorPkg.cpp ActorPkg.h    
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ActorPkg.obj" "ActorPkg.cpp" 
+
+
+
+DriveAutonomously.obj : DriveAutonomously.cpp DriveAutonomously.h    UC_DockTruck.h UC_ControlPath.h GUI.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DriveAutonomously.obj" "DriveAutonomously.cpp" 
+
+
+
+FlowPortInterfaces.obj : FlowPortInterfaces.cpp FlowPortInterfaces.h    _Out.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"FlowPortInterfaces.obj" "FlowPortInterfaces.cpp" 
 
 
 
@@ -208,7 +286,18 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 clean:
 	@echo Cleanup
 	if exist ToUnity.obj erase ToUnity.obj
-	if exist Default.obj erase Default.obj
+	if exist Truck.obj erase Truck.obj
+	if exist LocSystem.obj erase LocSystem.obj
+	if exist CollisionDetectionSystem.obj erase CollisionDetectionSystem.obj
+	if exist UC_DockTruck.obj erase UC_DockTruck.obj
+	if exist UC_ControlPath.obj erase UC_ControlPath.obj
+	if exist GUI.obj erase GUI.obj
+	if exist DCOperator.obj erase DCOperator.obj
+	if exist _Out.obj erase _Out.obj
+	if exist UnityPkg.obj erase UnityPkg.obj
+	if exist ActorPkg.obj erase ActorPkg.obj
+	if exist DriveAutonomously.obj erase DriveAutonomously.obj
+	if exist FlowPortInterfaces.obj erase FlowPortInterfaces.obj
 	if exist $(TARGET_MAIN)$(OBJ_EXT) erase $(TARGET_MAIN)$(OBJ_EXT)
 	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
 	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb

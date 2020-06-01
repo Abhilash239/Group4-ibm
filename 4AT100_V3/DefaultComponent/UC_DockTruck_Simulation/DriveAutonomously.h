@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: UC_DockTruck_Simulation
 	Model Element	: DriveAutonomously
-//!	Generated Date	: Mon, 1, Jun 2020  
+//!	Generated Date	: Tue, 2, Jun 2020  
 	File Path	: DefaultComponent\UC_DockTruck_Simulation\DriveAutonomously.h
 *********************************************************************/
 
@@ -32,6 +32,9 @@
 //## auto_generated
 #include <oxf\event.h>
 //## auto_generated
+class GUI;
+
+//## auto_generated
 class UC_ControlPath;
 
 //## auto_generated
@@ -39,6 +42,10 @@ class UC_DockTruck;
 
 //#[ ignore
 #define evFollowPath_DriveAutonomously_UseCaseAnalysisPkg_id 201
+
+#define reqDock_DriveAutonomously_UseCaseAnalysisPkg_id 202
+
+#define resetDock_DriveAutonomously_UseCaseAnalysisPkg_id 203
 //#]
 
 //## package UseCaseAnalysisPkg::DriveAutonomously
@@ -70,6 +77,64 @@ public :
 //#[ ignore
 class OMAnimatedevFollowPath : virtual public AOMEvent {
     DECLARE_META_EVENT(evFollowPath)
+};
+//#]
+#endif // _OMINSTRUMENT
+
+//## event reqDock()
+class reqDock : public OMEvent {
+    ////    Friends    ////
+    
+public :
+
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedreqDock;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
+    //## auto_generated
+    reqDock();
+    
+    ////    Framework operations    ////
+    
+    //## statechart_method
+    virtual bool isTypeOf(const short id) const;
+};
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedreqDock : virtual public AOMEvent {
+    DECLARE_META_EVENT(reqDock)
+};
+//#]
+#endif // _OMINSTRUMENT
+
+//## event resetDock()
+class resetDock : public OMEvent {
+    ////    Friends    ////
+    
+public :
+
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedresetDock;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
+    //## auto_generated
+    resetDock();
+    
+    ////    Framework operations    ////
+    
+    //## statechart_method
+    virtual bool isTypeOf(const short id) const;
+};
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedresetDock : virtual public AOMEvent {
+    DECLARE_META_EVENT(resetDock)
 };
 //#]
 #endif // _OMINSTRUMENT
