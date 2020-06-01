@@ -16,155 +16,13 @@
 			<isLoadOnDemand type="a">0</isLoadOnDemand>
 			<myViewsWithID type="c">
 				<IRPYRawContainer type="e">
-<<<<<<< HEAD
-					<size type="a">4</size>
-=======
-					<size type="a">5</size>
->>>>>>> b59a2dded9a74e2bd5fd61cb62099ac116086962
+					<size type="a">1</size>
 					<CGEMdiDiagramParams type="e">
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">182</m_nLeft>
-								<m_nTop type="a">182</m_nTop>
-								<m_nRight type="a">1308</m_nRight>
-								<m_nBottom type="a">676</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IStructureDiagram</_hm2Class>
-								<_hfilename type="a">.\TruckLab_rpy\ArchitecturePkg.sbsx</_hfilename>
-								<_hsubsystem type="a">ArchitecturePkg</_hsubsystem>
-								<_hclass type="a">ADS</_hclass>
-								<_hname type="a">Communication</_hname>
-								<_hid type="a">GUID 73dc14b2-bd9c-44a3-9e84-834d17267ee4</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 42 </_UpLeft>
-						<_DownRight type="a">1089 476 </_DownRight>
-<<<<<<< HEAD
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
-=======
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
->>>>>>> b59a2dded9a74e2bd5fd61cb62099ac116086962
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">182</m_nLeft>
-								<m_nTop type="a">182</m_nTop>
-								<m_nRight type="a">1304</m_nRight>
-								<m_nBottom type="a">695</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\TruckLab_rpy\ArchitecturePkg.sbsx</_hfilename>
-								<_hsubsystem type="a">ArchitecturePkg</_hsubsystem>
-								<_hname type="a">SystemArchitecture</_hname>
-								<_hid type="a">GUID e456c552-00d0-4b56-a2b7-dbe4f16ab0e4</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1085 453 </_DownRight>
-<<<<<<< HEAD
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
-=======
-						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">0</m_nLeft>
-								<m_nTop type="a">0</m_nTop>
-								<m_nRight type="a">1207</m_nRight>
-								<m_nBottom type="a">424</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IPanelDiagram</_hm2Class>
-								<_hfilename type="a">.\TruckLab_rpy\GUI.sbsx</_hfilename>
-								<_hsubsystem type="a">GUI</_hsubsystem>
-								<_hname type="a">All In One</_hname>
-								<_hid type="a">GUID 81d26481-7ccf-4e78-af9f-78df1f1e856b</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">-301 0 </_UpLeft>
-						<_DownRight type="a">1975 708 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">156</m_nLeft>
-								<m_nTop type="a">156</m_nTop>
-								<m_nRight type="a">1363</m_nRight>
-								<m_nBottom type="a">580</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\TruckLab_rpy\DriveAutonomously.sbsx</_hfilename>
-								<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
-								<_hclass type="a">UC_DockTruck</_hclass>
-								<_hname type="a">AutonomousDrivingStructure</_hname>
-								<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1170 364 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
->>>>>>> b59a2dded9a74e2bd5fd61cb62099ac116086962
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
@@ -185,48 +43,10 @@
 								<_hid type="a">GUID 1c40fdfb-9bf3-4669-9943-b736919a503e</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 50 </_UpLeft>
-						<_DownRight type="a">1018 514 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">0</m_nLeft>
-								<m_nTop type="a">0</m_nTop>
-								<m_nRight type="a">1126</m_nRight>
-								<m_nBottom type="a">494</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
-								<_hfilename type="a">.\TruckLab_rpy\DriveAutonomously.sbsx</_hfilename>
-								<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
-								<_hclass type="a">UC_DockTruck</_hclass>
-								<_hname type="a">StatechartDiagram</_hname>
-								<_hid type="a">GUID 566ce6b4-9f42-44cc-9e2e-23f1c687af6f</_hid>
-							</IHandle>
-						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
-<<<<<<< HEAD
-						<_DownRight type="a">2525 1006 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
-=======
-						<_DownRight type="a">1056 421 </_DownRight>
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
->>>>>>> b59a2dded9a74e2bd5fd61cb62099ac116086962
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<_DownRight type="a">1960 893 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
