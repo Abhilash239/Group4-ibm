@@ -1,11 +1,12 @@
-function SP = HAS(goal,obstacle)
+function SP = HAS(goal,obstacle,num)
 % Example input
 % HAS([341 375 -pi/2],[0 0]);
 % goal = [341 375 -90];
 % obstacle = [0 0];
 start = [627 217 pi/2];
+% start = [110 220 -pi/2];
 % Creating a costmap
-CostMap = binaryOccupancyMap(Map(obstacle));
+CostMap = binaryOccupancyMap(Map(obstacle,num));
 validator = validatorOccupancyMap;
 validator.Map = CostMap;
 
@@ -20,9 +21,10 @@ planner = plannerHybridAStar(validator,'MinTurningRadius',60,...
                              'ReverseCost',5,...
                              'DirectionSwitchingCost',5);
 startPose = start;
-goalPose = [goal(1) goal(2) goal(3)*pi/180];
+goalPose = [goal(1) goal(2)-84+100 -goal(3)*pi/180];
 refpath = plan(planner,startPose,goalPose);
-show(planner)
+% figure(7)
+% show(planner)
 
 % Switching Point
 interpolate(refpath,10000); 
@@ -34,10 +36,10 @@ index = find(change==max(min(change)))+1;
 SP = path(index,:);
 SP(3) = 360+SP(3)*180/pi;
 
-hold on
-plot(path(index,1),path(index,2),'k.','MarkerSize',21)
-legend('RRT','RRT','Path','Start','Goal','Switching Point')
-hold off
+% hold on
+% plot(path(index,1),path(index,2),'k.','MarkerSize',21)
+% legend('RRT','RRT','Path','Start','Goal','Switching Point')
+% hold off
 
 end
 
