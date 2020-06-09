@@ -1,0 +1,42 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 4;
+	- value = "DefaultComponent\\block_2_Simulation\\AdjustHVACandLighting.cpp" 6.9.2020::8:18:9
+	"DefaultComponent\\block_2_Simulation\\AdjustHVACandLighting.h" 6.9.2020::8:18:9
+	"DefaultComponent\\block_2_Simulation\\block_2.cpp" 6.9.2020::8:18:9
+	"DefaultComponent\\block_2_Simulation\\block_2.h" 6.9.2020::8:18:9
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 99358d8e-541d-434d-8f30-db01a2d473d3" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
+	"GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	"GUID fad0c1b6-b10f-40de-9ffe-7053f1a3d52a" "GUID 7f61dcdd-23af-4028-bb3e-d002d06338c2"
+	
+}
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\block_2_Simulation";
+	- _id = GUID 950347ae-3eb2-4fd5-97f4-33694ce4352f;
+}
+- genTime = 6.9.2020::8:21:32;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "AdjustHVACandLighting";
+	- _id = GUID 99358d8e-541d-434d-8f30-db01a2d473d3;
+}
+- genTime = 6.9.2020::8:21:32;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TruckLab_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::AdjustHVACandLighting";
+	- _name = "block_2";
+	- _id = GUID 1b1b7a17-c437-4cc9-821b-cddf6a02bb82;
+}
+- genTime = 6.9.2020::8:21:32;
+

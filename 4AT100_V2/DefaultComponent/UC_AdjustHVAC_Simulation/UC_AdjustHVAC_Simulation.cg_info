@@ -1,0 +1,185 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 32;
+	- value = "DefaultComponent\\UC_AdjustHVAC_Simulation\\ADS.cpp" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\ADS.h" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\AdjustHVACandLighting.cpp" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\AdjustHVACandLighting.h" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\ChargingSystem.cpp" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\ChargingSystem.h" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\CollisionDetectionSystem.cpp" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\CollisionDetectionSystem.h" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\DC.cpp" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\DC.h" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\DCOperator.cpp" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\DCOperator.h" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Default.cpp" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Default.h" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\DriveAutonomously.cpp" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\DriveAutonomously.h" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Driver.cpp" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Driver.h" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\GUI.cpp" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\GUI.h" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\LocSystem.cpp" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\LocSystem.h" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Obstacles.cpp" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Obstacles.h" 6.8.2020::20:48:22
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Truck.cpp" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\Truck.h" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\UC_AdjustHVAC.cpp" 6.8.2020::21:10:20
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\UC_AdjustHVAC.h" 6.8.2020::21:10:20
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\UC_AdjustLighting.cpp" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\UC_AdjustLighting.h" 6.8.2020::21:10:21
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\UGE.cpp" 6.8.2020::20:48:23
+	"DefaultComponent\\UC_AdjustHVAC_Simulation\\UGE.h" 6.8.2020::20:48:23
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 7;
+	- value = "GUID 0e2ad1fe-9e4d-4f3e-a56c-e1077ccda50b" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	"GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
+	"GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	"GUID 99358d8e-541d-434d-8f30-db01a2d473d3" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
+	"GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	"GUID f4515241-e2ff-4d14-845c-b184adb4f493" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	"GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	
+}
+- size = 17;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Driver";
+	- _id = GUID a092e39d-ecb3-4196-aa35-032270d1147f;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "ChargingSystem";
+	- _id = GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "DriveAutonomously";
+	- _id = GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\Default.sbsx";
+	- _name = "Default";
+	- _id = GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::AdjustHVACandLighting";
+	- _name = "UC_AdjustLighting";
+	- _id = GUID d4cd588b-76d8-4108-8e4e-a91de907fa39;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "AdjustHVACandLighting";
+	- _id = GUID 99358d8e-541d-434d-8f30-db01a2d473d3;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ArchitecturePkg.sbsx";
+	- _subsystem = "ArchitecturePkg";
+	- _name = "UGE";
+	- _id = GUID ab77dabf-bd51-4570-aac6-51b756d14875;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\AdjustHVACandLighting_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::AdjustHVACandLighting";
+	- _name = "UC_AdjustHVAC";
+	- _id = GUID cb0d1c3e-bf16-44c6-819c-fe454fda28e9;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "DC";
+	- _id = GUID c0df7c3f-b22d-4798-abd2-7573393638f3;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\UC_AdjustHVAC_Simulation";
+	- _id = GUID 640b0f9b-a581-442a-b81c-82659d518e3c;
+}
+- genTime = 6.8.2020::21:14:33;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Truck";
+	- _id = GUID 23c7095d-fa21-4ef2-a111-5ba0aecfaa9e;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "DCOperator";
+	- _id = GUID 580780ff-e115-47b2-954a-d7907b7f5d5c;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\Default.sbsx";
+	- _subsystem = "Default";
+	- _name = "ADS";
+	- _id = GUID 63d2215d-c2ea-4626-a1d8-9baeb5c08781;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ArchitecturePkg.sbsx";
+	- _subsystem = "ArchitecturePkg";
+	- _name = "GUI";
+	- _id = GUID 2db1e728-2f80-40c5-8400-80735a41ddd1;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "LocSystem";
+	- _id = GUID b96816f5-45f4-4b3c-8055-efde7fd5a216;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "CollisionDetectionSystem";
+	- _id = GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc;
+}
+- genTime = 6.8.2020::21:14:13;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\ActorPkg.sbsx";
+	- _subsystem = "ActorPkg";
+	- _name = "Obstacles";
+	- _id = GUID 94d5fd3c-3ed1-4ca1-957e-c889e1afc927;
+}
+- genTime = 6.8.2020::21:14:13;
+

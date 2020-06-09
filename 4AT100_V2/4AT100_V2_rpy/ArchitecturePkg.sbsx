@@ -11,10 +11,10 @@
 			<_id type="a">GUID f75c51ba-efeb-4ff3-8251-0a20a883eec7</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ArchitecturePkg</_name>
-			<_modifiedTimeWeak type="a">6.1.2020::10:37:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.28.2020::15:19:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:29:18</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">6.1.2020::10:37:29</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:26:0</weakCGTime>
 			<strongCGTime type="a">5.21.2020::19:39:56</strongCGTime>
 			<_defaultComposite type="s">GUID 9af5bd5e-9786-4f91-9f04-8b480ea16391</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1176,7 +1176,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.1.2020::10:40:31</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:5</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1186,9 +1186,9 @@
 					<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">6.1.2020::10:40:31</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">6.1.2020::10:40:31</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:26:5</weakCGTime>
 			<strongCGTime type="a">5.24.2020::0:50:31</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1197,6 +1197,8 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
 				<value>GUID be29ace9-fb32-4d8b-8d97-6e39e1ec9883</value>
+				<value>GUID 2278e854-7412-46d6-b0c7-dae4d9298457</value>
+				<value>GUID 11e35dc3-4fd1-488a-9e6d-a7a44dd4d005</value>
 				<value>GUID 39398d55-db9c-4233-976a-957ab42a2f6c</value>
 				<value>GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</value>
 				<value>GUID 2d5b62b8-b65b-4cf1-8d25-815da7a259d2</value>
@@ -1222,6 +1224,48 @@
 					<_hsubsystem type="a">UseCaseAnalysisPkg::DriveAutonomously</_hsubsystem>
 					<_hname type="a">reqDock()</_hname>
 					<_hid type="a">GUID 4df14825-5e10-4d09-9c93-7371587a706c</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 2278e854-7412-46d6-b0c7-dae4d9298457</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">6.8.2020::19:57:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::19:57:49</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hname type="a">reqAdjustLighting()</_hname>
+					<_hid type="a">GUID 690b93b1-30fb-4634-8111-24e024946a89</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 11e35dc3-4fd1-488a-9e6d-a7a44dd4d005</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">6.8.2020::19:58:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::19:58:7</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+					<_hname type="a">reqAdjustHVAC()</_hname>
+					<_hid type="a">GUID b32d7fb8-ff05-48c0-a70f-e7b35d8e2bb2</_hid>
 				</IHandle>
 			</_event>
 		</IReception>
@@ -1262,16 +1306,16 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
-			<_modifiedTimeWeak type="a">5.24.2020::21:6:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::21:6:8</_modifiedTime>
+			<_name type="a">itsDCOperator</_name>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -1280,7 +1324,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsGUI</_hname>
 					<_hid type="a">GUID f0fb5bf7-ba7a-4bc5-a850-e930188e6718</_hid>
 				</IHandle>
@@ -1377,7 +1421,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.24.2020::22:33:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:0</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1387,8 +1431,8 @@
 					<_hid type="a">GUID 9ff32fe0-6995-40a2-9edb-80ca06066ec0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">5.24.2020::22:33:29</_modifiedTime>
-			<weakCGTime type="a">5.24.2020::22:33:29</weakCGTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
+			<weakCGTime type="a">6.8.2020::20:26:0</weakCGTime>
 			<strongCGTime type="a">5.24.2020::0:51:11</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1518,16 +1562,16 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 21a122f4-900c-4844-849d-15e0d092eed9</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCollision Detection system</_name>
-			<_modifiedTimeWeak type="a">5.24.2020::21:6:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::21:6:29</_modifiedTime>
+			<_name type="a">itsCollisionDetectionSystem</_name>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -1536,7 +1580,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsUGE</_hname>
 					<_hid type="a">GUID 3e04886a-1204-4e7b-943f-ed7edabd8f88</_hid>
 				</IHandle>

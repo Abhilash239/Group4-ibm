@@ -11,10 +11,10 @@
 			<_id type="a">GUID 7f74cf95-35b4-4d17-b635-9912e7cdc060</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Default</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:27:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.12.2020::12:39:15</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::20:25:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:29:17</_modifiedTime>
 			<_lastID type="a">22</_lastID>
-			<weakCGTime type="a">5.18.2020::20:27:22</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:25:50</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:27:22</strongCGTime>
 			<_defaultComposite type="s">GUID f439fea4-4f6f-4fb0-bbd8-11c674698712</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -108,7 +108,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.18.2020::20:27:22</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.8.2020::20:25:50</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -117,9 +117,9 @@
 					<_hid type="a">GUID b7185946-2132-478b-8785-26bb0fb67943</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">4.8.2020::18:30:49</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:25:50</_modifiedTime>
 			<_lastID type="a">42</_lastID>
-			<weakCGTime type="a">5.18.2020::20:27:22</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:25:50</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:27:22</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -159,15 +159,15 @@
 		<IDependency type="e">
 			<_id type="a">GUID 951cf944-9c8d-438b-8a87-5d93373f09a0</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Charging system</_name>
-			<_modifiedTimeWeak type="a">4.1.2020::18:14:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">3.24.2020::9:49:20</_modifiedTime>
+			<_name type="a">ChargingSystem</_name>
+			<_modifiedTimeWeak type="a">6.8.2020::20:25:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:25:50</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Charging system</_hname>
+					<_hname type="a">ChargingSystem</_hname>
 					<_hid type="a">GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -288,7 +288,7 @@
 		</IInformationItem>
 		<IPort type="e">
 			<_id type="a">GUID 034e69b3-9c99-46f6-80d6-cd5dba8dd4d9</_id>
-			<_myState type="a">10240</_myState>
+			<_myState type="a">8192</_myState>
 			<_name type="a">proxyport_2</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
@@ -323,7 +323,7 @@
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 136fa5d5-c20b-4cf3-b70e-b704d9d33927</_id>
-			<_myState type="a">10240</_myState>
+			<_myState type="a">8192</_myState>
 			<_name type="a">proxyport_4</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
@@ -358,7 +358,7 @@
 		</IPort>
 		<IPort type="e">
 			<_id type="a">GUID 7fd8a992-944a-4243-a241-a1e0a132f1a6</_id>
-			<_myState type="a">10240</_myState>
+			<_myState type="a">8192</_myState>
 			<_name type="a">proxyport_6</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
@@ -654,7 +654,7 @@
 		</ISysMLPort>
 		<IPort type="e">
 			<_id type="a">GUID ea3e23c9-1a4d-4fb2-9701-e6ec981358d1</_id>
-			<_myState type="a">10240</_myState>
+			<_myState type="a">8192</_myState>
 			<_name type="a">proxyport_25</_name>
 			<_displayName type="a">DCPort</_displayName>
 			<Stereotypes type="c">

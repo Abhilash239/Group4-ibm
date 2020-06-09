@@ -460,8 +460,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.18.2020::20:29:51</_modifiedTime>
-			<_lastModifiedTime type="a">5.18.2020::20:29:51</_lastModifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:29:18</_modifiedTime>
+			<_lastModifiedTime type="a">6.8.2020::20:29:18</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -872,14 +872,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::DC Operator</m_str>
+					<m_str type="a">ActorPkg::DCOperator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1191,14 +1191,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::Collision Detection system</m_str>
+					<m_str type="a">ActorPkg::CollisionDetectionSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1297,14 +1297,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Charging system</_hname>
+					<_hname type="a">ChargingSystem</_hname>
 					<_hid type="a">GUID c866018b-dc6f-4d63-b0ad-2809f9f06db2</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::Charging system</m_str>
+					<m_str type="a">ActorPkg::ChargingSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1350,14 +1350,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Safety Standards</_hname>
+					<_hname type="a">SafetyStandards</_hname>
 					<_hid type="a">GUID de1414c9-d0cb-4b34-95aa-cdada29f9246</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 1ee65d87-ec46-43be-a769-82b19aceb00b</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::Safety Standards</m_str>
+					<m_str type="a">ActorPkg::SafetyStandards</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1994,7 +1994,7 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">DC_Operator_port</_hname>
 					<_hid type="a">GUID f27a336b-946e-46cd-8c39-2ab1c10e22fd</_hid>
 				</IHandle>
@@ -2285,7 +2285,7 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">Collision_Detection_port</_hname>
 					<_hid type="a">GUID e6ccda92-ce6f-4e0d-b925-e3bac534d5a5</_hid>
 				</IHandle>
@@ -2384,7 +2384,7 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Safety Standards</_hclass>
+					<_hclass type="a">SafetyStandards</_hclass>
 					<_hname type="a">Safety_Standards_port</_hname>
 					<_hid type="a">GUID 6862fd7d-db80-4e21-920f-c8e0112e5b89</_hid>
 				</IHandle>
@@ -2480,7 +2480,7 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Charging system</_hclass>
+					<_hclass type="a">ChargingSystem</_hclass>
 					<_hname type="a">Charging_system_port</_hname>
 					<_hid type="a">GUID 26fab8c0-0bf1-4f66-837e-878f1f548728</_hid>
 				</IHandle>
@@ -2775,7 +2775,7 @@
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Safety Standards</_hclass>
+					<_hclass type="a">SafetyStandards</_hclass>
 					<_hname type="a">Safety_Standards_port_Safety_Standards_port</_hname>
 					<_hid type="a">GUID 38f896a2-f2d4-449e-b783-18a895ae472b</_hid>
 				</IHandle>
@@ -2974,7 +2974,7 @@
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">Collision_Detection_port_Collision_Detection_port</_hname>
 					<_hid type="a">GUID d826be5d-5514-4ec6-8fd3-593a7ab8731a</_hid>
 				</IHandle>
@@ -3464,7 +3464,7 @@
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">DC_Operator_port_DC_Operator_Port</_hname>
 					<_hid type="a">GUID 67459564-14a0-4b86-8fbf-56403262fdf7</_hid>
 				</IHandle>
@@ -3760,7 +3760,7 @@
 					<_hm2Class type="a">IInformationFlow</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Charging system</_hclass>
+					<_hclass type="a">ChargingSystem</_hclass>
 					<_hname type="a">Charging_system_port_Charging_System_port</_hname>
 					<_hid type="a">GUID 2c7a8ba3-36f9-446a-9951-a999a7f1e106</_hid>
 				</IHandle>
@@ -4241,7 +4241,7 @@
 					<_hm2Class type="a">IPort</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">Obstacles</_hname>
 					<_hid type="a">GUID 7e894e02-0139-4713-a3e4-e0d80ee16889</_hid>
 				</IHandle>

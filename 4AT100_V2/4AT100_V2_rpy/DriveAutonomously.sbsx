@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -11,10 +11,10 @@
 			<_id type="a">GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DriveAutonomously</_name>
-			<_modifiedTimeWeak type="a">5.24.2020::22:33:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::22:33:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::20:25:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:29:18</_modifiedTime>
 			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">5.24.2020::22:33:29</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:25:19</weakCGTime>
 			<strongCGTime type="a">5.23.2020::23:21:28</strongCGTime>
 			<_defaultComposite type="s">GUID 00887253-8532-4aa2-814b-bc1acef5be1a</_defaultComposite>
 			<_eventsBaseID type="a">201</_eventsBaseID>
@@ -439,8 +439,8 @@
 			</_properties>
 			<_name type="a">Drive Autonomously</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::22:33:29</_modifiedTime>
-			<_lastModifiedTime type="a">5.24.2020::22:33:29</_lastModifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
+			<_lastModifiedTime type="a">6.8.2020::20:26:5</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -968,14 +968,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 0c4b642a-76f7-48a3-ac4d-d28803a6c125</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::DC Operator</m_str>
+					<m_str type="a">ActorPkg::DCOperator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1021,7 +1021,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsDockTruck_1</_hname>
 					<_hid type="a">GUID 06f2d1be-cbde-4931-ad00-9370c644be58</_hid>
 				</IHandle>
@@ -1835,14 +1835,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 0c4b642a-76f7-48a3-ac4d-d28803a6c125</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::Collision Detection system</m_str>
+					<m_str type="a">ActorPkg::CollisionDetectionSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1888,7 +1888,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsGeneratePath</_hname>
 					<_hid type="a">GUID 6474024b-49d8-4518-a316-7e502870454e</_hid>
 				</IHandle>
@@ -2065,7 +2065,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsFollowPath</_hname>
 					<_hid type="a">GUID 258505c9-bf7b-4d48-bffa-3b8a182d7ef0</_hid>
 				</IHandle>
@@ -2543,8 +2543,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::22:33:29</_modifiedTime>
-			<_lastModifiedTime type="a">5.24.2020::22:33:29</_lastModifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
+			<_lastModifiedTime type="a">6.8.2020::20:26:5</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4381,14 +4381,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID a2c8e8f4-563f-43ec-bab1-3459d71da691</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::DC Operator</m_str>
+					<m_str type="a">ActorPkg::DCOperator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4540,14 +4540,14 @@
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID a2c8e8f4-563f-43ec-bab1-3459d71da691</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">ActorPkg::Collision Detection system</m_str>
+					<m_str type="a">ActorPkg::CollisionDetectionSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4593,7 +4593,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsGUI</_hname>
 					<_hid type="a">GUID f0fb5bf7-ba7a-4bc5-a850-e930188e6718</_hid>
 				</IHandle>
@@ -4649,7 +4649,7 @@
 					<_hfilename type="a">.\ArchitecturePkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ArchitecturePkg</_hsubsystem>
 					<_hclass type="a">GUI</_hclass>
-					<_hname type="a">itsDC Operator</_hname>
+					<_hname type="a">itsDCOperator</_hname>
 					<_hid type="a">GUID 686ab6b2-3ee3-40e2-a13a-45908214ddd4</_hid>
 				</IAssociationEndHandle>
 			</m_pInverseModelObject>
@@ -4672,7 +4672,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsDC Operator</m_str>
+					<m_str type="a">itsDCOperator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -5156,7 +5156,7 @@
 					<_hfilename type="a">.\ArchitecturePkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ArchitecturePkg</_hsubsystem>
 					<_hclass type="a">UGE</_hclass>
-					<_hname type="a">itsCollision Detection system</_hname>
+					<_hname type="a">itsCollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 21a122f4-900c-4844-849d-15e0d092eed9</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -5211,7 +5211,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsUGE</_hname>
 					<_hid type="a">GUID 3e04886a-1204-4e7b-943f-ed7edabd8f88</_hid>
 				</IAssociationEndHandle>
@@ -5252,7 +5252,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
-					<m_str type="a">itsCollision Detection system</m_str>
+					<m_str type="a">itsCollisionDetectionSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -5367,7 +5367,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">5.24.2020::22:33:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:0</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -5376,7 +5376,7 @@
 			</_theMainDiagram>
 			<_modifiedTime type="a">5.24.2020::22:33:29</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.24.2020::22:33:29</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:26:0</weakCGTime>
 			<strongCGTime type="a">5.23.2020::23:21:28</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -5644,7 +5644,7 @@
 			<_name type="a">Dock Truck</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.24.2020::22:33:29</_modifiedTime>
-			<_lastModifiedTime type="a">5.24.2020::22:33:29</_lastModifiedTime>
+			<_lastModifiedTime type="a">6.8.2020::20:26:5</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -5736,7 +5736,7 @@
 						<_hm2Class type="a">IActor</_hm2Class>
 						<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 						<_hsubsystem type="a">ActorPkg</_hsubsystem>
-						<_hname type="a">DC Operator</_hname>
+						<_hname type="a">DCOperator</_hname>
 						<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 					</IHandle>
 				</m_pBase>
@@ -5901,7 +5901,7 @@
 						<_hm2Class type="a">IActor</_hm2Class>
 						<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 						<_hsubsystem type="a">ActorPkg</_hsubsystem>
-						<_hname type="a">Collision Detection system</_hname>
+						<_hname type="a">CollisionDetectionSystem</_hname>
 						<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 					</IHandle>
 				</m_pBase>
@@ -6558,7 +6558,7 @@
 			<m_pParent type="s">GUID e193a9ea-c3b0-4f03-9684-f7f1b8f17bbd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">:Collision Detection system</m_str>
+					<m_str type="a">:CollisionDetectionSystem</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -7044,7 +7044,7 @@
 			<m_pParent type="s">GUID e193a9ea-c3b0-4f03-9684-f7f1b8f17bbd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">:DC Operator</m_str>
+					<m_str type="a">:DCOperator</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -7592,7 +7592,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 590 275  590 321  </m_arrow>
+			<m_arrow type="a">2 590 283  590 321  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -7650,7 +7650,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 711 393  711 451  </m_arrow>
+			<m_arrow type="a">2 711 395  711 451  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -7662,7 +7662,7 @@
 			<_id type="a">GUID 3adad151-d438-48dc-85c3-cfcd1bf2ecd4</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -7756,7 +7756,7 @@
 			<_id type="a">GUID a7c50bfa-f329-4795-8291-043937d249aa</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -7890,7 +7890,7 @@
 			<_id type="a">GUID 62011740-c3b2-4e40-a057-6c89eaafa34d</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -8024,7 +8024,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">DockTruck</_name>
 			<_modifiedTimeWeak type="a">5.23.2020::23:4:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::0:28:20</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">5.23.2020::23:4:39</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -8113,16 +8113,16 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 3fce4a1c-abd8-45d5-b407-52b30db51c55</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
+			<_name type="a">itsDCOperator</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::0:17:33</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -8131,7 +8131,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsDockTruck_1</_hname>
 					<_hid type="a">GUID 06f2d1be-cbde-4931-ad00-9370c644be58</_hid>
 				</IHandle>
@@ -8202,7 +8202,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">GeneratePath</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::0:34:33</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -8282,16 +8282,16 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID c2112fa5-dcb7-4b12-b148-ad5fb735ccbd</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCollision Detection system</_name>
+			<_name type="a">itsCollisionDetectionSystem</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::0:34:33</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -8300,7 +8300,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsGeneratePath</_hname>
 					<_hid type="a">GUID 6474024b-49d8-4518-a316-7e502870454e</_hid>
 				</IHandle>
@@ -8313,7 +8313,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">FollowPath</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::0:34:39</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -8423,16 +8423,16 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID ae663079-a1e6-4974-a673-ed0de320c77e</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCollision Detection system</_name>
+			<_name type="a">itsCollisionDetectionSystem</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.24.2020::0:34:39</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -8441,7 +8441,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsFollowPath</_hname>
 					<_hid type="a">GUID 258505c9-bf7b-4d48-bffa-3b8a182d7ef0</_hid>
 				</IHandle>

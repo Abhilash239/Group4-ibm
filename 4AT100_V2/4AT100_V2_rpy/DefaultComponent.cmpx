@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
-	<CODE-PAGE>1252</CODE-PAGE>
+	<CODE-PAGE>936</CODE-PAGE>
 	<version>100.840.0</version>
 	<lang>C++</lang>
 	<BuildNo>9841247</BuildNo>
@@ -44,8 +44,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">DefaultComponent</_name>
-			<_modifiedTimeWeak type="a">5.23.2020::9:43:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.23.2020::9:43:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::21:13:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::21:23:15</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
@@ -186,8 +186,8 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\GUI.sbsx</_hfilename>
-							<_hname type="a">GUI</_hname>
+							<_hfilename type="a">.\GUIPkg.sbsx</_hfilename>
+							<_hname type="a">GUIPkg</_hname>
 							<_hid type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_hid>
 						</IHandle>
 					
@@ -316,9 +316,9 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">ISubsystem</_hm2Class>
-							<_hfilename type="a">.\AutonomousDriving.sbsx</_hfilename>
+							<_hfilename type="a">.\DriveAutonomously.sbsx</_hfilename>
 							<_hsubsystem type="a">UseCaseAnalysisPkg</_hsubsystem>
-							<_hname type="a">AutonomousDriving</_hname>
+							<_hname type="a">DriveAutonomously</_hname>
 							<_hid type="a">GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761</_hid>
 						</IHandle>
 					
@@ -351,7 +351,7 @@
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</SelectedVariants>
-			<weakCGTime type="a">5.23.2020::9:43:26</weakCGTime>
+			<weakCGTime type="a">6.8.2020::21:13:55</weakCGTime>
 			<strongCGTime type="a">5.23.2020::9:26:52</strongCGTime>
 			<AggregatesList type="e">
 				<value>GUID 29bc9e5c-c780-42aa-85fe-73790d3ce636</value>
@@ -378,12 +378,44 @@
 		<ICodeGenConfigInfo type="e">
 			<_id type="a">GUID 41ac0af7-efcc-495c-97bf-e2ed501ca880</_id>
 			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Animation</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">General</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">EnableFragmentSimulation</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<_name type="a">DefaultConfig</_name>
-			<_modifiedTimeWeak type="a">5.23.2020::9:43:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">5.23.2020::9:43:26</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::21:23:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::21:23:47</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_scopeType type="a">Explicit</_scopeType>
-			<_instrumentation type="a">None</_instrumentation>
+			<_instrumentation type="a">Animation</_instrumentation>
 			<_timeModel type="a">RealTime</_timeModel>
 			<m_generateActors type="a">1</m_generateActors>
 			<_statechartImplementation type="a">Flat</_statechartImplementation>
@@ -396,17 +428,35 @@
 			</ScopeElements>
 			<InitialInstances type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
+					<size type="a">2</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+							<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+							<_hname type="a">UC_AdjustHVAC</_hname>
+							<_hid type="a">GUID cb0d1c3e-bf16-44c6-819c-fe454fda28e9</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\AdjustHVACandLighting_1.sbsx</_hfilename>
+							<_hsubsystem type="a">UseCaseAnalysisPkg::AdjustHVACandLighting</_hsubsystem>
+							<_hname type="a">UC_AdjustLighting</_hname>
+							<_hid type="a">GUID d4cd588b-76d8-4108-8e4e-a91de907fa39</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</InitialInstances>
-			<weakCGTime type="a">5.23.2020::9:43:26</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<weakCGTime type="a">6.8.2020::21:23:47</weakCGTime>
+			<strongCGTime type="a">6.8.2020::21:23:47</strongCGTime>
 			<AnimScopeElements type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</AnimScopeElements>
-			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_allInAnimScope type="a">0</m_allInAnimScope>
 			<m_generateUsecases type="a">0</m_generateUsecases>
 			<AggregatesList type="e">
 				<value>GUID c659b679-c66d-470e-a0bf-e4c882e4b579</value>

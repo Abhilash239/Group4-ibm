@@ -1,0 +1,42 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 4;
+	- value = "DefaultComponent\\SystemConfiguration_Simulation\\Configuration.cpp" 6.9.2020::7:55:32
+	"DefaultComponent\\SystemConfiguration_Simulation\\Configuration.h" 6.9.2020::7:55:32
+	"DefaultComponent\\SystemConfiguration_Simulation\\SystemConfiguration.cpp" 6.9.2020::8:1:38
+	"DefaultComponent\\SystemConfiguration_Simulation\\SystemConfiguration.h" 6.9.2020::8:1:38
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 0e2ad1fe-9e4d-4f3e-a56c-e1077ccda50b" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	"GUID 879b2425-fe50-42f0-9619-1a4ab0a0a521" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
+	"GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	
+}
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\Configuration_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "Configuration";
+	- _id = GUID 879b2425-fe50-42f0-9619-1a4ab0a0a521;
+}
+- genTime = 6.9.2020::8:25:49;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\SystemConfiguration_Simulation";
+	- _id = GUID 23ed47df-a904-4fb0-b734-f3a4232b78f6;
+}
+- genTime = 6.9.2020::8:26:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\Configuration_1.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::Configuration";
+	- _name = "SystemConfiguration";
+	- _id = GUID 6d0b3ae1-661e-45de-9f4e-044249bfd8d5;
+}
+- genTime = 6.9.2020::8:25:49;
+

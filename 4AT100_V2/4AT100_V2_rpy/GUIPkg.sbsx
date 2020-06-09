@@ -11,10 +11,10 @@
 			<_id type="a">GUID 2f17c359-6d4d-4f58-9db1-e9de76285692</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GUIPkg</_name>
-			<_modifiedTimeWeak type="a">6.1.2020::10:54:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.1.2020::10:54:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::21:43:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::21:43:52</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">6.1.2020::10:54:3</weakCGTime>
+			<weakCGTime type="a">6.8.2020::21:43:52</weakCGTime>
 			<strongCGTime type="a">6.1.2020::10:54:3</strongCGTime>
 			<_defaultComposite type="s">GUID 516efeff-e260-408e-a963-c0c25ac660d2</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -2605,8 +2605,8 @@
 			</_properties>
 			<_name type="a">All In One</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.1.2020::10:54:3</_modifiedTime>
-			<_lastModifiedTime type="a">6.1.2020::10:54:3</_lastModifiedTime>
+			<_modifiedTime type="a">6.8.2020::21:44:32</_modifiedTime>
+			<_lastModifiedTime type="a">6.8.2020::21:44:32</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2679,7 +2679,6 @@
 				<value>GUID 9fd52e67-9d89-4a38-823d-41feeb090579</value>
 				<value>GUID b2f95be3-8792-4ed9-ba8f-8f1a9d3ba517</value>
 				<value>GUID 9a6c77ea-354e-4201-88aa-59b2b5ee156b</value>
-				<value>GUID 9e29d07e-6334-4aa0-81c2-fbdd286b05b2</value>
 				<value>GUID 9eacdf29-a422-41e8-8361-c6c2b994bd08</value>
 				<value>GUID 304cd118-3a25-41d3-82f1-5e4cfcca61e8</value>
 				<value>GUID 2d0d02dd-90a1-49f4-95f8-0c70fef11fea</value>
@@ -2688,6 +2687,7 @@
 				<value>GUID bbdb8143-f19f-42d6-a7b0-851da029d4e7</value>
 				<value>GUID 2afd5741-4738-4608-a090-c5611b94914d</value>
 				<value>GUID d5465794-179b-48ec-80d5-df2122e465a5</value>
+				<value>GUID 9b5e6c7a-4691-4c0c-a113-7f44ae42bbcd</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIBox type="e">
@@ -3420,9 +3420,24 @@
 							<_Name type="a">PanelDiagram</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
+									<size type="a">2</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">TextBox</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Direction</_Name>
+													<_Value type="a">In</_Value>
+													<_Type type="a">Enum</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">ValueProperty</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
 												<size type="a">1</size>
@@ -3447,12 +3462,18 @@
 			<m_type type="a">224</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hfilename type="a">.\Configuration_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::Configuration</_hsubsystem>
+					<_hclass type="a">SystemConfiguration</_hclass>
+					<_hname type="a">PasswordInput</_hname>
+					<_hid type="a">GUID 7b7b0680-f724-4440-9473-b9ca3fdf8256</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID a84d69a5-a947-4b44-8d87-a71734196596</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">textbox_0</m_str>
+					<m_str type="a">input password</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3473,10 +3494,20 @@
 			<m_polygon type="a">4 -5 -25  -5 1114  1084 1114  1084 -25  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">textbox_0</m_csName>
+			<m_csModelObjPath type="a">UseCaseAnalysisPkg.Configuration.SystemConfiguration[0].PasswordInput</m_csModelObjPath>
+			<m_csName type="a">input password</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\Configuration_1.sbsx</_hfilename>
+							<_hsubsystem type="a">UseCaseAnalysisPkg::Configuration</_hsubsystem>
+							<_hname type="a">SystemConfiguration</_hname>
+							<_hid type="a">GUID 6d0b3ae1-661e-45de-9f4e-044249bfd8d5</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 		</CGITextBox>
@@ -3864,139 +3895,6 @@
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID aa2f833f-264f-401b-bd12-41c65cd40b5a</_id>
-			<m_name type="a">ButtonArrayItem2</m_name>
-			<m_displayOption type="a">All</m_displayOption>
-			<m_bShowInherited type="a">0</m_bShowInherited>
-			<m_bOrdered type="a">0</m_bOrdered>
-		</CGICompartment>
-		<CGIButtonArray type="e">
-			<_id type="a">GUID 9e29d07e-6334-4aa0-81c2-fbdd286b05b2</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">1</size>
-						<IPropertySubject type="e">
-							<_Name type="a">PanelDiagram</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">ButtonArray</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">4</size>
-												<IProperty type="e">
-													<_Name type="a">ButtonFont</_Name>
-													<_Value type="a">Arial 10 NoBold NoItalic</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">CompartmentsLayout</_Name>
-													<_Value type="a">Columns</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Direction</_Name>
-													<_Value type="a">Out</_Value>
-													<_Type type="a">Enum</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">ShowName</_Name>
-													<_Value type="a">None</_Value>
-													<_Type type="a">Enum</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<m_type type="a">226</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID a84d69a5-a947-4b44-8d87-a71734196596</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">8192</m_drawBehavior>
-			<m_transform type="a">0.156971 0 0 0.035009 -221.157 372.965 </m_transform>
-			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<m_polygon type="a">4 1 1  1 1115  1084 1115  1084 1  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset cols=33%25,33%25,33%25&gt;
-&lt;frame name=ButtonArrayItem0&gt;
-&lt;frame name=ButtonArrayItem1&gt;
-&lt;frame name=ButtonArrayItem2&gt;</frameset>
-			<m_csName type="a">buttonarray_1</m_csName>
-			<m_PartsArray type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</m_PartsArray>
-			<m_liButtonNames type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">3</size>
-					<value>$</value>
-					<value>0</value>
-					<value>Log in</value>
-				</IRPYRawContainer>
-			</m_liButtonNames>
-			<m_liButtonValues type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">3</size>
-					<value>1</value>
-					<value>2</value>
-					<value>3</value>
-				</IRPYRawContainer>
-			</m_liButtonValues>
-			<AggregatesList type="e">
-				<value>GUID ce95f03f-4d34-4d26-9cc2-759196fb3e8f</value>
-				<value>GUID a0138684-1b97-4552-8cc9-3c586e301ebd</value>
-				<value>GUID 25db77a7-f73e-450c-b291-f51d231ce752</value>
-			</AggregatesList>
-		</CGIButtonArray>
-		<CGICompartment type="e">
-			<_id type="a">GUID ce95f03f-4d34-4d26-9cc2-759196fb3e8f</_id>
-			<m_name type="a">ButtonArrayItem0</m_name>
-			<m_displayOption type="a">All</m_displayOption>
-			<m_bShowInherited type="a">0</m_bShowInherited>
-			<m_bOrdered type="a">0</m_bOrdered>
-		</CGICompartment>
-		<CGICompartment type="e">
-			<_id type="a">GUID a0138684-1b97-4552-8cc9-3c586e301ebd</_id>
-			<m_name type="a">ButtonArrayItem1</m_name>
-			<m_displayOption type="a">All</m_displayOption>
-			<m_bShowInherited type="a">0</m_bShowInherited>
-			<m_bOrdered type="a">0</m_bOrdered>
-		</CGICompartment>
-		<CGICompartment type="e">
-			<_id type="a">GUID 25db77a7-f73e-450c-b291-f51d231ce752</_id>
 			<m_name type="a">ButtonArrayItem2</m_name>
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
@@ -4494,6 +4392,61 @@
 			<m_points type="a">4 776 212  814 212  814 230  776 230  </m_points>
 			<m_text type="a">GUI for DC Operator</m_text>
 		</CGIFreeText>
+		<CGIMFCCtrl type="e">
+			<_id type="a">GUID 9b5e6c7a-4691-4c0c-a113-7f44ae42bbcd</_id>
+			<m_type type="a">227</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IReception</_hm2Class>
+					<_hfilename type="a">.\Configuration_1.sbsx</_hfilename>
+					<_hsubsystem type="a">UseCaseAnalysisPkg::Configuration</_hsubsystem>
+					<_hclass type="a">SystemConfiguration</_hclass>
+					<_hname type="a">reqLogIn()</_hname>
+					<_hid type="a">GUID b82997c9-2ad2-45bd-94e1-e9bebec0a23b</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID a84d69a5-a947-4b44-8d87-a71734196596</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">req Log In</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000436978 0 0 0.000296317 -76 389.33 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">UseCaseAnalysisPkg.Configuration.SystemConfiguration[0].reqLogIn</m_csModelObjPath>
+			<m_csName type="a">req Log In</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\Configuration_1.sbsx</_hfilename>
+							<_hsubsystem type="a">UseCaseAnalysisPkg::Configuration</_hsubsystem>
+							<_hname type="a">SystemConfiguration</_hname>
+							<_hid type="a">GUID 6d0b3ae1-661e-45de-9f4e-044249bfd8d5</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+			<m_csButtonCaption type="a">Push</m_csButtonCaption>
+		</CGIMFCCtrl>
 		<IClass type="e">
 			<_id type="a">GUID 516efeff-e260-408e-a963-c0c25ac660d2</_id>
 			<_myState type="a">40960</_myState>

@@ -11,10 +11,10 @@
 			<_id type="a">GUID 98fc8580-d92d-46ff-9759-bbc091fcbf14</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SensingEinvironment</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:29:52</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.9.2020::8:12:41</_modifiedTimeWeak>
 			<_modifiedTime type="a">4.10.2020::14:32:13</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.18.2020::20:29:52</weakCGTime>
+			<weakCGTime type="a">6.9.2020::8:12:41</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:29:52</strongCGTime>
 			<_defaultComposite type="s">GUID ac71ebf4-d770-44e1-802d-c406f5062687</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -145,7 +145,7 @@ Alternative Scenario:\par%0D
 				</IHandle>
 			</_theMainDiagram>
 			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}}%0D
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fnil\fcharset0 Calibri;}}%0D
 {\colortbl ;\red0\green0\blue0;}%0D
 \viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
 \cf1\b0\f1\fs22 Truck, DC operator\par%0D
@@ -154,10 +154,10 @@ Pre-condition:\par%0D
 \cf1\b0\f1\fs22 Truck is driving autonomously\par%0D
 \par%0D
 \cf0\b\f0\fs20 Trigger:\par%0D
-\cf1\b0\f1\fs22 ADS Sends required speed and steering angle to truck\par%0D
+\cf1\b0\f1\fs22 ADS \lang2057\f2 s\lang2052\f1 ends required speed and steering angle to truck\par%0D
 \cf0\b\f0\fs20\par%0D
 Post-condition:\par%0D
-\cf1\b0\f1\fs22 ADS receives the signal from Collision Detection System\par%0D
+\cf1\b0\f1\fs22 ADS receives the signal from \lang2057\f2 truck\lang2052\f1\par%0D
 \cf0\b\f0\fs20\par%0D
 Main Scenario:\par%0D
 \cf1\b0\f1\fs22 1) ADS requests velocity data from Truck \par%0D
@@ -174,7 +174,7 @@ Alternative Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::14:40:50</_modifiedTime>
+			<_modifiedTime type="a">6.9.2020::8:13:34</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -235,7 +235,7 @@ Alternative Scenario:\par%0D
 				</IHandle>
 			</_theMainDiagram>
 			<_description type="p"><IDescription type="e">
-				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}}%0D
+				<_textRTF type="a">{\rtf1\ansi\ansicpg936\deff0\deflang1033\deflangfe2052{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil Calibri;}{\f2\fnil\fcharset0 Calibri;}}%0D
 {\colortbl ;\red0\green0\blue0;}%0D
 \viewkind4\uc1\pard\lang2052\b\fs20 Actors: \par%0D
 \cf1\b0\f1\fs22 Truck, DC operator\par%0D
@@ -244,7 +244,7 @@ Pre-condition:\par%0D
 \cf1\b0\f1\fs22 Truck is driving autonomously\par%0D
 \cf0\b\f0\fs20\par%0D
 Trigger:\par%0D
-\cf1\b0\f1\fs22 ADS Sends required speed and steering angle to truck\par%0D
+\cf1\b0\f1\fs22 ADS \lang2057\f2 s\lang2052\f1 ends required speed and steering angle to truck\par%0D
 \cf0\b\f0\fs20\par%0D
 Post-condition:\par%0D
 \cf1\b0\f1\fs22 ADS receives the signal from Truck\par%0D
@@ -266,7 +266,7 @@ Alternative Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::14:47:54</_modifiedTime>
+			<_modifiedTime type="a">6.9.2020::8:12:54</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">

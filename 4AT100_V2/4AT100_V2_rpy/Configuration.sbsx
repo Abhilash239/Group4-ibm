@@ -11,10 +11,10 @@
 			<_id type="a">GUID b98ac2f1-a13d-4bfc-b754-24b45651d420</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Configuration</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:29:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::13:18:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:29:18</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">5.18.2020::20:29:52</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:26:5</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:29:52</strongCGTime>
 			<_defaultComposite type="s">GUID 831234dc-13c5-4db2-b64f-b08178e5ce10</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -81,7 +81,7 @@ Alternative Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::14:12:0</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -131,16 +131,16 @@ Alternative Scenario:\par%0D
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 0b4528fe-8df8-45da-a1e0-851f44e01194</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
+			<_name type="a">itsDCOperator</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::14:12:0</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -149,7 +149,7 @@ Alternative Scenario:\par%0D
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsLogIn</_hname>
 					<_hid type="a">GUID 06eb9041-d607-45b6-a771-62c7ab3013f2</_hid>
 				</IHandle>
@@ -192,7 +192,7 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::14:12:3</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -242,16 +242,16 @@ Main Scenario:\par%0D
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 74c42ac3-99fd-4024-b748-817748763099</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
+			<_name type="a">itsDCOperator</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::14:12:3</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -260,7 +260,7 @@ Main Scenario:\par%0D
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsLogOut</_hname>
 					<_hid type="a">GUID dd9e9c80-04ba-4976-955d-c233af6f3946</_hid>
 				</IHandle>

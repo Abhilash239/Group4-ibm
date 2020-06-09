@@ -11,10 +11,10 @@
 			<_id type="a">GUID 413a1283-56f9-4af2-a470-c5ef7e11ab3d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DrivingTruck</_name>
-			<_modifiedTimeWeak type="a">5.18.2020::20:29:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::14:44:41</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::20:26:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:29:18</_modifiedTime>
 			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">5.18.2020::20:29:52</weakCGTime>
+			<weakCGTime type="a">6.8.2020::20:26:0</weakCGTime>
 			<strongCGTime type="a">5.18.2020::20:29:52</strongCGTime>
 			<_defaultComposite type="s">GUID 681f0b8b-d522-4ecd-8773-81465b96d7fa</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -344,7 +344,7 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::15:23:49</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<weakCGTime type="a">4.10.2020::14:32:49</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -500,16 +500,16 @@ Main Scenario:\par%0D
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 30b98f83-54bb-4868-8723-0bedac4f8156</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
+			<_name type="a">itsDCOperator</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::15:23:49</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -518,7 +518,7 @@ Main Scenario:\par%0D
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsDockTruck</_hname>
 					<_hid type="a">GUID ea40ee68-2ad4-4846-b805-c84152faba3e</_hid>
 				</IHandle>
@@ -563,7 +563,7 @@ Main Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::15:23:54</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<weakCGTime type="a">4.10.2020::14:32:52</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -719,16 +719,16 @@ Main Scenario:\par%0D
 		<IAssociationEnd type="e">
 			<_id type="a">GUID ec1744b4-f43e-4b78-b07c-cd19e08f2e8e</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
+			<_name type="a">itsDCOperator</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::15:23:54</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -737,7 +737,7 @@ Main Scenario:\par%0D
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsParkTruck</_hname>
 					<_hid type="a">GUID 7cf1c679-b730-4826-9626-06a9c7d8b933</_hid>
 				</IHandle>
@@ -791,7 +791,7 @@ Alternative Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::15:20:13</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<weakCGTime type="a">4.10.2020::15:16:55</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -944,16 +944,16 @@ Alternative Scenario:\par%0D
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 7e43a45d-ce29-451b-b958-e5f95be54809</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsDC Operator</_name>
+			<_name type="a">itsDCOperator</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::15:20:13</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:5</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">DC Operator</_hname>
+					<_hname type="a">DCOperator</_hname>
 					<_hid type="a">GUID 580780ff-e115-47b2-954a-d7907b7f5d5c</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -962,7 +962,7 @@ Alternative Scenario:\par%0D
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">DC Operator</_hclass>
+					<_hclass type="a">DCOperator</_hclass>
 					<_hname type="a">itsEmergencyStop</_hname>
 					<_hid type="a">GUID 024fc3cb-26f1-4d32-a45f-cb5b78b07b09</_hid>
 				</IHandle>
@@ -1009,7 +1009,7 @@ Alternative Scenario:\par%0D
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.10.2020::15:3:59</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">4.10.2020::14:54:5</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -1100,16 +1100,16 @@ Alternative Scenario:\par%0D
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 06e8008b-387d-4cce-98fd-f9b3f7b89df4</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCollision Detection system</_name>
+			<_name type="a">itsCollisionDetectionSystem_1</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::14:58:13</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -1118,7 +1118,7 @@ Alternative Scenario:\par%0D
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsAvoidCollision</_hname>
 					<_hid type="a">GUID 8937ff2d-f1be-4ab9-9fdc-f59c2078f3bb</_hid>
 				</IHandle>
@@ -1129,16 +1129,16 @@ Alternative Scenario:\par%0D
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 17bbea37-5e62-473c-8855-5d5e75825360</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCollision Detection system_1</_name>
+			<_name type="a">itsCollisionDetectionSystem</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.10.2020::15:3:59</_modifiedTime>
+			<_modifiedTime type="a">6.8.2020::20:26:0</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hname type="a">Collision Detection system</_hname>
+					<_hname type="a">CollisionDetectionSystem</_hname>
 					<_hid type="a">GUID 1bd67f9d-81ea-47cb-b204-790d045ad2cc</_hid>
 				</IClassifierHandle>
 			</_otherClass>
@@ -1147,7 +1147,7 @@ Alternative Scenario:\par%0D
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
 					<_hsubsystem type="a">ActorPkg</_hsubsystem>
-					<_hclass type="a">Collision Detection system</_hclass>
+					<_hclass type="a">CollisionDetectionSystem</_hclass>
 					<_hname type="a">itsAvoidCollision_1</_hname>
 					<_hid type="a">GUID 928260ed-f9b8-4473-bc2f-d179dd836eb3</_hid>
 				</IHandle>

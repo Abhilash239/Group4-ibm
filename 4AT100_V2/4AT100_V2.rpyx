@@ -24,8 +24,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.2.2020::12:50:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.2.2020::12:50:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.8.2020::20:48:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.8.2020::20:48:44</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -88,6 +88,11 @@
 				</IRPYRawContainer>
 			</Multiplicities>
 			<_isImportedFromDM type="a">0</_isImportedFromDM>
+			<MSCS type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</MSCS>
 			<mapOslcAddedCollections type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
