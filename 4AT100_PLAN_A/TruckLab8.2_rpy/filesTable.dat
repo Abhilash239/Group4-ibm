@@ -1,0 +1,10 @@
+I-Logix-RPY-Archive version 8.15.0 * 9810313
+
+- filesTable = { IRPYRawContainer 
+	- size = 3;
+	- value = "TruckLab8.2.rpy" ""
+	"TruckLab8.2_rpy\\Default.sbs" "Default"
+	"TruckLab8.2_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	
+}
+
