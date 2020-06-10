@@ -3,9 +3,9 @@ function  RRT(trailer1PosX,trailer1PosZ,trailer2PosX,trailer2PosZ, goal_pos_truc
 % clear all
 % 
 % trailer1PosX = (12.1683);
-% trailer1PosZ = (14.5508);
-% trailer2PosX = (12.1683);
-% trailer2PosZ = (17.3479);
+% trailer1PosZ = (-14.5508);
+% trailer2PosX = (15.2676);
+% trailer2PosZ = (-17.3479);
 
 
 x2n = abs(trailer1PosX-39);
@@ -24,7 +24,7 @@ S1 = [x*10 y*10 angle]; %  [x-position y-position  angle  ]
 E1 = goal_pos_truck_number; %  Dock number. Type:integer
 
 % obstacle = [obstaclePosX obstaclePosY]; %Array containing the locations of all the obtacles. Example shown below.
-% obstacle = [-10 -5];
+% obstacle = [0 0];
 obstacle = [obstaclePosX obstaclePosY];
 % 
 if E1<=10
@@ -68,9 +68,6 @@ routePlan.StartPose(l+1,2) = SP(2);
 routePlan.StartPose(l+1,3) = SP(3);
 
 
-
-
-
 routePlan.EndPose(l+2,1) = goal(1);
 routePlan.EndPose(l+2,2) = goal(2) + 30 ;
 routePlan.EndPose(l+2,3) = goal(3);
@@ -85,6 +82,9 @@ routePlan.EndPose(l+3,3) = goal(3);
 
 
 display(routePlan);
+
+
+
 
 
 % helperPlotVehicle(routePlan{1, 'StartPose'}, vehicleDims, 'DisplayName', 'Current Pose')
@@ -138,7 +138,7 @@ for i = 1:l+2
              approxSeparation = 0.1; % meters
              numSmoothPoses   = round(refPath.Length / approxSeparation);
              [transitionPoses, directions, cumLengths, curvatures] = smoothPathSpline(transitionPoses, directions, numSmoothPoses);
-             path_dir = [transitionPoses directions];
+             path_dir = transitionPoses;
              if i-j==1
                 final = path_dir;
                 j=0;
@@ -217,7 +217,9 @@ for i = 1:l+2
         approxSeparation = 0.05; % meters
         numSmoothPoses   = round(refPath.Length / approxSeparation);
         [transitionPoses, directions, cumLengths, curvatures] = smoothPathSpline(transitionPoses, directions, numSmoothPoses);
-        path_dir = [transitionPoses directions];
+        
+        path_dir = transitionPoses;
+     
         if i==l+2
                indexswitch = length(final)+1;
                finalref = path_dir;
@@ -262,7 +264,8 @@ fprintf('Segment %d\n',6)
         approxSeparation = 0.1; % meters
         numSmoothPoses   = round(refPath.Length / approxSeparation);
         [transitionPoses, directions, cumLengths, curvatures] = smoothPathSpline(transitionPoses, directions, numSmoothPoses);
-        path_dir = [transitionPoses directions];
+        path_dir = transitionPoses;
+        
         final = cat(1,final,path_dir);  
 
 figure(3)
@@ -282,8 +285,8 @@ x_pos = -x_pos + 39;
 y_pos = (path_forward(:,2)-258)/10; % y_pos is x in unity
 y_pos = y_pos + 25.8;
 angle = path_forward(:,3);
-direction = path_forward(:,4);
-changedIndexes = diff(direction)~=0;
+% direction = path_forward(:,4);
+% changedIndexes = diff(direction)~=0;
 % speedref = find(changedIndexes==1);
 
 
