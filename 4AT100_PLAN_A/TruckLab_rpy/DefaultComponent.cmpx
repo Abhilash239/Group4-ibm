@@ -44,8 +44,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">DefaultComponent</_name>
-			<_modifiedTimeWeak type="a">6.4.2020::11:26:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.4.2020::11:26:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.10.2020::8:41:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.10.2020::8:41:47</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
@@ -263,7 +263,7 @@
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</SelectedVariants>
-			<weakCGTime type="a">6.4.2020::11:26:49</weakCGTime>
+			<weakCGTime type="a">6.10.2020::8:41:47</weakCGTime>
 			<strongCGTime type="a">6.4.2020::11:26:49</strongCGTime>
 			<AggregatesList type="e">
 				<value>GUID 415fb296-00a9-47b3-a50a-db4cace2ac24</value>
@@ -324,8 +324,9 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">DefaultConfig</_name>
-			<_modifiedTimeWeak type="a">6.4.2020::11:27:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.4.2020::11:27:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.10.2020::8:41:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.10.2020::8:41:47</_modifiedTime>
+			<_lastID type="a">1</_lastID>
 			<_scopeType type="a">Explicit</_scopeType>
 			<_instrumentation type="a">Animation</_instrumentation>
 			<_timeModel type="a">RealTime</_timeModel>
@@ -343,7 +344,7 @@
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</InitialInstances>
-			<weakCGTime type="a">6.4.2020::11:27:11</weakCGTime>
+			<weakCGTime type="a">6.10.2020::8:41:47</weakCGTime>
 			<strongCGTime type="a">6.4.2020::11:27:11</strongCGTime>
 			<AnimScopeElements type="c">
 				<IRPYRawContainer type="e">
@@ -353,11 +354,34 @@
 			<m_allInAnimScope type="a">1</m_allInAnimScope>
 			<m_generateUsecases type="a">0</m_generateUsecases>
 			<AggregatesList type="e">
+				<value>GUID 01735edd-f78d-43c0-8251-a6129804adec</value>
 				<value>GUID ae8de412-fdf8-408f-b78f-c6ae2d5479c1</value>
 				<value>GUID 03fd7a71-f0cf-4a05-808a-92bac12640db</value>
 				<value>GUID 66d44764-1440-4e50-8572-ef9672e079a7</value>
 			</AggregatesList>
 		</ICodeGenConfigInfo>
+		<IDependency type="e">
+			<_id type="a">GUID 01735edd-f78d-43c0-8251-a6129804adec</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PathPlannerModel</_name>
+			<_modifiedTimeWeak type="a">6.10.2020::8:41:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.10.2020::8:41:47</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PathPlannerModel.sbsx</_hfilename>
+					<_hsubsystem type="a">PathPlannerModel</_hsubsystem>
+					<_hname type="a">PathPlannerModel</_hname>
+					<_hid type="a">GUID 278b78a1-2e15-4a88-9f99-eedb5aa6bb01</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID a664a748-a399-47bd-85ed-845cc8ede00c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IMHyperLink type="e">
 			<_id type="a">GUID ae8de412-fdf8-408f-b78f-c6ae2d5479c1</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
