@@ -1,0 +1,62 @@
+I-Logix-RPY-Archive version 8.15.0 * 9841247
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 8;
+	- value = "component_6\\UC_DockTruck_Simulation\\DriveAutonomously.cpp" 6.13.2020::19:52:1
+	"component_6\\UC_DockTruck_Simulation\\DriveAutonomously.h" 6.13.2020::19:52:1
+	"component_6\\UC_DockTruck_Simulation\\UC_DockTruck.cpp" 6.13.2020::19:52:1
+	"component_6\\UC_DockTruck_Simulation\\UC_DockTruck.h" 6.13.2020::19:52:1
+	"component_6\\UC_DockTruck_Simulation\\UC_FollowPath.cpp" 6.13.2020::19:52:1
+	"component_6\\UC_DockTruck_Simulation\\UC_FollowPath.h" 6.13.2020::19:52:1
+	"component_6\\UC_DockTruck_Simulation\\UC_GeneratePath.cpp" 6.13.2020::19:52:1
+	"component_6\\UC_DockTruck_Simulation\\UC_GeneratePath.h" 6.13.2020::19:52:1
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 0fe02f7e-20fc-4eb8-8b02-e7870588ea51" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	"GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
+	"GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	
+}
+- size = 5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "UC_GeneratePath";
+	- _id = GUID cd56aa32-97a0-4acf-8e5c-9904ba5748dd;
+}
+- genTime = 6.13.2020::19:52:1;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg";
+	- _name = "DriveAutonomously";
+	- _id = GUID 159d538d-a5f5-49ae-9f42-3dc44d57e761;
+}
+- genTime = 6.13.2020::19:52:1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "UC_DockTruck";
+	- _id = GUID fd9bbf15-1101-4326-bd72-d1a6f81ec973;
+}
+- genTime = 6.13.2020::19:52:1;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DriveAutonomously.sbsx";
+	- _subsystem = "UseCaseAnalysisPkg::DriveAutonomously";
+	- _name = "UC_FollowPath";
+	- _id = GUID 62af79b3-659f-4a64-8d2e-ae09880c4683;
+}
+- genTime = 6.13.2020::19:52:1;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\component_6.cmpx";
+	- _name = "component_6\\UC_DockTruck_Simulation";
+	- _id = GUID c750d137-939c-4ce6-bb74-2573a9a78574;
+}
+- genTime = 6.13.2020::19:52:1;
+

@@ -2,15 +2,15 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 
 - m_fileModifyTime = { IRPYRawContainer 
 	- size = 4;
-	- value = "DefaultComponent\\SystemConfiguration_Simulation\\Configuration.cpp" 6.13.2020::19:50:38
-	"DefaultComponent\\SystemConfiguration_Simulation\\Configuration.h" 6.13.2020::19:50:38
-	"DefaultComponent\\SystemConfiguration_Simulation\\SystemConfiguration.cpp" 6.13.2020::19:50:38
-	"DefaultComponent\\SystemConfiguration_Simulation\\SystemConfiguration.h" 6.13.2020::19:50:38
+	- value = "component_5\\SystemConfiguration_Simulation\\Configuration.cpp" 6.13.2020::19:47:16
+	"component_5\\SystemConfiguration_Simulation\\Configuration.h" 6.13.2020::19:47:16
+	"component_5\\SystemConfiguration_Simulation\\SystemConfiguration.cpp" 6.13.2020::19:47:16
+	"component_5\\SystemConfiguration_Simulation\\SystemConfiguration.h" 6.13.2020::19:47:16
 	
 }
 - m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
 	- size = 3;
-	- value = "GUID 0e2ad1fe-9e4d-4f3e-a56c-e1077ccda50b" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
+	- value = "GUID 73c3a298-953d-4010-87a2-efe2b226b1d1" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
 	"GUID 879b2425-fe50-42f0-9619-1a4ab0a0a521" "GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7"
 	"GUID daf20877-efa4-4cb9-9ae2-60794b44b4e7" "GUID e03877d4-f607-47f4-bda9-8e940dcfc31c"
 	
@@ -23,14 +23,14 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 	- _name = "Configuration";
 	- _id = GUID 879b2425-fe50-42f0-9619-1a4ab0a0a521;
 }
-- genTime = 6.13.2020::19:50:38;
+- genTime = 6.13.2020::19:47:16;
 - hElement = { IHandle 
 	- _m2Class = "ICodeGenConfigInfo";
-	- _filename = ".\\..\\..\\4AT100_V2_rpy\\DefaultComponent.cmpx";
-	- _name = "DefaultComponent\\SystemConfiguration_Simulation";
-	- _id = GUID d64a4279-48b7-4b61-9cfd-25bdf08b0c93;
+	- _filename = ".\\..\\..\\4AT100_V2_rpy\\component_5.cmpx";
+	- _name = "component_5\\SystemConfiguration_Simulation";
+	- _id = GUID 1348d64d-06a6-49a6-a433-bd53ca3e55a4;
 }
-- genTime = 6.13.2020::19:50:38;
+- genTime = 6.13.2020::19:47:16;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\4AT100_V2_rpy\\Configuration_1.sbsx";
@@ -38,5 +38,5 @@ I-Logix-RPY-Archive version 8.15.0 * 9841247
 	- _name = "SystemConfiguration";
 	- _id = GUID 6d0b3ae1-661e-45de-9f4e-044249bfd8d5;
 }
-- genTime = 6.13.2020::19:50:38;
+- genTime = 6.13.2020::19:47:16;
 

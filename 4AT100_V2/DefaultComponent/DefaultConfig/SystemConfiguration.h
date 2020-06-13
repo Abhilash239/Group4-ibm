@@ -2,10 +2,10 @@
 	Rhapsody	: 8.4 
 	Login		: REN Jiabo
 	Component	: DefaultComponent 
-	Configuration 	: SystemConfiguration_Simulation
+	Configuration 	: DefaultConfig
 	Model Element	: SystemConfiguration
-//!	Generated Date	: Sat, 13, Jun 2020  
-	File Path	: DefaultComponent\SystemConfiguration_Simulation\SystemConfiguration.h
+//!	Generated Date	: Thu, 11, Jun 2020  
+	File Path	: DefaultComponent\DefaultConfig\SystemConfiguration.h
 *********************************************************************/
 
 #ifndef SystemConfiguration_H
@@ -45,34 +45,22 @@ public :
     ////    Additional operations    ////
     
     //## auto_generated
-    const bool getAutoDrivingMode(void) const;
-    
-    //## auto_generated
-    void setAutoDrivingMode(const bool p_AutoDrivingMode);
-    
-    //## auto_generated
-    const bool getManualDrivingMode(void) const;
-    
-    //## auto_generated
-    void setManualDrivingMode(const bool p_ManualDrivingMode);
-    
-    //## auto_generated
     const bool getPasswordCorrect(void) const;
     
     //## auto_generated
     void setPasswordCorrect(const bool p_PasswordCorrect);
     
     //## auto_generated
-    const int getPasswordDefault(void) const;
+    const RhpString getPasswordDefault(void) const;
     
     //## auto_generated
-    void setPasswordDefault(const int p_PasswordDefault);
+    void setPasswordDefault(const RhpString p_PasswordDefault);
     
     //## auto_generated
-    const int getPasswordInput(void) const;
+    const RhpString getPasswordInput(void) const;
     
     //## auto_generated
-    void setPasswordInput(const int p_PasswordInput);
+    void setPasswordInput(const RhpString p_PasswordInput);
     
     //## auto_generated
     virtual bool startBehavior(void);
@@ -86,15 +74,11 @@ protected :
 
 private :
 
-    bool AutoDrivingMode;		//## attribute AutoDrivingMode
-    
-    bool ManualDrivingMode;		//## attribute ManualDrivingMode
-    
     bool PasswordCorrect;		//## attribute PasswordCorrect
     
-    int PasswordDefault;		//## attribute PasswordDefault
+    RhpString PasswordDefault;		//## attribute PasswordDefault
     
-    int PasswordInput;		//## attribute PasswordInput
+    RhpString PasswordInput;		//## attribute PasswordInput
     
     ////    Framework operations    ////
 
@@ -115,9 +99,6 @@ public :
     //## statechart_method
     void LogIn_entDef(void);
     
-    //## statechart_method
-    IOxfReactive::TakeEventStatus LogIn_handleEvent(void);
-    
     // ManualDriving:
     //## statechart_method
     inline RhpBoolean ManualDriving_IN(void) const;
@@ -126,15 +107,9 @@ public :
     //## statechart_method
     inline RhpBoolean AutoDriving_IN(void) const;
     
+    // CheckPassword:
     //## statechart_method
-    void AutoDriving_entDef(void);
-    
-    //## statechart_method
-    IOxfReactive::TakeEventStatus AutoDriving_handleEvent(void);
-    
-    // sendaction_6:
-    //## statechart_method
-    inline RhpBoolean sendaction_6_IN(void) const;
+    inline RhpBoolean CheckPassword_IN(void) const;
 
 protected :
 
@@ -153,7 +128,7 @@ protected :
         LogIn = 2,
         ManualDriving = 3,
         AutoDriving = 4,
-        sendaction_6 = 5
+        CheckPassword = 5
     };
 //#]
 
@@ -165,8 +140,6 @@ private :
     SystemConfiguration_Enum rootState_active;
     
     SystemConfiguration_Enum LogIn_subState;
-    
-    SystemConfiguration_Enum AutoDriving_subState;
 //#]
 };
 
@@ -190,11 +163,11 @@ inline RhpBoolean SystemConfiguration::AutoDriving_IN(void) const {
     return LogIn_subState == AutoDriving;
 }
 
-inline RhpBoolean SystemConfiguration::sendaction_6_IN(void) const {
-    return AutoDriving_subState == sendaction_6;
+inline RhpBoolean SystemConfiguration::CheckPassword_IN(void) const {
+    return rootState_subState == CheckPassword;
 }
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\SystemConfiguration_Simulation\SystemConfiguration.h
+	File Path	: DefaultComponent\DefaultConfig\SystemConfiguration.h
 *********************************************************************/

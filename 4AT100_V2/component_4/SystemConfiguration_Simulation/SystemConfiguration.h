@@ -1,11 +1,11 @@
 /*********************************************************************
 	Rhapsody	: 8.4 
 	Login		: REN Jiabo
-	Component	: DefaultComponent 
+	Component	: component_4 
 	Configuration 	: SystemConfiguration_Simulation
 	Model Element	: SystemConfiguration
 //!	Generated Date	: Sat, 13, Jun 2020  
-	File Path	: DefaultComponent\SystemConfiguration_Simulation\SystemConfiguration.h
+	File Path	: component_4\SystemConfiguration_Simulation\SystemConfiguration.h
 *********************************************************************/
 
 #ifndef SystemConfiguration_H
@@ -18,19 +18,31 @@
 //## auto_generated
 #include "Configuration.h"
 //## auto_generated
+#include <omthread.h>
+//## auto_generated
 #include <omreactive.h>
 //## auto_generated
 #include <state.h>
 //## auto_generated
 #include <event.h>
+//#[ ignore
+#define OMAnim_UseCaseAnalysisPkg_Configuration_SystemConfiguration_setPasswordInput_int_ARGS_DECLARATION int p_PasswordInput;
+//#]
+
 //## package UseCaseAnalysisPkg::Configuration
 
 //## class SystemConfiguration
 class SystemConfiguration : public OMReactive {
-    ////    Constructors and destructors    ////
+    ////    Friends    ////
     
 public :
 
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedSystemConfiguration;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
     //## auto_generated
     explicit SystemConfiguration(IOxfActive* const theActiveContext = NULL);
     
@@ -130,6 +142,9 @@ public :
     void AutoDriving_entDef(void);
     
     //## statechart_method
+    void AutoDriving_exit(void);
+    
+    //## statechart_method
     IOxfReactive::TakeEventStatus AutoDriving_handleEvent(void);
     
     // sendaction_6:
@@ -170,6 +185,42 @@ private :
 //#]
 };
 
+#ifdef _OMINSTRUMENT
+DECLARE_OPERATION_CLASS(UseCaseAnalysisPkg_Configuration_SystemConfiguration_setPasswordInput_int)
+
+//#[ ignore
+class OMAnimatedSystemConfiguration : virtual public AOMInstance {
+    DECLARE_REACTIVE_META(SystemConfiguration, OMAnimatedSystemConfiguration)
+    
+    DECLARE_META_OP(UseCaseAnalysisPkg_Configuration_SystemConfiguration_setPasswordInput_int)
+    
+    ////    Framework operations    ////
+    
+public :
+
+    virtual void serializeAttributes(AOMSAttributes* aomsAttributes) const;
+    
+    //## statechart_method
+    void rootState_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void LogOut_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void LogIn_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void ManualDriving_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void AutoDriving_serializeStates(AOMSState* aomsState) const;
+    
+    //## statechart_method
+    void sendaction_6_serializeStates(AOMSState* aomsState) const;
+};
+//#]
+#endif // _OMINSTRUMENT
+
 inline RhpBoolean SystemConfiguration::rootState_IN(void) const {
     return true;
 }
@@ -196,5 +247,5 @@ inline RhpBoolean SystemConfiguration::sendaction_6_IN(void) const {
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\SystemConfiguration_Simulation\SystemConfiguration.h
+	File Path	: component_4\SystemConfiguration_Simulation\SystemConfiguration.h
 *********************************************************************/

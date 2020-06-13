@@ -24,9 +24,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.8.2020::20:48:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.8.2020::20:48:44</_modifiedTime>
-			<_lastID type="a">4</_lastID>
+			<_modifiedTimeWeak type="a">6.13.2020::19:51:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2020::19:51:19</_modifiedTime>
+			<_lastID type="a">7</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<size type="a">16</size>
@@ -58,8 +58,8 @@
 			<_component type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IComponent</_hm2Class>
-					<_hname type="a">DefaultComponent</_hname>
-					<_hid type="a">GUID 0e2ad1fe-9e4d-4f3e-a56c-e1077ccda50b</_hid>
+					<_hname type="a">component_6</_hname>
+					<_hid type="a">GUID 0fe02f7e-20fc-4eb8-8b02-e7870588ea51</_hid>
 				</IHandle>
 			</_component>
 			<Multiplicities type="c">
@@ -88,11 +88,6 @@
 				</IRPYRawContainer>
 			</Multiplicities>
 			<_isImportedFromDM type="a">0</_isImportedFromDM>
-			<MSCS type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</MSCS>
 			<mapOslcAddedCollections type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -122,6 +117,7 @@
 				<value>GUID 399a983a-6c74-4165-ab59-5f3d0eb83276</value>
 				<value>GUID b7185946-2132-478b-8785-26bb0fb67943</value>
 				<value>GUID 0e2ad1fe-9e4d-4f3e-a56c-e1077ccda50b</value>
+				<value>GUID 0fe02f7e-20fc-4eb8-8b02-e7870588ea51</value>
 			</AggregatesList>
 		</IProject>
 		<IDependency type="e">
@@ -491,6 +487,10 @@
 		<IComponent type="e">
 			<fileName type="a">DefaultComponent</fileName>
 			<_id type="a">GUID 0e2ad1fe-9e4d-4f3e-a56c-e1077ccda50b</_id>
+		</IComponent>
+		<IComponent type="e">
+			<fileName type="a">component_6</fileName>
+			<_id type="a">GUID 0fe02f7e-20fc-4eb8-8b02-e7870588ea51</_id>
 		</IComponent>
 		
 	</RHAPSODY-MODEL>

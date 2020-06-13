@@ -2,10 +2,10 @@
 	Rhapsody	: 8.4 
 	Login		: REN Jiabo
 	Component	: DefaultComponent 
-	Configuration 	: SystemConfiguration_Simulation
+	Configuration 	: DefaultConfig
 	Model Element	: Configuration
-//!	Generated Date	: Sat, 13, Jun 2020  
-	File Path	: DefaultComponent\SystemConfiguration_Simulation\Configuration.cpp
+//!	Generated Date	: Thu, 11, Jun 2020  
+	File Path	: DefaultComponent\DefaultConfig\Configuration.cpp
 *********************************************************************/
 
 //## auto_generated
@@ -43,24 +43,6 @@ reqManualDriving::reqManualDriving(void) : OMEvent() {
 const IOxfEvent::ID reqManualDriving_Configuration_UseCaseAnalysisPkg_id(2803);
 //#]
 
-//## event PasswordSuccess()
-PasswordSuccess::PasswordSuccess(void) : OMEvent() {
-    setId(PasswordSuccess_Configuration_UseCaseAnalysisPkg_id);
-}
-
-//#[ ignore
-const IOxfEvent::ID PasswordSuccess_Configuration_UseCaseAnalysisPkg_id(2804);
-//#]
-
-//## event reqLogOut()
-reqLogOut::reqLogOut(void) : OMEvent() {
-    setId(reqLogOut_Configuration_UseCaseAnalysisPkg_id);
-}
-
-//#[ ignore
-const IOxfEvent::ID reqLogOut_Configuration_UseCaseAnalysisPkg_id(2805);
-//#]
-
 /*********************************************************************
-	File Path	: DefaultComponent\SystemConfiguration_Simulation\Configuration.cpp
+	File Path	: DefaultComponent\DefaultConfig\Configuration.cpp
 *********************************************************************/
